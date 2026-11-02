@@ -6,6 +6,7 @@
   "description": "Text-message story video pipeline: script -> direction -> video",
   "scripts": {
     "generate": "node src/make.js",
+    "web": "node src/server.js",
     "script": "node src/generate.js",
     "render": "node src/render.js",
     "direct": "node src/direct.js"

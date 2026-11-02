@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>text-drama</title>
+<link rel="stylesheet" href="/web/app.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="logo">💬</span> text-drama</div>
+  <div class="topic" id="topicChip"></div>
+</header>
+
+<main class="layout">
+  <aside class="side">
+    <section class="card">
+      <h2>New episode</h2>
+      <label class="field">
+        <span>Premise <em>(optional)</em></span>
+        <textarea id="premise" rows="3" placeholder="leave empty and the writer picks one"></textarea>
+      </label>
+      <label class="field">
+        <span>Writer</span>
+        <select id="provider"></select>
+      </label>
+      <button class="primary" id="generateBtn">Generate episode</button>
+
+      <div class="job" id="job" hidden>
+        <div class="stages">
+          <span data-stage="writing">Write</span>
+          <span data-stage="rendering">Render</span>
+          <span data-stage="done">Done</span>
+        </div>
+        <div class="bar"><div id="bar"></div></div>
+        <div class="job-status" id="jobStatus"></div>
+        <details>
+          <summary>Log</summary>
+          <pre id="log"></pre>
+        </details>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Series</h2>
+      <label class="field"><span>Topic</span><input id="topic"></label>
+      <label class="field">
+        <span>Chat app</span>
+        <select id="app">
+          <option value="workchat">Work chat (channel, reactions, joins and removals)</option>
+          <option value="imessage">Phone texts (iMessage-style)</option>
+        </select>
+      </label>
+      <label class="field"><span>Tone</span><textarea id="tone" rows="4"></textarea></label>
+      <label class="field">
+        <span>Length <b id="secondsLabel"></b></span>
+        <input type="range" id="seconds" min="30" max="120" step="5">
+      </label>
+      <label class="field"><span>Default writer</span><select id="defaultProvider"></select></label>
+      <button id="saveBtn">Save settings</button>
+      <div class="saved" id="saved"></div>
+    </section>
+  </aside>
+
+  <section class="episodes">
+    <div class="episodes-head">
+      <h2>Episodes</h2>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="grid" id="grid"></div>
+  </section>
+</main>
+
+<dialog id="viewer">
+  <div class="viewer">
+    <div class="viewer-video"><video id="viewerVideo" controls playsinline></video><div class="novideo" id="viewerNoVideo">Not rendered yet</div></div>
+    <div class="viewer-side">
+      <div class="viewer-head">
+        <div>
+          <div class="eyebrow" id="viewerId"></div>
+          <h3 id="viewerTitle"></h3>
+        </div>
+        <button class="ghost close" id="closeViewer" aria-label="Close">✕</button>
+      </div>
+      <p class="logline" id="viewerLogline"></p>
+      <div class="viewer-actions">
+        <a class="button" id="downloadBtn" download>Download mp4</a>
+        <button id="rerenderBtn">Re-render</button>
+      </div>
+      <div class="transcript" id="transcript"></div>
+    </div>
+  </div>
+</dialog>
+
+<script src="/web/app.js"></script>
+</body>
+</html>

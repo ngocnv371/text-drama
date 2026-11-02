@@ -1,0 +1,270 @@
+{
+  "title": "PTO Hostage",
+  "logline": "A CMO denies a Gen Z worker's PTO, so she holds the brand's TikTok hostage from a foam party—only to find the CEO is there too.",
+  "hook": "denying my pto is a choice",
+  "startClock": "9:00 AM",
+  "chat": {
+    "name": "#social-squad",
+    "subtitle": "4 members · launch day"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Chloe",
+      "role": "Social Lead"
+    },
+    {
+      "id": "susan",
+      "name": "Susan",
+      "role": "CMO"
+    },
+    {
+      "id": "david",
+      "name": "David",
+      "role": "IT Support"
+    },
+    {
+      "id": "brad",
+      "name": "Brad",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "@chloe why did i just get an OOO auto-reply from you?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "bc i am out of the office susan",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "PTO is blacked out for the launch today.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "my pto was a notice, not a request",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "I denied it. Get online or consider this your resignation.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "kinda hard to join a zoom from a boat in ibiza 🛥️",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": 18
+        },
+        {
+          "emoji": "💀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "Excuse me?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "@david revoke her access to EVERYTHING immediately.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "on it",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "wait",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "um susan",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "What is it David?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "she's the only admin on the brand tiktok account",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "Just force a password reset.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "i can't. 2FA is linked to her personal phone number.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "@chloe give us the 2FA code right now. This is theft.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sorry i literally don't have service right now",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💅",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "You are texting us in here!!!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "I am calling Interpol.",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "starlink is spotty idk 🥺",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "brad",
+      "text": "brad (CEO) joined #social-squad",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "brad",
+      "text": "who is running the company tiktok right now?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "Chloe went rogue. I am firing her right now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "brad",
+      "text": "why is our mascot live-streaming a foam party?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "didn't want engagement to drop while i was gone 🫡",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "This is a PR disaster. Shutting it down.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "susan",
+      "text": "susan was removed from #social-squad by brad",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "brad",
+      "text": "we hit 2M views. turn around chloe, i'm in the VIP section.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 89
+        },
+        {
+          "emoji": "🐐",
+          "count": 42
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "brb doing shots with the ceo 🥂",
+  "app": "workchat"
+}

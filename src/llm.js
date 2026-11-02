@@ -8,7 +8,9 @@ import { EpisodeSchema } from "./schema.js";
 
 // In "auto" mode the first provider with a key wins, in this order.
 const PROVIDERS = {
-  claude: { keys: ["ANTHROPIC_API_KEY", "ANTHROPIC_AUTH_TOKEN"], draft: draftWithClaude },
+  // Only a real API key counts: ANTHROPIC_AUTH_TOKEN / ANTHROPIC_BASE_URL are often set
+  // globally for other tools (e.g. pointing at a local model server).
+  claude: { keys: ["ANTHROPIC_API_KEY"], draft: draftWithClaude },
   gemini: { keys: ["GEMINI_API_KEY", "GOOGLE_API_KEY"], draft: draftWithGemini },
   deepseek: { keys: ["DEEPSEEK_API_KEY"], draft: draftWithDeepSeek },
 };
@@ -54,8 +56,9 @@ function parseDraft(text, reason) {
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function draftWithClaude(model, system, user) {
-  const client = new Anthropic({ maxRetries: 4 });
+async function draftWithClaude(model, system, user, apiKey) {
+  // Explicit key and URL so a global ANTHROPIC_AUTH_TOKEN / ANTHROPIC_BASE_URL can't redirect the call.
+  const client = new Anthropic({ apiKey, authToken: null, baseURL: process.env.TEXT_DRAMA_ANTHROPIC_BASE_URL || "https://api.anthropic.com", maxRetries: 4 });
   const response = await client.messages.parse({
     model,
     max_tokens: 16000,

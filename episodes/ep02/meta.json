@@ -1,0 +1,7 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "premise": null,
+  "attempts": 2,
+  "createdAt": "2026-11-02T00:00:00.000Z"
+}

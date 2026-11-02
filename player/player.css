@@ -125,3 +125,74 @@ body {
 }
 #outroText { font-size: 92px; font-weight: 800; text-align: center; line-height: 1.1; color: #fff; }
 #outroCta { font-size: 44px; font-weight: 700; color: #000; background: #fff; padding: 22px 50px; border-radius: 60px; }
+
+/* ---------- workchat: a company chat channel (Slack-like, unbranded) ---------- */
+#wcHeader, #wcTyping { display: none; }
+.app-workchat {
+  --bg: #1a1d21;
+  --chrome: #1a1d21;
+  --hairline: #34373c;
+  --text: #e8e8e8;
+  --muted: #9a9b9e;
+  --field: #222529;
+  --field-border: #45484d;
+  --sent: #2e8f6e;
+}
+.app-workchat #header { display: none; }
+.app-workchat #wcHeader {
+  display: flex; align-items: center; gap: 24px;
+  position: absolute; top: 110px; left: 0; right: 0; height: 170px; z-index: 3; padding: 0 40px;
+  background: var(--chrome); border-bottom: 2px solid var(--hairline);
+}
+.wc-back { font-size: 96px; line-height: 70px; color: var(--text); font-weight: 300; }
+.wc-title { flex: 1; min-width: 0; }
+.wc-channel { font-size: 50px; font-weight: 800; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wc-sub { font-size: 30px; color: var(--muted); margin-top: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.wc-members { display: flex; align-items: center; }
+.wc-members .wc-avatar { width: 66px; height: 66px; font-size: 32px; border-radius: 16px; border: 4px solid var(--chrome); margin-left: -18px; }
+.wc-members .more { font-size: 30px; color: var(--muted); margin-left: 12px; font-weight: 600; }
+.app-workchat #thread { top: 280px; }
+
+.wc-avatar {
+  flex: none; width: 104px; height: 104px; border-radius: 22px; display: flex; align-items: center; justify-content: center;
+  font-size: 48px; font-weight: 800; color: #fff;
+}
+.item.wc-row { display: flex; gap: 26px; padding: 6px 40px; }
+.item.wc-row.cont { padding-left: 170px; }
+.item.wc-row.cont .wc-avatar, .item.wc-row.cont .wc-meta { display: none; }
+.item.wc-row.mentions-me { background: rgba(242, 199, 68, 0.12); box-shadow: inset 8px 0 0 #f2c744; }
+.wc-body { flex: 1; min-width: 0; }
+.wc-meta { display: flex; align-items: baseline; gap: 16px; margin-bottom: 4px; white-space: nowrap; }
+.wc-meta b { font-size: 42px; font-weight: 800; color: #fff; }
+.wc-role { font-size: 26px; font-weight: 700; color: #c9c9cc; background: #34373c; padding: 2px 12px; border-radius: 8px; }
+.wc-time { font-size: 30px; color: var(--muted); }
+.app-workchat .bubble.wc-text {
+  display: block; max-width: none; padding: 0; border-radius: 0; background: none; color: var(--text);
+  font-size: 46px; line-height: 1.3; transform-origin: 0 50%;
+}
+.wc-mention { color: #1d9bd1; background: rgba(29, 155, 209, 0.18); border-radius: 8px; padding: 0 6px; font-weight: 600; }
+.wc-reactions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 14px; }
+.rx {
+  display: inline-flex; align-items: center; gap: 12px; height: 64px; padding: 0 20px;
+  border-radius: 32px; background: #2a2d31; border: 3px solid #3c3f44; font-size: 34px; font-weight: 700; color: #d6d6d8;
+  transform-origin: 50% 50%;
+}
+.rx em { font-style: normal; font-size: 38px; }
+.rx.hot { background: rgba(29, 155, 209, 0.16); border-color: #1d9bd1; color: #8fd3f2; }
+
+.item.wc-system { display: flex; align-items: center; gap: 22px; padding: 12px 40px 12px 64px; color: var(--muted); font-size: 38px; }
+.item.wc-system .wc-avatar { width: 60px; height: 60px; font-size: 28px; border-radius: 14px; }
+.item.wc-system b { color: var(--text); }
+.item.wc-system.removed { color: #ff8a80; }
+.item.wc-system .sys-text { transform-origin: 0 50%; }
+.app-workchat .item.notice { text-align: left; padding-left: 170px; font-size: 34px; }
+
+.app-workchat #wcTyping {
+  display: block; position: absolute; left: 40px; right: 40px; bottom: 196px; z-index: 3;
+  font-size: 30px; color: var(--muted); height: 40px; opacity: 0;
+}
+.app-workchat #wcTyping b { color: var(--text); font-weight: 700; }
+.app-workchat #compose { padding-top: 22px; }
+.app-workchat .plus { border-radius: 22px; }
+.app-workchat .field { border-radius: 22px; }
+.app-workchat .send { border-radius: 22px; }

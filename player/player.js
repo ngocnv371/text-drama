@@ -1,5 +1,6 @@
 // Seekable chat renderer. seek(t) draws the exact frame for time t (seconds), so the
 // renderer can capture any frame in any order. Open index.html?ep=pilot to watch it play.
+// Two skins: "imessage" (phone texts) and "workchat" (a Slack-like company channel).
 (function () {
   const $ = (id) => document.getElementById(id);
   const clamp01 = (v) => Math.min(1, Math.max(0, v));
@@ -12,8 +13,9 @@
   const GAP_SAME = 10;      // px between consecutive messages from the same sender
   const GAP_SWITCH = 30;    // px when the sender changes
   const UNSEND_ANIM = 0.4;
+  const AVATAR_COLORS = ["#e8912d", "#2bac76", "#1d9bd1", "#e01e5a", "#9b59b6", "#c9a227", "#4a7fd6", "#d35400"];
 
-  let T, items = [], typingEl, typingH, receiptEl, receiptH, threadH;
+  let T, work, items = [], typingEl, typingH, receiptEl, receiptH, threadH;
 
   function addMinutes(clock, minutes) {
     const m = /(\d+):(\d+)\s*(AM|PM)?/i.exec(clock);
@@ -35,27 +37,80 @@
     return d;
   }
   const esc = (s) => s.replace(/[&<>]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]));
+  const person = (id) => T.cast.find((c) => c.id === id) || { id, name: id, role: "" };
+  const avatar = (id) => {
+    const i = Math.max(0, T.cast.findIndex((c) => c.id === id));
+    return `<div class="wc-avatar" style="background:${AVATAR_COLORS[i % AVATAR_COLORS.length]}">${esc(person(id).name.slice(0, 1).toUpperCase())}</div>`;
+  };
+
+  // ---- workchat rows
+  function workRow(m, prev) {
+    const who = person(m.from);
+    if (m.type === "system") {
+      // Bold the people named in the notice.
+      let text = esc(m.text);
+      for (const c of T.cast) {
+        const name = esc(c.name).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        text = text.replace(new RegExp(`\\b${name}\\b`, "gi"), (s) => `<b>${s}</b>`);
+      }
+      const removed = /removed|kicked|deactivated|left/i.test(m.text);
+      return el(`item wc-system${removed ? " removed" : ""}`, `${avatar(m.from)}<span class="sys-text bubble">${text}</span>`);
+    }
+    const me = person("me");
+    const mentionsMe = m.from !== "me" && new RegExp(`@(${me.name.split(" ")[0]}|here|channel|everyone)\\b`, "i").test(m.text);
+    const cont = prev && prev.type !== "system" && prev.from === m.from;
+    const body = esc(m.text).replace(/@[\w.\-]+/g, (s) => `<span class="wc-mention">${s}</span>`);
+    const role = who.role ? `<span class="wc-role">${esc(who.role)}</span>` : "";
+    const reactions = m.reactions.length
+      ? `<div class="wc-reactions">${m.reactions.map((r) => `<span class="rx"><em>${esc(r.emoji)}</em><b>${r.count}</b></span>`).join("")}</div>`
+      : "";
+    return el(`item wc-row${cont ? " cont" : ""}${mentionsMe ? " mentions-me" : ""}`,
+      `${avatar(m.from)}<div class="wc-body"><div class="wc-meta"><b>${esc(who.name)}</b>${role}<span class="wc-time">${clockAt(m.appear)}</span></div>` +
+      `<div class="bubble wc-text${m.beat === "bombshell" ? " bomb" : ""}">${body}</div>${reactions}</div>`);
+  }
 
   function build() {
     document.body.classList.toggle("theme-light", T.theme === "light");
+    work = T.app === "workchat";
+    document.body.classList.toggle("app-workchat", work);
     const other = T.cast.find((c) => c.id !== "me");
     $("chatName").textContent = T.chat.name;
     $("chatSubtitle").textContent = T.chat.subtitle || "";
     $("avatar").textContent = (other ? other.name : T.chat.name).slice(0, 1).toUpperCase();
     $("hookText").textContent = T.hook;
     $("outroText").textContent = T.cliffhanger;
+    $("wcChannel").textContent = T.chat.name;
+    $("wcSub").textContent = T.chat.subtitle || "";
+    $("wcMembers").innerHTML = T.cast.slice(0, 4).map((c) => avatar(c.id)).join("") + (T.cast.length > 4 ? `<span class="more">+${T.cast.length - 4}</span>` : "");
+    $("placeholder").textContent = work ? `Message ${T.chat.name}` : "iMessage";
     const showNames = T.cast.length > 2;
 
     const scroller = $("scroller");
     T.messages.forEach((m, i) => {
-      const side = m.from === "me" ? "from-me" : "from-them";
-      const who = T.cast.find((c) => c.id === m.from);
-      const name = showNames && m.from !== "me" && who ? `<div class="notice" style="text-align:left;font-style:normal;padding-left:20px">${esc(who.name)}</div>` : "";
-      const node = el(`item ${side}`, `${name}<div class="bubble${m.beat === "bombshell" ? " bomb" : ""}">${esc(m.text)}</div>`);
+      const prev = i > 0 ? T.messages[i - 1] : null;
+      let node;
+      if (work) node = workRow(m, prev);
+      else {
+        const side = m.from === "me" ? "from-me" : "from-them";
+        const who = T.cast.find((c) => c.id === m.from);
+        const name = showNames && m.from !== "me" && who ? `<div class="notice" style="text-align:left;font-style:normal;padding-left:20px">${esc(who.name)}</div>` : "";
+        node = m.type === "system"
+          ? el("item notice", `<span class="bubble" style="display:inline-block;background:none;padding:0">${esc(m.text)}</span>`)
+          : el(`item ${side}`, `${name}<div class="bubble${m.beat === "bombshell" ? " bomb" : ""}">${esc(m.text)}</div>`);
+      }
       scroller.appendChild(node);
-      const notice = m.unsendAt != null ? el("item notice", `${esc(m.from === "me" ? "You" : who ? who.name : "")} unsent a message`) : null;
+      const who = person(m.from);
+      const noticeText = work ? "This message was deleted." : `${esc(m.from === "me" ? "You" : who.name)} unsent a message`;
+      const notice = m.unsendAt != null ? el("item notice", noticeText) : null;
       if (notice) scroller.appendChild(notice);
-      items.push({ m, node, bubble: node.querySelector(".bubble"), notice, prevFrom: i > 0 ? T.messages[i - 1].from : null });
+      items.push({
+        m, node, notice,
+        bubble: node.querySelector(".bubble"),
+        pills: [...node.querySelectorAll(".rx")],
+        rxBox: node.querySelector(".wc-reactions"),
+        // what counts as "the same sender" for spacing: system notices always break a run
+        prevFrom: prev ? (prev.type === "system" || m.type === "system" ? "__system" : prev.from) : null,
+      });
     });
     typingEl = el("item from-them typing", `<div class="bubble"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>`);
     receiptEl = el("item receipt", "Delivered");
@@ -64,7 +119,9 @@
 
     // Measure once; layout per frame is pure arithmetic.
     for (const it of items) {
-      it.h = it.node.offsetHeight;
+      it.h1 = it.node.offsetHeight;
+      if (it.rxBox) { it.rxBox.style.display = "none"; it.h0 = it.node.offsetHeight; it.rxBox.style.display = ""; }
+      else it.h0 = it.h1;
       it.nh = it.notice ? it.notice.offsetHeight : 0;
     }
     typingH = typingEl.offsetHeight;
@@ -74,7 +131,7 @@
     // Things a human would spot on screen; the renderer fails the episode on these.
     window.LAYOUT_PROBLEMS = [];
     for (const it of items) {
-      if (it.h > threadH * 0.45) window.LAYOUT_PROBLEMS.push(`message ${it.m.i + 1} fills ${Math.round((100 * it.h) / threadH)}% of the screen`);
+      if (it.h1 > threadH * 0.45) window.LAYOUT_PROBLEMS.push(`message ${it.m.i + 1} fills ${Math.round((100 * it.h1) / threadH)}% of the screen`);
     }
     $("hook").style.opacity = 1;
     if ($("hookText").offsetHeight > 420) window.LAYOUT_PROBLEMS.push("hook caption is more than 3 lines");
@@ -84,9 +141,33 @@
 
   function hide(node) { node.style.display = "none"; }
   function place(node, y, extra) {
-    node.style.display = "block";
+    node.style.display = "";
     node.style.transform = `translateY(${y}px)`;
     if (extra) Object.assign(node.style, extra);
+  }
+
+  // Height of a message row right now: grows when its first reaction lands.
+  function rowHeight(it, t) {
+    const first = it.m.reactions && it.m.reactions[0];
+    if (!first || t < first.at) return it.h0;
+    return lerp(it.h0, it.h1, easeOut(clamp01((t - first.at) / GROW)));
+  }
+
+  function drawReactions(it, t) {
+    if (!it.rxBox) return;
+    const rs = it.m.reactions;
+    it.rxBox.style.display = t >= rs[0].at ? "" : "none";
+    const top = Math.max(...rs.map((r) => r.count));
+    it.pills.forEach((pill, k) => {
+      const r = rs[k];
+      if (t < r.at) { pill.style.display = "none"; return; }
+      pill.style.display = "";
+      const a = t - r.at;
+      pill.style.transform = `scale(${lerp(0.3, 1, backOut(clamp01(a / 0.28)))})`;
+      const n = Math.max(1, Math.round(lerp(1, r.count, easeOut(clamp01(a / r.ramp)))));
+      pill.querySelector("b").textContent = n;
+      pill.classList.toggle("hot", r.count === top && r.count >= 10 && n >= r.count);
+    });
   }
 
   function seek(t) {
@@ -99,28 +180,29 @@
       for (let s = 0; s < m.typing.length; s++) {
         const [a, b] = m.typing[s];
         const last = s === m.typing.length - 1;
-        if (t >= a && t < b) activeTyping = { start: a, end: b, exit: 1 };
-        else if (!last && t >= b && t < b + GROW) activeTyping = { start: a, end: b, exit: 1 - (t - b) / GROW };
+        if (t >= a && t < b) activeTyping = { start: a, end: b, exit: 1, from: m.from };
+        else if (!last && t >= b && t < b + GROW) activeTyping = { start: a, end: b, exit: 1 - (t - b) / GROW, from: m.from };
       }
       if (t < m.appear) { hide(it.node); if (it.notice) hide(it.notice); continue; }
       lastAppeared = it;
       const age = t - m.appear;
-      // a message that replaces a typing bubble starts at the typing bubble's height
-      const fromTyping = m.typing.length && Math.abs(m.typing[m.typing.length - 1][1] - m.appear) < 1e-6;
+      // in imessage a message that replaces a typing bubble starts at the typing bubble's height
+      const fromTyping = !work && m.typing.length && Math.abs(m.typing[m.typing.length - 1][1] - m.appear) < 1e-6;
       const g = easeOut(clamp01(age / GROW));
       const gap = it.prevFrom === null ? 0 : (it.prevFrom === m.from ? GAP_SAME : GAP_SWITCH);
+      const h = rowHeight(it, t);
 
       if (m.unsendAt != null && t >= m.unsendAt) {
         const k = easeOut(clamp01((t - m.unsendAt) / UNSEND_ANIM));
-        rows.push({ kind: "unsend", it, h: lerp(it.h, it.nh, k), gap, k });
+        rows.push({ kind: "unsend", it, h: lerp(h, it.nh, k), gap, k });
       } else {
-        rows.push({ kind: "msg", it, h: fromTyping ? lerp(typingH, it.h, g) : it.h * g, gap: gap * (fromTyping ? 1 : g), age });
+        rows.push({ kind: "msg", it, h: fromTyping ? lerp(typingH, h, g) : h * g, gap: gap * (fromTyping ? 1 : g), age });
       }
     }
 
-    // receipt under the newest message when it is ours
+    // imessage: receipt under the newest message when it is ours
     let receipt = null;
-    if (lastAppeared && lastAppeared.m.from === "me" && !(lastAppeared.m.unsendAt != null && t >= lastAppeared.m.unsendAt)) {
+    if (!work && lastAppeared && lastAppeared.m.from === "me" && !(lastAppeared.m.unsendAt != null && t >= lastAppeared.m.unsendAt)) {
       const age = t - lastAppeared.m.appear - 0.25;
       if (age > 0) {
         const read = lastAppeared.m.readAt != null && t >= lastAppeared.m.readAt;
@@ -129,14 +211,20 @@
       }
     }
 
-    if (activeTyping) {
-      const g = easeOut(clamp01((t - activeTyping.start) / GROW)) * clamp01(activeTyping.exit);
+    // imessage: typing bubble in the thread. workchat: "X is typing…" above the compose bar.
+    const typingG = activeTyping ? easeOut(clamp01((t - activeTyping.start) / GROW)) * clamp01(activeTyping.exit) : 0;
+    if (activeTyping && !work) {
       const gap = lastAppeared && lastAppeared.m.from !== "me" ? GAP_SAME : GAP_SWITCH;
-      rows.push({ kind: "typing", h: typingH * g, gap: gap * g, g });
+      rows.push({ kind: "typing", h: typingH * typingG, gap: gap * typingG, g: typingG });
+    }
+    if (work) {
+      const wt = $("wcTyping");
+      wt.style.opacity = typingG;
+      if (activeTyping) wt.innerHTML = `<b>${esc(person(activeTyping.from).name)}</b> is typing${".".repeat(1 + (Math.floor(t * 3) % 3))}`;
     }
 
     // ---- layout: stack from the top, scroll so the newest row sits above the compose bar
-    const PAD_TOP = 30, PAD_BOTTOM = 28;
+    const PAD_TOP = 30, PAD_BOTTOM = work ? 60 : 28;
     let y = PAD_TOP;
     for (const r of rows) { y += r.gap; r.y = y; y += r.h; }
     const scroll = Math.max(0, y + PAD_BOTTOM - threadH);
@@ -146,14 +234,16 @@
     for (const r of rows) {
       if (r.kind === "msg") {
         const p = clamp01(r.age / POP);
-        const s = lerp(0.55, 1, backOut(p));
+        const s = lerp(work ? 0.85 : 0.55, 1, backOut(p));
         place(r.it.node, r.y, { opacity: clamp01(p * 3) });
         r.it.bubble.style.transform = `scale(${s})`;
         r.it.bubble.style.opacity = 1;
         if (r.it.m.beat === "bombshell") {
           const glow = Math.exp(-r.age * 1.6);
-          r.it.bubble.style.boxShadow = `0 0 ${60 * glow}px ${14 * glow}px rgba(255,45,85,${0.75 * glow})`;
+          if (work) r.it.node.style.background = `rgba(255,45,85,${0.28 * glow})`;
+          else r.it.bubble.style.boxShadow = `0 0 ${60 * glow}px ${14 * glow}px rgba(255,45,85,${0.75 * glow})`;
         }
+        drawReactions(r.it, t);
         if (r.it.notice) hide(r.it.notice);
       } else if (r.kind === "unsend") {
         place(r.it.node, r.y, { opacity: 1 - r.k });
@@ -228,6 +318,7 @@
 
   async function init() {
     T = window.TIMELINE;
+    T.messages.forEach((m) => { m.type = m.type || "message"; m.reactions = m.reactions || []; });
     await document.fonts.ready;
     build();
     window.seek = seek;

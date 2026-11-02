@@ -53,9 +53,21 @@ export function synthesize(tl) {
       add(m.appear, 0.3, receive, m.beat === "bombshell" ? 0.6 : 0.8);
     }
   }
+  // system notice: soft two-note knock; reaction: tiny bubbly pop (bigger piles get a second pop)
+  const knock = (t) => {
+    const f = t < 0.09 ? 587 : 440;
+    return Math.sin(2 * Math.PI * f * t) * env(t % 0.09, 0.003, 0.05) * 0.45;
+  };
+  const pop = (t) => Math.sin(2 * Math.PI * (900 + 1800 * Math.exp(-t * 40)) * t) * env(t, 0.002, 0.03) * 0.35;
+
   for (const f of tl.fx) {
     if (f.type === "bombshell") add(f.t, 1.8, boom, 0.9);
     if (f.type === "unsend") add(f.t, 0.3, unsend);
+    if (f.type === "system") add(f.t, 0.3, knock);
+    if (f.type === "reaction") {
+      add(f.t, 0.12, pop, 0.8);
+      if (f.count >= 10) add(f.t + 0.09, 0.12, pop, 0.5);
+    }
   }
   add(tl.outroAt, 2.5, sting);
 

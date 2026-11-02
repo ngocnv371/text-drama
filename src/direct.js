@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { loadConfig, episodeDir, readJson, parseArgs } from "./util.js";
+import { normalizeEpisode } from "./schema.js";
 
 const OUTRO_SECONDS = 3.2;
 const HOOK_SECONDS = 3.2;
@@ -22,9 +23,12 @@ export function direct(script, pace) {
     const isMe = m.from === "me";
     if (i > 0) t += GAP_BEFORE[m.beat] * pace;
 
-    const ev = { i, from: m.from, text: m.text, beat: m.beat, typing: [], compose: null };
+    const ev = { i, type: m.type, from: m.from, text: m.text, beat: m.beat, typing: [], compose: null };
 
-    if (isMe) {
+    if (m.type === "system") {
+      // App notices just appear: nobody types them.
+      if (m.beat === "bombshell") t += 0.6 * pace;
+    } else if (isMe) {
       // The owner types into the compose bar, then hits send.
       const dur = clamp(0.35 + len * 0.028, 0.6, 1.6) * pace * (m.beat === "rapid" ? 0.7 : 1);
       ev.compose = [t, t + dur];
@@ -44,6 +48,17 @@ export function direct(script, pace) {
 
     ev.appear = t;
     let hold = (0.35 + len * 0.032) * pace;
+    if (m.type === "system") fx.push({ type: "system", t });
+
+    // Reactions pile in one after another once people have read it; counts tick up.
+    ev.reactions = m.reactions.map((r, k) => ({
+      emoji: r.emoji,
+      count: r.count,
+      at: t + (0.55 + k * 0.38) * pace,
+      ramp: Math.min(1.6, 0.25 + Math.log10(Math.max(1, r.count)) * 0.6) * pace,
+    }));
+    for (const r of ev.reactions) fx.push({ type: "reaction", t: r.at, count: r.count });
+    if (ev.reactions.length) hold = Math.max(hold, (0.55 + ev.reactions.length * 0.38) * pace);
     if (m.beat === "bombshell") {
       fx.push({ type: "bombshell", t });
       hold += 1.4 * pace;
@@ -77,7 +92,7 @@ export function directToLength(script, targetSeconds) {
 
 export function buildTimeline(id) {
   const config = loadConfig();
-  const script = readJson(path.join(episodeDir(id), "script.json"));
+  const script = normalizeEpisode(readJson(path.join(episodeDir(id), "script.json")));
   const plan = directToLength(script, config.targetSeconds);
   // Pace 1 is a relaxed read; short-form usually lands around 0.6-0.8.
   if (plan.pace < 0.55 || plan.pace > 1.4) {
@@ -87,6 +102,7 @@ export function buildTimeline(id) {
     id,
     video: config.video,
     theme: config.theme,
+    app: script.app,
     hook: script.hook,
     hookSeconds: HOOK_SECONDS,
     cliffhanger: script.cliffhanger,

@@ -9,6 +9,7 @@ import { render } from "./render.js";
 
 function nextEpisodeId() {
   const taken = fs.readdirSync(path.join(ROOT, "episodes"))
+    .filter((name) => fs.existsSync(path.join(ROOT, "episodes", name, "script.json")))
     .map((name) => /^ep(\d+)$/.exec(name))
     .filter(Boolean)
     .map((m) => +m[1]);

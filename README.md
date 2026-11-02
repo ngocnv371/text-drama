@@ -7,7 +7,7 @@ One-time setup: run `npm install`, and have an API key for at least one of these
 
 | provider | key (environment variable or `.env`) | default model |
 |---|---|---|
-| `claude` | `ANTHROPIC_API_KEY` | `claude-opus-5-5` |
+| `claude` | `ANTHROPIC_API_KEY` (a global `ANTHROPIC_AUTH_TOKEN`/`ANTHROPIC_BASE_URL` is ignored) | `claude-opus-5-5` |
 | `gemini` | `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) | `gemini-3.1-pro-preview` |
 | `deepseek` | `DEEPSEEK_API_KEY` | `deepseek-v4-pro` |
 
@@ -16,6 +16,12 @@ Then, for each episode:
 npm run generate
 ```
 That writes the script, checks it, times the drama, renders the video and checks the result. The finished video lands in `out/epNN.mp4`. Optional extras: `npm run generate -- --premise "intern replies-all with their salary"`, or give an id with `npm run generate -- ep07`.
+
+**Or use the web view:**
+```bash
+npm run web
+```
+Then open http://localhost:5180. From the page you can watch every episode and read its script with the beats marked, generate a new one (optional premise, choice of writer) with live progress, re-render or download an episode, and change the series topic, tone, length and default writer. The page is only reachable from this computer.
 
 **Choosing the provider:** set `llm.provider` in `config/series.json` to `claude`, `gemini` or `deepseek`. The default, `auto`, uses the first provider that has a key, in the table's order. You can also override it for one run with `npm run generate -- --provider deepseek`. The model names are in the same `llm` block.
 
@@ -26,6 +32,14 @@ You don't need to read the script first. Every draft goes through automatic chec
 - **length:** the script fits the target duration at a watchable pace
 
 After rendering, it also checks the layout (no bubble or caption that swamps the screen) and the video file (size, duration, audio track). If anything still fails, the command exits with an error that says why, and nothing half-done is left in `out/`.
+
+## Chat apps
+Set `app` in `config/series.json`, or use the web view's settings. Each episode remembers the app it was written for.
+
+- **`workchat`** (default): a company channel styled like a workplace chat app, with no real brand. Several coworkers with job titles argue in it, `@mentions` are highlighted (a mention of the phone owner lights up the whole row), and emoji reactions pop in with counts that tick up. System notices such as "Linda (CEO) joined #marketing" or "Jack was removed from #marketing by Karen" appear, removals in red. Whoever is typing shows as "Derek is typing…" above the message box.
+- **`imessage`**: phone texts with bubbles, typing dots and Read receipts.
+
+The checks are stricter for work chat: at least 3 people post, at least one system notice, at least 3 messages with reactions, and no real app names in the dialogue.
 
 ## Change the topic
 Edit `config/series.json`. `topic`, `tone`, `audience` and `targetSeconds` all go into the writer prompt. New episodes avoid the premises of earlier ones.
@@ -54,10 +68,10 @@ Each message has a beat that the director stages:
 | `pause` | a long silence first |
 | `fakeout` | the typing dots start, stop, then start again |
 | `bombshell` | a slow push-in while they type, then a zoom punch, shake, red flash and bass hit |
-| `unsend` | the message appears, then becomes "unsent a message" |
-| `leftOnRead` | (`me` only) a "Read" receipt, then dead air |
+| `unsend` | the message appears, then becomes "unsent a message" (work chat: "This message was deleted.") |
+| `leftOnRead` | (`me` only, imessage only) a "Read" receipt, then dead air |
 
 ## Notes
 - Rendering uses headless Edge (falling back to Chrome), so no window opens. A 60s video takes about 1.5 minutes.
 - All audio is synthesised in `src/audio.js`, so there are no files to license.
-- Group chats work: with more than two cast members, sender names appear above their bubbles.
+- In imessage group chats (more than two cast members), sender names appear above the bubbles.

@@ -6,6 +6,7 @@
     "fps": 30
   },
   "theme": "dark",
+  "app": "imessage",
   "hook": "my manager texted me at 11:47pm 😶",
   "hookSeconds": 3.2,
   "cliffhanger": "part 2: the 9am meeting 👀",
@@ -16,10 +17,12 @@
   },
   "cast": [
     {
+      "role": "",
       "id": "me",
       "name": "Maya"
     },
     {
+      "role": "",
       "id": "derek",
       "name": "Derek"
     }
@@ -28,6 +31,7 @@
   "messages": [
     {
       "i": 0,
+      "type": "message",
       "from": "derek",
       "text": "hey are you up",
       "beat": "normal",
@@ -38,10 +42,12 @@
         ]
       ],
       "compose": null,
-      "appear": 0.9173459873304619
+      "appear": 0.9173459873304619,
+      "reactions": []
     },
     {
       "i": 1,
+      "type": "message",
       "from": "derek",
       "text": "need to talk about tomorrow",
       "beat": "rapid",
@@ -52,10 +58,12 @@
         ]
       ],
       "compose": null,
-      "appear": 1.9782433090938571
+      "appear": 1.9782433090938571,
+      "reactions": []
     },
     {
       "i": 2,
+      "type": "message",
       "from": "me",
       "text": "it's 11:47pm derek 💀",
       "beat": "normal",
@@ -64,10 +72,12 @@
         3.0785506784620256,
         3.6802812710852426
       ],
-      "appear": 3.6802812710852426
+      "appear": 3.6802812710852426,
+      "reactions": []
     },
     {
       "i": 3,
+      "type": "message",
       "from": "me",
       "text": "is this a work thing or a \"you\" thing",
       "beat": "rapid",
@@ -76,10 +86,12 @@
         4.414260345603672,
         5.055797731277348
       ],
-      "appear": 5.055797731277348
+      "appear": 5.055797731277348,
+      "reactions": []
     },
     {
       "i": 4,
+      "type": "message",
       "from": "derek",
       "text": "work thing. HR is cc'd",
       "beat": "fakeout",
@@ -94,10 +106,12 @@
         ]
       ],
       "compose": null,
-      "appear": 8.252243538684635
+      "appear": 8.252243538684635,
+      "reactions": []
     },
     {
       "i": 5,
+      "type": "message",
       "from": "me",
       "text": "ok if this is about my \"dentist appointment\" on tuesday",
       "beat": "pause",
@@ -106,10 +120,12 @@
         10.073305134381712,
         11.131292989543413
       ],
-      "appear": 11.131292989543413
+      "appear": 11.131292989543413,
+      "reactions": []
     },
     {
       "i": 6,
+      "type": "message",
       "from": "me",
       "text": "i was at the dentist",
       "beat": "rapid",
@@ -118,10 +134,12 @@
         12.605863562675031,
         13.027074977511283
       ],
-      "appear": 13.027074977511283
+      "appear": 13.027074977511283,
+      "reactions": []
     },
     {
       "i": 7,
+      "type": "message",
       "from": "me",
       "text": "emotionally",
       "beat": "rapid",
@@ -130,10 +148,12 @@
         13.761054052029712,
         14.065622305834387
       ],
-      "appear": 14.065622305834387
+      "appear": 14.065622305834387,
+      "reactions": []
     },
     {
       "i": 8,
+      "type": "message",
       "from": "derek",
       "text": "it's not about tuesday",
       "beat": "normal",
@@ -144,10 +164,12 @@
         ]
       ],
       "compose": null,
-      "appear": 15.51109821294906
+      "appear": 15.51109821294906,
+      "reactions": []
     },
     {
       "i": 9,
+      "type": "message",
       "from": "derek",
       "text": "it's about your slack message",
       "beat": "pause",
@@ -158,10 +180,12 @@
         ]
       ],
       "compose": null,
-      "appear": 18.1177157911037
+      "appear": 18.1177157911037,
+      "reactions": []
     },
     {
       "i": 10,
+      "type": "message",
       "from": "me",
       "text": "which one 🙂",
       "beat": "normal",
@@ -170,10 +194,12 @@
         19.260342674678334,
         19.695440180113582
       ],
-      "appear": 19.695440180113582
+      "appear": 19.695440180113582,
+      "reactions": []
     },
     {
       "i": 11,
+      "type": "message",
       "from": "derek",
       "text": "\"derek has his camera off bc he's crying in his tesla again\"",
       "beat": "bombshell",
@@ -184,10 +210,12 @@
         ]
       ],
       "compose": null,
-      "appear": 22.388019271500113
+      "appear": 22.388019271500113,
+      "reactions": []
     },
     {
       "i": 12,
+      "type": "message",
       "from": "derek",
       "text": "you posted it in #general",
       "beat": "rapid",
@@ -198,10 +226,12 @@
         ]
       ],
       "compose": null,
-      "appear": 25.330547993668592
+      "appear": 25.330547993668592,
+      "reactions": []
     },
     {
       "i": 13,
+      "type": "message",
       "from": "me",
       "text": "lmaooo ok but it's literally true",
       "beat": "unsend",
@@ -211,10 +241,12 @@
         27.13177231708139
       ],
       "appear": 27.13177231708139,
+      "reactions": [],
       "unsendAt": 28.722721554280795
     },
     {
       "i": 14,
+      "type": "message",
       "from": "me",
       "text": "that was meant for the group chat 😭",
       "beat": "normal",
@@ -223,10 +255,12 @@
         29.350901843283054,
         30.23035424788622
       ],
-      "appear": 30.23035424788622
+      "appear": 30.23035424788622,
+      "reactions": []
     },
     {
       "i": 15,
+      "type": "message",
       "from": "derek",
       "text": "it has 47 reactions maya",
       "beat": "pause",
@@ -237,10 +271,12 @@
         ]
       ],
       "compose": null,
-      "appear": 33.039312003340534
+      "appear": 33.039312003340534,
+      "reactions": []
     },
     {
       "i": 16,
+      "type": "message",
       "from": "derek",
       "text": "one of them is from the CEO",
       "beat": "bombshell",
@@ -251,10 +287,12 @@
         ]
       ],
       "compose": null,
-      "appear": 35.52690594778948
+      "appear": 35.52690594778948,
+      "reactions": []
     },
     {
       "i": 17,
+      "type": "message",
       "from": "me",
       "text": "ok in my defense it's a model Y",
       "beat": "leftOnRead",
@@ -264,10 +302,12 @@
         38.32528382469218
       ],
       "appear": 38.32528382469218,
+      "reactions": [],
       "readAt": 38.920401993220636
     },
     {
       "i": 18,
+      "type": "message",
       "from": "derek",
       "text": "the CEO wants to see you. 9am.",
       "beat": "fakeout",
@@ -282,10 +322,12 @@
         ]
       ],
       "compose": null,
-      "appear": 42.849504390327404
+      "appear": 42.849504390327404,
+      "reactions": []
     },
     {
       "i": 19,
+      "type": "message",
       "from": "me",
       "text": "am i getting fired",
       "beat": "rapid",
@@ -294,10 +336,12 @@
         43.79508103587817,
         44.19037174826296
       ],
-      "appear": 44.19037174826296
+      "appear": 44.19037174826296,
+      "reactions": []
     },
     {
       "i": 20,
+      "type": "message",
       "from": "derek",
       "text": "no",
       "beat": "pause",
@@ -308,10 +352,12 @@
         ]
       ],
       "compose": null,
-      "appear": 46.389664002180346
+      "appear": 46.389664002180346,
+      "reactions": []
     },
     {
       "i": 21,
+      "type": "message",
       "from": "derek",
       "text": "she wants you to run the company tiktok",
       "beat": "normal",
@@ -322,10 +368,12 @@
         ]
       ],
       "compose": null,
-      "appear": 47.89200675650996
+      "appear": 47.89200675650996,
+      "reactions": []
     },
     {
       "i": 22,
+      "type": "message",
       "from": "derek",
       "text": "and she asked who the guy crying in the tesla is",
       "beat": "rapid",
@@ -336,10 +384,12 @@
         ]
       ],
       "compose": null,
-      "appear": 49.665194401760964
+      "appear": 49.665194401760964,
+      "reactions": []
     },
     {
       "i": 23,
+      "type": "message",
       "from": "me",
       "text": "derek i got you. i'll say it was a bit",
       "beat": "normal",
@@ -348,10 +398,12 @@
         51.20985667029705,
         52.144853437296206
       ],
-      "appear": 52.144853437296206
+      "appear": 52.144853437296206,
+      "reactions": []
     },
     {
       "i": 24,
+      "type": "message",
       "from": "derek",
       "text": "maya i'm in the tesla right now",
       "beat": "bombshell",
@@ -362,7 +414,8 @@
         ]
       ],
       "compose": null,
-      "appear": 54.98687331322432
+      "appear": 54.98687331322432,
+      "reactions": []
     }
   ],
   "fx": [

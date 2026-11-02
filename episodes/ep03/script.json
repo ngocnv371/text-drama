@@ -1,0 +1,153 @@
+{
+  "title": "Overemployed Outing",
+  "logline": "When a Gen Z worker accidentally texts their boss an update for their secret second job, they try to gaslight him—only to discover their boss is overemployed too.",
+  "hook": "texted my boss about my secret second job 💀",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "brad 💼",
+    "subtitle": "marketing director"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya"
+    },
+    {
+      "id": "brad",
+      "name": "Brad"
+    }
+  ],
+  "messages": [
+    {
+      "from": "me",
+      "text": "hey brad, the syntech q3 deck is in jira",
+      "beat": "normal"
+    },
+    {
+      "from": "brad",
+      "text": "syntech? we don't have a client named syntech.",
+      "beat": "normal"
+    },
+    {
+      "from": "brad",
+      "text": "and we use asana.",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "omg sorry brain fog today",
+      "beat": "fakeout"
+    },
+    {
+      "from": "me",
+      "text": "meant synergis. in asana.",
+      "beat": "rapid"
+    },
+    {
+      "from": "brad",
+      "text": "syntech is our biggest competitor.",
+      "beat": "pause"
+    },
+    {
+      "from": "brad",
+      "text": "are you secretly working two jobs?",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "what no im fully dedicated to this team",
+      "beat": "normal"
+    },
+    {
+      "from": "brad",
+      "text": "ur linkedin literally says syntech.",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "well maybe if u paid a living wage",
+      "beat": "unsend"
+    },
+    {
+      "from": "me",
+      "text": "my linkedin got hacked obviously",
+      "beat": "rapid"
+    },
+    {
+      "from": "brad",
+      "text": "this is a fireable offense.",
+      "beat": "pause"
+    },
+    {
+      "from": "brad",
+      "text": "i'm reporting this to hr.",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "brad wait plz",
+      "beat": "fakeout"
+    },
+    {
+      "from": "me",
+      "text": "quiet quitting wasn't paying my rent",
+      "beat": "rapid"
+    },
+    {
+      "from": "brad",
+      "text": "hold on.",
+      "beat": "pause"
+    },
+    {
+      "from": "brad",
+      "text": "you work for syntech's growth team?",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "yeah i report to some guy named bradley",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "camera always off, he's totally useless btw",
+      "beat": "rapid"
+    },
+    {
+      "from": "brad",
+      "text": "i am bradley.",
+      "beat": "bombshell"
+    },
+    {
+      "from": "brad",
+      "text": "i'm your manager at syntech.",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "...what",
+      "beat": "pause"
+    },
+    {
+      "from": "me",
+      "text": "UR OVEREMPLOYED TOO???",
+      "beat": "bombshell"
+    },
+    {
+      "from": "brad",
+      "text": "delete this chat right now.",
+      "beat": "rapid"
+    },
+    {
+      "from": "brad",
+      "text": "i will approve your pto for friday.",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "im gonna need a promotion at both jobs.",
+      "beat": "bombshell"
+    }
+  ],
+  "cliffhanger": "part 2: double promotion?"
+}
