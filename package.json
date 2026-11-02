@@ -1,0 +1,18 @@
+{
+  "name": "text-drama",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Text-message story video pipeline: script -> direction -> video",
+  "scripts": {
+    "generate": "node src/generate.js",
+    "direct": "node src/direct.js",
+    "render": "node src/render.js",
+    "make": "node src/make.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.3.0",
+    "playwright-core": "^1.64.1",
+    "zod": "^4.6.7"
+  }
+}

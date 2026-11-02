@@ -1,0 +1,10 @@
+{
+  "topic": "Gen Z workplace",
+  "tone": "Chronically online, deadpan, petty but lovable. Office politics through a Gen Z lens: quiet quitting, Slack mishaps, return-to-office, 'per my last email', bosses who try too hard.",
+  "audience": "TikTok / Reels / Shorts viewers scrolling fast. Hook in the first 2 seconds, twist near the end, cliffhanger for part 2.",
+  "language": "English, lowercase texting style, real slang used sparingly so it doesn't feel like a brand account.",
+  "targetSeconds": 60,
+  "video": { "width": 1080, "height": 1920, "fps": 30 },
+  "theme": "dark",
+  "model": "claude-opus-5-5"
+}

@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>text-drama player</title>
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<div id="stage">
+  <div id="camera">
+    <div id="statusbar">
+      <span id="clock">9:41</span>
+      <span class="sb-right">
+        <span class="bars"><i></i><i></i><i></i><i></i></span>
+        <span class="net">5G</span>
+        <span class="battery"><span class="level"></span></span>
+      </span>
+    </div>
+    <div id="header">
+      <div class="back">‹</div>
+      <div class="avatar" id="avatar"></div>
+      <div class="name"><span id="chatName"></span> <span class="chev">›</span></div>
+      <div class="subtitle" id="chatSubtitle"></div>
+    </div>
+    <div id="thread"><div id="scroller"></div></div>
+    <div id="compose">
+      <div class="plus">+</div>
+      <div class="field"><span id="composeText"></span><span id="caret"></span><span id="placeholder">iMessage</span></div>
+      <div class="send" id="sendBtn">↑</div>
+    </div>
+  </div>
+  <div id="vignette"></div>
+  <div id="flash"></div>
+  <div id="hook"><span id="hookText"></span></div>
+  <div id="outro"><div id="outroText"></div><div id="outroCta">follow for part 2</div></div>
+</div>
+<script src="player.js"></script>
+</body>
+</html>

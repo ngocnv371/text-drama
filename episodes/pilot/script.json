@@ -1,0 +1,38 @@
+{
+  "title": "Crying in the Tesla",
+  "hook": "my manager texted me at 11:47pm 😶",
+  "startClock": "11:47 PM",
+  "chat": { "name": "Derek (Manager)", "subtitle": "manager · Marketing" },
+  "cast": [
+    { "id": "me", "name": "Maya" },
+    { "id": "derek", "name": "Derek" }
+  ],
+  "messages": [
+    { "from": "derek", "text": "hey are you up", "beat": "normal" },
+    { "from": "derek", "text": "need to talk about tomorrow", "beat": "rapid" },
+    { "from": "me", "text": "it's 11:47pm derek 💀", "beat": "normal" },
+    { "from": "me", "text": "is this a work thing or a \"you\" thing", "beat": "rapid" },
+    { "from": "derek", "text": "work thing. HR is cc'd", "beat": "fakeout" },
+    { "from": "me", "text": "ok if this is about my \"dentist appointment\" on tuesday", "beat": "pause" },
+    { "from": "me", "text": "i was at the dentist", "beat": "rapid" },
+    { "from": "me", "text": "emotionally", "beat": "rapid" },
+    { "from": "derek", "text": "it's not about tuesday", "beat": "normal" },
+    { "from": "derek", "text": "it's about your slack message", "beat": "pause" },
+    { "from": "me", "text": "which one 🙂", "beat": "normal" },
+    { "from": "derek", "text": "\"derek has his camera off bc he's crying in his tesla again\"", "beat": "bombshell" },
+    { "from": "derek", "text": "you posted it in #general", "beat": "rapid" },
+    { "from": "me", "text": "lmaooo ok but it's literally true", "beat": "unsend" },
+    { "from": "me", "text": "that was meant for the group chat 😭", "beat": "normal" },
+    { "from": "derek", "text": "it has 47 reactions maya", "beat": "pause" },
+    { "from": "derek", "text": "one of them is from the CEO", "beat": "bombshell" },
+    { "from": "me", "text": "ok in my defense it's a model Y", "beat": "leftOnRead" },
+    { "from": "derek", "text": "the CEO wants to see you. 9am.", "beat": "fakeout" },
+    { "from": "me", "text": "am i getting fired", "beat": "rapid" },
+    { "from": "derek", "text": "no", "beat": "pause" },
+    { "from": "derek", "text": "she wants you to run the company tiktok", "beat": "normal" },
+    { "from": "derek", "text": "and she asked who the guy crying in the tesla is", "beat": "rapid" },
+    { "from": "me", "text": "derek i got you. i'll say it was a bit", "beat": "normal" },
+    { "from": "derek", "text": "maya i'm in the tesla right now", "beat": "bombshell" }
+  ],
+  "cliffhanger": "part 2: the 9am meeting 👀"
+}
