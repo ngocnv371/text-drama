@@ -1,0 +1,365 @@
+{
+  "title": "The Tracker",
+  "logline": "When a manager installs an activity tracker to catch a Gen Z copywriter slacking, she finds a loophole to broadcast his screen to the entire company.",
+  "hook": "my boss installed spyware on our laptops",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "#marketing-team",
+    "subtitle": "45 members · q3 productivity"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Chloe",
+      "role": "Copywriter"
+    },
+    {
+      "id": "todd",
+      "name": "Todd",
+      "role": "Marketing Dir"
+    },
+    {
+      "id": "liam",
+      "name": "Liam",
+      "role": "Intern"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "CEO"
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah",
+      "role": "HR"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "todd",
+      "text": "Todd (Marketing Dir) renamed the channel to #q3-productivity",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "@here looking at the new employee tracker data...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "@chloe your keystrokes are down 40% this morning.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i was brainstorming.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "We pay for active typing. Not sitting.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm a copywriter. i have to think.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "Active window must be a work document. No exceptions.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "okay todd.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "btw why is your active window \"luxury golf resorts\"?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 14
+        },
+        {
+          "emoji": "👀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "Excuse me?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you left the admin dashboard public on the wiki.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the whole team can see your screen history.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "wait i see it too lmaooo",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "dave",
+      "text": "Dave (CEO) joined #q3-productivity",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "Todd, what is this about golf resorts?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "Dave! I was researching new executive offsite venues!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "your active window just changed to \"how to reverse hair loss\"",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": 22
+        },
+        {
+          "emoji": "💀",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "IM SCREAMING",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "CHLOE. Close the portal right now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "sarah",
+      "text": "Sarah (HR) joined #q3-productivity",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "@chloe viewing others' data is a policy violation.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "he was literally just viewing mine??",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "He is management. Log out immediately.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "fine.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait it just switched to his personal email",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "THIS IS HARASSMENT",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "Todd, my office. Now.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "he's opening a pdf...",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "I AM BEGGING YOU TO STOP",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "\"confidential offer letter: vp of marketing\"",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 31
+        },
+        {
+          "emoji": "🍿",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "@chloe that is enough!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's from our biggest competitor.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "Excuse me???",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "Dave I can explain! It was just for leverage!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait... sarah is cc'd on this email?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "omg plot twist",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "\"thanks for the referral sarah, stoked we both got offers\"",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 28
+        },
+        {
+          "emoji": "💀",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "SARAH?!?!",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "This channel is getting locked.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "sarah",
+      "text": "Sarah (HR) renamed the channel to #archived-do-not-use",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "dave she just googled \"how to delete channel history\"",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "Will Chloe get promoted to VP?",
+  "app": "workchat",
+  "targetSeconds": 90
+}

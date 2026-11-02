@@ -1,0 +1,772 @@
+{
+  "id": "ep08",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "my boss tried to deny my expense",
+  "hookSeconds": 3.2,
+  "cliffhanger": "Does Greg still have a job??",
+  "startClock": "02:14 PM",
+  "chat": {
+    "name": "#finance-audits",
+    "subtitle": "14 members · Q3 reviews"
+  },
+  "cast": [
+    {
+      "role": "Social Media",
+      "id": "me",
+      "name": "Zoe"
+    },
+    {
+      "role": "VP Finance",
+      "id": "greg",
+      "name": "Greg"
+    },
+    {
+      "role": "Junior Analyst",
+      "id": "noah",
+      "name": "Noah"
+    },
+    {
+      "role": "CEO",
+      "id": "richard",
+      "name": "Richard"
+    }
+  ],
+  "pace": 0.6482161870350414,
+  "messages": [
+    {
+      "i": 0,
+      "type": "system",
+      "from": "greg",
+      "text": "Greg renamed the channel to #finance-audits",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 0.35,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "greg",
+      "text": "@zoe your $200 expense for \"wifi optimization\" is denied.",
+      "beat": "normal",
+      "typing": [
+        [
+          1.7605184229882498,
+          2.9299004243994644
+        ]
+      ],
+      "compose": null,
+      "appear": 2.9299004243994644,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "me",
+      "text": "i can't post to the brand tiktok on the office wifi, greg.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        4.416908357457849,
+        5.142910486937096
+      ],
+      "appear": 5.142910486937096,
+      "reactions": []
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "greg",
+      "text": "you expensed a playstation portal.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          7.156269963867934,
+          8.386584286860442
+        ]
+      ],
+      "compose": null,
+      "appear": 8.386584286860442,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 14,
+          "at": 8.743103189729714,
+          "ramp": 0.6078172938435459
+        },
+        {
+          "emoji": "😭",
+          "count": 8,
+          "at": 8.989425340803031,
+          "ramp": 0.5132925755092259
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "me",
+      "text": "it has a screen. i use it for trend research.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        10.304007768110095,
+        11.030009897589341
+      ],
+      "appear": 11.030009897589341,
+      "reactions": []
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "greg",
+      "text": "this is egregious corporate fraud.",
+      "beat": "normal",
+      "typing": [
+        [
+          12.482014156547836,
+          13.323398767319318
+        ]
+      ],
+      "compose": null,
+      "appear": 13.323398767319318,
+      "reactions": []
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "noah",
+      "text": "honestly it’s a tax write off anyway",
+      "beat": "normal",
+      "typing": [
+        [
+          14.547230928441477,
+          15.417137051442502
+        ]
+      ],
+      "compose": null,
+      "appear": 15.417137051442502,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "greg",
+      "text": "@noah stay out of this. your $400 matcha tab is next.",
+      "beat": "rapid",
+      "typing": [
+        [
+          16.46854370681334,
+          17.13594709298462
+        ]
+      ],
+      "compose": null,
+      "appear": 17.13594709298462,
+      "reactions": [
+        {
+          "emoji": "🍵",
+          "count": 11,
+          "at": 17.49246599585389,
+          "ramp": 0.5670826041064291
+        },
+        {
+          "emoji": "💀",
+          "count": 9,
+          "at": 17.738788146927206,
+          "ramp": 0.5331873113440655
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "noah",
+      "text": "it's networking fuel!!!",
+      "beat": "rapid",
+      "typing": [
+        [
+          18.539983354102517,
+          18.95069313020792
+        ]
+      ],
+      "compose": null,
+      "appear": 18.95069313020792,
+      "reactions": []
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "noah",
+      "text": "🤐",
+      "beat": "rapid",
+      "typing": [
+        [
+          19.73244185177218,
+          20.0046926503269
+        ]
+      ],
+      "compose": null,
+      "appear": 20.0046926503269,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "me",
+      "text": "per the handbook, \"tech accessories\" are approved up to $500",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        20.544008517940053,
+        21.58115441719612
+      ],
+      "appear": 21.58115441719612,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "greg",
+      "text": "for PRODUCTIVITY. not for gaming.",
+      "beat": "rapid",
+      "typing": [
+        [
+          23.13039110420987,
+          23.6266654170039
+        ]
+      ],
+      "compose": null,
+      "appear": 23.6266654170039,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "greg",
+      "text": "i am looping in richard. pack up your desk.",
+      "beat": "normal",
+      "typing": [
+        [
+          24.829754660140935,
+          25.799486075945357
+        ]
+      ],
+      "compose": null,
+      "appear": 25.799486075945357,
+      "reactions": []
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "me",
+      "text": "go ahead.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        27.210004498933607,
+        27.6002306435287
+      ],
+      "appear": 27.6002306435287,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 22,
+          "at": 27.956749546397972,
+          "ramp": 0.6841621136899176
+        },
+        {
+          "emoji": "👀",
+          "count": 18,
+          "at": 28.203071697471287,
+          "ramp": 0.650266820927554
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "type": "system",
+      "from": "richard",
+      "text": "Richard (CEO) was added to the chat by Greg",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 28.741091132710373,
+      "reactions": []
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "greg",
+      "text": "@richard please review zoe's fraudulent expense.",
+      "beat": "rapid",
+      "typing": [
+        [
+          29.93769821397706,
+          30.562319331804026
+        ]
+      ],
+      "compose": null,
+      "appear": 30.562319331804026,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "richard",
+      "text": "zoe, we run a tight ship. this is unacceptable.",
+      "beat": "pause",
+      "typing": [
+        [
+          32.88682257851168,
+          33.91359701877519
+        ]
+      ],
+      "compose": null,
+      "appear": 33.91359701877519,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "me",
+      "text": "richard, respectfully, my portal was $200.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        35.19317577198237,
+        35.8856003029732
+      ],
+      "appear": 35.8856003029732,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "me",
+      "text": "greg expensed $4,500 last week for ergonomic equipment",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        37.06146446625477,
+        37.78746659573402
+      ],
+      "appear": 37.78746659573402,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "greg",
+      "text": "my lumbar requires medical-grade support.",
+      "beat": "pause",
+      "typing": [
+        [
+          40.23642735035241,
+          41.17763725392729
+        ]
+      ],
+      "compose": null,
+      "appear": 41.17763725392729,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "greg",
+      "text": "it is a specialized chair from a boutique vendor.",
+      "beat": "rapid",
+      "typing": [
+        [
+          42.332758499223736,
+          42.965936070719565
+        ]
+      ],
+      "compose": null,
+      "appear": 42.965936070719565,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "noah",
+      "text": "wait a minute",
+      "beat": "fakeout",
+      "typing": [
+        [
+          44.46850119226679,
+          45.18153899800534
+        ],
+        [
+          45.76493356633687,
+          46.34832813466841
+        ]
+      ],
+      "compose": null,
+      "appear": 46.348328134668414,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "me",
+      "text": "a boutique vendor called alienware?",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        47.42825630226879,
+        48.290383831025395
+      ],
+      "appear": 48.290383831025395,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 45,
+          "at": 48.64690273389467,
+          "ramp": 0.8050375139816017
+        },
+        {
+          "emoji": "🚨",
+          "count": 20,
+          "at": 48.893224884967985,
+          "ramp": 0.6680632685632737
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "greg",
+      "text": "that is a brand of ergonomic chairs.",
+      "beat": "pause",
+      "typing": [
+        [
+          51.25273180577553,
+          52.122637928776555
+        ]
+      ],
+      "compose": null,
+      "appear": 52.122637928776555,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "noah",
+      "text": "alienware makes gaming PCs greg",
+      "beat": "rapid",
+      "typing": [
+        [
+          53.174044584147396,
+          53.6532059896037
+        ]
+      ],
+      "compose": null,
+      "appear": 53.6532059896037,
+      "reactions": []
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "greg",
+      "text": "it was for compiling financial models faster.",
+      "beat": "unsend",
+      "typing": [
+        [
+          54.717576968715235,
+          55.7158298967492
+        ]
+      ],
+      "compose": null,
+      "appear": 55.7158298967492,
+      "reactions": [],
+      "unsendAt": 57.52435305857696
+    },
+    {
+      "i": 26,
+      "type": "system",
+      "from": "noah",
+      "text": "Noah was removed from the chat by Greg",
+      "beat": "rapid",
+      "typing": [],
+      "compose": null,
+      "appear": 57.926247094538695,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "richard",
+      "text": "greg, did you buy a gaming PC on the corporate card?",
+      "beat": "pause",
+      "typing": [
+        [
+          60.04332116139514,
+          61.1413993822325
+        ]
+      ],
+      "compose": null,
+      "appear": 61.1413993822325,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "greg",
+      "text": "richard, i can explain.",
+      "beat": "rapid",
+      "typing": [
+        [
+          62.524692725365284,
+          62.93540250147068
+        ]
+      ],
+      "compose": null,
+      "appear": 62.93540250147068,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "me",
+      "text": "you also expensed a $150 mousepad.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        63.93106256475651,
+        64.77504004027614
+      ],
+      "appear": 64.77504004027614,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "me",
+      "text": "it has RGB lights, greg.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        65.78496085967673,
+        66.2486947198816
+      ],
+      "appear": 66.2486947198816,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "richard",
+      "text": "greg. my office. now.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          67.55679498531832,
+          68.60171947881881
+        ]
+      ],
+      "compose": null,
+      "appear": 68.60171947881881,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 12,
+          "at": 68.95823838168808,
+          "ramp": 0.58177969821839
+        },
+        {
+          "emoji": "💀",
+          "count": 35,
+          "at": 69.20456053276139,
+          "ramp": 0.7625879868975937
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "greg",
+      "text": "zoe, how did you even see my itemized receipts?",
+      "beat": "pause",
+      "typing": [
+        [
+          71.46035286364334,
+          72.48712730390685
+        ]
+      ],
+      "compose": null,
+      "appear": 72.48712730390685,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "greg",
+      "text": "those are locked in the admin portal.",
+      "beat": "rapid",
+      "typing": [
+        [
+          73.76670605711402,
+          74.2972061845835
+        ]
+      ],
+      "compose": null,
+      "appear": 74.2972061845835,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "me",
+      "text": "i didn't check the admin portal.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        75.58326709966101,
+        76.39094446870668
+      ],
+      "appear": 76.39094446870668,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "greg",
+      "text": "then how do you know exactly what i bought??",
+      "beat": "fakeout",
+      "typing": [
+        [
+          77.54087998450684,
+          78.2539177902454
+        ],
+        [
+          78.83731235857694,
+          79.42070692690848
+        ]
+      ],
+      "compose": null,
+      "appear": 79.42070692690847,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "me",
+      "text": "because your 15yo son wouldn't shut up about it.",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        81.66223850167563,
+        82.69938440093169
+      ],
+      "appear": 82.69938440093169,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "me",
+      "text": "he's my duo in fortnite.",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        84.50531469801132,
+        85.16779164116113
+      ],
+      "appear": 85.16779164116113,
+      "reactions": []
+    }
+  ],
+  "fx": [
+    {
+      "type": "system",
+      "t": 0.35
+    },
+    {
+      "type": "reaction",
+      "t": 8.743103189729714,
+      "count": 14
+    },
+    {
+      "type": "reaction",
+      "t": 8.989425340803031,
+      "count": 8
+    },
+    {
+      "type": "bombshell",
+      "t": 8.386584286860442
+    },
+    {
+      "type": "reaction",
+      "t": 17.49246599585389,
+      "count": 11
+    },
+    {
+      "type": "reaction",
+      "t": 17.738788146927206,
+      "count": 9
+    },
+    {
+      "type": "reaction",
+      "t": 27.956749546397972,
+      "count": 22
+    },
+    {
+      "type": "reaction",
+      "t": 28.203071697471287,
+      "count": 18
+    },
+    {
+      "type": "system",
+      "t": 28.741091132710373
+    },
+    {
+      "type": "reaction",
+      "t": 48.64690273389467,
+      "count": 45
+    },
+    {
+      "type": "reaction",
+      "t": 48.893224884967985,
+      "count": 20
+    },
+    {
+      "type": "bombshell",
+      "t": 48.290383831025395
+    },
+    {
+      "type": "unsend",
+      "t": 57.52435305857696
+    },
+    {
+      "type": "system",
+      "t": 57.926247094538695
+    },
+    {
+      "type": "reaction",
+      "t": 68.95823838168808,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 69.20456053276139,
+      "count": 35
+    },
+    {
+      "type": "bombshell",
+      "t": 68.60171947881881
+    },
+    {
+      "type": "bombshell",
+      "t": 85.16779164116113
+    }
+  ],
+  "outroAt": 86.80000000011536,
+  "duration": 90.00000000011536
+}

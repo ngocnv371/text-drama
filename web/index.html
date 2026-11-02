@@ -15,18 +15,29 @@
 <main class="layout">
   <aside class="side">
     <section class="card">
-      <h2>New episode</h2>
+      <h2>New episodes</h2>
       <label class="field">
-        <span>Premise <em>(optional)</em></span>
-        <textarea id="premise" rows="3" placeholder="leave empty and the writer picks one"></textarea>
+        <span>Premises <em>(optional, one per line)</em></span>
+        <textarea id="premise" rows="3" placeholder="leave empty and the writer picks"></textarea>
       </label>
-      <label class="field">
-        <span>Writer</span>
-        <select id="provider"></select>
-      </label>
+      <div class="row">
+        <label class="field count">
+          <span>How many</span>
+          <input type="number" id="count" min="1" max="50" value="1">
+        </label>
+        <label class="field grow">
+          <span>Writer</span>
+          <select id="provider"></select>
+        </label>
+      </div>
       <button class="primary" id="generateBtn">Generate episode</button>
 
       <div class="job" id="job" hidden>
+        <div class="job-head">
+          <span id="jobTitle"></span>
+          <button class="small" id="stopBtn" hidden>Stop after this one</button>
+        </div>
+        <ol class="queue" id="queue"></ol>
         <div class="stages">
           <span data-stage="writing">Write</span>
           <span data-stage="rendering">Render</span>

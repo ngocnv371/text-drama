@@ -1,0 +1,334 @@
+{
+  "title": "The AI Notetaker",
+  "logline": "When an intern's AI notetaker accidentally joins a confidential board meeting, it live-transcribes the CEO playing golf while claiming to be hospitalized.",
+  "hook": "my ai bot went rogue in the board meeting",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "#q3-board-confidential",
+    "subtitle": "12 members · In progress"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Zoe",
+      "role": "Intern"
+    },
+    {
+      "id": "josh",
+      "name": "Josh",
+      "role": "Chief of Staff"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "VP HR"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "CEO"
+    },
+    {
+      "id": "zoe_ai",
+      "name": "Zoe's AI Notetaker",
+      "role": "Bot"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Zoe (Intern) was added to #q3-board-confidential by Josh (Chief of Staff)",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "@zoe why is your ai notetaker in the investor call?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what? i'm not even in that meeting",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "you were on the calendar invite by mistake.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "zoe_ai",
+      "text": "Zoe's AI Notetaker was removed from #q3-board-confidential by Josh",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "zoe_ai",
+      "text": "Zoe's AI Notetaker joined #q3-board-confidential (Auto-Reconnect)",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "i keep clicking remove but it instantly respawns!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "josh kick it out. I'm dialing in from the hospital.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "i don't want a bot recording my kidney stone updates.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "zoe_ai",
+      "text": "📝 *Live Transcript:* \"Dave: Thanks for your patience everyone.\"",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 14
+        },
+        {
+          "emoji": "👀",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "dave just mute your mic until we fix this",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "I am muted!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "it reads raw audio even when you mute the software...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "zoe_ai",
+      "text": "📝 *Live Transcript:* \"Dave: *sound of golf club hitting ball*\"",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "⛳",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "...dave are you playing golf?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "NO. that was medical equipment.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "a golf club is medical equipment??",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "zoe_ai",
+      "text": "📝 *Live Transcript:* \"Chad: nice swing, dave.\"",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "chad is my surgeon.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "zoe_ai",
+      "text": "📝 *Live Transcript:* \"Chad: you want another white claw, dave?\"",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍻",
+          "count": 19
+        },
+        {
+          "emoji": "💀",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "I am so unbelievably embarrassed right now.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "STOP THE BOT. STOP IT NOW.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "@zoe if you don't kill that bot you're fired",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "I LITERALLY CAN'T MY BROWSER WON'T LOAD",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "wait the investors are asking about the white claw",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "i'll just tell them it's a new brand of iv saline.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "zoe_ai",
+      "text": "📝 *Action Item:* Dave to expense 12 White Claws to the board.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🚩",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "WHY IS IT MAKING ACTION ITEMS",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it uses ai to predict next steps based on tone",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "josh start drafting dave's severance package.",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "your bot just admitted to expense fraud to the board.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "the investors are furious. they want whoever owns this bot.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "@zoe get on the call right now and take the fall.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "I AM AT 30,000 FEET OVER DENVER",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "zoe_ai",
+      "text": "📝 *Live Transcript:* \"Investor: We want Zoe to replace Dave.\"",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "...they love the radical transparency.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "@zoe ...are you free for golf next tuesday?",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "is zoe the new ceo? ⛳️",
+  "app": "workchat",
+  "targetSeconds": 90
+}

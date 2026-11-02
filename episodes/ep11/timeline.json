@@ -1,0 +1,758 @@
+{
+  "id": "ep11",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "about your viral linkedin post",
+  "hookSeconds": 3.2,
+  "cliffhanger": "does mr. nibbles get the bag? 🐹💰",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "#social-team",
+    "subtitle": "5 members · q3 strategy"
+  },
+  "cast": [
+    {
+      "role": "Copywriter",
+      "id": "me",
+      "name": "Riley"
+    },
+    {
+      "role": "VP Marketing",
+      "id": "todd",
+      "name": "Todd"
+    },
+    {
+      "role": "Intern",
+      "id": "sara",
+      "name": "Sara"
+    },
+    {
+      "role": "HR Director",
+      "id": "mia",
+      "name": "Mia"
+    },
+    {
+      "role": "CEO",
+      "id": "greg",
+      "name": "Greg"
+    }
+  ],
+  "pace": 0.6033497250894924,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "me",
+      "text": "@todd did you just post a linkedin story about me?",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        0.35,
+        1.3153595601431878
+      ],
+      "appear": 1.3153595601431878,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "todd",
+      "text": "what are you talking about?",
+      "beat": "rapid",
+      "typing": [
+        [
+          2.564293491078437,
+          2.978432742379865
+        ]
+      ],
+      "compose": null,
+      "appear": 2.978432742379865,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "sara",
+      "text": "wait link?",
+      "beat": "rapid",
+      "typing": [
+        [
+          3.7833012756492477,
+          4.062048848640593
+        ]
+      ],
+      "compose": null,
+      "appear": 4.062048848640593,
+      "reactions": []
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "me",
+      "text": "\"my junior copywriter's hamster died. I gave her 2 weeks off\"",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        4.737800540740825,
+        5.703160100884013
+      ],
+      "appear": 5.703160100884013,
+      "reactions": []
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "me",
+      "text": "my hamster is alive and u denied my pto yesterday.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        7.1644731350507636,
+        7.840224827150995
+      ],
+      "appear": 7.840224827150995,
+      "reactions": []
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "todd",
+      "text": "riley, it's a metaphor for modern leadership.",
+      "beat": "pause",
+      "typing": [
+        [
+          10.042451323727642,
+          10.97160990036546
+        ]
+      ],
+      "compose": null,
+      "appear": 10.97160990036546,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 14,
+          "at": 11.30345224916468,
+          "ramp": 0.565747052418668
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "sara",
+      "text": "omg it has 40k likes",
+      "beat": "rapid",
+      "typing": [
+        [
+          12.12400787528639,
+          12.482397611989548
+        ]
+      ],
+      "compose": null,
+      "appear": 12.482397611989548,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "mia",
+      "text": "Todd, why are we giving 2 weeks PTO for a rodent?",
+      "beat": "normal",
+      "typing": [
+        [
+          13.351221216118416,
+          14.33347456856411
+        ]
+      ],
+      "compose": null,
+      "appear": 14.33347456856411,
+      "reactions": []
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "todd",
+      "text": "MIA IT IS A THOUGHT LEADERSHIP EXERCISE.",
+      "beat": "rapid",
+      "typing": [
+        [
+          15.563101308296496,
+          16.08077537242328
+        ]
+      ],
+      "compose": null,
+      "appear": 16.08077537242328,
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 12,
+          "at": 16.4126177212225,
+          "ramp": 0.5415116561471153
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "me",
+      "text": "i'm literally at my desk crying over an excel sheet",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        17.335742800609424,
+        18.301102360752612
+      ],
+      "appear": 18.301102360752612,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "sara",
+      "text": "the comments are calling todd \"the boss of the decade\" 😭",
+      "beat": "rapid",
+      "typing": [
+        [
+          19.569343482890723,
+          20.214445008956407
+        ]
+      ],
+      "compose": null,
+      "appear": 20.214445008956407,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "me",
+      "text": "someone named @hustlebro99 commented \"we need more todds\"",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        21.579222087108835,
+        22.254973779209067
+      ],
+      "appear": 22.254973779209067,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "todd",
+      "text": "you better not comment on it riley.",
+      "beat": "unsend",
+      "typing": [
+        [
+          23.747660999080473,
+          24.544082636198603
+        ]
+      ],
+      "compose": null,
+      "appear": 24.544082636198603,
+      "reactions": [],
+      "unsendAt": 26.03435645716965
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "todd",
+      "text": "please do not comment on the post.",
+      "beat": "rapid",
+      "typing": [
+        [
+          26.40843328672513,
+          26.878322052624828
+        ]
+      ],
+      "compose": null,
+      "appear": 26.878322052624828,
+      "reactions": []
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "me",
+      "text": "kinda want to comment a selfie of me at my desk.",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        27.987278847339315,
+        28.952638407482503
+      ],
+      "appear": 28.952638407482503,
+      "reactions": []
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "todd",
+      "text": "don't you dare.",
+      "beat": "rapid",
+      "typing": [
+        [
+          30.162957956012022,
+          30.481526610859273
+        ]
+      ],
+      "compose": null,
+      "appear": 30.481526610859273,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "me",
+      "text": "holding mr. nibbles. who is very much alive.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        31.05470884969429,
+        31.722858335258394
+      ],
+      "appear": 31.722858335258394,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "sara",
+      "text": "wait buzzfeed just tweeted about the post 👀",
+      "beat": "bombshell",
+      "typing": [
+        [
+          33.32656190454627,
+          34.59118292833384
+        ]
+      ],
+      "compose": null,
+      "appear": 34.59118292833384,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 22,
+          "at": 34.923025277133064,
+          "ramp": 0.6368076445291596
+        }
+      ]
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "todd",
+      "text": "riley what do you want.",
+      "beat": "pause",
+      "typing": [
+        [
+          37.502948701615736,
+          38.14008601131024
+        ]
+      ],
+      "compose": null,
+      "appear": 38.14008601131024,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "me",
+      "text": "well. mr nibbles IS feeling a bit stressed.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        39.0668311890477,
+        40.00443666183677
+      ],
+      "appear": 40.00443666183677,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "todd",
+      "text": "I am not giving you two weeks off for a living hamster.",
+      "beat": "rapid",
+      "typing": [
+        [
+          41.118220254351975,
+          41.75535756404648
+        ]
+      ],
+      "compose": null,
+      "appear": 41.75535756404648,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "mia",
+      "text": "company policy strictly forbids rodent bereavement.",
+      "beat": "normal",
+      "typing": [
+        [
+          43.29993286027558,
+          44.30873360062521
+        ]
+      ],
+      "compose": null,
+      "appear": 44.30873360062521,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "system",
+      "from": "mia",
+      "text": "Mia was removed from #social-team by Todd",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 45.77608013204286,
+      "reactions": []
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "me",
+      "text": "a techcrunch reporter just DM'd me on twitter.",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        47.804541907793734,
+        48.76990146793692
+      ],
+      "appear": 48.76990146793692,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "todd",
+      "text": "...fine. take tuesday off.",
+      "beat": "rapid",
+      "typing": [
+        [
+          49.94160663406071,
+          50.347781668990955
+        ]
+      ],
+      "compose": null,
+      "appear": 50.347781668990955,
+      "reactions": []
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "me",
+      "text": "i think mr nibbles needs the full 2 weeks.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        51.13334301105748,
+        51.777841187398074
+      ],
+      "appear": 51.777841187398074,
+      "reactions": []
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "sara",
+      "text": "over 100k likes now Todd! the internet loves you!",
+      "beat": "rapid",
+      "typing": [
+        [
+          52.872317588710416,
+          53.461669600177835
+        ]
+      ],
+      "compose": null,
+      "appear": 53.461669600177835,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "me",
+      "text": "oops my finger is slipping toward the reply button.",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        54.86023426293528,
+        55.825593823078464
+      ],
+      "appear": 55.825593823078464,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "todd",
+      "text": "fine! 2 weeks off! paid! just stay quiet!",
+      "beat": "bombshell",
+      "typing": [
+        [
+          57.564447730786384,
+          58.80252136667002
+        ]
+      ],
+      "compose": null,
+      "appear": 58.80252136667002,
+      "reactions": [
+        {
+          "emoji": "🤝",
+          "count": 5,
+          "at": 59.13436371546924,
+          "ramp": 0.40387144724953605
+        }
+      ]
+    },
+    {
+      "i": 29,
+      "type": "system",
+      "from": "todd",
+      "text": "Todd renamed the channel to #pr-crisis",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 60.92148560118432,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "me",
+      "text": "actually, i think sara needs a raise too.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        62.13783864696474,
+        63.041656535148796
+      ],
+      "appear": 63.041656535148796,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "sara",
+      "text": "wait really? 🥺",
+      "beat": "rapid",
+      "typing": [
+        [
+          64.11682574525827,
+          64.42743018373434
+        ]
+      ],
+      "compose": null,
+      "appear": 64.42743018373434,
+      "reactions": []
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "todd",
+      "text": "I am not negotiating with a gen z marketing cartel.",
+      "beat": "rapid",
+      "typing": [
+        [
+          64.98130523136649,
+          65.58658567557627
+        ]
+      ],
+      "compose": null,
+      "appear": 65.58658567557627,
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": 9,
+          "at": 65.9184280243755,
+          "ramp": 0.49628260471572744
+        }
+      ]
+    },
+    {
+      "i": 33,
+      "type": "system",
+      "from": "greg",
+      "text": "Greg (CEO) joined #pr-crisis",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 67.05393220699392,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "greg",
+      "text": "Todd, what is happening? I'm getting calls from Forbes.",
+      "beat": "pause",
+      "typing": [
+        [
+          68.83140049710757,
+          69.89329601326507
+        ]
+      ],
+      "compose": null,
+      "appear": 69.89329601326507,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "todd",
+      "text": "greg, riley is extorting me over the linkedin post!",
+      "beat": "rapid",
+      "typing": [
+        [
+          71.23876590021463,
+          71.84404634442441
+        ]
+      ],
+      "compose": null,
+      "appear": 71.84404634442441,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "me",
+      "text": "i just want the pto he promised the internet!",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        73.11228746656252,
+        73.78803915866276
+      ],
+      "appear": 73.78803915866276,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "greg",
+      "text": "Riley, you are absolutely not getting 2 weeks off.",
+      "beat": "pause",
+      "typing": [
+        [
+          75.89372969922509,
+          76.88925674562276
+        ]
+      ],
+      "compose": null,
+      "appear": 76.88925674562276,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "me",
+      "text": "then i'm exposing the post right now.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        78.138190676558,
+        78.72356057983983
+      ],
+      "appear": 78.72356057983983,
+      "reactions": []
+    },
+    {
+      "i": 39,
+      "type": "message",
+      "from": "greg",
+      "text": "you can't. if you ruin this PR wave...",
+      "beat": "fakeout",
+      "typing": [
+        [
+          79.89043894816291,
+          80.55412364576135
+        ],
+        [
+          81.0971383983419,
+          81.64015315092244
+        ]
+      ],
+      "compose": null,
+      "appear": 81.64015315092244,
+      "reactions": []
+    },
+    {
+      "i": 40,
+      "type": "message",
+      "from": "greg",
+      "text": "people will find out I'm the one who ghostwrites his posts.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          83.12801357299314,
+          84.60501370001222
+        ]
+      ],
+      "compose": null,
+      "appear": 84.60501370001222,
+      "reactions": []
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 11.30345224916468,
+      "count": 14
+    },
+    {
+      "type": "reaction",
+      "t": 16.4126177212225,
+      "count": 12
+    },
+    {
+      "type": "unsend",
+      "t": 26.03435645716965
+    },
+    {
+      "type": "reaction",
+      "t": 34.923025277133064,
+      "count": 22
+    },
+    {
+      "type": "bombshell",
+      "t": 34.59118292833384
+    },
+    {
+      "type": "system",
+      "t": 45.77608013204286
+    },
+    {
+      "type": "reaction",
+      "t": 59.13436371546924,
+      "count": 5
+    },
+    {
+      "type": "bombshell",
+      "t": 58.80252136667002
+    },
+    {
+      "type": "system",
+      "t": 60.92148560118432
+    },
+    {
+      "type": "reaction",
+      "t": 65.9184280243755,
+      "count": 9
+    },
+    {
+      "type": "system",
+      "t": 67.05393220699392
+    },
+    {
+      "type": "bombshell",
+      "t": 84.60501370001222
+    }
+  ],
+  "outroAt": 86.7999999998878,
+  "duration": 89.9999999998878
+}

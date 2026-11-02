@@ -1,0 +1,348 @@
+{
+  "title": "The Expense Report",
+  "logline": "When a finance VP denies a Gen Z employee's expense, she exposes his $4,500 gaming rig purchase—a secret she learned by playing Fortnite with his son.",
+  "hook": "my boss tried to deny my expense",
+  "startClock": "02:14 PM",
+  "chat": {
+    "name": "#finance-audits",
+    "subtitle": "14 members · Q3 reviews"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Zoe",
+      "role": "Social Media"
+    },
+    {
+      "id": "greg",
+      "name": "Greg",
+      "role": "VP Finance"
+    },
+    {
+      "id": "noah",
+      "name": "Noah",
+      "role": "Junior Analyst"
+    },
+    {
+      "id": "richard",
+      "name": "Richard",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "greg",
+      "text": "Greg renamed the channel to #finance-audits",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "@zoe your $200 expense for \"wifi optimization\" is denied.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i can't post to the brand tiktok on the office wifi, greg.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "you expensed a playstation portal.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 14
+        },
+        {
+          "emoji": "😭",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it has a screen. i use it for trend research.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "this is egregious corporate fraud.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "noah",
+      "text": "honestly it’s a tax write off anyway",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "@noah stay out of this. your $400 matcha tab is next.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🍵",
+          "count": 11
+        },
+        {
+          "emoji": "💀",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "noah",
+      "text": "it's networking fuel!!!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "noah",
+      "text": "🤐",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "per the handbook, \"tech accessories\" are approved up to $500",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "for PRODUCTIVITY. not for gaming.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "i am looping in richard. pack up your desk.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "go ahead.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 22
+        },
+        {
+          "emoji": "👀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "richard",
+      "text": "Richard (CEO) was added to the chat by Greg",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "@richard please review zoe's fraudulent expense.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "richard",
+      "text": "zoe, we run a tight ship. this is unacceptable.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "richard, respectfully, my portal was $200.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "greg expensed $4,500 last week for ergonomic equipment",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "my lumbar requires medical-grade support.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "it is a specialized chair from a boutique vendor.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "noah",
+      "text": "wait a minute",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "a boutique vendor called alienware?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 45
+        },
+        {
+          "emoji": "🚨",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "that is a brand of ergonomic chairs.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "noah",
+      "text": "alienware makes gaming PCs greg",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "it was for compiling financial models faster.",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "noah",
+      "text": "Noah was removed from the chat by Greg",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "richard",
+      "text": "greg, did you buy a gaming PC on the corporate card?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "richard, i can explain.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you also expensed a $150 mousepad.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it has RGB lights, greg.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "richard",
+      "text": "greg. my office. now.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 12
+        },
+        {
+          "emoji": "💀",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "zoe, how did you even see my itemized receipts?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "those are locked in the admin portal.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i didn't check the admin portal.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "then how do you know exactly what i bought??",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "because your 15yo son wouldn't shut up about it.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "he's my duo in fortnite.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "Does Greg still have a job??",
+  "app": "workchat",
+  "targetSeconds": 90
+}

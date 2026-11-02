@@ -17,11 +17,18 @@ npm run generate
 ```
 That writes the script, checks it, times the drama, renders the video and checks the result. The finished video lands in `out/epNN.mp4`. Optional extras: `npm run generate -- --premise "intern replies-all with their salary"`, or give an id with `npm run generate -- ep07`.
 
+**Batches:** make several episodes in one go. They run one at a time until all are done, and each new episode sees the ones before it, so premises don't repeat. If one fails, the batch carries on with the next and lists what failed at the end.
+```bash
+npm run generate -- --count 5                      # 5 episodes, the writer picks each premise
+npm run generate -- --premises ideas.txt           # one episode per line of ideas.txt
+npm run generate -- --premises ideas.txt --count 8 # the lines first, then writer's choice up to 8
+```
+
 **Or use the web view:**
 ```bash
 npm run web
 ```
-Then open http://localhost:5180. From the page you can watch every episode and read its script with the beats marked, generate a new one (optional premise, choice of writer) with live progress, re-render or download an episode, and change the series topic, tone, length and default writer. The page is only reachable from this computer.
+Then open http://localhost:5180. From the page you can watch every episode and read its script with the beats marked, generate one episode or a batch (set "How many", or type one premise per line) and watch a queue that shows each episode's status, with **Stop after this one** to end a batch early, re-render or download an episode, and change the series topic, tone, length and default writer. The page is only reachable from this computer.
 
 **Choosing the provider:** set `llm.provider` in `config/series.json` to `claude`, `gemini` or `deepseek`. The default, `auto`, uses the first provider that has a key, in the table's order. You can also override it for one run with `npm run generate -- --provider deepseek`. The model names are in the same `llm` block.
 

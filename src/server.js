@@ -15,34 +15,62 @@ const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", "
 
 loadEnv();
 
-// One job at a time: generating or re-rendering. The page polls /api/job for progress.
+// One job at a time: a batch of new episodes (made one after another) or a re-render.
+// The page polls /api/job for progress.
 let job = null;
 
-function startJob(kind, args, id) {
-  const lines = [];
+// items: [{ premise, id, state: queued|running|done|failed|skipped, title, error }]
+function startJob(kind, items, provider) {
+  job = { kind, provider, items, index: -1, running: true, stopRequested: false, lines: [], progress: null, stage: "starting", startedAt: Date.now() };
+  runNext(job);
+}
+
+function runNext(current) {
+  const k = current.items.findIndex((it) => it.state === "queued");
+  if (k < 0 || current.stopRequested) {
+    for (const it of current.items) if (it.state === "queued") it.state = "skipped";
+    current.running = false;
+    current.stage = "finished";
+    current.progress = null;
+    return;
+  }
+  const item = current.items[k];
+  current.index = k;
+  current.progress = null;
+  current.stage = current.kind === "render" ? "rendering" : "writing";
+  item.state = "running";
+  const args = current.kind === "render" ? ["src/render.js", item.id] : ["src/make.js"];
+  if (current.kind !== "render") {
+    if (item.premise) args.push("--premise", item.premise);
+    if (current.provider && current.provider !== "config") args.push("--provider", current.provider);
+  }
+  if (current.items.length > 1) current.lines.push(`=== ${k + 1}/${current.items.length}${item.premise ? `: ${item.premise}` : ""} ===`);
+
   const proc = spawn(process.execPath, args, { cwd: ROOT, env: process.env });
-  job = { kind, id, lines, running: true, ok: null, progress: null, stage: "starting", startedAt: Date.now() };
-  const current = job;
+  const errors = [];
   const onData = (buf) => {
     for (const raw of buf.toString().split(/\r|\n/)) {
       const line = raw.trim();
       if (!line) continue;
       const frame = /^frame (\d+)\/(\d+)/.exec(line);
       if (frame) { current.progress = +frame[1] / +frame[2]; current.stage = "rendering"; continue; }
-      lines.push(line);
+      current.lines.push(line);
+      if (current.lines.length > 2000) current.lines.splice(0, current.lines.length - 2000);
       const named = /^\[(ep\d+|[\w-]+)\]/.exec(line);
-      if (named && !current.id) current.id = named[1];
+      if (named && !item.id) item.id = named[1];
       if (/writing script/.test(line)) current.stage = "writing";
       if (/script ok/.test(line)) current.stage = "rendering";
+      if (!line.startsWith("[") && !/^(wrote|done:)/.test(line)) errors.push(line);
     }
   };
   proc.stdout.on("data", onData);
   proc.stderr.on("data", onData);
   proc.on("close", (code) => {
-    current.running = false;
-    current.ok = code === 0;
-    current.stage = code === 0 ? "done" : "failed";
-    if (code === 0) current.progress = 1;
+    item.state = code === 0 ? "done" : "failed";
+    if (code !== 0) item.error = errors.slice(-3).join(" ") || `exited with code ${code}`;
+    const script = item.id && path.join(EPISODES, item.id, "script.json");
+    if (script && fs.existsSync(script)) item.title = JSON.parse(fs.readFileSync(script, "utf8")).title;
+    runNext(current);
   });
 }
 
@@ -150,18 +178,26 @@ const server = http.createServer(async (req, res) => {
     if (p === "/api/generate" && req.method === "POST") {
       if (job?.running) return sendJson(res, 409, { error: "A job is already running." });
       const body = await readBody(req);
-      const args = ["src/make.js"];
-      if (body.premise?.trim()) args.push("--premise", body.premise.trim());
-      if (body.provider && body.provider !== "config") args.push("--provider", body.provider);
-      startJob("generate", args, null);
+      // One premise per line; count fills the rest with writer's-choice episodes.
+      const premises = String(body.premises ?? "").split(/\r?\n/).map((l) => l.trim()).filter(Boolean).slice(0, 50);
+      const count = Math.min(50, Math.max(premises.length, parseInt(body.count, 10) || 1));
+      const items = Array.from({ length: count }, (_, k) => ({ premise: premises[k] ?? null, id: null, state: "queued" }));
+      startJob("generate", items, body.provider);
       return sendJson(res, 202, { ok: true });
+    }
+
+    if (p === "/api/job/stop" && req.method === "POST") {
+      if (!job?.running) return sendJson(res, 409, { error: "Nothing is running." });
+      job.stopRequested = true;
+      for (const it of job.items) if (it.state === "queued") it.state = "skipped";
+      return sendJson(res, 200, { ok: true });
     }
 
     const rerender = /^\/api\/episodes\/([\w-]+)\/render$/.exec(p);
     if (rerender && req.method === "POST") {
       if (job?.running) return sendJson(res, 409, { error: "A job is already running." });
       if (!fs.existsSync(path.join(EPISODES, rerender[1], "script.json"))) return sendJson(res, 404, { error: "No such episode." });
-      startJob("render", ["src/render.js", rerender[1]], rerender[1]);
+      startJob("render", [{ premise: null, id: rerender[1], state: "queued" }]);
       return sendJson(res, 202, { ok: true });
     }
 

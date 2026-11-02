@@ -1,0 +1,354 @@
+{
+  "title": "The LinkedIn Metaphor",
+  "logline": "When a toxic VP goes viral on LinkedIn for a fake story about giving an employee unlimited PTO, she holds his reputation hostage—only to find the CEO is his ghostwriter.",
+  "hook": "about your viral linkedin post",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "#social-team",
+    "subtitle": "5 members · q3 strategy"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Riley",
+      "role": "Copywriter"
+    },
+    {
+      "id": "todd",
+      "name": "Todd",
+      "role": "VP Marketing"
+    },
+    {
+      "id": "sara",
+      "name": "Sara",
+      "role": "Intern"
+    },
+    {
+      "id": "mia",
+      "name": "Mia",
+      "role": "HR Director"
+    },
+    {
+      "id": "greg",
+      "name": "Greg",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "@todd did you just post a linkedin story about me?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "what are you talking about?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sara",
+      "text": "wait link?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "\"my junior copywriter's hamster died. I gave her 2 weeks off\"",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "my hamster is alive and u denied my pto yesterday.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "riley, it's a metaphor for modern leadership.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sara",
+      "text": "omg it has 40k likes",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "mia",
+      "text": "Todd, why are we giving 2 weeks PTO for a rodent?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "MIA IT IS A THOUGHT LEADERSHIP EXERCISE.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm literally at my desk crying over an excel sheet",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sara",
+      "text": "the comments are calling todd \"the boss of the decade\" 😭",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "someone named @hustlebro99 commented \"we need more todds\"",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "you better not comment on it riley.",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "please do not comment on the post.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "kinda want to comment a selfie of me at my desk.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "don't you dare.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "holding mr. nibbles. who is very much alive.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sara",
+      "text": "wait buzzfeed just tweeted about the post 👀",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "riley what do you want.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "well. mr nibbles IS feeling a bit stressed.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "I am not giving you two weeks off for a living hamster.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "mia",
+      "text": "company policy strictly forbids rodent bereavement.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "mia",
+      "text": "Mia was removed from #social-team by Todd",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "a techcrunch reporter just DM'd me on twitter.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "...fine. take tuesday off.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i think mr nibbles needs the full 2 weeks.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sara",
+      "text": "over 100k likes now Todd! the internet loves you!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oops my finger is slipping toward the reply button.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "fine! 2 weeks off! paid! just stay quiet!",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤝",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "todd",
+      "text": "Todd renamed the channel to #pr-crisis",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "actually, i think sara needs a raise too.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sara",
+      "text": "wait really? 🥺",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "I am not negotiating with a gen z marketing cartel.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "greg",
+      "text": "Greg (CEO) joined #pr-crisis",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "Todd, what is happening? I'm getting calls from Forbes.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "todd",
+      "text": "greg, riley is extorting me over the linkedin post!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i just want the pto he promised the internet!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "Riley, you are absolutely not getting 2 weeks off.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "then i'm exposing the post right now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "you can't. if you ruin this PR wave...",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "people will find out I'm the one who ghostwrites his posts.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "does mr. nibbles get the bag? 🐹💰",
+  "app": "workchat",
+  "targetSeconds": 90
+}

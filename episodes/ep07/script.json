@@ -1,0 +1,354 @@
+{
+  "title": "The Anonymous Survey",
+  "logline": "When a defensive VP publicly reads \"anonymous\" feedback, he accidentally roasts the CEO—and ends his own career.",
+  "hook": "when the anonymous survey isn't anonymous 💀",
+  "startClock": "09:14 AM",
+  "chat": {
+    "name": "#survey-results",
+    "subtitle": "142 members · all-hands"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Jules",
+      "role": "Intern"
+    },
+    {
+      "id": "vp",
+      "name": "Gordon",
+      "role": "VP Ops"
+    },
+    {
+      "id": "lead",
+      "name": "Chad",
+      "role": "Team Lead"
+    },
+    {
+      "id": "hr",
+      "name": "Linda",
+      "role": "HR Manager"
+    },
+    {
+      "id": "ceo",
+      "name": "Marcus",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "vp",
+      "text": "Gordon (VP Ops) renamed the channel to #survey-results",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "The anonymous Q3 survey results are in.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "And I am disgusted by what I'm reading.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "lead",
+      "text": "i warned you gordon. culture here is so toxic.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait why are u bringing this to the all-hands chat",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "Because I believe in radical transparency, Jules.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "Since you all felt so brave being \"anonymous\".",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "why is anonymous in quotes...",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "The Google Form collected your company emails.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 89
+        },
+        {
+          "emoji": "🚨",
+          "count": 24
+        },
+        {
+          "emoji": "📉",
+          "count": 41
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "gordon! HR explicitly told you to turn that OFF.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "I'm not hiding from this, Linda.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "Let's start with @jules",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "\"why does chad get paid to just retweet elon all day\"",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "per my last email... what do u actually do chad",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "lead",
+      "text": "i provide high level strategic synergy!!",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "lead",
+      "text": "this is insubordination. write her up gordon.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "chad, you cannot discipline staff for a survey!",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "I'm not done.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "\"if gordon says 'synergy' again i'm going to scream\"",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "that could literally be anyone here",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Jules was removed from #survey-results by Chad",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Jules was added to #survey-results by Linda (HR)",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "chad. stop it.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "I'm moving on to the executive feedback.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "lead",
+      "text": "don't listen to the haters boss. you're a visionary.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "\"this entire ops department is a sinking ship\"",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "and gordon is the iceberg",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 112
+        },
+        {
+          "emoji": "🚢",
+          "count": 50
+        },
+        {
+          "emoji": "🧊",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "lead",
+      "text": "WOW. fire whoever wrote that immediately.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "I plan to.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "As soon as I search the directory for this email.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sir i really wouldnt do this",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "I don't care Jules. This person is gone.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "vp",
+      "text": "Whose email is m.turner@company.com?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 140
+        },
+        {
+          "emoji": "🍿",
+          "count": 95
+        },
+        {
+          "emoji": "💀",
+          "count": 150
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "gordon i am begging you to close your laptop",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "lead",
+      "text": "whoever you are m.turner, pack your bags buddy!!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "chad that is literally the ceo",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "lead",
+      "text": "wait mr turner i thought jules wrote that!!",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "I saw that, Chad.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "My office. Both of you. Now.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "Did Chad just lose his job too? 💀",
+  "app": "workchat",
+  "targetSeconds": 90
+}

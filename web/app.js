@@ -151,46 +151,96 @@ $("rerenderBtn").addEventListener("click", async () => {
   } catch (err) { alert(err.message); }
 });
 
-// ---- generate + job progress
+// ---- generate (one episode or a batch) + job progress
+
+function batchSize() {
+  const lines = $("premise").value.split(/\r?\n/).filter((l) => l.trim()).length;
+  return Math.min(50, Math.max(lines, +$("count").value || 1));
+}
+function updateGenerateLabel() {
+  const n = batchSize();
+  $("generateBtn").textContent = n === 1 ? "Generate episode" : `Generate ${n} episodes`;
+}
+$("count").addEventListener("input", updateGenerateLabel);
+$("premise").addEventListener("input", updateGenerateLabel);
 
 $("generateBtn").addEventListener("click", async () => {
   try {
-    await api("/api/generate", { method: "POST", body: JSON.stringify({ premise: $("premise").value, provider: $("provider").value }) });
+    await api("/api/generate", { method: "POST", body: JSON.stringify({ premises: $("premise").value, count: batchSize(), provider: $("provider").value }) });
     $("premise").value = "";
+    $("count").value = 1;
+    updateGenerateLabel();
     watchJob();
   } catch (err) {
     alert(err.message);
   }
 });
 
+$("stopBtn").addEventListener("click", async () => {
+  try { await api("/api/job/stop", { method: "POST" }); } catch (err) { alert(err.message); }
+});
+
+$("queue").addEventListener("click", (e) => {
+  const li = e.target.closest("li.done");
+  const ep = li && episodes.find((x) => x.id === li.dataset.id);
+  if (ep) showEpisode(ep);
+});
+
+const STATE_LABEL = { queued: "queued", running: "working", done: "ready", failed: "failed", skipped: "skipped" };
+
 function renderJob(job) {
   if (!job) { $("job").hidden = true; return; }
   $("job").hidden = false;
+  const items = job.items;
+  const current = items[job.index];
+  const finished = items.filter((it) => it.state === "done").length;
+  const failed = items.filter((it) => it.state === "failed").length;
+  const batch = items.length > 1;
+
+  // header + queue
+  if (job.running) $("jobTitle").textContent = batch ? `Episode ${job.index + 1} of ${items.length}` : job.kind === "render" ? `Re-rendering ${current?.id ?? ""}` : "New episode";
+  else $("jobTitle").textContent = batch ? `Batch finished: ${finished} of ${items.length} made` : "";
+  $("stopBtn").hidden = !(job.running && batch && !job.stopRequested && items.some((it) => it.state === "queued"));
+  $("queue").hidden = !batch;
+  $("queue").innerHTML = items.map((it) => {
+    const what = it.title ? `${it.id} · ${it.title}` : it.id ? `${it.id}${it.premise ? ` · ${it.premise}` : ""}` : (it.premise || "writer's choice");
+    return `<li class="${it.state}" data-id="${esc(it.id ?? "")}" title="${esc(it.error ?? "")}"><span class="dot"></span><span class="what">${esc(what)}</span><span class="st">${STATE_LABEL[it.state]}</span></li>`;
+  }).join("");
+
+  // current item's stages and progress
+  const stage = job.running ? job.stage : current?.state === "failed" ? "failed" : "done";
   const order = ["writing", "rendering", "done"];
-  const at = job.stage === "failed" ? -1 : order.indexOf(job.stage);
+  const at = stage === "failed" ? -1 : order.indexOf(stage);
   document.querySelectorAll(".stages span").forEach((s) => {
     const i = order.indexOf(s.dataset.stage);
-    s.className = at < 0 ? "" : i < at || job.stage === "done" ? "complete" : i === at ? "active" : "";
+    s.className = at < 0 ? "" : i < at || stage === "done" ? "complete" : i === at ? "active" : "";
   });
   const bar = $("bar").parentElement;
   bar.classList.toggle("indeterminate", job.running && job.progress == null);
-  $("bar").style.width = job.progress == null ? "" : `${Math.round(job.progress * 100)}%`;
-  $("bar").style.background = job.stage === "failed" ? "var(--danger)" : job.stage === "done" ? "var(--ok)" : "";
+  $("bar").style.width = job.running ? (job.progress == null ? "" : `${Math.round(job.progress * 100)}%`) : "100%";
+  $("bar").style.background = stage === "failed" ? "var(--danger)" : stage === "done" ? "var(--ok)" : "";
 
   const status = $("jobStatus");
-  status.className = `job-status ${job.stage}`;
-  const label = job.kind === "render" ? `Re-rendering ${job.id}` : job.id ? `Episode ${job.id}` : "New episode";
-  if (job.stage === "failed") {
-    const reason = job.lines.filter((l) => !l.startsWith("[")).slice(-4).join("\n") || job.lines.slice(-2).join("\n");
-    status.textContent = `${label} failed:\n${reason}`;
-  } else if (job.stage === "done") {
-    status.textContent = `${label} is ready.`;
-  } else if (job.stage === "rendering") {
-    status.textContent = `${label}: rendering video${job.progress != null ? ` ${Math.round(job.progress * 100)}%` : ""}…`;
+  const label = job.kind === "render" ? `Re-rendering ${current?.id ?? ""}` : current?.id ? `Episode ${current.id}` : "New episode";
+  if (!job.running) {
+    status.className = `job-status ${failed ? "failed" : "done"}`;
+    if (batch) {
+      const stopped = items.filter((it) => it.state === "skipped").length;
+      status.textContent = [failed ? `${failed} failed (hover a red row to see why).` : "All episodes are ready.", stopped ? `${stopped} skipped after Stop.` : ""].filter(Boolean).join(" ");
+    } else {
+      status.textContent = current?.state === "failed" ? `${label} failed:\n${current.error ?? ""}` : `${label} is ready.`;
+    }
   } else {
-    const last = [...job.lines].reverse().find((l) => /attempt|failed \d+ check/.test(l));
-    status.textContent = `${label}: writing the script${last ? `\n${last.replace(/^\[[^\]]+\]\s*/, "")}` : "…"}`;
+    status.className = "job-status";
+    if (job.stage === "rendering") {
+      status.textContent = `${label}: rendering video${job.progress != null ? ` ${Math.round(job.progress * 100)}%` : ""}…`;
+    } else {
+      const last = [...job.lines].reverse().find((l) => /attempt|failed \d+ check/.test(l));
+      status.textContent = `${label}: writing the script${last ? `\n${last.replace(/^\[[^\]]+\]\s*/, "")}` : "…"}`;
+    }
+    if (job.stopRequested) status.textContent += "\nStopping after this episode.";
   }
+
   const log = $("log");
   const atBottom = log.scrollTop + log.clientHeight >= log.scrollHeight - 4;
   log.textContent = job.lines.join("\n");
@@ -202,9 +252,13 @@ function renderJob(job) {
 
 async function watchJob() {
   if (polling) return;
+  let doneSeen = -1;
   const tick = async () => {
     const job = await api("/api/job").catch(() => null);
     renderJob(job);
+    // show each episode in the grid as soon as it is ready, not only at the end of a batch
+    const done = job ? job.items.filter((it) => it.state === "done").length : 0;
+    if (done !== doneSeen) { doneSeen = done; await loadEpisodes(); }
     if (!job?.running) {
       clearInterval(polling);
       polling = null;

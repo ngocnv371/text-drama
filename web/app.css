@@ -117,3 +117,21 @@ dialog::backdrop { background: rgba(0,0,0,.7); backdrop-filter: blur(4px); }
 .transcript .sys .beat { background: rgba(255,255,255,.08); }
 .msg .rxs { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 5px; }
 .msg .rxs span { font-size: 12px; background: rgba(0,0,0,.3); border-radius: 99px; padding: 1px 7px; }
+
+/* batch */
+.row { display: flex; gap: 10px; }
+.row .count { width: 96px; flex: none; }
+.row .grow { flex: 1; min-width: 0; }
+.job-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; font-weight: 600; font-size: 14px; }
+button.small { padding: 4px 10px; font-size: 12px; border-radius: 8px; }
+.queue { list-style: none; margin: 0 0 12px; padding: 0; display: flex; flex-direction: column; gap: 4px; max-height: 210px; overflow: auto; }
+.queue li { display: flex; align-items: center; gap: 8px; font-size: 13px; padding: 5px 8px; border-radius: 8px; background: var(--panel-2); }
+.queue li .dot { width: 8px; height: 8px; border-radius: 50%; flex: none; background: var(--muted); }
+.queue li .what { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.queue li .st { font-size: 11px; color: var(--muted); }
+.queue li.running .dot { background: var(--accent); box-shadow: 0 0 0 3px rgba(10,132,255,.25); }
+.queue li.done .dot { background: var(--ok); }
+.queue li.failed .dot { background: var(--danger); }
+.queue li.failed .st { color: var(--danger); }
+.queue li.skipped { opacity: .5; }
+.queue li.done { cursor: pointer; }
