@@ -6,7 +6,7 @@ import { loadConfig, episodeDir, readJson, parseArgs } from "./util.js";
 import { normalizeEpisode } from "./schema.js";
 
 const OUTRO_SECONDS = 3.2;
-const HOOK_SECONDS = 3.2;
+export const HOOK_SECONDS = 3.2;
 
 // Silence before each beat, in seconds at pace 1.
 const GAP_BEFORE = { normal: 0.45, rapid: 0.12, pause: 1.7, fakeout: 0.4, bombshell: 0.9, unsend: 0.3, leftOnRead: 0.4 };
@@ -93,10 +93,10 @@ export function directToLength(script, targetSeconds) {
 export function buildTimeline(id) {
   const config = loadConfig();
   const script = normalizeEpisode(readJson(path.join(episodeDir(id), "script.json")));
-  const plan = directToLength(script, config.targetSeconds);
+  const plan = directToLength(script, script.targetSeconds);
   // Pace 1 is a relaxed read; short-form usually lands around 0.6-0.8.
   if (plan.pace < 0.55 || plan.pace > 1.4) {
-    console.warn(`warning: pace ${plan.pace.toFixed(2)} is far from 1. The script is too ${plan.pace < 1 ? "long" : "short"} for ${config.targetSeconds}s; edit it or the target.`);
+    console.warn(`warning: pace ${plan.pace.toFixed(2)} is far from 1. The script is too ${plan.pace < 1 ? "long" : "short"} for ${script.targetSeconds}s; edit it or its targetSeconds.`);
   }
   return {
     id,

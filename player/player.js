@@ -51,7 +51,7 @@
       let text = esc(m.text);
       for (const c of T.cast) {
         const name = esc(c.name).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-        text = text.replace(new RegExp(`\\b${name}\\b`, "gi"), (s) => `<b>${s}</b>`);
+        text = text.replace(new RegExp(`(?<!\\w)${name}(?!\\w)`, "gi"), (s) => `<b>${s}</b>`);
       }
       const removed = /removed|kicked|deactivated|left/i.test(m.text);
       return el(`item wc-system${removed ? " removed" : ""}`, `${avatar(m.from)}<span class="sys-text bubble">${text}</span>`);
@@ -202,7 +202,7 @@
 
     // imessage: receipt under the newest message when it is ours
     let receipt = null;
-    if (!work && lastAppeared && lastAppeared.m.from === "me" && !(lastAppeared.m.unsendAt != null && t >= lastAppeared.m.unsendAt)) {
+    if (!work && lastAppeared && lastAppeared.m.from === "me" && lastAppeared.m.type !== "system" && !(lastAppeared.m.unsendAt != null && t >= lastAppeared.m.unsendAt)) {
       const age = t - lastAppeared.m.appear - 0.25;
       if (age > 0) {
         const read = lastAppeared.m.readAt != null && t >= lastAppeared.m.readAt;

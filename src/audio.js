@@ -44,6 +44,7 @@ export function synthesize(tl) {
   const sting = (t) => [220, 261.6, 329.6].reduce((s, f) => s + Math.sin(2 * Math.PI * f * t), 0) * env(t, 0.02, 0.9) * 0.18;
 
   for (const m of tl.messages) {
+    if (m.type === "system") continue; // notices get their own sound below
     if (m.from === "me") {
       add(m.appear, 0.25, send, 0.9);
       // keyboard clicks while composing

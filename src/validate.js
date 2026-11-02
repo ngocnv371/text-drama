@@ -1,7 +1,7 @@
 // Automatic checks that stand in for a human read-through. Each problem is phrased as an
 // instruction the writer can act on, because failed scripts go straight back to the LLM.
-import { BEATS, APPS, normalizeEpisode } from "./schema.js";
-import { directToLength } from "./direct.js";
+import { BEATS, APPS, normalizeEpisode, bombshellRange } from "./schema.js";
+import { directToLength, HOOK_SECONDS } from "./direct.js";
 
 const MAX_CHARS = 90;          // longer than this and a bubble eats the screen
 const MIN_PACE = 0.55;         // below this the video is a blur
@@ -46,7 +46,8 @@ export function validateEpisode(raw, config) {
   if (msgs[0] && ["leftOnRead", "unsend"].includes(msgs[0].beat)) problems.push("The first message can't be leftOnRead or unsend.");
 
   const bombs = msgs.filter((m) => m.beat === "bombshell").length;
-  if (bombs < 2 || bombs > 4) problems.push(`There are ${bombs} bombshells; use 2 to 4.`);
+  const [minBombs, maxBombs] = bombshellRange(script.targetSeconds);
+  if (bombs < minBombs || bombs > maxBombs) problems.push(`There are ${bombs} bombshells; use ${minBombs} to ${maxBombs}.`);
   if (msgs.at(-1) && msgs.at(-1).beat !== "bombshell") problems.push("End on the final reveal: make the last message a bombshell.");
   const speakers = new Set(posts.map((m) => m.from));
   if (!speakers.has("me") || speakers.size < 2) problems.push("Both the owner and at least one other person must send messages.");
@@ -57,11 +58,35 @@ export function validateEpisode(raw, config) {
     if (msgs.filter((m) => m.reactions.length).length < 3) problems.push("Give at least 3 messages emoji reactions; the pile-on is part of the drama.");
   }
 
-  // Length: only meaningful once the structure is sound.
+  // Length and pacing: only meaningful once the structure is sound.
   if (problems.length === 0) {
-    const { pace } = directToLength(script, config.targetSeconds);
-    if (pace < MIN_PACE) problems.push(`The script is too long for ${config.targetSeconds}s. Cut about ${Math.ceil(msgs.length * (1 - pace / 0.7))} messages.`);
-    if (pace > MAX_PACE) problems.push(`The script is too short for ${config.targetSeconds}s. Add about ${Math.ceil(msgs.length * (pace / 0.7 - 1))} messages.`);
+    const plan = directToLength(script, script.targetSeconds);
+    const { pace } = plan;
+    if (pace < MIN_PACE) problems.push(`The script is too long for ${script.targetSeconds}s. Cut about ${Math.ceil(msgs.length * (1 - pace / 0.7))} messages.`);
+    if (pace > MAX_PACE) problems.push(`The script is too short for ${script.targetSeconds}s. Add about ${Math.ceil(msgs.length * (pace / 0.7 - 1))} messages.`);
+    if (problems.length === 0) problems.push(...deadStretches(script, plan));
+  }
+  return problems;
+}
+
+const MAX_DEAD_AIR = 20;   // seconds without a jolt before viewers swipe away
+const clock = (s) => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
+
+// A jolt is anything that visibly shakes up the screen. The hook caption covers the opening.
+function deadStretches(script, plan) {
+  const jolts = plan.messages
+    .filter((ev, i) => {
+      const m = script.messages[i];
+      return m.beat === "bombshell" || m.beat === "unsend" || m.type === "system" || m.reactions.length > 0;
+    })
+    .map((ev) => ev.appear);
+  const marks = [HOOK_SECONDS, ...jolts, plan.outroAt];
+  const problems = [];
+  for (let k = 1; k < marks.length; k++) {
+    const gap = marks[k] - marks[k - 1];
+    if (gap > MAX_DEAD_AIR) {
+      problems.push(`Between ${clock(marks[k - 1])} and ${clock(marks[k])} nothing big happens (${Math.round(gap)}s). Add a jolt around ${clock((marks[k - 1] + marks[k]) / 2)}: a reveal (bombshell), a deleted message, someone joining or being removed, or a reaction pile-on.`);
+    }
   }
   return problems;
 }

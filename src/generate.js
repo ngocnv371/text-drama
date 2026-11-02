@@ -3,7 +3,7 @@
 // Usage: node src/generate.js <episode-id> [--premise "..."] [--provider claude|gemini|deepseek]
 import fs from "node:fs";
 import path from "node:path";
-import { BEATS, APPS } from "./schema.js";
+import { BEATS, APPS, bombshellRange } from "./schema.js";
 import { validateEpisode } from "./validate.js";
 import { pickProvider, draftEpisode } from "./llm.js";
 import { loadConfig, loadEnv, episodeDir, parseArgs, ROOT } from "./util.js";
@@ -35,6 +35,17 @@ const APP_RULES = {
 - Never name a real chat app or company (no "Slack", "Teams"); say "here", "this channel", "the chat".`,
 };
 
+// A longer video loses viewers unless something new happens every few seconds.
+function structureRules(seconds) {
+  return `
+Structure for a ${seconds}s video (viewers decide every ~15 seconds whether to keep watching):
+- Act 1 (first quarter): the hook and the first conflict.
+- Midpoint (around the middle): a twist that flips who has the upper hand, or a new person enters and changes the stakes.
+- Act 2: escalate harder than act 1; side characters pick sides.
+- Ending: the final reveal is the last message.
+- Never go more than ~15 seconds (about 6 messages) without a fresh jolt: a reveal, a new person, a deleted message, or a pile-on.`;
+}
+
 function systemPrompt(config) {
   return `You write viral short-form "text message story" videos. The viewer watches a phone screen as a chat unfolds.
 
@@ -48,12 +59,13 @@ Language: ${config.language}
 Craft rules:
 - The hook caption (10 words or fewer) and the first two messages must create a question the viewer needs answered.
 - Escalate every few messages. Messages are short: most under 60 characters, none over 90. A phone screen is small.
-- One clear twist near the end. The final message is a bombshell that recontextualises everything.
+- One clear twist near the end. The LAST message in the list must have beat "bombshell": it is the final reveal that recontextualises everything (the cliffhanger card comes after it).
 - Characters text like real people: lowercase, emoji sparingly in the text itself.
 - The phone owner's cast id is "me". Every message's "from" is a cast id.
 - Tag each message with a beat for the director:
 ${Object.entries(BEATS).map(([k, v]) => `  - ${k}: ${v}`).join("\n")}
-- Use bombshell 2-4 times, never twice in a row. Most messages are normal or rapid.`;
+- Use bombshell ${bombshellRange(config.targetSeconds).join("-")} times, never twice in a row. Most messages are normal or rapid.
+${config.targetSeconds >= 75 ? structureRules(config.targetSeconds) : ""}`;
 }
 
 export async function writeEpisode(id, { premise, provider: providerName } = {}) {
@@ -81,7 +93,7 @@ export async function writeEpisode(id, { premise, provider: providerName } = {})
       : brief;
     console.log(`[${id}] writing script, attempt ${attempt}/${MAX_ATTEMPTS} (${provider.name}: ${provider.model})...`);
     const result = await draftEpisode(provider, { system: systemPrompt(config), user: content });
-    if (result.draft) draft = { ...result.draft, app: config.app };
+    if (result.draft) draft = { ...result.draft, app: config.app, targetSeconds: config.targetSeconds };
     problems = result.problems.length ? result.problems : validateEpisode(draft, config);
     if (problems.length === 0) {
       const out = path.join(dir, "script.json");

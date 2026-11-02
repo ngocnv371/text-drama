@@ -45,11 +45,17 @@ export const EpisodeSchema = z.object({
   cliffhanger: z.string().describe("End card text teasing part 2"),
 });
 
-// Older scripts predate type/reactions/role/app; fill in the defaults.
+// Longer videos need more big moments: 2-4 for a minute, about one per 20s beyond that.
+export function bombshellRange(seconds) {
+  return [2, Math.max(4, Math.round(seconds / 20))];
+}
+
+// Older scripts predate type/reactions/role/app/targetSeconds; fill in the defaults.
 export function normalizeEpisode(script) {
   return {
     ...script,
     app: script.app ?? "imessage",
+    targetSeconds: script.targetSeconds ?? 60,
     cast: script.cast.map((c) => ({ role: "", ...c })),
     messages: script.messages.map((m) => ({ type: "message", reactions: [], ...m })),
   };

@@ -1,0 +1,366 @@
+{
+  "title": "The Severance Package",
+  "logline": "When a Gen Z worker is accidentally added to a confidential layoff channel, she negotiates her severance before they realize they fired the wrong person.",
+  "hook": "added to my own layoff chat 💀",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "#q3-layoff-planning",
+    "subtitle": "45 members · Confidential"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Chloe J.",
+      "role": "Marketing Coord"
+    },
+    {
+      "id": "susan",
+      "name": "Susan",
+      "role": "HR Dir"
+    },
+    {
+      "id": "greg",
+      "name": "Greg",
+      "role": "CFO"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "VP Marketing"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Chloe J. (Marketing Coord) was added to #q3-layoff-planning by Susan",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "okay greg, the final list is approved.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "great. let's process chloe first.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "her numbers are terrible.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "omg wait am i getting fired??",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "susan why is she in this channel.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "OMG.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "chloe please disregard and leave this channel immediately.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "disregard getting fired??",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "babe i already took screenshots.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "📸",
+          "count": 22
+        },
+        {
+          "emoji": "🍿",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "chloe this is a highly confidential exec channel.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "dave",
+      "text": "Dave joined #q3-layoff-planning",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "what is happening",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "why is the marketing coordinator in here",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "dave i know u expense ur golf trips as 'client research'",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so let's talk severance :)",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "are you trying to blackmail us?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm 'advocating for my transition package'",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "chloe this is incredibly unprofessional.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so is inviting ur victim to their own murder planning",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 35
+        },
+        {
+          "emoji": "💅",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "what do you want.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "6 months pay.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "full health benefits.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "and i'm taking my dual monitors.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "absolutely not. fire her for cause.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "@dave i also have logs of u calling the ceo a bald fraud",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 41
+        },
+        {
+          "emoji": "🚨",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "you can't prove that",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "give her the 6 months.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "susan, draft the agreement. just get her out.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "sending now via docusign.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "signed <3",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "greg",
+      "text": "Greg renamed the channel to #damage-control",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "okay. your access will be revoked in 10 mins.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "best 8 months of my life tbh",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "...8 months?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "chloe s. has been here for 4 years.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "wait you fired the wrong chloe?",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm chloe j. in marketing.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "susan. which chloe were we laying off.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "susan",
+      "text": "chloe s. in accounting.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🤦‍♂️",
+          "count": 38
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "thanks for the paid vacation bald frauds ✌️",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "did they just pay her to leave? 😭",
+  "app": "workchat",
+  "targetSeconds": 90
+}
