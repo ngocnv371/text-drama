@@ -13,6 +13,7 @@ export const BEATS = {
 
 export const EpisodeSchema = z.object({
   title: z.string().describe("Internal episode title"),
+  logline: z.string().describe("One sentence: the premise and the twist. Used to avoid repeats."),
   hook: z.string().describe("On-screen caption for the first ~3s. First person, max ~10 words, makes people stop scrolling."),
   startClock: z.string().describe("Phone clock at the start, e.g. '11:47 PM'"),
   chat: z.object({

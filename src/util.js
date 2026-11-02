@@ -8,6 +8,12 @@ export function loadConfig() {
   return JSON.parse(fs.readFileSync(path.join(ROOT, "config", "series.json"), "utf8"));
 }
 
+// Pick up ANTHROPIC_API_KEY from .env without overriding a key already in the environment.
+export function loadEnv() {
+  const file = path.join(ROOT, ".env");
+  if (fs.existsSync(file)) process.loadEnvFile(file);
+}
+
 export function episodeDir(id) {
   return path.join(ROOT, "episodes", id);
 }

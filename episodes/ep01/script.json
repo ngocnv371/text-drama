@@ -1,0 +1,168 @@
+{
+  "title": "The Ghost Dev",
+  "logline": "A manager demands to know why his employee is missing standup, only to discover the employee quit months ago and an AI script took over.",
+  "hook": "why is my old boss texting me?",
+  "startClock": "09:03 AM",
+  "chat": {
+    "name": "greg",
+    "subtitle": "engineering manager"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "alex"
+    },
+    {
+      "id": "greg",
+      "name": "greg"
+    }
+  ],
+  "messages": [
+    {
+      "from": "greg",
+      "text": "where are you? standup started at 9",
+      "beat": "normal"
+    },
+    {
+      "from": "greg",
+      "text": "this is your 3rd strike for rto",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "greg i don't work there anymore",
+      "beat": "pause"
+    },
+    {
+      "from": "greg",
+      "text": "very funny.",
+      "beat": "fakeout"
+    },
+    {
+      "from": "greg",
+      "text": "you literally pushed an update last night",
+      "beat": "rapid"
+    },
+    {
+      "from": "greg",
+      "text": "and i approved your pto for friday",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "greg i quit in february",
+      "beat": "normal"
+    },
+    {
+      "from": "greg",
+      "text": "hr would have told me",
+      "beat": "pause"
+    },
+    {
+      "from": "greg",
+      "text": "if this is a tiktok prank i'm firing you",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "i sent you my resignation on feb 14",
+      "beat": "fakeout"
+    },
+    {
+      "from": "greg",
+      "text": "you sent an e-card that said 'it's not me it's u'",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "yeah that was my two weeks notice",
+      "beat": "rapid"
+    },
+    {
+      "from": "greg",
+      "text": "are you serious.",
+      "beat": "pause"
+    },
+    {
+      "from": "greg",
+      "text": "because you are still on payroll",
+      "beat": "rapid"
+    },
+    {
+      "from": "greg",
+      "text": "and you closed 42 tickets this month",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "oh wait",
+      "beat": "fakeout"
+    },
+    {
+      "from": "me",
+      "text": "i forgot to turn off my python script",
+      "beat": "rapid"
+    },
+    {
+      "from": "greg",
+      "text": "your what.",
+      "beat": "bombshell"
+    },
+    {
+      "from": "me",
+      "text": "i automated my job last november",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "it's literally just chatgpt and a cron job",
+      "beat": "rapid"
+    },
+    {
+      "from": "greg",
+      "text": "wait.",
+      "beat": "pause"
+    },
+    {
+      "from": "greg",
+      "text": "if a script is doing your job...",
+      "beat": "fakeout"
+    },
+    {
+      "from": "greg",
+      "text": "who did i just promote to senior dev?",
+      "beat": "bombshell"
+    },
+    {
+      "from": "me",
+      "text": "LMFAOOOO",
+      "beat": "unsend"
+    },
+    {
+      "from": "me",
+      "text": "you promoted my script???",
+      "beat": "rapid"
+    },
+    {
+      "from": "greg",
+      "text": "it had perfect attendance.",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "wait do i get its bonus",
+      "beat": "rapid"
+    },
+    {
+      "from": "greg",
+      "text": "no.",
+      "beat": "pause"
+    },
+    {
+      "from": "greg",
+      "text": "it just put me on a pip.",
+      "beat": "bombshell"
+    }
+  ],
+  "cliffhanger": "is the AI his manager now? 💀"
+}

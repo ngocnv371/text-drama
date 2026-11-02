@@ -1,0 +1,157 @@
+{
+  "title": "Remote Control",
+  "logline": "When her boss demands she return to office, a Gen Z worker fakes COVID to work from a coffee shop, but a coworker's accidental message blows her cover—and reveals her boss is faking too.",
+  "hook": "I faked covid to skip the office",
+  "startClock": "9:14 AM",
+  "chat": {
+    "name": "team-sync",
+    "subtitle": "3 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Ava"
+    },
+    {
+      "id": "boss",
+      "name": "Derek (boss)"
+    },
+    {
+      "id": "coworker",
+      "name": "Jules"
+    }
+  ],
+  "messages": [
+    {
+      "from": "boss",
+      "text": "where are you? standup in 5",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "i have covid",
+      "beat": "pause"
+    },
+    {
+      "from": "boss",
+      "text": "what? you seemed fine yesterday",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "test just came back positive",
+      "beat": "normal"
+    },
+    {
+      "from": "boss",
+      "text": "send a pic of the test",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "🖼️ positive test",
+      "beat": "pause"
+    },
+    {
+      "from": "boss",
+      "text": "ok... rest up. we’ll manage",
+      "beat": "pause"
+    },
+    {
+      "from": "coworker",
+      "text": "wait aren’t you at blue bottle rn?",
+      "beat": "unsend"
+    },
+    {
+      "from": "boss",
+      "text": "??",
+      "beat": "rapid"
+    },
+    {
+      "from": "me",
+      "text": "what? no i’m home",
+      "beat": "rapid"
+    },
+    {
+      "from": "coworker",
+      "text": "oh sorry wrong chat",
+      "beat": "normal"
+    },
+    {
+      "from": "boss",
+      "text": "you just posted a story from there",
+      "beat": "pause"
+    },
+    {
+      "from": "me",
+      "text": "that was from yesterday lol",
+      "beat": "rapid"
+    },
+    {
+      "from": "boss",
+      "text": "the timestamp says 14m ago",
+      "beat": "bombshell"
+    },
+    {
+      "from": "me",
+      "text": "ok fine i’m at a coffee shop but i’m working remotely",
+      "beat": "pause"
+    },
+    {
+      "from": "boss",
+      "text": "you lied about covid to skip the office",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "i just needed a mental health day",
+      "beat": "fakeout"
+    },
+    {
+      "from": "boss",
+      "text": "you know i can see you right now",
+      "beat": "pause"
+    },
+    {
+      "from": "me",
+      "text": "what?",
+      "beat": "rapid"
+    },
+    {
+      "from": "boss",
+      "text": "turn around",
+      "beat": "normal"
+    },
+    {
+      "from": "me",
+      "text": "omg",
+      "beat": "pause"
+    },
+    {
+      "from": "boss",
+      "text": "i’m also 'sick' today",
+      "beat": "bombshell"
+    },
+    {
+      "from": "me",
+      "text": "wait what",
+      "beat": "rapid"
+    },
+    {
+      "from": "boss",
+      "text": "i’ve been working from here all week",
+      "beat": "normal"
+    },
+    {
+      "from": "boss",
+      "text": "?",
+      "beat": "normal"
+    },
+    {
+      "from": "boss",
+      "text": "oh shit ceo just walked in",
+      "beat": "bombshell"
+    }
+  ],
+  "cliffhanger": "part 2: can we both fake covid at the same coffee shop?"
+}

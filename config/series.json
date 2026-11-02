@@ -4,7 +4,16 @@
   "audience": "TikTok / Reels / Shorts viewers scrolling fast. Hook in the first 2 seconds, twist near the end, cliffhanger for part 2.",
   "language": "English, lowercase texting style, real slang used sparingly so it doesn't feel like a brand account.",
   "targetSeconds": 60,
-  "video": { "width": 1080, "height": 1920, "fps": 30 },
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
   "theme": "dark",
-  "model": "claude-opus-5-5"
+  "llm": {
+    "provider": "auto",
+    "claude": "claude-opus-5-5",
+    "gemini": "gemini-3.1-pro-preview",
+    "deepseek": "deepseek-v4-pro"
+  }
 }

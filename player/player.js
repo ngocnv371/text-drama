@@ -70,6 +70,16 @@
     typingH = typingEl.offsetHeight;
     receiptH = receiptEl.offsetHeight;
     threadH = $("thread").offsetHeight;
+
+    // Things a human would spot on screen; the renderer fails the episode on these.
+    window.LAYOUT_PROBLEMS = [];
+    for (const it of items) {
+      if (it.h > threadH * 0.45) window.LAYOUT_PROBLEMS.push(`message ${it.m.i + 1} fills ${Math.round((100 * it.h) / threadH)}% of the screen`);
+    }
+    $("hook").style.opacity = 1;
+    if ($("hookText").offsetHeight > 420) window.LAYOUT_PROBLEMS.push("hook caption is more than 3 lines");
+    $("outro").style.opacity = 1;
+    if ($("outroText").offsetHeight > 700) window.LAYOUT_PROBLEMS.push("cliffhanger card is more than 6 lines");
   }
 
   function hide(node) { node.style.display = "none"; }

@@ -1,0 +1,399 @@
+{
+  "id": "ep02",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "hook": "I faked covid to skip the office",
+  "hookSeconds": 3.2,
+  "cliffhanger": "part 2: can we both fake covid at the same coffee shop?",
+  "startClock": "9:14 AM",
+  "chat": {
+    "name": "team-sync",
+    "subtitle": "3 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Ava"
+    },
+    {
+      "id": "boss",
+      "name": "Derek (boss)"
+    },
+    {
+      "id": "coworker",
+      "name": "Jules"
+    }
+  ],
+  "pace": 0.7077038801478466,
+  "messages": [
+    {
+      "i": 0,
+      "from": "boss",
+      "text": "where are you? standup in 5",
+      "beat": "normal",
+      "typing": [
+        [
+          0.35,
+          1.1596132388891367
+        ]
+      ],
+      "compose": null,
+      "appear": 1.1596132388891367
+    },
+    {
+      "i": 1,
+      "from": "me",
+      "text": "i have covid",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        3.2218623456399618,
+        3.7073472074213845
+      ],
+      "appear": 3.7073472074213845
+    },
+    {
+      "i": 2,
+      "from": "boss",
+      "text": "what? you seemed fine yesterday",
+      "beat": "rapid",
+      "typing": [
+        [
+          4.3117263210676455,
+          4.8348610292729335
+        ]
+      ],
+      "compose": null,
+      "appear": 4.8348610292729335
+    },
+    {
+      "i": 3,
+      "from": "me",
+      "text": "test just came back positive",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        6.103066382497874,
+        6.905602582585532
+      ],
+      "appear": 6.905602582585532
+    },
+    {
+      "i": 4,
+      "from": "boss",
+      "text": "send a pic of the test",
+      "beat": "normal",
+      "typing": [
+        [
+          8.10586836331628,
+          8.837634175389153
+        ]
+      ],
+      "compose": null,
+      "appear": 8.837634175389153
+    },
+    {
+      "i": 5,
+      "from": "me",
+      "text": "🖼️ positive test",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        10.786650661316322,
+        11.351398357674304
+      ],
+      "appear": 11.351398357674304
+    },
+    {
+      "i": 6,
+      "from": "boss",
+      "text": "ok... rest up. we’ll manage",
+      "beat": "pause",
+      "typing": [
+        [
+          13.164535698613086,
+          13.974148937502223
+        ]
+      ],
+      "compose": null,
+      "appear": 13.974148937502223
+    },
+    {
+      "i": 7,
+      "from": "coworker",
+      "text": "wait aren’t you at blue bottle rn?",
+      "beat": "unsend",
+      "typing": [
+        [
+          15.045612612046064,
+          15.964212248477969
+        ]
+      ],
+      "compose": null,
+      "appear": 15.964212248477969,
+      "unsendAt": 17.68959430827842
+    },
+    {
+      "i": 8,
+      "from": "boss",
+      "text": "??",
+      "beat": "rapid",
+      "typing": [
+        [
+          18.128370713970085,
+          18.425606343632182
+        ]
+      ],
+      "compose": null,
+      "appear": 18.425606343632182
+    },
+    {
+      "i": 9,
+      "from": "me",
+      "text": "what? no i’m home",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        18.803520215631135,
+        19.21271459913262
+      ],
+      "appear": 19.21271459913262
+    },
+    {
+      "i": 10,
+      "from": "coworker",
+      "text": "oh sorry wrong chat",
+      "beat": "normal",
+      "typing": [
+        [
+          20.163868614051324,
+          20.84892597003444
+        ]
+      ],
+      "compose": null,
+      "appear": 20.84892597003444
+    },
+    {
+      "i": 11,
+      "from": "boss",
+      "text": "you just posted a story from there",
+      "beat": "pause",
+      "typing": [
+        [
+          22.730002883467414,
+          23.64860251989932
+        ]
+      ],
+      "compose": null,
+      "appear": 23.64860251989932
+    },
+    {
+      "i": 12,
+      "from": "me",
+      "text": "that was from yesterday lol",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        24.751205165169665,
+        25.299109509180127
+      ],
+      "appear": 25.299109509180127
+    },
+    {
+      "i": 13,
+      "from": "boss",
+      "text": "the timestamp says 14m ago",
+      "beat": "bombshell",
+      "typing": [
+        [
+          26.795195511812672,
+          28.013861593427265
+        ]
+      ],
+      "compose": null,
+      "appear": 28.013861593427265
+    },
+    {
+      "i": 14,
+      "from": "me",
+      "text": "ok fine i’m at a coffee shop but i’m working remotely",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        31.044249608220344,
+        32.1765758164569
+      ],
+      "appear": 32.1765758164569
+    },
+    {
+      "i": 15,
+      "from": "boss",
+      "text": "you lied about covid to skip the office",
+      "beat": "normal",
+      "typing": [
+        [
+          33.943004701305924,
+          34.93945176455409
+        ]
+      ],
+      "compose": null,
+      "appear": 34.93945176455409
+    },
+    {
+      "i": 16,
+      "from": "me",
+      "text": "i just needed a mental health day",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        36.35344411708949,
+        37.255058860397845
+      ],
+      "appear": 37.255058860397845
+    },
+    {
+      "i": 17,
+      "from": "boss",
+      "text": "you know i can see you right now",
+      "beat": "pause",
+      "typing": [
+        [
+          39.45318711213706,
+          40.340647777842456
+        ]
+      ],
+      "compose": null,
+      "appear": 40.340647777842456
+    },
+    {
+      "i": 18,
+      "from": "me",
+      "text": "what?",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        41.39795737478334,
+        41.695193004445436
+      ],
+      "appear": 41.695193004445436
+    },
+    {
+      "i": 19,
+      "from": "boss",
+      "text": "turn around",
+      "beat": "normal",
+      "typing": [
+        [
+          42.37458872938737,
+          42.935090202464465
+        ]
+      ],
+      "compose": null,
+      "appear": 42.935090202464465
+    },
+    {
+      "i": 20,
+      "from": "me",
+      "text": "omg",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        44.634994922579594,
+        45.0596172506683
+      ],
+      "appear": 45.0596172506683
+    },
+    {
+      "i": 21,
+      "from": "boss",
+      "text": "i’m also 'sick' today",
+      "beat": "bombshell",
+      "typing": [
+        [
+          46.0121866733473,
+          47.15300532814563
+        ]
+      ],
+      "compose": null,
+      "appear": 47.15300532814563
+    },
+    {
+      "i": 22,
+      "from": "me",
+      "text": "wait what",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        48.95198859148145,
+        49.25021500657576
+      ],
+      "appear": 49.25021500657576
+    },
+    {
+      "i": 23,
+      "from": "boss",
+      "text": "i’ve been working from here all week",
+      "beat": "normal",
+      "typing": [
+        [
+          50.020196828176616,
+          50.969935435335024
+        ]
+      ],
+      "compose": null,
+      "appear": 50.969935435335024
+    },
+    {
+      "i": 24,
+      "from": "boss",
+      "text": "?",
+      "beat": "normal",
+      "typing": [
+        [
+          52.351373409383626,
+          52.84676612548712
+        ]
+      ],
+      "compose": null,
+      "appear": 52.84676612548712
+    },
+    {
+      "i": 25,
+      "from": "boss",
+      "text": "oh shit ceo just walked in",
+      "beat": "bombshell",
+      "typing": [
+        [
+          53.75404249983666,
+          54.97270858145125
+        ]
+      ],
+      "compose": null,
+      "appear": 54.97270858145125
+    }
+  ],
+  "fx": [
+    {
+      "type": "unsend",
+      "t": 17.68959430827842
+    },
+    {
+      "type": "bombshell",
+      "t": 28.013861593427265
+    },
+    {
+      "type": "bombshell",
+      "t": 47.15300532814563
+    },
+    {
+      "type": "bombshell",
+      "t": 54.97270858145125
+    }
+  ],
+  "outroAt": 56.79999999999299,
+  "duration": 59.999999999992994
+}

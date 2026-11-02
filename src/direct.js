@@ -2,7 +2,6 @@
 // Usage: node src/direct.js <episode-id>
 import fs from "node:fs";
 import path from "node:path";
-import { pathToFileURL } from "node:url";
 import { loadConfig, episodeDir, readJson, parseArgs } from "./util.js";
 
 const OUTRO_SECONDS = 3.2;
@@ -107,7 +106,7 @@ export function writeTimeline(id) {
   return timeline;
 }
 
-if (import.meta.url === pathToFileURL(process.argv[1]).href) {
+if (import.meta.main) {
   const { positional } = parseArgs(process.argv.slice(2));
   const id = positional[0] ?? "pilot";
   const tl = writeTimeline(id);
