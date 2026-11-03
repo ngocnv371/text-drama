@@ -37,7 +37,6 @@ You don't need to read the script first. Every draft goes through automatic chec
 - **drama:** 2–4 bombshells, never two in a row, ending on a bombshell, a hook of 10 words or fewer
 - **readability:** no message over 90 characters
 - **pacing:** never more than 20 seconds without a jolt (a reveal, a deleted message, someone joining or being removed, or a reaction pile-on). The writer gets the exact timestamps to fix.
-- **length:** the script fits the target duration at a watchable pace
 
 After rendering, it also checks the layout (no bubble or caption that swamps the screen) and the video file (size, duration, audio track). If anything still fails, the command exits with an error that says why, and nothing half-done is left in `out/`.
 
@@ -50,7 +49,7 @@ Set `app` in `config/series.json`, or use the web view's settings. Each episode 
 The checks are stricter for work chat: at least 3 people post, at least one system notice, at least 3 messages with reactions, and no real app names in the dialogue.
 
 ## Change the topic or length
-Edit `config/series.json`. `topic`, `tone`, `audience` and `targetSeconds` all go into the writer prompt. The default length is 90 seconds. Videos of 75 seconds or more get a three-act structure with a midpoint twist, and the number of bombshells allowed grows with the length. Each episode remembers the length it was written for, so re-rendering an old one doesn't stretch it. New episodes avoid the premises of earlier ones.
+Edit `config/series.json`. `topic`, `tone`, `audience` and `targetSeconds` all go into the writer prompt. The default length is 90 seconds. That's a target, not a limit: every script plays at a readable pace, so a long script makes a longer video and a short one a shorter video. Videos of 75 seconds or more get a three-act structure with a midpoint twist, and the number of bombshells allowed grows with the length. Each episode remembers the length it was written for, so re-rendering an old one doesn't stretch it. New episodes avoid the premises of earlier ones.
 
 ## Pipeline
 ```

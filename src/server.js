@@ -94,6 +94,7 @@ function listEpisodes() {
         chat: script.chat,
         cast: script.cast,
         messages: script.messages,
+        seconds: fs.existsSync(path.join(dir, "timeline.json")) ? JSON.parse(fs.readFileSync(path.join(dir, "timeline.json"), "utf8")).duration : null,
         cliffhanger: script.cliffhanger,
         meta,
         video: hasVideo ? `/video/${d.name}.mp4?v=${Math.round(fs.statSync(video).mtimeMs)}` : null,

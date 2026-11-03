@@ -1,5 +1,6 @@
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const mmss = (s) => { const t = Math.round(s); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`; };
 const PROVIDER_LABEL = { claude: "Claude", gemini: "Gemini", deepseek: "DeepSeek" };
 
 let episodes = [];
@@ -77,7 +78,7 @@ function renderGrid() {
           <span class="tag">${esc(ep.id)}</span>
           ${provider ? `<span class="tag ${esc(provider)}">${esc(PROVIDER_LABEL[provider] ?? provider)}</span>` : ""}
           <span class="tag">${ep.app === "workchat" ? "work chat" : "texts"}</span>
-          <span class="tag">${ep.messages.length} msgs</span>
+          ${ep.seconds ? `<span class="tag">${mmss(ep.seconds)}</span>` : `<span class="tag">${ep.messages.length} msgs</span>`}
         </div>
       </div>
     </article>`;

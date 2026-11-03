@@ -79,24 +79,31 @@ export function direct(script, pace) {
   return { messages, fx, outroAt: t, duration: t + OUTRO_SECONDS };
 }
 
-// Find the pace that lands the episode on the target length.
+// Pace 1 is a relaxed read. Faster than MIN_PACE the messages fly by too quickly to read;
+// slower than MAX_PACE it drags.
+export const MIN_PACE = 0.6;
+export const MAX_PACE = 1.3;
+
+// Aim for the target length, but never at the cost of readability: a long script stays
+// readable and simply runs longer, a short one runs shorter.
 export function directToLength(script, targetSeconds) {
   let lo = 0.4, hi = 2.5;
   for (let k = 0; k < 40; k++) {
     const mid = (lo + hi) / 2;
     if (direct(script, mid).duration > targetSeconds) hi = mid; else lo = mid;
   }
-  const pace = (lo + hi) / 2;
+  const pace = Math.min(MAX_PACE, Math.max(MIN_PACE, (lo + hi) / 2));
   return { pace, ...direct(script, pace) };
 }
+
+const clock = (s) => { const t = Math.round(s); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`; };
 
 export function buildTimeline(id) {
   const config = loadConfig();
   const script = normalizeEpisode(readJson(path.join(episodeDir(id), "script.json")));
   const plan = directToLength(script, script.targetSeconds);
-  // Pace 1 is a relaxed read; short-form usually lands around 0.6-0.8.
-  if (plan.pace < 0.55 || plan.pace > 1.4) {
-    console.warn(`warning: pace ${plan.pace.toFixed(2)} is far from 1. The script is too ${plan.pace < 1 ? "long" : "short"} for ${script.targetSeconds}s; edit it or its targetSeconds.`);
+  if (Math.abs(plan.duration - script.targetSeconds) > 1) {
+    console.log(`[${id}] runs ${clock(plan.duration)} (target ${clock(script.targetSeconds)}) to keep it readable`);
   }
   return {
     id,
