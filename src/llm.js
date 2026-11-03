@@ -8,11 +8,11 @@ import { EpisodeSchema } from "./schema.js";
 
 // In "auto" mode the first provider with a key wins, in this order.
 const PROVIDERS = {
+  deepseek: { keys: ["DEEPSEEK_API_KEY"], draft: draftWithDeepSeek },
+  gemini: { keys: ["GEMINI_API_KEY", "GOOGLE_API_KEY"], draft: draftWithGemini },
   // Only a real API key counts: ANTHROPIC_AUTH_TOKEN / ANTHROPIC_BASE_URL are often set
   // globally for other tools (e.g. pointing at a local model server).
   claude: { keys: ["ANTHROPIC_API_KEY"], draft: draftWithClaude },
-  gemini: { keys: ["GEMINI_API_KEY", "GOOGLE_API_KEY"], draft: draftWithGemini },
-  deepseek: { keys: ["DEEPSEEK_API_KEY"], draft: draftWithDeepSeek },
 };
 
 const keyFor = (name) => PROVIDERS[name].keys.map((k) => process.env[k]).find(Boolean);

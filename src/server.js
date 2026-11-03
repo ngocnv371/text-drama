@@ -11,7 +11,7 @@ const PORT = +(process.env.PORT || 5180);
 const EPISODES = path.join(ROOT, "episodes");
 const OUT = path.join(ROOT, "out");
 const CONFIG = path.join(ROOT, "config", "series.json");
-const PROVIDER_KEYS = { claude: ["ANTHROPIC_API_KEY"], gemini: ["GEMINI_API_KEY", "GOOGLE_API_KEY"], deepseek: ["DEEPSEEK_API_KEY"] };
+const PROVIDER_KEYS = { deepseek: ["DEEPSEEK_API_KEY"], gemini: ["GEMINI_API_KEY", "GOOGLE_API_KEY"], claude: ["ANTHROPIC_API_KEY"] };
 const TYPES = { ".html": "text/html; charset=utf-8", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".png": "image/png", ".svg": "image/svg+xml" };
 
 loadEnv();
@@ -176,7 +176,7 @@ const server = http.createServer(async (req, res) => {
       const config = loadConfig();
       for (const key of ["topic", "tone", "audience", "language"]) if (typeof patch[key] === "string") config[key] = patch[key];
       if (Number.isFinite(patch.targetSeconds)) config.targetSeconds = Math.min(180, Math.max(15, Math.round(patch.targetSeconds)));
-      if (["auto", "claude", "gemini", "deepseek"].includes(patch.provider)) config.llm.provider = patch.provider;
+      if (["auto", "deepseek", "gemini", "claude"].includes(patch.provider)) config.llm.provider = patch.provider;
       if (["imessage", "workchat"].includes(patch.app)) config.app = patch.app;
       fs.writeFileSync(CONFIG, JSON.stringify(config, null, 2) + "\n");
       return sendJson(res, 200, { config });

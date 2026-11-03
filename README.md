@@ -7,9 +7,9 @@ One-time setup: run `npm install`, and have an API key for at least one of these
 
 | provider | key (environment variable or `.env`) | default model |
 |---|---|---|
-| `claude` | `ANTHROPIC_API_KEY` (a global `ANTHROPIC_AUTH_TOKEN`/`ANTHROPIC_BASE_URL` is ignored) | `claude-opus-5-5` |
-| `gemini` | `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) | `gemini-3.1-pro-preview` |
 | `deepseek` | `DEEPSEEK_API_KEY` | `deepseek-v4-pro` |
+| `gemini` | `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) | `gemini-3.1-pro-preview` |
+| `claude` | `ANTHROPIC_API_KEY` (a global `ANTHROPIC_AUTH_TOKEN`/`ANTHROPIC_BASE_URL` is ignored) | `claude-opus-5-5` |
 
 Then, for each episode:
 ```bash
@@ -30,7 +30,7 @@ npm run web
 ```
 Then open http://localhost:5180. From the page you can watch every episode and read its script with the beats marked, generate one episode or a batch (set "How many", or type one premise per line) and watch a queue that shows each episode's status, with **Stop after this one** to end a batch early, re-render or download an episode, and change the series topic, tone, length and default writer. The page is only reachable from this computer.
 
-**Choosing the provider:** set `llm.provider` in `config/series.json` to `claude`, `gemini` or `deepseek`. The default, `auto`, uses the first provider that has a key, in the table's order. You can also override it for one run with `npm run generate -- --provider deepseek`. The model names are in the same `llm` block.
+**Choosing the provider:** set `llm.provider` in `config/series.json` to `deepseek`, `gemini` or `claude`. The default, `auto`, uses the first provider that has a key, in the table's order (DeepSeek, then Gemini, then Claude). You can also override it for one run with `npm run generate -- --provider deepseek`. The model names are in the same `llm` block.
 
 You don't need to read the script first. Every draft goes through automatic checks ([src/validate.js](src/validate.js)), and a draft that fails goes back to the writer with the problems listed, up to 3 attempts. The checks cover:
 - **structure:** a valid cast, `me` exists, every sender is in the cast, beats are used correctly
@@ -53,7 +53,7 @@ Edit `config/series.json`. `topic`, `tone`, `audience` and `targetSeconds` all g
 
 ## Pipeline
 ```
-config/series.json ──► 1. script  ──► episodes/<id>/script.json     (Claude/Gemini/DeepSeek, checked + auto-revised)
+config/series.json ──► 1. script  ──► episodes/<id>/script.json     (DeepSeek/Gemini/Claude, checked + auto-revised)
                        2. direct  ──► episodes/<id>/timeline.json   (drama timing)
                        3. render  ──► out/<id>.mp4                   (headless browser + ffmpeg, checked)
 ```

@@ -1,7 +1,7 @@
 const $ = (id) => document.getElementById(id);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const mmss = (s) => { const t = Math.round(s); return `${Math.floor(t / 60)}:${String(t % 60).padStart(2, "0")}`; };
-const PROVIDER_LABEL = { claude: "Claude", gemini: "Gemini", deepseek: "DeepSeek" };
+const PROVIDER_LABEL = { deepseek: "DeepSeek", gemini: "Gemini", claude: "Claude" };
 
 let episodes = [];
 let providers = {};
