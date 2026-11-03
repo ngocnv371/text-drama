@@ -1,0 +1,797 @@
+{
+  "id": "ep15",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "they banned the eggplant emoji so i started a war",
+  "hookSeconds": 3.2,
+  "cliffhanger": "part 2: karen's emoji compliance audit begins",
+  "startClock": "10:12 AM",
+  "chat": {
+    "name": "#no-eggplants",
+    "subtitle": "47 members"
+  },
+  "cast": [
+    {
+      "role": "Marketing Coordinator",
+      "id": "me",
+      "name": "Jules"
+    },
+    {
+      "role": "HR Director",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "Designer",
+      "id": "maya",
+      "name": "Maya"
+    },
+    {
+      "role": "Sales Lead",
+      "id": "tom",
+      "name": "Tom"
+    },
+    {
+      "role": "CEO",
+      "id": "linda",
+      "name": "Linda"
+    }
+  ],
+  "pace": 0.6020664564372511,
+  "messages": [
+    {
+      "i": 0,
+      "type": "system",
+      "from": "karen",
+      "text": "Karen changed the channel description to: NO provocative emojis. This is a workplace.",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 0.35,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "me",
+      "text": "excuse me what",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        2.270591996034831,
+        2.5833053135083395
+      ],
+      "appear": 2.5833053135083395,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "karen",
+      "text": "we received a complaint. fruit/vegetable emojis are now NSFW.",
+      "beat": "normal",
+      "typing": [
+        [
+          3.334684251142029,
+          4.473793986721308
+        ]
+      ],
+      "compose": null,
+      "appear": 4.473793986721308,
+      "reactions": []
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "maya",
+      "text": "so no 🥑? i'm literally crying",
+      "beat": "normal",
+      "typing": [
+        [
+          6.130680874836623,
+          6.845935825084077
+        ]
+      ],
+      "compose": null,
+      "appear": 6.845935825084077,
+      "reactions": []
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "karen",
+      "text": "correct. and no crying emoji either. policy update in 5 minutes.",
+      "beat": "rapid",
+      "typing": [
+        [
+          7.687624731183354,
+          8.394932404205838
+        ]
+      ],
+      "compose": null,
+      "appear": 8.394932404205838,
+      "reactions": []
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "me",
+      "text": "who complained? asking for a friend",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        10.109617672139128,
+        10.910366059200673
+      ],
+      "appear": 10.910366059200673,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12,
+          "at": 11.241502610241161,
+          "ramp": 0.5403599113061712
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "karen",
+      "text": "that's confidential. but consider this your only warning.",
+      "beat": "pause",
+      "typing": [
+        [
+          12.818916726106758,
+          13.905044613519559
+        ]
+      ],
+      "compose": null,
+      "appear": 13.905044613519559,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "tom",
+      "text": "what about 🍆? my sales deck is 30% eggplant jokes",
+      "beat": "normal",
+      "typing": [
+        [
+          15.484866995210906,
+          16.46503118629075
+        ]
+      ],
+      "compose": null,
+      "appear": 16.46503118629075,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 8,
+          "at": 16.79616773733124,
+          "ramp": 0.4767487270966343
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "karen",
+      "text": "@tom you're on thin ice.",
+      "beat": "normal",
+      "typing": [
+        [
+          17.890724555134163,
+          18.53975219517352
+        ]
+      ],
+      "compose": null,
+      "appear": 18.53975219517352,
+      "reactions": []
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "me",
+      "text": "fine. fruit salad time 🍇🍊🍋🍐🍎",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        19.48379239886713,
+        20.166535760466974
+      ],
+      "appear": 20.166535760466974,
+      "reactions": [
+        {
+          "emoji": "🥗",
+          "count": 3,
+          "at": 20.49767231150746,
+          "ramp": 0.3228718359812901
+        },
+        {
+          "emoji": "🫡",
+          "count": 5,
+          "at": 20.726457564953616,
+          "ramp": 0.4030124503092229
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "karen",
+      "text": "this is not a game. i can revoke emoji permissions.",
+      "beat": "rapid",
+      "typing": [
+        [
+          21.027490793172245,
+          21.631483862270095
+        ]
+      ],
+      "compose": null,
+      "appear": 21.631483862270095,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "maya",
+      "text": "do it. i dare you.",
+      "beat": "rapid",
+      "typing": [
+        [
+          22.897027553701196,
+          23.23876047437498
+        ]
+      ],
+      "compose": null,
+      "appear": 23.23876047437498,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "karen",
+      "text": "last chance. anyone using prohibited emojis will be written up.",
+      "beat": "pause",
+      "typing": [
+        [
+          24.819786988979203,
+          25.985387648641723
+        ]
+      ],
+      "compose": null,
+      "appear": 25.985387648641723,
+      "reactions": []
+    },
+    {
+      "i": 13,
+      "type": "system",
+      "from": "karen",
+      "text": "Karen removed emoji permissions from #no-eggplants",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 27.680806789969022,
+      "reactions": []
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "me",
+      "text": "you can't silence us. we'll use ascii art",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        29.125766285418425,
+        30.02766183716143
+      ],
+      "appear": 30.02766183716143,
+      "reactions": []
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "me",
+      "text": "( ͡° ͜ʖ ͡°)",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        31.2992261931569,
+        31.695385921492612
+      ],
+      "appear": 31.695385921492612,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 20,
+          "at": 32.0265224725331,
+          "ramp": 0.620500525634104
+        }
+      ]
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "karen",
+      "text": "that's it. HR meeting for you @me.",
+      "beat": "rapid",
+      "typing": [
+        [
+          32.32755570075173,
+          32.79644505702506
+        ]
+      ],
+      "compose": null,
+      "appear": 32.79644505702506,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "maya",
+      "text": "wait, karen, your own DMs are wild.",
+      "beat": "fakeout",
+      "typing": [
+        [
+          33.90304320395673,
+          34.5653163060377
+        ],
+        [
+          35.107176116831226,
+          35.64903592762475
+        ]
+      ],
+      "compose": null,
+      "appear": 35.64903592762476,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "karen",
+      "text": "excuse me?",
+      "beat": "normal",
+      "typing": [
+        [
+          36.80500352398428,
+          37.26859469544097
+        ]
+      ],
+      "compose": null,
+      "appear": 37.26859469544097,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "system",
+      "from": "linda",
+      "text": "Linda (CEO) joined #no-eggplants",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 37.94290912665069,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "linda",
+      "text": "what's going on here?",
+      "beat": "normal",
+      "typing": [
+        [
+          39.04107834319223,
+          39.65036959710673
+        ]
+      ],
+      "compose": null,
+      "appear": 39.65036959710673,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "karen",
+      "text": "@linda just enforcing the new emoji policy you approved.",
+      "beat": "normal",
+      "typing": [
+        [
+          40.53661142098237,
+          41.60949384635355
+        ]
+      ],
+      "compose": null,
+      "appear": 41.60949384635355,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "me",
+      "text": "she approved banning fruit? okay then.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        42.971368170814614,
+        43.567293549396204
+      ],
+      "appear": 43.567293549396204,
+      "reactions": []
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "linda",
+      "text": "i approved a policy about \"professional communication\" not this.",
+      "beat": "normal",
+      "typing": [
+        [
+          44.7810595255737,
+          45.95990564727784
+        ]
+      ],
+      "compose": null,
+      "appear": 45.95990564727784,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "maya",
+      "text": "@linda check your DMs with karen from last week.",
+      "beat": "normal",
+      "typing": [
+        [
+          47.674590915211134,
+          48.64150964424936
+        ]
+      ],
+      "compose": null,
+      "appear": 48.64150964424936,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25,
+          "at": 48.97264619528985,
+          "ramp": 0.6555082865091331
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "karen",
+      "text": "don't.",
+      "beat": "pause",
+      "typing": [
+        [
+          50.800519957033345,
+          51.22196647653942
+        ]
+      ],
+      "compose": null,
+      "appear": 51.22196647653942,
+      "reactions": []
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "linda",
+      "text": "...",
+      "beat": "pause",
+      "typing": [
+        [
+          52.571799471871735,
+          52.99324599137781
+        ]
+      ],
+      "compose": null,
+      "appear": 52.99324599137781,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "linda",
+      "text": "karen, why did you send me an eggplant?",
+      "beat": "bombshell",
+      "typing": [
+        [
+          53.80362744174235,
+          55.01257688626835
+        ]
+      ],
+      "compose": null,
+      "appear": 55.01257688626835,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 40,
+          "at": 55.343713437308836,
+          "ramp": 0.7292445632965445
+        }
+      ]
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "karen",
+      "text": "I THOUGHT IT WAS AN AUBERGINE",
+      "beat": "unsend",
+      "typing": [
+        [
+          56.9981920595984,
+          57.71344700984586
+        ]
+      ],
+      "compose": null,
+      "appear": 57.71344700984586,
+      "reactions": [],
+      "unsendAt": 59.08495439760991
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "linda",
+      "text": "karen, you're the one who reported the eggplant?",
+      "beat": "normal",
+      "typing": [
+        [
+          59.656917531225304,
+          60.62383626026353
+        ]
+      ],
+      "compose": null,
+      "appear": 60.62383626026353,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "karen",
+      "text": "no, i was just following protocol...",
+      "beat": "rapid",
+      "typing": [
+        [
+          61.83158157187666,
+          62.316365482599934
+        ]
+      ],
+      "compose": null,
+      "appear": 62.316365482599934,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "me",
+      "text": "@linda she banned all fruit because she didn't know what 🍆 means",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        63.49159920556545,
+        64.45490553586505
+      ],
+      "appear": 64.45490553586505,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 55,
+          "at": 64.78604208690554,
+          "ramp": 0.7792050125369547
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "linda",
+      "text": "karen, please step down from HR. you're now our first \"Emoji Compliance Officer\"",
+      "beat": "normal",
+      "typing": [
+        [
+          66.16959080379834,
+          67.37372371667284
+        ]
+      ],
+      "compose": null,
+      "appear": 67.37372371667284,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 10,
+          "at": 67.70486026771333,
+          "ramp": 0.5117564879716634
+        }
+      ]
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "karen",
+      "text": "but linda...",
+      "beat": "fakeout",
+      "typing": [
+        [
+          69.36656368748014,
+          70.02883678956111
+        ],
+        [
+          70.57069660035464,
+          71.11255641114816
+        ]
+      ],
+      "compose": null,
+      "appear": 71.11255641114816,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "linda",
+      "text": "also, you're the one who taught me that emoji. i have receipts.",
+      "beat": "normal",
+      "typing": [
+        [
+          71.82540309556987,
+          72.99100375523238
+        ]
+      ],
+      "compose": null,
+      "appear": 72.99100375523238,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 65,
+          "at": 73.32214030627287,
+          "ramp": 0.8054132063863486
+        }
+      ]
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        75.43900596710625,
+        75.80144997388147
+      ],
+      "appear": 75.80144997388147,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "linda",
+      "text": "i didn't want to ban it, but my husband saw our DMs and panicked. so i had karen do it.",
+      "beat": "normal",
+      "typing": [
+        [
+          76.45649827848521,
+          77.66063119135971
+        ]
+      ],
+      "compose": null,
+      "appear": 77.66063119135971,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "linda",
+      "text": "anyway, the eggplant is back. and karen, you're on a PIP.",
+      "beat": "normal",
+      "typing": [
+        [
+          79.81843737123083,
+          80.90456525864363
+        ]
+      ],
+      "compose": null,
+      "appear": 80.90456525864363,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "linda",
+      "text": "and for the record, i still don't know what it means. i just send it back.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          82.75531754573174,
+          84.3206903324686
+        ]
+      ],
+      "compose": null,
+      "appear": 84.3206903324686,
+      "reactions": []
+    }
+  ],
+  "fx": [
+    {
+      "type": "system",
+      "t": 0.35
+    },
+    {
+      "type": "reaction",
+      "t": 11.241502610241161,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 16.79616773733124,
+      "count": 8
+    },
+    {
+      "type": "reaction",
+      "t": 20.49767231150746,
+      "count": 3
+    },
+    {
+      "type": "reaction",
+      "t": 20.726457564953616,
+      "count": 5
+    },
+    {
+      "type": "system",
+      "t": 27.680806789969022
+    },
+    {
+      "type": "reaction",
+      "t": 32.0265224725331,
+      "count": 20
+    },
+    {
+      "type": "system",
+      "t": 37.94290912665069
+    },
+    {
+      "type": "reaction",
+      "t": 48.97264619528985,
+      "count": 25
+    },
+    {
+      "type": "reaction",
+      "t": 55.343713437308836,
+      "count": 40
+    },
+    {
+      "type": "bombshell",
+      "t": 55.01257688626835
+    },
+    {
+      "type": "unsend",
+      "t": 59.08495439760991
+    },
+    {
+      "type": "reaction",
+      "t": 64.78604208690554,
+      "count": 55
+    },
+    {
+      "type": "reaction",
+      "t": 67.70486026771333,
+      "count": 10
+    },
+    {
+      "type": "reaction",
+      "t": 73.32214030627287,
+      "count": 65
+    },
+    {
+      "type": "bombshell",
+      "t": 84.3206903324686
+    }
+  ],
+  "outroAt": 86.8000000000772,
+  "duration": 90.00000000007721
+}

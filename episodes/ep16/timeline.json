@@ -1,0 +1,799 @@
+{
+  "id": "ep16",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "someone leaked the layoff list",
+  "hookSeconds": 3.2,
+  "cliffhanger": "dave's DM has a condition...",
+  "startClock": "11:47 PM",
+  "chat": {
+    "name": "#all-hands",
+    "subtitle": "1,204 members · global"
+  },
+  "cast": [
+    {
+      "role": "Marketing Coordinator",
+      "id": "me",
+      "name": "Maya"
+    },
+    {
+      "role": "Intern",
+      "id": "jack",
+      "name": "Jack"
+    },
+    {
+      "role": "Engineering Lead",
+      "id": "priya",
+      "name": "Priya"
+    },
+    {
+      "role": "Marketing Director",
+      "id": "alex",
+      "name": "Alex"
+    },
+    {
+      "role": "HR Director",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "CEO",
+      "id": "dave",
+      "name": "Dave"
+    }
+  ],
+  "pace": 0.6,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "jack",
+      "text": "yo who leaked this??",
+      "beat": "rapid",
+      "typing": [
+        [
+          0.35,
+          0.7063999999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 0.7063999999999999,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "jack",
+      "text": "dave dm to karen: 'cut marketing by friday. no exceptions.'",
+      "beat": "bombshell",
+      "typing": [
+        [
+          1.8403999999999998,
+          3.3091999999999997
+        ]
+      ],
+      "compose": null,
+      "appear": 3.3091999999999997,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23,
+          "at": 3.6391999999999998,
+          "ramp": 0.6402220209663334
+        },
+        {
+          "emoji": "😳",
+          "count": 12,
+          "at": 3.8671999999999995,
+          "ramp": 0.5385052485771449
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "priya",
+      "text": "wait WHAT. i'm in marketing??",
+      "beat": "rapid",
+      "typing": [
+        [
+          5.563999999999999,
+          5.991679999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 5.991679999999999,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 9,
+          "at": 6.321679999999999,
+          "ramp": 0.49352730339815687
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "me",
+      "text": "that's fake. dave would say 'right-size', not 'cut'",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        7.028479999999998,
+        7.988479999999998
+      ],
+      "appear": 7.988479999999998,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 5,
+          "at": 8.318479999999997,
+          "ramp": 0.40162920156096676
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "alex",
+      "text": "maya get off here and into my office NOW",
+      "beat": "rapid",
+      "typing": [
+        [
+          9.249679999999998,
+          9.764479999999997
+        ]
+      ],
+      "compose": null,
+      "appear": 9.764479999999997,
+      "reactions": []
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "karen",
+      "text": "do NOT engage with unverified screenshots. this is a phishing test.",
+      "beat": "normal",
+      "typing": [
+        [
+          11.012479999999996,
+          12.212479999999996
+        ]
+      ],
+      "compose": null,
+      "appear": 12.212479999999996,
+      "reactions": []
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "jack",
+      "text": "karen it's literally from dave's email header",
+      "beat": "rapid",
+      "typing": [
+        [
+          13.780879999999994,
+          14.335279999999994
+        ]
+      ],
+      "compose": null,
+      "appear": 14.335279999999994,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "karen",
+      "text": "jack, you're an intern. stay in your lane.",
+      "beat": "normal",
+      "typing": [
+        [
+          15.679279999999993,
+          16.563679999999994
+        ]
+      ],
+      "compose": null,
+      "appear": 16.563679999999994,
+      "reactions": []
+    },
+    {
+      "i": 8,
+      "type": "system",
+      "from": "dave",
+      "text": "Dave (CEO) joined #all-hands",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 17.850079999999995,
+      "reactions": []
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "dave",
+      "text": "whoever posted that screenshot, come forward. now.",
+      "beat": "pause",
+      "typing": [
+        [
+          19.617679999999993,
+          20.60767999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 20.60767999999999,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "me",
+      "text": "it wasn't me i was in a meeting",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        21.849679999999992,
+        22.36123999999999
+      ],
+      "appear": 22.36123999999999,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "alex",
+      "text": "maya you posted it in #general at 11:47. i have the logs.",
+      "beat": "pause",
+      "typing": [
+        [
+          24.18643999999999,
+          25.26883999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 25.26883999999999,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "me",
+      "text": "ok fine IT WAS ME. but i was hacked.",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        26.81323999999999,
+        27.62803999999999
+      ],
+      "appear": 27.62803999999999,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 15,
+          "at": 27.95803999999999,
+          "ramp": 0.5733928532600453
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "dave",
+      "text": "hacked. sure. just like you were 'hacked' when you changed my zoom background to shrek.",
+      "beat": "normal",
+      "typing": [
+        [
+          28.79923999999999,
+          29.99923999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 29.99923999999999,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4,
+          "at": 30.329239999999988,
+          "ramp": 0.3667415968780664
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "priya",
+      "text": "wait maya is the leak?? i thought you were cool",
+      "beat": "rapid",
+      "typing": [
+        [
+          31.95163999999999,
+          32.52187999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 32.52187999999999,
+      "reactions": []
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "me",
+      "text": "ok look, i posted it because everyone deserves to know. they're replacing us with ai!",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        33.90427999999999,
+        34.864279999999994
+      ],
+      "appear": 34.864279999999994,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "dave",
+      "text": "that screenshot is from a hypothetical sensitivity table. not a decision.",
+      "beat": "normal",
+      "typing": [
+        [
+          36.976279999999996,
+          38.17628
+        ]
+      ],
+      "compose": null,
+      "appear": 38.17628,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "me",
+      "text": "then why does karen have a folder called 'severance_scripts_marketing_v2'?",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        40.32788,
+        41.28788
+      ],
+      "appear": 41.28788,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "karen",
+      "text": "that's... not a real folder. maya you're making things up.",
+      "beat": "rapid",
+      "typing": [
+        [
+          43.83068,
+          44.48804
+        ]
+      ],
+      "compose": null,
+      "appear": 44.48804,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "me",
+      "text": "check email. i forwarded karen's 'marketing farewell party' invite from last night.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        46.08164,
+        47.04164
+      ],
+      "appear": 47.04164,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "jack",
+      "text": "omg it's real. i got the invite. 'bye bye marketing' with a balloon emoji",
+      "beat": "rapid",
+      "typing": [
+        [
+          48.91724000000001,
+          49.637240000000006
+        ]
+      ],
+      "compose": null,
+      "appear": 49.637240000000006,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "priya",
+      "text": "karen you used the aubergine emoji?? that's not hr approved",
+      "beat": "normal",
+      "typing": [
+        [
+          51.51884000000001,
+          52.627640000000014
+        ]
+      ],
+      "compose": null,
+      "appear": 52.627640000000014,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 33,
+          "at": 52.95764000000001,
+          "ramp": 0.6966650183560393
+        }
+      ]
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "karen",
+      "text": "that invite was a draft. i accidentally sent it. i meant to send a test to dave.",
+      "beat": "pause",
+      "typing": [
+        [
+          54.990440000000014,
+          56.19044000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 56.19044000000002,
+      "reactions": []
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "alex",
+      "text": "maya, you're done. security is on the way to your desk.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          58.47644000000002,
+          59.892440000000015
+        ]
+      ],
+      "compose": null,
+      "appear": 59.892440000000015,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "system",
+      "from": "me",
+      "text": "Maya was removed from #all-hands by Alex",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 62.26844000000002,
+      "reactions": []
+    },
+    {
+      "i": 25,
+      "type": "system",
+      "from": "me",
+      "text": "Maya was added to #all-hands by Dave",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 63.516440000000024,
+      "reactions": []
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "dave",
+      "text": "alex, stand down. maya, you just exposed something i've been trying to hide for weeks.",
+      "beat": "normal",
+      "typing": [
+        [
+          64.68764000000002,
+          65.88764000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 65.88764000000002,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "alex",
+      "text": "dave?? what are you saying?",
+      "beat": "rapid",
+      "typing": [
+        [
+          67.82084000000002,
+          68.23268000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 68.23268000000002,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "dave",
+      "text": "layoffs are real. not just marketing. entire company. we're being acquired.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          69.50108000000002,
+          71.06108000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 71.06108000000002,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "priya",
+      "text": "WHAT",
+      "beat": "rapid",
+      "typing": [
+        [
+          73.62308000000002,
+          73.87508000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 73.87508000000001,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "jack",
+      "text": "so the invite was real??",
+      "beat": "rapid",
+      "typing": [
+        [
+          74.23388000000001,
+          74.62196000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 74.62196000000002,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "me",
+      "text": "wait, you said it was hypothetical.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        75.56276000000001,
+        76.36076000000001
+      ],
+      "appear": 76.36076000000001,
+      "reactions": []
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "dave",
+      "text": "i lied. and you forced my hand. now everyone knows we're selling for scrap.",
+      "beat": "normal",
+      "typing": [
+        [
+          77.51276000000001,
+          78.71276000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 78.71276000000002,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "karen",
+      "text": "dave, stop. we agreed on messaging. you're breaking NDA.",
+      "beat": "pause",
+      "typing": [
+        [
+          81.38276000000002,
+          82.45196000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 82.45196000000001,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "system",
+      "from": "karen",
+      "text": "Karen left #all-hands",
+      "beat": "pause",
+      "typing": [],
+      "compose": null,
+      "appear": 84.75716000000001,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "me",
+      "text": "good. everyone deserves to know before they're replaced by ai.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        85.64036000000002,
+        86.60036000000001
+      ],
+      "appear": 86.60036000000001,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "alex",
+      "text": "maya you just torpedoed any chance of a smooth transition. thanks a lot.",
+      "beat": "rapid",
+      "typing": [
+        [
+          88.07276000000002,
+          88.79276000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 88.79276000000002,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "me",
+      "text": "no alex. i bought us time. check email. dave's keeping marketing 6 months.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        90.65516000000001,
+        91.61516
+      ],
+      "appear": 91.61516,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "dave",
+      "text": "maya, check your DMs. i sent you something.",
+      "beat": "pause",
+      "typing": [
+        [
+          94.26595999999999,
+          95.16355999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 95.16355999999999,
+      "reactions": []
+    },
+    {
+      "i": 39,
+      "type": "message",
+      "from": "me",
+      "text": "dave DM'd me. i'm head of comms now. marketing gets 4 months severance. you're welcome.",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        96.73916,
+        97.69915999999999
+      ],
+      "appear": 97.69915999999999,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 55,
+          "at": 98.02915999999999,
+          "ramp": 0.7765305682179277
+        },
+        {
+          "emoji": "💀",
+          "count": 19,
+          "at": 98.25716,
+          "ramp": 0.6103512963430183
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 3.6391999999999998,
+      "count": 23
+    },
+    {
+      "type": "reaction",
+      "t": 3.8671999999999995,
+      "count": 12
+    },
+    {
+      "type": "bombshell",
+      "t": 3.3091999999999997
+    },
+    {
+      "type": "reaction",
+      "t": 6.321679999999999,
+      "count": 9
+    },
+    {
+      "type": "reaction",
+      "t": 8.318479999999997,
+      "count": 5
+    },
+    {
+      "type": "system",
+      "t": 17.850079999999995
+    },
+    {
+      "type": "reaction",
+      "t": 27.95803999999999,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 30.329239999999988,
+      "count": 4
+    },
+    {
+      "type": "bombshell",
+      "t": 41.28788
+    },
+    {
+      "type": "reaction",
+      "t": 52.95764000000001,
+      "count": 33
+    },
+    {
+      "type": "bombshell",
+      "t": 59.892440000000015
+    },
+    {
+      "type": "system",
+      "t": 62.26844000000002
+    },
+    {
+      "type": "system",
+      "t": 63.516440000000024
+    },
+    {
+      "type": "bombshell",
+      "t": 71.06108000000002
+    },
+    {
+      "type": "system",
+      "t": 84.75716000000001
+    },
+    {
+      "type": "reaction",
+      "t": 98.02915999999999,
+      "count": 55
+    },
+    {
+      "type": "reaction",
+      "t": 98.25716,
+      "count": 19
+    },
+    {
+      "type": "bombshell",
+      "t": 97.69915999999999
+    }
+  ],
+  "outroAt": 100.41955999999999,
+  "duration": 103.61955999999999
+}

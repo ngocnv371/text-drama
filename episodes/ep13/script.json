@@ -1,0 +1,400 @@
+{
+  "title": "The Comic Sans Conspiracy",
+  "logline": "A Gen Z employee's satirical return-to-office memo gets mistaken for corporate policy, forcing her to convince the CEO it was a joke—only to discover the CEO loves it and fires the manager.",
+  "hook": "my boss just announced RTO",
+  "startClock": "9:41 AM",
+  "chat": {
+    "name": "#marketing",
+    "subtitle": "5 members · Q3 launch"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "zoe",
+      "role": "Marketing Coordinator"
+    },
+    {
+      "id": "jordan",
+      "name": "jordan",
+      "role": "Designer"
+    },
+    {
+      "id": "karen",
+      "name": "karen",
+      "role": "Marketing Director"
+    },
+    {
+      "id": "linda",
+      "name": "linda",
+      "role": "CEO"
+    },
+    {
+      "id": "toby",
+      "name": "toby",
+      "role": "Intern"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "team, per corporate, we're back in office full-time monday. non-negotiable.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "babe are you okay",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is from linda. need butts in seats for synergy.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "synergy?? it's giving 2019",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "no way linda wrote that. she's been offline a month",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "i don't question corporate. see you monday 8am",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "lol i'm not coming",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "toby",
+      "text": "wait there's an office?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "toby, you're an intern. you have to",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen muted @zoe for 1 hour",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "omg she muted you",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i can still type. watch this",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "@karen ur memo reads like a linkedin parody",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "zoe, this is insubordination. escalating",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "do it. i dare you",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Linda (CEO) joined #marketing",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "what's this about a memo? i didn't approve any rto",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "i found it in the shared drive. it said final_v2_approved",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "wait... zoe, didn't we write a fake memo as a joke?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": ".............",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oh no. oh no no no",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "what do you mean fake",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "we wrote a parody rto memo for tiktok. doc was 'not_real_do_not_share'",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "karen, did you share a parody doc as corporate policy?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "i thought it was from you! it had the company logo",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "girl the logo was comic sans",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "toby",
+      "text": "comic sans 💀",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "karen, did you send this to the whole company?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "yes... i cc'd all-hands",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "so the whole company thinks comic sans is our branding",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "i'm going to check my email",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "linda i'm so sorry, it was a joke, we deleted the doc",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "karen, you've been pushing RTO for months.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "you even sent me a 'culture deck' with stock photos of people high-fiving",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "i'm going to resign over this",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "karen, don't bother. you're fired",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what? for me? it was a joke",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "zoe, you're promoted to director. we're going remote. karen, you can clear your desk",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 25
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "part 2: karen's linkedin meltdown",
+  "app": "workchat",
+  "targetSeconds": 90
+}

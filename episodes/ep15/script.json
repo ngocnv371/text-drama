@@ -1,0 +1,364 @@
+{
+  "title": "The Aubergine Incident",
+  "logline": "When HR bans 'provocative' emojis, a Gen Z worker starts a fruit salad protest, only to discover the ban came from the CEO's own eggplant mishap.",
+  "hook": "they banned the eggplant emoji so i started a war",
+  "startClock": "10:12 AM",
+  "chat": {
+    "name": "#no-eggplants",
+    "subtitle": "47 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Jules",
+      "role": "Marketing Coordinator"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "role": "Designer"
+    },
+    {
+      "id": "tom",
+      "name": "Tom",
+      "role": "Sales Lead"
+    },
+    {
+      "id": "linda",
+      "name": "Linda",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen changed the channel description to: NO provocative emojis. This is a workplace.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "excuse me what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "we received a complaint. fruit/vegetable emojis are now NSFW.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "so no 🥑? i'm literally crying",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "correct. and no crying emoji either. policy update in 5 minutes.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "who complained? asking for a friend",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that's confidential. but consider this your only warning.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "what about 🍆? my sales deck is 30% eggplant jokes",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "@tom you're on thin ice.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "fine. fruit salad time 🍇🍊🍋🍐🍎",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🥗",
+          "count": 3
+        },
+        {
+          "emoji": "🫡",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is not a game. i can revoke emoji permissions.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "do it. i dare you.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "last chance. anyone using prohibited emojis will be written up.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen removed emoji permissions from #no-eggplants",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you can't silence us. we'll use ascii art",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "( ͡° ͜ʖ ͡°)",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that's it. HR meeting for you @me.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "wait, karen, your own DMs are wild.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "excuse me?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Linda (CEO) joined #no-eggplants",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "what's going on here?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "@linda just enforcing the new emoji policy you approved.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "she approved banning fruit? okay then.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "i approved a policy about \"professional communication\" not this.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "@linda check your DMs with karen from last week.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "don't.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "...",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "karen, why did you send me an eggplant?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "I THOUGHT IT WAS AN AUBERGINE",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "karen, you're the one who reported the eggplant?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "no, i was just following protocol...",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "@linda she banned all fruit because she didn't know what 🍆 means",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "karen, please step down from HR. you're now our first \"Emoji Compliance Officer\"",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "but linda...",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "also, you're the one who taught me that emoji. i have receipts.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 65
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "i didn't want to ban it, but my husband saw our DMs and panicked. so i had karen do it.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "anyway, the eggplant is back. and karen, you're on a PIP.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "and for the record, i still don't know what it means. i just send it back.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "part 2: karen's emoji compliance audit begins",
+  "app": "workchat",
+  "targetSeconds": 90
+}

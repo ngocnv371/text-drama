@@ -15,7 +15,8 @@
     "provider": "auto",
     "claude": "claude-opus-5-5",
     "gemini": "gemini-3.1-pro-preview",
-    "deepseek": "deepseek-v4-pro"
+    "deepseek": "deepseek-v4-pro",
+    "deepseekEffort": "low"
   },
   "music": {
     "volumeDb": -30

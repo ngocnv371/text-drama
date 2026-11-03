@@ -1,0 +1,405 @@
+{
+  "title": "The Coffee Badge",
+  "logline": "When a Gen Z data analyst is called out for coffee-badging, she reveals she's already rewritten the company's layoff algorithm—and the boss who policed her is now at the top of the list.",
+  "hook": "my boss caught me coffee badging. now everyone's watching",
+  "startClock": "2:14 PM",
+  "chat": {
+    "name": "#all-hands",
+    "subtitle": "1,248 members · q3 all-hands"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "jules",
+      "role": "data analyst"
+    },
+    {
+      "id": "karen",
+      "name": "karen",
+      "role": "team lead"
+    },
+    {
+      "id": "maya",
+      "name": "maya",
+      "role": "marketing"
+    },
+    {
+      "id": "dave",
+      "name": "dave",
+      "role": "sales"
+    },
+    {
+      "id": "hr_rachel",
+      "name": "rachel",
+      "role": "HR"
+    },
+    {
+      "id": "ceo",
+      "name": "linda",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "karen added jules to #all-hands",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "@jules badge data says you left at 9:12. explain",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "coffee run took a while",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "3 hours? starbucks isn't in another state",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i went to the bougie one with oat milk",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "the office has oat milk now",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "since when? i saw almond only",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "since monday. read your email",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "lol jules doesn't read company emails she's busy learning spanish",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "@maya snitch",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "i gotchu boo, but this meeting could've been an email",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "wait is this about her leaving early? i do that every day",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr_rachel",
+      "text": "@dave noted",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "i've been working from hawaii for a month",
+      "beat": "unsend",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is serious. we have a new RTO enforcement policy from the board",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so badge data is being used to spy on us? cool cool",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "it's about accountability",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "per my last email, i'm not accountable for time, i'm accountable for results",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🎯",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "then show us your results",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i automated the quarterly report. it used to take 20 hours, now it takes 4 minutes",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "linda (CEO) joined #all-hands",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "jules, i'm intrigued. but the board sees badge data as a proxy for engagement",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "they forced a layoff list based on that data. half the company is on it",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "wait what? layoffs?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😨",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr_rachel",
+      "text": "this wasn't supposed to be announced yet",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "it's fine rachel. the algorithm flagged anyone with low badge time",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "📉",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "so you're firing people based on how often they swipe a card? that's insane",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "lol the algorithm is even dumber than i thought",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "careful jules. you're at the top of the list",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i know. i've seen the code. it ranks by badge time weighted by salary",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔍",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "you've seen the code?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have access as a data analyst. and i made a small edit yesterday",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "@jules what did you do??",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i changed the weights so it ranks by actual output instead of badge time",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "the board won't accept that. they already approved the list",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "they approved a list based on old weights. i sent them the updated one this morning",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr_rachel",
+      "text": "you sent the board a secret layoff list without approval??",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "who is number one, jules?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "karen. she's been coffee badging since 2022.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "karen's badge history goes public at 5pm",
+  "app": "workchat",
+  "targetSeconds": 90
+}

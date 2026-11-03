@@ -1,0 +1,371 @@
+{
+  "title": "The Ghostwriter Review",
+  "logline": "A Gen Z employee posts their boss's scathing performance review, triggering a review-audit, only to reveal they secretly ghostwrote the boss's glowing self-review as a side hustle.",
+  "hook": "my review says i quiet quit",
+  "startClock": "4:18 PM",
+  "chat": {
+    "name": "#performance-reviews",
+    "subtitle": "8 members · reviews are in"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "jordan",
+      "role": "Marketing Associate"
+    },
+    {
+      "id": "dan",
+      "name": "dan",
+      "role": "Manager"
+    },
+    {
+      "id": "priya",
+      "name": "priya",
+      "role": "Designer"
+    },
+    {
+      "id": "leo",
+      "name": "leo",
+      "role": "Engineer"
+    },
+    {
+      "id": "karen",
+      "name": "karen",
+      "role": "HR"
+    },
+    {
+      "id": "carol",
+      "name": "carol",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so dan thinks i 'quiet quit' because i didn't reply to his 8pm email",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "that's the entire review. one line.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "wait u got urs? mine hasn't loaded",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's not loaded. i forwarded the email to myself",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "leo",
+      "text": "bro posting ur review in the team chat is wild",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm not hiding. this is a joke right @dan",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "jordan, that's private. take it down.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's about me. i'll keep it up unless u explain the 'attitude' part",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "i think you misread. that was a draft.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "drafts don't have 'submitted' in the portal @dan",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "wait i got mine too and it's weird",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "leo",
+      "text": "same. did everyone get 'lacks urgency'?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "we all got the exact same review? lmao",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        },
+        {
+          "emoji": "👀",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "that's a coincidence. i wrote each one personally.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "then why does mine say 'dear leo' at the top",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "leo",
+      "text": "dude what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "mine says 'dear priya' so that's fine",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "check the metadata. all submitted at 4:01pm",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "leo",
+      "text": "how do u see metadata",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have my ways. also dan's self-review is in there",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "what",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ur review says 'exceeds expectations' on every single metric",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 15
+        },
+        {
+          "emoji": "👀",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "so u gave urself a raise-worthy review?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "i earned it. i've been working nights",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "leo",
+      "text": "working nights on what, candy crush?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4
+        },
+        {
+          "emoji": "💀",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "actually dan, ur laptop log says u only logged 2 hours last week",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "that's a lie",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's in the same email thread where u sent ur review",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "i can make sure you never work in this town again",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen (HR) joined #performance-reviews",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "hi everyone. i'm reviewing this thread. please pause.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "hey karen, can u confirm if dan submitted his own review?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "we're looking into it. dan, can you join me in a private room?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "this is ridiculous. jordan hacked the system.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "dan",
+      "text": "Dan was removed from #performance-reviews by Karen",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 18
+        },
+        {
+          "emoji": "💀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "carol",
+      "text": "Carol (CEO) joined #performance-reviews",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "carol",
+      "text": "good catch jordan. we've suspected dan for months. how did u get his review?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have my sources. but wait, there's one more thing...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i wrote dan's self-review. it's my side hustle.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "part 2: hr wants to talk about my side hustle",
+  "app": "workchat",
+  "targetSeconds": 90
+}

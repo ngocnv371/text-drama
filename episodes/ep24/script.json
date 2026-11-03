@@ -1,0 +1,408 @@
+{
+  "title": "The Etsy Empire",
+  "logline": "When a designer's unauthorized Etsy shop selling company merch is exposed, the CEO reveals they're a fan and turns it into an official product line.",
+  "hook": "they found my secret etsy shop",
+  "startClock": "2:37 PM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "Company-wide · 127 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Alex",
+      "role": "Designer"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "role": "Marketing Associate"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "role": "Engineer"
+    },
+    {
+      "id": "taylor",
+      "name": "Taylor",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "yo @alex your etsy shop is blowing up",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "what? no you didn't",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "it's literally called 'alex designs' and you're wearing a hoodie from it in your pfp",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        },
+        {
+          "emoji": "😂",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "that's a coincidence",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "the shop sells our company logo on ironic hoodies 😭",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "lmaoo alex that's wild",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "okay fine it's mine but it's just a hobby",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "a hobby that's making bank? you have 47 sales",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🫣",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so what? i'm not hurting anyone",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "that's company IP, you could get fired",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "taylor",
+      "text": "Taylor (CEO) joined #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "what's this about an etsy shop?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "@taylor i found alex selling unauthorized merch",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'll take it down, sorry",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "hold on, let me see the shop",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "oh my god these are hilarious",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 25
+        },
+        {
+          "emoji": "❤️",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "wait what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "i bought the 'i survived the q3 all-hands' hoodie last week 🫠",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you did??",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "i need one with 'i'd rather be quiet quitting' on it",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "can i get a cut for finding it? 😏",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "lmao jordan is shameless",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "@jordan you tried to get someone fired, not a good look",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "i was just looking out for the company",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so am i fired or nah?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "fired? i want to license this. make it official",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 22
+        },
+        {
+          "emoji": "🔥",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "we'll launch a company merch line, you lead it",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "that's not fair i'd be a better lead",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "@jordan you're on thin ice. one more comment and you're out",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "con😭gratulations alex",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "this is wild but okay",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "also @jordan since you're so invested, you can be the first CS rep for returns",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "i quit",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "taylor",
+      "text": "Jordan was removed from #general by Taylor",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "anyways, meet me in dms for the contract @alex",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "bet",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 10
+        },
+        {
+          "emoji": "💼",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "taylor",
+      "text": "oh and alex, the 'world's okayest employee' mug is my favorite",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "❤️",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i can't believe this is my job now",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "taylor",
+      "text": "Jordan was added to #inner-circle by Taylor",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "part 2: the merch drop breaks the internet, and jordan is back",
+  "app": "workchat",
+  "targetSeconds": 90
+}

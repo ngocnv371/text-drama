@@ -1,0 +1,856 @@
+{
+  "id": "ep14",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "my boss thinks i'm in a meeting rn",
+  "hookSeconds": 3.2,
+  "cliffhanger": "part 2: karen goes scorched earth and leaks the Q3 launch deck",
+  "startClock": "3:42 PM",
+  "chat": {
+    "name": "#marketing",
+    "subtitle": "4 members · Q3 launch"
+  },
+  "cast": [
+    {
+      "role": "Marketing Associate",
+      "id": "me",
+      "name": "Jordan"
+    },
+    {
+      "role": "Team Lead",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "Designer",
+      "id": "jake",
+      "name": "Jake"
+    },
+    {
+      "role": "Copywriter",
+      "id": "maya",
+      "name": "Maya"
+    },
+    {
+      "role": "CEO",
+      "id": "ceo",
+      "name": "Linda"
+    },
+    {
+      "role": "HR",
+      "id": "hr",
+      "name": "David"
+    }
+  ],
+  "pace": 0.6,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "karen",
+      "text": "jordan, update on the deck?",
+      "beat": "normal",
+      "typing": [
+        [
+          0.35,
+          1.0364
+        ]
+      ],
+      "compose": null,
+      "appear": 1.0364,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "me",
+      "text": "in a client call rn, will send in 15",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        1.8368,
+        2.40716
+      ],
+      "appear": 2.40716,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "jake",
+      "text": "wait is that you in the crowd at lolla??",
+      "beat": "pause",
+      "typing": [
+        [
+          4.32836,
+          5.18636
+        ]
+      ],
+      "compose": null,
+      "appear": 5.18636,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 4,
+          "at": 5.51636,
+          "ramp": 0.3667415968780664
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "me",
+      "text": "no?? that's my cousin",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        6.2363599999999995,
+        6.630319999999999
+      ],
+      "appear": 6.630319999999999,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 2,
+          "at": 6.960319999999999,
+          "ramp": 0.2583707984390332
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "maya",
+      "text": "lmao your cousin has your exact face tattoo?",
+      "beat": "rapid",
+      "typing": [
+        [
+          7.315519999999999,
+          7.861999999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 7.861999999999999,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 6,
+          "at": 8.191999999999998,
+          "ramp": 0.43013445013811175
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "karen",
+      "text": "jordan, you're not answering my calls",
+      "beat": "normal",
+      "typing": [
+        [
+          9.186799999999998,
+          10.005199999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 10.005199999999999,
+      "reactions": []
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "me",
+      "text": "client call is loud, texting is easier",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        10.997599999999998,
+        11.591479999999999
+      ],
+      "appear": 11.591479999999999,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "karen",
+      "text": "then why is your status 'at a concert'?",
+      "beat": "pause",
+      "typing": [
+        [
+          13.551079999999999,
+          14.395879999999998
+        ]
+      ],
+      "compose": null,
+      "appear": 14.395879999999998,
+      "reactions": [
+        {
+          "emoji": "☠️",
+          "count": 12,
+          "at": 14.725879999999998,
+          "ramp": 0.5385052485771449
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "type": "system",
+      "from": "karen",
+      "text": "Karen changed the channel name to #jordan-is-busted",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 15.624679999999998,
+      "reactions": []
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "me",
+      "text": "ok fine, i'm at lolla. but it's a wellness break",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        17.053879999999996,
+        18.013879999999997
+      ],
+      "appear": 18.013879999999997,
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 5,
+          "at": 18.343879999999995,
+          "ramp": 0.40162920156096676
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "karen",
+      "text": "wellness break? you have a deadline tomorrow",
+      "beat": "normal",
+      "typing": [
+        [
+          19.415479999999995,
+          20.326279999999993
+        ]
+      ],
+      "compose": null,
+      "appear": 20.326279999999993,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "me",
+      "text": "mental health day. i'll work late tonight",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        21.453079999999993,
+        22.08223999999999
+      ],
+      "appear": 22.08223999999999,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "jake",
+      "text": "mental health day but you're front row at a festival?",
+      "beat": "rapid",
+      "typing": [
+        [
+          23.15143999999999,
+          23.76919999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 23.76919999999999,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 15,
+          "at": 24.09919999999999,
+          "ramp": 0.5733928532600453
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "maya",
+      "text": "jordan, we can see your calendar says 'doctor appt'",
+      "beat": "normal",
+      "typing": [
+        [
+          25.26679999999999,
+          26.26999999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 26.26999999999999,
+      "reactions": []
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "me",
+      "text": "ok i lied. i just needed a break from karen's 'synergy' meetings",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        27.999199999999988,
+        28.95919999999999
+      ],
+      "appear": 28.95919999999999,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 23,
+          "at": 29.289199999999987,
+          "ramp": 0.6402220209663334
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "karen",
+      "text": "excuse me? my synergy meetings are why we hit Q3 targets",
+      "beat": "normal",
+      "typing": [
+        [
+          31.50799999999999,
+          32.57719999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 32.57719999999999,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "system",
+      "from": "ceo",
+      "text": "Linda (CEO) joined #jordan-is-busted",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 34.1324,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "ceo",
+      "text": "hi everyone. jordan, care to explain?",
+      "beat": "pause",
+      "typing": [
+        [
+          36.0536,
+          36.872
+        ]
+      ],
+      "compose": null,
+      "appear": 36.872,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "me",
+      "text": "i'm sorry linda. it won't happen again. i'll be back online in 20",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        37.8644,
+        38.5364
+      ],
+      "appear": 38.5364,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "ceo",
+      "text": "don't bother. i need someone who actually wants to work here",
+      "beat": "pause",
+      "typing": [
+        [
+          41.0144,
+          42.1364
+        ]
+      ],
+      "compose": null,
+      "appear": 42.1364,
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 9,
+          "at": 42.4664,
+          "ramp": 0.49352730339815687
+        }
+      ]
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "karen",
+      "text": "linda, i've been saying we need more accountability on this team",
+      "beat": "rapid",
+      "typing": [
+        [
+          43.57040000000001,
+          44.27528000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 44.27528000000001,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "ceo",
+      "text": "karen, you've taken 14 'wellness days' this quarter alone",
+      "beat": "bombshell",
+      "typing": [
+        [
+          46.25408000000001,
+          47.69648000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 47.69648000000001,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 31,
+          "at": 48.02648000000001,
+          "ramp": 0.6868902097803381
+        }
+      ]
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "karen",
+      "text": "what? those were doctor appointments",
+      "beat": "rapid",
+      "typing": [
+        [
+          49.91288000000001,
+          50.39600000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 50.39600000000001,
+      "reactions": []
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "ceo",
+      "text": "i saw your instagram. you were at the same festival last weekend",
+      "beat": "normal",
+      "typing": [
+        [
+          51.567200000000014,
+          52.74200000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 52.74200000000001,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 18,
+          "at": 53.07200000000001,
+          "ramp": 0.6018981018371901
+        }
+      ]
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "karen",
+      "text": "that was from last year!",
+      "beat": "rapid",
+      "typing": [
+        [
+          54.252800000000015,
+          54.64088000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 54.64088000000002,
+      "reactions": []
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "jake",
+      "text": "karen, your story yesterday said 'day 1 of lolla'",
+      "beat": "rapid",
+      "typing": [
+        [
+          55.38368000000002,
+          55.96976000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 55.96976000000002,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 27,
+          "at": 56.29976000000002,
+          "ramp": 0.6652909550972355
+        }
+      ]
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "karen",
+      "text": "jake, you're supposed to be my ally!",
+      "beat": "normal",
+      "typing": [
+        [
+          57.39056000000002,
+          58.19576000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 58.19576000000002,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "ceo",
+      "text": "karen, you're on thin ice. jordan, you're getting a written warning",
+      "beat": "normal",
+      "typing": [
+        [
+          59.36696000000003,
+          60.56696000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 60.56696000000003,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "me",
+      "text": "wait, karen was at lolla yesterday? that means she took a wellness day too",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        62.135360000000034,
+        62.80736000000003
+      ],
+      "appear": 62.80736000000003,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "maya",
+      "text": "and she's the one who approved my PTO denial",
+      "beat": "rapid",
+      "typing": [
+        [
+          64.51016000000003,
+          65.05664000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 65.05664000000003,
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 12,
+          "at": 65.38664000000003,
+          "ramp": 0.5385052485771449
+        }
+      ]
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "karen",
+      "text": "that's different! i have seniority",
+      "beat": "normal",
+      "typing": [
+        [
+          66.38144000000003,
+          67.16024000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 67.16024000000003,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "ceo",
+      "text": "seniority doesn't exempt you from honesty. karen, you're demoted",
+      "beat": "bombshell",
+      "typing": [
+        [
+          68.56304000000004,
+          70.09784000000005
+        ]
+      ],
+      "compose": null,
+      "appear": 70.09784000000005,
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 40,
+          "at": 70.42784000000005,
+          "ramp": 0.7267415968780665
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "karen",
+      "text": "you can't do that! i'll go to HR",
+      "beat": "rapid",
+      "typing": [
+        [
+          72.44864000000005,
+          72.90008000000006
+        ]
+      ],
+      "compose": null,
+      "appear": 72.90008000000006,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "ceo",
+      "text": "HR is already in this channel. david, please confirm",
+      "beat": "normal",
+      "typing": [
+        [
+          73.99448000000005,
+          75.01088000000006
+        ]
+      ],
+      "compose": null,
+      "appear": 75.01088000000006,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "system",
+      "from": "hr",
+      "text": "David (HR) joined #jordan-is-busted",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 76.48928000000005,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "hr",
+      "text": "karen, your wellness day requests have been flagged for fraud. we'll talk monday",
+      "beat": "normal",
+      "typing": [
+        [
+          77.64128000000005,
+          78.84128000000005
+        ]
+      ],
+      "compose": null,
+      "appear": 78.84128000000005,
+      "reactions": [
+        {
+          "emoji": "⚖️",
+          "count": 8,
+          "at": 79.17128000000005,
+          "ramp": 0.4751123953170996
+        }
+      ]
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "karen",
+      "text": "this is a joke. jordan, you started this!",
+      "beat": "rapid",
+      "typing": [
+        [
+          80.65928000000005,
+          81.18200000000006
+        ]
+      ],
+      "compose": null,
+      "appear": 81.18200000000006,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "me",
+      "text": "me? you're the one who lied about doctor appointments",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        82.44920000000006,
+        83.40920000000006
+      ],
+      "appear": 83.40920000000006,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "ceo",
+      "text": "jordan, you're promoted to team lead. karen, clear your desk by 5pm",
+      "beat": "bombshell",
+      "typing": [
+        [
+          85.17680000000006,
+          86.73680000000006
+        ]
+      ],
+      "compose": null,
+      "appear": 86.73680000000006,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 50,
+          "at": 87.06680000000006,
+          "ramp": 0.7616292015609667
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 5.51636,
+      "count": 4
+    },
+    {
+      "type": "reaction",
+      "t": 6.960319999999999,
+      "count": 2
+    },
+    {
+      "type": "reaction",
+      "t": 8.191999999999998,
+      "count": 6
+    },
+    {
+      "type": "reaction",
+      "t": 14.725879999999998,
+      "count": 12
+    },
+    {
+      "type": "system",
+      "t": 15.624679999999998
+    },
+    {
+      "type": "reaction",
+      "t": 18.343879999999995,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 24.09919999999999,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 29.289199999999987,
+      "count": 23
+    },
+    {
+      "type": "bombshell",
+      "t": 28.95919999999999
+    },
+    {
+      "type": "system",
+      "t": 34.1324
+    },
+    {
+      "type": "reaction",
+      "t": 42.4664,
+      "count": 9
+    },
+    {
+      "type": "reaction",
+      "t": 48.02648000000001,
+      "count": 31
+    },
+    {
+      "type": "bombshell",
+      "t": 47.69648000000001
+    },
+    {
+      "type": "reaction",
+      "t": 53.07200000000001,
+      "count": 18
+    },
+    {
+      "type": "reaction",
+      "t": 56.29976000000002,
+      "count": 27
+    },
+    {
+      "type": "reaction",
+      "t": 65.38664000000003,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 70.42784000000005,
+      "count": 40
+    },
+    {
+      "type": "bombshell",
+      "t": 70.09784000000005
+    },
+    {
+      "type": "system",
+      "t": 76.48928000000005
+    },
+    {
+      "type": "reaction",
+      "t": 79.17128000000005,
+      "count": 8
+    },
+    {
+      "type": "reaction",
+      "t": 87.06680000000006,
+      "count": 50
+    },
+    {
+      "type": "bombshell",
+      "t": 86.73680000000006
+    }
+  ],
+  "outroAt": 89.07320000000006,
+  "duration": 92.27320000000006
+}

@@ -22,16 +22,16 @@ export function pickProvider(config, override) {
   if (wanted === "auto") {
     const name = Object.keys(PROVIDERS).find(keyFor);
     if (!name) throw new Error(`No API key found. Set one of ${Object.values(PROVIDERS).map((p) => p.keys[0]).join(", ")} (environment or .env).`);
-    return { name, model: config.llm[name] };
+    return { name, model: config.llm[name], effort: config.llm[`${name}Effort`] };
   }
   if (!PROVIDERS[wanted]) throw new Error(`unknown provider "${wanted}" (use auto, ${Object.keys(PROVIDERS).join(", ")})`);
   if (!keyFor(wanted)) throw new Error(`provider is "${wanted}" but ${PROVIDERS[wanted].keys[0]} is not set (environment or .env).`);
-  return { name: wanted, model: config.llm[wanted] };
+  return { name: wanted, model: config.llm[wanted], effort: config.llm[`${wanted}Effort`] };
 }
 
 export async function draftEpisode(provider, { system, user }) {
   try {
-    return await PROVIDERS[provider.name].draft(provider.model, system, user, keyFor(provider.name));
+    return await PROVIDERS[provider.name].draft(provider.model, system, user, keyFor(provider.name), provider.effort);
   } catch (err) {
     if (err instanceof Anthropic.AuthenticationError) throw new Error("The Anthropic API key was rejected. Check ANTHROPIC_API_KEY.");
     if (err instanceof GeminiApiError && [400, 401, 403].includes(err.status) && /key/i.test(err.message)) throw new Error("The Gemini API key was rejected. Check GEMINI_API_KEY.");
@@ -102,7 +102,13 @@ async function draftWithGemini(model, system, user, apiKey) {
 
 // DeepSeek speaks the OpenAI chat API. Its JSON mode doesn't take a schema, so the schema
 // goes in the prompt and the reply is checked against it here.
-async function draftWithDeepSeek(model, system, user, apiKey) {
+// Most of a call's time is hidden reasoning (measured on deepseek-v4-pro: ~12k thinking tokens
+// for a ~2.7k-token script at ~45 tokens/s, 5+ minutes; effort "low" roughly halved it).
+// Reasoning counts toward max_tokens, so the cap leaves room for both.
+const DEEPSEEK_EFFORTS = ["low", "high", "max"];
+
+async function draftWithDeepSeek(model, system, user, apiKey, effort) {
+  if (effort && !DEEPSEEK_EFFORTS.includes(effort)) throw new Error(`llm.deepseekEffort must be one of ${DEEPSEEK_EFFORTS.join(", ")}, got "${effort}"`);
   const body = JSON.stringify({
     model,
     messages: [
@@ -110,7 +116,8 @@ async function draftWithDeepSeek(model, system, user, apiKey) {
       { role: "user", content: user },
     ],
     response_format: { type: "json_object" },
-    max_tokens: 16000,
+    max_tokens: 32000,
+    ...(effort ? { reasoning_effort: effort } : {}),
   });
   for (let attempt = 1; ; attempt++) {
     const res = await fetch("https://api.deepseek.com/chat/completions", {

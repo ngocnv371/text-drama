@@ -91,14 +91,14 @@ export async function writeEpisode(id, { premise, provider: providerName } = {})
     const content = draft
       ? `${brief}\n\nYour previous draft:\n${JSON.stringify(draft, null, 2)}\n\nIt failed these checks:\n${problems.map((p) => `- ${p}`).join("\n")}\n\nReturn the full corrected episode. Keep what works.`
       : brief;
-    console.log(`[${id}] writing script, attempt ${attempt}/${MAX_ATTEMPTS} (${provider.name}: ${provider.model})...`);
+    console.log(`[${id}] writing script, attempt ${attempt}/${MAX_ATTEMPTS} (${provider.name}: ${provider.model}${provider.effort ? `, effort ${provider.effort}` : ""})...`);
     const result = await draftEpisode(provider, { system: systemPrompt(config), user: content });
     if (result.draft) draft = { ...result.draft, app: config.app, targetSeconds: config.targetSeconds };
     problems = result.problems.length ? result.problems : validateEpisode(draft, config);
     if (problems.length === 0) {
       const out = path.join(dir, "script.json");
       fs.writeFileSync(out, JSON.stringify(draft, null, 2));
-      const meta = { provider: provider.name, model: provider.model, premise: premise ?? null, attempts: attempt, createdAt: new Date().toISOString() };
+      const meta = { provider: provider.name, model: provider.model, effort: provider.effort ?? null, premise: premise ?? null, attempts: attempt, createdAt: new Date().toISOString() };
       fs.writeFileSync(path.join(dir, "meta.json"), JSON.stringify(meta, null, 2));
       console.log(`[${id}] script ok: "${draft.title}"`);
       return draft;

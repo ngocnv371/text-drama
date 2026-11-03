@@ -1,0 +1,8 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "premise": null,
+  "attempts": 3,
+  "createdAt": "2026-11-03T06:54:15.618Z",
+  "music": "late-night-synth.mp3"
+}

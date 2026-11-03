@@ -1,0 +1,789 @@
+{
+  "id": "ep20",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "i got a mysterious union invite",
+  "hookSeconds": 3.2,
+  "cliffhanger": "part 2: the union meeting",
+  "startClock": "3:12 PM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "112 members · HQ"
+  },
+  "cast": [
+    {
+      "role": "Marketing Associate",
+      "id": "me",
+      "name": "Maya"
+    },
+    {
+      "role": "Software Engineer",
+      "id": "jake",
+      "name": "Jake"
+    },
+    {
+      "role": "Designer",
+      "id": "priya",
+      "name": "Priya"
+    },
+    {
+      "role": "VP of People",
+      "id": "linda",
+      "name": "Linda"
+    },
+    {
+      "role": "HR Director",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "CEO",
+      "id": "marcus",
+      "name": "Marcus"
+    }
+  ],
+  "pace": 0.6139688022877181,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "me",
+      "text": "ok who sent me this union meeting invite",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        0.35,
+        1.2525341393629457
+      ],
+      "appear": 1.2525341393629457,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "jake",
+      "text": "lol what",
+      "beat": "rapid",
+      "typing": [
+        [
+          2.3269795433664524,
+          2.5944243536429825
+        ]
+      ],
+      "compose": null,
+      "appear": 2.5944243536429825,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "linda",
+      "text": "delete this right now",
+      "beat": "pause",
+      "typing": [
+        [
+          4.01023641171846,
+          4.63157283963363
+        ]
+      ],
+      "compose": null,
+      "appear": 4.63157283963363,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 2,
+          "at": 4.969255680891876,
+          "ramp": 0.2643860161062244
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "me",
+      "text": "i didn't send it?? it just appeared in my dms",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        5.3327252118462045,
+        6.020370270408449
+      ],
+      "appear": 6.020370270408449,
+      "reactions": []
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "linda",
+      "text": "this channel is for work updates only",
+      "beat": "normal",
+      "typing": [
+        [
+          7.395660387532938,
+          8.233113833853386
+        ]
+      ],
+      "compose": null,
+      "appear": 8.233113833853386,
+      "reactions": []
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "priya",
+      "text": "wait i got one too",
+      "beat": "rapid",
+      "typing": [
+        [
+          9.248618232837272,
+          9.59710692501578
+        ]
+      ],
+      "compose": null,
+      "appear": 9.59710692501578,
+      "reactions": []
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "jake",
+      "text": "same... is this real",
+      "beat": "rapid",
+      "typing": [
+        [
+          10.239318292208733,
+          10.604015760767638
+        ]
+      ],
+      "compose": null,
+      "appear": 10.604015760767638,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "linda",
+      "text": "everyone ignore this. it's spam",
+      "beat": "normal",
+      "typing": [
+        [
+          11.488130836061952,
+          12.244540400480421
+        ]
+      ],
+      "compose": null,
+      "appear": 12.244540400480421,
+      "reactions": []
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "me",
+      "text": "it says here 'mandatory meeting for all employees about working conditions'",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        13.344772494180011,
+        14.32712257784036
+      ],
+      "appear": 14.32712257784036,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12,
+          "at": 14.664805419098604,
+          "ramp": 0.551042370824266
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "linda",
+      "text": "@maya check your dms now",
+      "beat": "pause",
+      "typing": [
+        [
+          17.059283748020704,
+          17.721142116886863
+        ]
+      ],
+      "compose": null,
+      "appear": 17.721142116886863,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "me",
+      "text": "i'm not deleting anything until i understand who sent this",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        18.65314675875962,
+        19.63549684241997
+      ],
+      "appear": 19.63549684241997,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "karen",
+      "text": "This is Karen from HR. This is unauthorized communication. Please refrain.",
+      "beat": "normal",
+      "typing": [
+        [
+          21.26619798129615,
+          22.494135585871586
+        ]
+      ],
+      "compose": null,
+      "appear": 22.494135585871586,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "jake",
+      "text": "karen you literally just joined #general for the first time in 3 years 💀",
+      "beat": "rapid",
+      "typing": [
+        [
+          24.23657904676413,
+          24.973341609509394
+        ]
+      ],
+      "compose": null,
+      "appear": 24.973341609509394,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23,
+          "at": 25.31102445076764,
+          "ramp": 0.6551272456848701
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "karen",
+      "text": "That is not relevant. The link has been reported.",
+      "beat": "normal",
+      "typing": [
+        [
+          26.87910077181047,
+          27.878641981934877
+        ]
+      ],
+      "compose": null,
+      "appear": 27.878641981934877,
+      "reactions": []
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "priya",
+      "text": "ok but why is everyone so scared of a union meeting lol",
+      "beat": "rapid",
+      "typing": [
+        [
+          29.129910400997247,
+          29.778261456213077
+        ]
+      ],
+      "compose": null,
+      "appear": 29.778261456213077,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 7,
+          "at": 30.115944297471323,
+          "ramp": 0.46481049943788033
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "linda",
+      "text": "because unions ruin companies. you want to work at a place with no growth?",
+      "beat": "pause",
+      "typing": [
+        [
+          32.117482592929285,
+          33.34542019750472
+        ]
+      ],
+      "compose": null,
+      "appear": 33.34542019750472,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "linda",
+      "text": "unions are for people who don't want to work hard",
+      "beat": "unsend",
+      "typing": [
+        [
+          35.19837804280906,
+          36.19791925293347
+        ]
+      ],
+      "compose": null,
+      "appear": 36.19791925293347,
+      "reactions": [],
+      "unsendAt": 37.98948021800903
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "jake",
+      "text": "we already have no growth linda",
+      "beat": "rapid",
+      "typing": [
+        [
+          38.37014087542741,
+          38.82398661407849
+        ]
+      ],
+      "compose": null,
+      "appear": 38.82398661407849,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 15,
+          "at": 39.161669455336735,
+          "ramp": 0.5867422055940121
+        }
+      ]
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "linda",
+      "text": "@marcus can you please shut this down",
+      "beat": "normal",
+      "typing": [
+        [
+          39.92421870777808,
+          40.76167215409853
+        ]
+      ],
+      "compose": null,
+      "appear": 40.76167215409853,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "system",
+      "from": "marcus",
+      "text": "Marcus (CEO) joined #general",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 41.97978625783736,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "marcus",
+      "text": "good afternoon team. i see there's a link circulating.",
+      "beat": "pause",
+      "typing": [
+        [
+          43.78853834937698,
+          44.85561612775303
+        ]
+      ],
+      "compose": null,
+      "appear": 44.85561612775303,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "me",
+      "text": "yes i didn't create it, it was sent to me anonymously",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        46.20511955518143,
+        46.89276461374368
+      ],
+      "appear": 46.89276461374368,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "marcus",
+      "text": "do you know who sent it?",
+      "beat": "normal",
+      "typing": [
+        [
+          48.425230744253824,
+          49.08708911311999
+        ]
+      ],
+      "compose": null,
+      "appear": 49.08708911311999,
+      "reactions": []
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "me",
+      "text": "no... but it's coming from inside the company",
+      "beat": "unsend",
+      "typing": [],
+      "compose": [
+        49.957696874763975,
+        50.940046958424325
+      ],
+      "appear": 50.940046958424325,
+      "reactions": [],
+      "unsendAt": 52.653019916807054
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "marcus",
+      "text": "interesting. anyone else get this?",
+      "beat": "normal",
+      "typing": [
+        [
+          53.23629027898039,
+          54.03322178434985
+        ]
+      ],
+      "compose": null,
+      "appear": 54.03322178434985,
+      "reactions": []
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "jake",
+      "text": "i got it from an unknown number",
+      "beat": "rapid",
+      "typing": [
+        [
+          54.98978517831411,
+          55.44363091696519
+        ]
+      ],
+      "compose": null,
+      "appear": 55.44363091696519,
+      "reactions": []
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "priya",
+      "text": "same",
+      "beat": "rapid",
+      "typing": [
+        [
+          56.34125330590983,
+          56.59912020287067
+        ]
+      ],
+      "compose": null,
+      "appear": 56.59912020287067,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "karen",
+      "text": "We are investigating. Please stand by.",
+      "beat": "normal",
+      "typing": [
+        [
+          57.16888325139367,
+          58.01984401136445
+        ]
+      ],
+      "compose": null,
+      "appear": 58.01984401136445,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "linda",
+      "text": "@marcus we should delete this channel and lock down all dms",
+      "beat": "rapid",
+      "typing": [
+        [
+          59.05499541202154,
+          59.735764019998165
+        ]
+      ],
+      "compose": null,
+      "appear": 59.735764019998165,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "marcus",
+      "text": "or we could attend the meeting and hear them out",
+      "beat": "bombshell",
+      "typing": [
+        [
+          61.66239812157702,
+          63.016813299423724
+        ]
+      ],
+      "compose": null,
+      "appear": 63.016813299423724,
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 31,
+          "at": 63.35449614068197,
+          "ramp": 0.7028819323366561
+        }
+      ]
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "linda",
+      "text": "what? you can't be serious",
+      "beat": "pause",
+      "typing": [
+        [
+          66.07806174763029,
+          66.76693474379711
+        ]
+      ],
+      "compose": null,
+      "appear": 66.76693474379711,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "marcus",
+      "text": "i'm always serious about listening to employees",
+      "beat": "normal",
+      "typing": [
+        [
+          67.76893182913066,
+          68.74145841195441
+        ]
+      ],
+      "compose": null,
+      "appear": 68.74145841195441,
+      "reactions": []
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "jake",
+      "text": "wait is this a trap",
+      "beat": "normal",
+      "typing": [
+        [
+          70.15604253242532,
+          70.75036433303983
+        ]
+      ],
+      "compose": null,
+      "appear": 70.75036433303983,
+      "reactions": [
+        {
+          "emoji": "🧐",
+          "count": 4,
+          "at": 71.08804717429807,
+          "ramp": 0.3752798316405193
+        }
+      ]
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "me",
+      "text": "ok, organizer just messaged me. they'll reveal themselves at the meeting.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        71.61483240666094,
+        72.59718249032129
+      ],
+      "appear": 72.59718249032129,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "system",
+      "from": "marcus",
+      "text": "Linda was removed from #general by Marcus",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 74.52258865429557,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "marcus",
+      "text": "linda wasn't fired. she's just on a time out.",
+      "beat": "normal",
+      "typing": [
+        [
+          75.81929076472723,
+          76.76480272025032
+        ]
+      ],
+      "compose": null,
+      "appear": 76.76480272025032,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "jake",
+      "text": "ceo on our side?? timeline is wild",
+      "beat": "rapid",
+      "typing": [
+        [
+          77.93748313261986,
+          78.41564203584153
+        ]
+      ],
+      "compose": null,
+      "appear": 78.41564203584153,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 19,
+          "at": 78.75332487709977,
+          "ramp": 0.6245610906507985
+        }
+      ]
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "me",
+      "text": "ok so who is the organizer? they just told me they'll join this chat",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        80.34227613742038,
+        81.32462622108073
+      ],
+      "appear": 81.32462622108073,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "marcus",
+      "text": "it's me. i sent that link. welcome to the union.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          83.42808333771846,
+          84.78249851556517
+        ]
+      ],
+      "compose": null,
+      "appear": 84.78249851556517,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 42,
+          "at": 85.12018135682341,
+          "ramp": 0.7514668541559218
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 4.969255680891876,
+      "count": 2
+    },
+    {
+      "type": "reaction",
+      "t": 14.664805419098604,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 25.31102445076764,
+      "count": 23
+    },
+    {
+      "type": "reaction",
+      "t": 30.115944297471323,
+      "count": 7
+    },
+    {
+      "type": "unsend",
+      "t": 37.98948021800903
+    },
+    {
+      "type": "reaction",
+      "t": 39.161669455336735,
+      "count": 15
+    },
+    {
+      "type": "system",
+      "t": 41.97978625783736
+    },
+    {
+      "type": "unsend",
+      "t": 52.653019916807054
+    },
+    {
+      "type": "reaction",
+      "t": 63.35449614068197,
+      "count": 31
+    },
+    {
+      "type": "bombshell",
+      "t": 63.016813299423724
+    },
+    {
+      "type": "reaction",
+      "t": 71.08804717429807,
+      "count": 4
+    },
+    {
+      "type": "system",
+      "t": 74.52258865429557
+    },
+    {
+      "type": "reaction",
+      "t": 78.75332487709977,
+      "count": 19
+    },
+    {
+      "type": "reaction",
+      "t": 85.12018135682341,
+      "count": 42
+    },
+    {
+      "type": "bombshell",
+      "t": 84.78249851556517
+    }
+  ],
+  "outroAt": 86.7999999998826,
+  "duration": 89.9999999998826
+}

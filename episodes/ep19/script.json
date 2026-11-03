@@ -1,0 +1,418 @@
+{
+  "title": "The Slang Police",
+  "logline": "When HR bans Gen Z slang in a company channel, an employee turns the policy into a rebellion, only to discover the CEO orchestrated the ban as a test to find a culture champion.",
+  "hook": "hr banned gen z slang so i made it worse",
+  "startClock": "9:47 AM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "1,284 members · HQ + remote"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Alex",
+      "role": "Content Specialist"
+    },
+    {
+      "id": "hr",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "ceo",
+      "name": "Linda",
+      "role": "CEO"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "role": "Marketing Manager"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "Sales Lead"
+    },
+    {
+      "id": "priya",
+      "name": "Priya",
+      "role": "Intern"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "hr",
+      "text": "Karen (HR) updated the guidelines: 'no gen z slang. this is a workplace, not tiktok.'",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "bet",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "excuse me?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no cap, this policy is mid",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "that's exactly what we're banning.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "fr fr, karen needs to touch grass",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "this is unprofessional",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok boomer",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "alex, final warning",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "slay",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💅",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "hr",
+      "text": "Karen (HR) removed Alex from #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "Linda (CEO) added Alex to #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "who banned slang? that's not very demure",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "i was following the employee handbook",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "handbook? i said make the office fun, not a prison",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "oof",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "i agree with hr, this is unprofessional",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "dave, you still use a fax machine, sit down",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "ceo said sit down lmaoo",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "this is insubordination",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "the ceo is a snowflake",
+      "beat": "unsend",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "karen...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i saw that karen",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "that was a typo, i meant to say the ceo is a... great leader",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "karen really said snowflake in the group chat",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "this is the best day ever",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "karen, meet me in my office",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "i'm not going anywhere. you can't fire me for enforcing policy",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "oh i'm not firing you. i'm promoting you to chief compliance officer, since you love rules",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "wait what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "plot twist??",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so no more slang ban?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "alex, i've been watching this whole thing. you've got guts",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i asked karen to test a new culture policy. wanted to see who would push back",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "so it was all fake?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "it was a social experiment. and alex, you passed with flying colors",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, so i'm not fired?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "you're promoted. new title: chief slang officer",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 50
+        },
+        {
+          "emoji": "💀",
+          "count": 40
+        },
+        {
+          "emoji": "🫡",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "and karen? she works for you now",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 35
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "part 2: karen's first day as alex's assistant",
+  "app": "workchat",
+  "targetSeconds": 90
+}

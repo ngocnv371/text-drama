@@ -1,0 +1,370 @@
+{
+  "title": "The Farewell Invite",
+  "logline": "A Gen Z marketer leaks a private layoff DM to #all-hands, exposing a secret company shutdown, and ends the chaos by revealing she masterminded the leak to negotiate promotions and severance for her team.",
+  "hook": "someone leaked the layoff list",
+  "startClock": "11:47 PM",
+  "chat": {
+    "name": "#all-hands",
+    "subtitle": "1,204 members · global"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Marketing Coordinator"
+    },
+    {
+      "id": "jack",
+      "name": "Jack",
+      "role": "Intern"
+    },
+    {
+      "id": "priya",
+      "name": "Priya",
+      "role": "Engineering Lead"
+    },
+    {
+      "id": "alex",
+      "name": "Alex",
+      "role": "Marketing Director"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "jack",
+      "text": "yo who leaked this??",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jack",
+      "text": "dave dm to karen: 'cut marketing by friday. no exceptions.'",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        },
+        {
+          "emoji": "😳",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "wait WHAT. i'm in marketing??",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "that's fake. dave would say 'right-size', not 'cut'",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "alex",
+      "text": "maya get off here and into my office NOW",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "do NOT engage with unverified screenshots. this is a phishing test.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jack",
+      "text": "karen it's literally from dave's email header",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "jack, you're an intern. stay in your lane.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "dave",
+      "text": "Dave (CEO) joined #all-hands",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "whoever posted that screenshot, come forward. now.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it wasn't me i was in a meeting",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "alex",
+      "text": "maya you posted it in #general at 11:47. i have the logs.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok fine IT WAS ME. but i was hacked.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "hacked. sure. just like you were 'hacked' when you changed my zoom background to shrek.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "wait maya is the leak?? i thought you were cool",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok look, i posted it because everyone deserves to know. they're replacing us with ai!",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "that screenshot is from a hypothetical sensitivity table. not a decision.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "then why does karen have a folder called 'severance_scripts_marketing_v2'?",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that's... not a real folder. maya you're making things up.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "check email. i forwarded karen's 'marketing farewell party' invite from last night.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jack",
+      "text": "omg it's real. i got the invite. 'bye bye marketing' with a balloon emoji",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "karen you used the aubergine emoji?? that's not hr approved",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that invite was a draft. i accidentally sent it. i meant to send a test to dave.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "alex",
+      "text": "maya, you're done. security is on the way to your desk.",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Maya was removed from #all-hands by Alex",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Maya was added to #all-hands by Dave",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "alex, stand down. maya, you just exposed something i've been trying to hide for weeks.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "alex",
+      "text": "dave?? what are you saying?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "layoffs are real. not just marketing. entire company. we're being acquired.",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "WHAT",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jack",
+      "text": "so the invite was real??",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, you said it was hypothetical.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "i lied. and you forced my hand. now everyone knows we're selling for scrap.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "dave, stop. we agreed on messaging. you're breaking NDA.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen left #all-hands",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "good. everyone deserves to know before they're replaced by ai.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "alex",
+      "text": "maya you just torpedoed any chance of a smooth transition. thanks a lot.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no alex. i bought us time. check email. dave's keeping marketing 6 months.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "maya, check your DMs. i sent you something.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "dave DM'd me. i'm head of comms now. marketing gets 4 months severance. you're welcome.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 55
+        },
+        {
+          "emoji": "💀",
+          "count": 19
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "dave's DM has a condition...",
+  "app": "workchat",
+  "targetSeconds": 90
+}

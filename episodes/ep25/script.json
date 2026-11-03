@@ -1,0 +1,449 @@
+{
+  "title": "The Undercover Founder",
+  "logline": "An intern who seems to be slacking off reveals he is actually the company's founder in disguise, firing his toxic manager and HR.",
+  "hook": "they thought i was just an intern",
+  "startClock": "2:03 PM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "12 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Jordan",
+      "role": "Intern"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "Manager"
+    },
+    {
+      "id": "linda",
+      "name": "Linda",
+      "role": "HR"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "role": "Co-worker"
+    },
+    {
+      "id": "priya",
+      "name": "Priya",
+      "role": "Co-worker"
+    },
+    {
+      "id": "bob",
+      "name": "Bob",
+      "role": "VP of Sales"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "day 3 of me doing absolutely nothing and still getting paid, living the dream",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 2
+        },
+        {
+          "emoji": "💀",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "jordan, my office. now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "can't, i'm at the beach",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🏖️",
+          "count": 3
+        },
+        {
+          "emoji": "😂",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "what do you mean you're at the beach? it's tuesday 2pm",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm on my lunch break... which i've extended to 4 hours",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "jordan, this is your final warning. return to office now or face disciplinary action.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "lol i don't even have a desk",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "wait, he doesn't have a desk?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "he's been working from the office sofa, i saw him",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that's it, i'm writing you up. see you in the morning.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i won't be there",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "excuse me?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i booked a one-way ticket to bali. i leave tonight.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 15
+        },
+        {
+          "emoji": "✈️",
+          "count": 6
+        },
+        {
+          "emoji": "💀",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "jordan, this is insubordination. we'll have to terminate your employment.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "who is this guy?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "legend",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "enough. security will escort you out if you show your face.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok but first, i'd like to share something with everyone",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Jordan scheduled a meeting: 'All-hands emergency' for tomorrow 9 AM",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "you don't have permission to schedule all-hands",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i don't need permission. i own this company.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 25
+        },
+        {
+          "emoji": "🤯",
+          "count": 18
+        },
+        {
+          "emoji": "👀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "what? that's not possible",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "wait, what??",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "omg the plot twist",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "you're an intern. i've never seen you at any board meeting.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "because i like to keep a low profile. but check the company registry.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "i just looked it up... the founder's name is... jordan?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Jordan renamed the channel to #the-truth",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "so you've been spying on us this whole time?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "not spying. just observing how you treat the 'little people'.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is ridiculous. i quit.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you can't quit, you're fired. effective immediately.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 22
+        },
+        {
+          "emoji": "🔥",
+          "count": 11
+        },
+        {
+          "emoji": "💀",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "best day ever",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "can we get a nap room now?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "already ordered. also, everyone gets a raise.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🙌",
+          "count": 30
+        },
+        {
+          "emoji": "❤️",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "does that include me?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no, linda. you can join karen.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Karen and Linda were removed from #the-truth by Jordan",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oh and one more thing... the company retreat is now in bali. pack your bags.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 45
+        },
+        {
+          "emoji": "✈️",
+          "count": 20
+        },
+        {
+          "emoji": "🥳",
+          "count": 18
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "part 2: karen and linda start a rival company and poach half the team",
+  "app": "workchat",
+  "targetSeconds": 90
+}

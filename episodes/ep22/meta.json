@@ -1,0 +1,8 @@
+{
+  "provider": "deepseek",
+  "model": "deepseek-v4-pro",
+  "premise": null,
+  "attempts": 1,
+  "createdAt": "2026-11-03T07:05:03.666Z",
+  "music": "lofi-office.mp3"
+}

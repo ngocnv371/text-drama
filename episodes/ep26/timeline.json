@@ -1,0 +1,977 @@
+{
+  "id": "ep26",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "my tiktok about work went viral. hr is hunting me",
+  "hookSeconds": 3.2,
+  "cliffhanger": "part 2: the ceo's response will shock everyone",
+  "startClock": "9:15 AM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "company-wide announcements"
+  },
+  "cast": [
+    {
+      "role": "Marketing Coordinator",
+      "id": "me",
+      "name": "Alex"
+    },
+    {
+      "role": "HR Director",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "VP of Sales",
+      "id": "dave",
+      "name": "Dave"
+    },
+    {
+      "role": "CEO",
+      "id": "linda",
+      "name": "Linda"
+    },
+    {
+      "role": "Designer",
+      "id": "jasmine",
+      "name": "Jasmine"
+    },
+    {
+      "role": "IT Security",
+      "id": "bob",
+      "name": "Bob"
+    }
+  ],
+  "pace": 0.6,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "karen",
+      "text": "we are investigating @corporatecringe. anyone with info must report to hr immediately.",
+      "beat": "normal",
+      "typing": [
+        [
+          0.35,
+          1.5499999999999998
+        ]
+      ],
+      "compose": null,
+      "appear": 1.5499999999999998,
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 12,
+          "at": 1.88,
+          "ramp": 0.5385052485771449
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "me",
+      "text": "wait what tiktok",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        3.6512000000000002,
+        4.13
+      ],
+      "appear": 4.13,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "jasmine",
+      "text": "lmao that account is savage",
+      "beat": "rapid",
+      "typing": [
+        [
+          4.7192,
+          5.13104
+        ]
+      ],
+      "compose": null,
+      "appear": 5.13104,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23,
+          "at": 5.46104,
+          "ramp": 0.6402220209663334
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "karen",
+      "text": "this is not a joke. it's damaging our brand.",
+      "beat": "normal",
+      "typing": [
+        [
+          6.129439999999999,
+          7.040239999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 7.040239999999999,
+      "reactions": []
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "dave",
+      "text": "i bet it's one of the interns. no one else has time for this.",
+      "beat": "rapid",
+      "typing": [
+        [
+          8.167039999999998,
+          8.848159999999998
+        ]
+      ],
+      "compose": null,
+      "appear": 8.848159999999998,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5,
+          "at": 9.178159999999998,
+          "ramp": 0.40162920156096676
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "me",
+      "text": "maybe it's someone who actually likes the company but wants to improve things lol",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        10.469359999999998,
+        11.429359999999999
+      ],
+      "appear": 11.429359999999999,
+      "reactions": []
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "karen",
+      "text": "we will find them. ip addresses don't lie.",
+      "beat": "pause",
+      "typing": [
+        [
+          14.214559999999999,
+          15.098959999999998
+        ]
+      ],
+      "compose": null,
+      "appear": 15.098959999999998,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "system",
+      "from": "dave",
+      "text": "Dave added Bob (IT Security) to #general",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 16.38536,
+      "reactions": []
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "bob",
+      "text": "i traced the account. it was posted from this office at 8:47 pm last night.",
+      "beat": "normal",
+      "typing": [
+        [
+          17.63336,
+          18.83336
+        ]
+      ],
+      "compose": null,
+      "appear": 18.83336,
+      "reactions": [
+        {
+          "emoji": "🫢",
+          "count": 9,
+          "at": 19.163359999999997,
+          "ramp": 0.49352730339815687
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "karen",
+      "text": "so it's someone here. everyone needs to stay after the all-hands.",
+      "beat": "normal",
+      "typing": [
+        [
+          20.753359999999997,
+          21.941359999999996
+        ]
+      ],
+      "compose": null,
+      "appear": 21.941359999999996,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "jasmine",
+      "text": "this is giving witch hunt",
+      "beat": "rapid",
+      "typing": [
+        [
+          23.471359999999994,
+          23.867359999999994
+        ]
+      ],
+      "compose": null,
+      "appear": 23.867359999999994,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4,
+          "at": 24.197359999999993,
+          "ramp": 0.3667415968780664
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "dave",
+      "text": "whoever it is, they're costing us money. clients are pulling out.",
+      "beat": "normal",
+      "typing": [
+        [
+          24.827359999999995,
+          26.015359999999994
+        ]
+      ],
+      "compose": null,
+      "appear": 26.015359999999994,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "me",
+      "text": "wait so if the tiktok is accurate, maybe the clients should be pulling out? just a thought",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        27.71335999999999,
+        28.67335999999999
+      ],
+      "appear": 28.67335999999999,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 11,
+          "at": 29.00335999999999,
+          "ramp": 0.524901366656961
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "karen",
+      "text": "@me my office. now.",
+      "beat": "pause",
+      "typing": [
+        [
+          31.63135999999999,
+          32.21215999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 32.21215999999999,
+      "reactions": []
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "me",
+      "text": "i didn't make the tiktok",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        32.858959999999996,
+        33.288199999999996
+      ],
+      "appear": 33.288199999999996,
+      "reactions": []
+    },
+    {
+      "i": 15,
+      "type": "system",
+      "from": "linda",
+      "text": "Linda (CEO) joined #general",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 34.229,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "linda",
+      "text": "i've been reading the comments. some of them are actually pretty funny.",
+      "beat": "normal",
+      "typing": [
+        [
+          35.2274,
+          36.427400000000006
+        ]
+      ],
+      "compose": null,
+      "appear": 36.427400000000006,
+      "reactions": [
+        {
+          "emoji": "🤭",
+          "count": 7,
+          "at": 36.757400000000004,
+          "ramp": 0.45423529440513244
+        }
+      ]
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "dave",
+      "text": "linda, this is serious. our reputation is at stake.",
+      "beat": "normal",
+      "typing": [
+        [
+          38.27060000000001,
+          39.27380000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 39.27380000000001,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "linda",
+      "text": "dave, i've seen your expense reports. we can talk about reputation later.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          41.00300000000001,
+          42.56300000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 42.56300000000001,
+      "reactions": [
+        {
+          "emoji": "🫣",
+          "count": 28,
+          "at": 42.89300000000001,
+          "ramp": 0.6709768912831989
+        }
+      ]
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "dave",
+      "text": "wait, linda, don't do this",
+      "beat": "unsend",
+      "typing": [
+        [
+          45.19460000000001,
+          45.86780000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 45.86780000000001,
+      "reactions": [],
+      "unsendAt": 47.177000000000014
+    },
+    {
+      "i": 20,
+      "type": "system",
+      "from": "linda",
+      "text": "Dave (VP of Sales) was removed from #general by Linda (CEO)",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 47.747000000000014,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "karen",
+      "text": "wait, what's happening?",
+      "beat": "rapid",
+      "typing": [
+        [
+          49.161800000000014,
+          49.54196000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 49.54196000000001,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "linda",
+      "text": "the real issue is someone's been leaking info to @corporatecringe. i suspect dave.",
+      "beat": "normal",
+      "typing": [
+        [
+          50.463560000000015,
+          51.66356000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 51.66356000000002,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5,
+          "at": 51.993560000000016,
+          "ramp": 0.40162920156096676
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "me",
+      "text": "wait, dave was the leaker? but i thought...",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        53.71796000000002,
+        54.65036000000002
+      ],
+      "appear": 54.65036000000002,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "linda",
+      "text": "we'll get to the bottom of this. keep posting. the tiktok is doing numbers.",
+      "beat": "normal",
+      "typing": [
+        [
+          55.955960000000026,
+          57.15596000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 57.15596000000003,
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 15,
+          "at": 57.48596000000003,
+          "ramp": 0.5733928532600453
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "karen",
+      "text": "linda, are you encouraging the anonymous account?",
+      "beat": "pause",
+      "typing": [
+        [
+          59.82596000000003,
+          60.80276000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 60.80276000000003,
+      "reactions": []
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "linda",
+      "text": "i'm encouraging transparency. and whoever runs it, dm me for a promotion.",
+      "beat": "normal",
+      "typing": [
+        [
+          62.22356000000003,
+          63.42356000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 63.42356000000003,
+      "reactions": [
+        {
+          "emoji": "🤩",
+          "count": 3,
+          "at": 63.75356000000003,
+          "ramp": 0.32176365169907845
+        }
+      ]
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "jasmine",
+      "text": "omg this is the best day ever",
+      "beat": "rapid",
+      "typing": [
+        [
+          65.10716000000004,
+          65.53484000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 65.53484000000003,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "me",
+      "text": "i mean, i'm sure it's just a disgruntled customer or something",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        66.54164000000003,
+        67.50164000000002
+      ],
+      "appear": 67.50164000000002,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "linda",
+      "text": "ip is from this building, but could be anyone. unless you have something to tell me, @me.",
+      "beat": "pause",
+      "typing": [
+        [
+          69.92204000000002,
+          71.12204000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 71.12204000000003,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "me",
+      "text": "i have no idea what you're talking about",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        73.31084000000003,
+        74.19284000000003
+      ],
+      "appear": 74.19284000000003,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "linda",
+      "text": "fine. i'll let hr handle it. but remember, i know everything.",
+      "beat": "normal",
+      "typing": [
+        [
+          75.44084000000002,
+          76.57604000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 76.57604000000002,
+      "reactions": [
+        {
+          "emoji": "🫠",
+          "count": 6,
+          "at": 76.90604000000002,
+          "ramp": 0.43013445013811175
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "karen",
+      "text": "we're still investigating. all employees must submit their phone for inspection.",
+      "beat": "normal",
+      "typing": [
+        [
+          78.22724000000002,
+          79.42724000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 79.42724000000003,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "jasmine",
+      "text": "that's illegal",
+      "beat": "rapid",
+      "typing": [
+        [
+          81.24524000000002,
+          81.55412000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 81.55412000000003,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "me",
+      "text": "you can't do that",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        82.30292000000003,
+        82.79852000000002
+      ],
+      "appear": 82.79852000000002,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "karen",
+      "text": "we can and we will. hr has the right to search company property.",
+      "beat": "normal",
+      "typing": [
+        [
+          83.60492000000002,
+          84.77972000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 84.77972000000003,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "system",
+      "from": "linda",
+      "text": "Karen (HR) was removed from #general by Linda (CEO)",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 86.48852000000002,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "linda",
+      "text": "actually, karen, you've been overstepping. i'll take it from here.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          88.21772000000003,
+          89.77772000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 89.77772000000003,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "linda",
+      "text": "the tiktok's not it. our numbers are down from mismanagement. someone must pay.",
+      "beat": "normal",
+      "typing": [
+        [
+          92.36492000000003,
+          93.56492000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 93.56492000000003,
+      "reactions": []
+    },
+    {
+      "i": 39,
+      "type": "message",
+      "from": "me",
+      "text": "so... what does that mean?",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        95.36372000000003,
+        95.81648000000003
+      ],
+      "appear": 95.81648000000003,
+      "reactions": []
+    },
+    {
+      "i": 40,
+      "type": "message",
+      "from": "linda",
+      "text": "i'm promoting you to head of social media, effective immediately. you have talent.",
+      "beat": "normal",
+      "typing": [
+        [
+          96.79568000000002,
+          97.99568000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 97.99568000000002,
+      "reactions": [
+        {
+          "emoji": "😮",
+          "count": 20,
+          "at": 98.32568000000002,
+          "ramp": 0.6183707984390332
+        }
+      ]
+    },
+    {
+      "i": 41,
+      "type": "message",
+      "from": "me",
+      "text": "wait, what? but i didn't...",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        99.85208000000003,
+        100.31660000000002
+      ],
+      "appear": 100.31660000000002,
+      "reactions": []
+    },
+    {
+      "i": 42,
+      "type": "message",
+      "from": "linda",
+      "text": "you didn't what? didn't make the tiktok? i know you did. i saw you post from office wifi.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          101.58500000000002,
+          103.14500000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 103.14500000000002,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 45,
+          "at": 103.47500000000002,
+          "ramp": 0.7451565049591237
+        }
+      ]
+    },
+    {
+      "i": 43,
+      "type": "message",
+      "from": "me",
+      "text": "you knew??",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        106.17380000000001,
+        106.55180000000001
+      ],
+      "appear": 106.55180000000001,
+      "reactions": []
+    },
+    {
+      "i": 44,
+      "type": "message",
+      "from": "linda",
+      "text": "of course. i've been watching for weeks. so i removed dave and karen. they're the problem.",
+      "beat": "normal",
+      "typing": [
+        [
+          107.22380000000001,
+          108.42380000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 108.42380000000001,
+      "reactions": []
+    },
+    {
+      "i": 45,
+      "type": "message",
+      "from": "me",
+      "text": "then you should also know i have proof you've been embezzling. i posted it on the tiktok.",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        110.90180000000002,
+        111.86180000000002
+      ],
+      "appear": 111.86180000000002,
+      "reactions": [
+        {
+          "emoji": "🚨",
+          "count": 67,
+          "at": 112.19180000000001,
+          "ramp": 0.8073869289722975
+        },
+        {
+          "emoji": "💀",
+          "count": 33,
+          "at": 112.41980000000002,
+          "ramp": 0.6966650183560393
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 1.88,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 5.46104,
+      "count": 23
+    },
+    {
+      "type": "reaction",
+      "t": 9.178159999999998,
+      "count": 5
+    },
+    {
+      "type": "system",
+      "t": 16.38536
+    },
+    {
+      "type": "reaction",
+      "t": 19.163359999999997,
+      "count": 9
+    },
+    {
+      "type": "reaction",
+      "t": 24.197359999999993,
+      "count": 4
+    },
+    {
+      "type": "reaction",
+      "t": 29.00335999999999,
+      "count": 11
+    },
+    {
+      "type": "system",
+      "t": 34.229
+    },
+    {
+      "type": "reaction",
+      "t": 36.757400000000004,
+      "count": 7
+    },
+    {
+      "type": "reaction",
+      "t": 42.89300000000001,
+      "count": 28
+    },
+    {
+      "type": "bombshell",
+      "t": 42.56300000000001
+    },
+    {
+      "type": "unsend",
+      "t": 47.177000000000014
+    },
+    {
+      "type": "system",
+      "t": 47.747000000000014
+    },
+    {
+      "type": "reaction",
+      "t": 51.993560000000016,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 57.48596000000003,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 63.75356000000003,
+      "count": 3
+    },
+    {
+      "type": "reaction",
+      "t": 76.90604000000002,
+      "count": 6
+    },
+    {
+      "type": "system",
+      "t": 86.48852000000002
+    },
+    {
+      "type": "bombshell",
+      "t": 89.77772000000003
+    },
+    {
+      "type": "reaction",
+      "t": 98.32568000000002,
+      "count": 20
+    },
+    {
+      "type": "reaction",
+      "t": 103.47500000000002,
+      "count": 45
+    },
+    {
+      "type": "bombshell",
+      "t": 103.14500000000002
+    },
+    {
+      "type": "reaction",
+      "t": 112.19180000000001,
+      "count": 67
+    },
+    {
+      "type": "reaction",
+      "t": 112.41980000000002,
+      "count": 33
+    },
+    {
+      "type": "bombshell",
+      "t": 111.86180000000002
+    }
+  ],
+  "outroAt": 114.62060000000001,
+  "duration": 117.82060000000001
+}

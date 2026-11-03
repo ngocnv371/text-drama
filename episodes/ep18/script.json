@@ -1,0 +1,455 @@
+{
+  "title": "The Do Nothing Playbook",
+  "logline": "When a Gen Z worker accidentally posts her 'do nothing at work' playbook to the company channel, she must convince the CEO it's satire—until he reveals he's been using it and wants her to automate his job too.",
+  "hook": "I posted my 'do nothing' guide to the wrong channel.",
+  "startClock": "10:42 AM",
+  "chat": {
+    "name": "#productivity",
+    "subtitle": "6 members · Q3 launch"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "you",
+      "role": "Data Analyst"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "role": "Marketing"
+    },
+    {
+      "id": "jordan",
+      "name": "Jordan",
+      "role": "Engineering"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR"
+    },
+    {
+      "id": "linda",
+      "name": "Linda",
+      "role": "CEO"
+    },
+    {
+      "id": "tom",
+      "name": "Tom",
+      "role": "Intern"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "hey team, just pinned the q3 productivity deck we discussed",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "*attachment: do_nothing_playbook.pdf*",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "oh this is about to be good",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wrong file ignore",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "I don't think I can ignore this.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🚩",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "page 3 says 'step 1: never volunteer for anything'",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "lmao she really wrote a whole playbook",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "that's... not mine",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "it's attached to your account, @me",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Linda (CEO) joined #productivity",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "I'd like to see this playbook.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's satire, i was making fun of hustle culture",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "satire? you have a detailed calendar for fake meetings",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "and a script that moves your mouse every 30 seconds",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "that's just a screensaver",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "HR has questions. You have 10 minutes.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "⏰",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Karen, hold on. This is actually brilliant.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "wait what",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "we waste 60% of our time in meetings. This playbook cuts that.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "so the do-nothing plan is getting promoted?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i literally cannot tell if this is a trap",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "😅",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "No trap. I'm making you Chief Efficiency Officer.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "what does that even mean",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "This sets a terrible precedent.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🚩",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Karen, you haven't done real work in months. I've seen your calendar.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "omg she dragged karen",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "I am literally HR. I report to the board.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Karen removed from #productivity by Linda",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jordan",
+      "text": "did she just fire HR",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "and promote the person who wrote a guide on doing nothing",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i wrote it as a joke...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "your joke is now company policy. effective immediately.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "📢",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "does this mean i can stop attending standups",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Yes. All meetings are cancelled until further notice.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "okay this is getting out of hand",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "One more thing. I know you automated your own job.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "...what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "And I want you to automate mine too.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 13
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "Part 2: the board meeting.",
+  "app": "workchat",
+  "targetSeconds": 90
+}

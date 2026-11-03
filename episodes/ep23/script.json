@@ -1,0 +1,400 @@
+{
+  "title": "The Mouse Jiggler",
+  "logline": "A Gen Z engineer gets busted for faking activity with a mouse jiggler, only to discover the CEO is her secret business partner in the device that's now dominating company revenue.",
+  "hook": "Caught faking my activity. Boss slid into DMs.",
+  "startClock": "2:47 PM",
+  "chat": {
+    "name": "#it-support",
+    "subtitle": "6 members · remote support"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Alex",
+      "role": "Senior Engineer"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "IT Support"
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah",
+      "role": "HR Director"
+    },
+    {
+      "id": "boss",
+      "name": "Mike",
+      "role": "Engineering Manager"
+    },
+    {
+      "id": "josh",
+      "name": "Josh",
+      "role": "Frontend Dev"
+    },
+    {
+      "id": "ceo",
+      "name": "Linda",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "dave",
+      "text": "Dave (IT Support) initiated a remote session on your machine.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "uh why is my mouse moving by itself",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "@me we detected automated mouse movement. please explain.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm just really precise",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "@me this is a serious violation of the remote work policy. please join a call.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "i knew it. you've been slacking off.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have been working. i was in a deep focus.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "your mouse moved in perfect 30-second intervals for 4 hours. that's a jiggler.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤖",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok fine. it's for my cat. he likes to sit on my desk.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "i thought you didn't have a cat",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "[message deleted]",
+      "beat": "unsend",
+      "reactions": [
+        {
+          "emoji": "🫣",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "you're fired.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🚨",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "Linda (CEO) joined #it-support.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "wait. what brand of jiggler is it?",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "um... JigglePro.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "oh thank god. i was worried mine was the only one.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "sir, this is against policy...",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i wrote the policy. and i use a JigglePro every day during my 'thinking time'.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "but the JigglePro is not company-approved hardware.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "actually, i invented the JigglePro.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "what?!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "you're the JigglePro guy? i follow your TikTok!",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i'm an early investor. we met on Shark Tank.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤑",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "this is a conflict of interest. i'm reporting to the board.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "the board is all JigglePro users. we have a secret channel.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤫",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so you're not going to fire me?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "promote you. we need someone to run the JigglePro division.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "this is outrageous.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, but i actually did all my work. the jiggler was for my side hustle calls.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "josh",
+      "text": "so you're overemployed too?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no, i run the JigglePro business after hours.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "but your activity logs showed no work output during those times.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "because i was coding the next JigglePro update. i'm the only software engineer.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "engagement metrics tanked last quarter. but JigglePro is now 40% of revenue.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "i'm resigning.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "✌️",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "sarah",
+      "text": "Sarah removed herself from #it-support.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "good riddance. now, about that promotion...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'll take it. but i want to keep my side hustle.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "deal. but can you make a jiggler that also does my emails?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫠",
+          "count": 35
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "The Jiggler empire grows. But the board has other plans...",
+  "app": "workchat",
+  "targetSeconds": 90
+}

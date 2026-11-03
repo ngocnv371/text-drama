@@ -1,0 +1,365 @@
+{
+  "title": "The Union Invite",
+  "logline": "A Gen Z employee accidentally receives a mysterious union invite in a company chat, sparking panic from management, until the CEO reveals he's the organizer.",
+  "hook": "i got a mysterious union invite",
+  "startClock": "3:12 PM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "112 members · HQ"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Marketing Associate"
+    },
+    {
+      "id": "jake",
+      "name": "Jake",
+      "role": "Software Engineer"
+    },
+    {
+      "id": "priya",
+      "name": "Priya",
+      "role": "Designer"
+    },
+    {
+      "id": "linda",
+      "name": "Linda",
+      "role": "VP of People"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "marcus",
+      "name": "Marcus",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok who sent me this union meeting invite",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "lol what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "delete this right now",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i didn't send it?? it just appeared in my dms",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "this channel is for work updates only",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "wait i got one too",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "same... is this real",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "everyone ignore this. it's spam",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it says here 'mandatory meeting for all employees about working conditions'",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "@maya check your dms now",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm not deleting anything until i understand who sent this",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "This is Karen from HR. This is unauthorized communication. Please refrain.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "karen you literally just joined #general for the first time in 3 years 💀",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "That is not relevant. The link has been reported.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "ok but why is everyone so scared of a union meeting lol",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "because unions ruin companies. you want to work at a place with no growth?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "unions are for people who don't want to work hard",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "we already have no growth linda",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "@marcus can you please shut this down",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "marcus",
+      "text": "Marcus (CEO) joined #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "good afternoon team. i see there's a link circulating.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "yes i didn't create it, it was sent to me anonymously",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "do you know who sent it?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no... but it's coming from inside the company",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "interesting. anyone else get this?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "i got it from an unknown number",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "same",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "We are investigating. Please stand by.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "@marcus we should delete this channel and lock down all dms",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "or we could attend the meeting and hear them out",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "what? you can't be serious",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "i'm always serious about listening to employees",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "wait is this a trap",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🧐",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok, organizer just messaged me. they'll reveal themselves at the meeting.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "marcus",
+      "text": "Linda was removed from #general by Marcus",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "linda wasn't fired. she's just on a time out.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "ceo on our side?? timeline is wild",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok so who is the organizer? they just told me they'll join this chat",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "it's me. i sent that link. welcome to the union.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 42
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "part 2: the union meeting",
+  "app": "workchat",
+  "targetSeconds": 90
+}

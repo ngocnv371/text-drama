@@ -1,0 +1,448 @@
+{
+  "title": "The Scapegoat",
+  "logline": "A Gen Z worker's anonymous TikTok about their toxic workplace goes viral, but when HR starts a witch hunt, they discover the CEO is using them as a scapegoat to cover up embezzlement.",
+  "hook": "my tiktok about work went viral. hr is hunting me",
+  "startClock": "9:15 AM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "company-wide announcements"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Alex",
+      "role": "Marketing Coordinator"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "VP of Sales"
+    },
+    {
+      "id": "linda",
+      "name": "Linda",
+      "role": "CEO"
+    },
+    {
+      "id": "jasmine",
+      "name": "Jasmine",
+      "role": "Designer"
+    },
+    {
+      "id": "bob",
+      "name": "Bob",
+      "role": "IT Security"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "we are investigating @corporatecringe. anyone with info must report to hr immediately.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what tiktok",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jasmine",
+      "text": "lmao that account is savage",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is not a joke. it's damaging our brand.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "i bet it's one of the interns. no one else has time for this.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "maybe it's someone who actually likes the company but wants to improve things lol",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "we will find them. ip addresses don't lie.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "dave",
+      "text": "Dave added Bob (IT Security) to #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "i traced the account. it was posted from this office at 8:47 pm last night.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫢",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "so it's someone here. everyone needs to stay after the all-hands.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jasmine",
+      "text": "this is giving witch hunt",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "whoever it is, they're costing us money. clients are pulling out.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait so if the tiktok is accurate, maybe the clients should be pulling out? just a thought",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "@me my office. now.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i didn't make the tiktok",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Linda (CEO) joined #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "i've been reading the comments. some of them are actually pretty funny.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤭",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "linda, this is serious. our reputation is at stake.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "dave, i've seen your expense reports. we can talk about reputation later.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫣",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "wait, linda, don't do this",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Dave (VP of Sales) was removed from #general by Linda (CEO)",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "wait, what's happening?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "the real issue is someone's been leaking info to @corporatecringe. i suspect dave.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, dave was the leaker? but i thought...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "we'll get to the bottom of this. keep posting. the tiktok is doing numbers.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "linda, are you encouraging the anonymous account?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "i'm encouraging transparency. and whoever runs it, dm me for a promotion.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤩",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jasmine",
+      "text": "omg this is the best day ever",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i mean, i'm sure it's just a disgruntled customer or something",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "ip is from this building, but could be anyone. unless you have something to tell me, @me.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have no idea what you're talking about",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "fine. i'll let hr handle it. but remember, i know everything.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫠",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "we're still investigating. all employees must submit their phone for inspection.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jasmine",
+      "text": "that's illegal",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you can't do that",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "we can and we will. hr has the right to search company property.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Karen (HR) was removed from #general by Linda (CEO)",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "actually, karen, you've been overstepping. i'll take it from here.",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "the tiktok's not it. our numbers are down from mismanagement. someone must pay.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so... what does that mean?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "i'm promoting you to head of social media, effective immediately. you have talent.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😮",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, what? but i didn't...",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "you didn't what? didn't make the tiktok? i know you did. i saw you post from office wifi.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you knew??",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "of course. i've been watching for weeks. so i removed dave and karen. they're the problem.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "then you should also know i have proof you've been embezzling. i posted it on the tiktok.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🚨",
+          "count": 67
+        },
+        {
+          "emoji": "💀",
+          "count": 33
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "part 2: the ceo's response will shock everyone",
+  "app": "workchat",
+  "targetSeconds": 90
+}

@@ -1,0 +1,395 @@
+{
+  "title": "The Festival Fiasco",
+  "logline": "A Gen Z marketer gets caught at a festival instead of working, but turns the tables when the CEO discovers their boss was there too.",
+  "hook": "my boss thinks i'm in a meeting rn",
+  "startClock": "3:42 PM",
+  "chat": {
+    "name": "#marketing",
+    "subtitle": "4 members · Q3 launch"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Jordan",
+      "role": "Marketing Associate"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "Team Lead"
+    },
+    {
+      "id": "jake",
+      "name": "Jake",
+      "role": "Designer"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "role": "Copywriter"
+    },
+    {
+      "id": "ceo",
+      "name": "Linda",
+      "role": "CEO"
+    },
+    {
+      "id": "hr",
+      "name": "David",
+      "role": "HR"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "jordan, update on the deck?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "in a client call rn, will send in 15",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "wait is that you in the crowd at lolla??",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no?? that's my cousin",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "lmao your cousin has your exact face tattoo?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "jordan, you're not answering my calls",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "client call is loud, texting is easier",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "then why is your status 'at a concert'?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "☠️",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen changed the channel name to #jordan-is-busted",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok fine, i'm at lolla. but it's a wellness break",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "wellness break? you have a deadline tomorrow",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "mental health day. i'll work late tonight",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "mental health day but you're front row at a festival?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "jordan, we can see your calendar says 'doctor appt'",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok i lied. i just needed a break from karen's 'synergy' meetings",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 23
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "excuse me? my synergy meetings are why we hit Q3 targets",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "Linda (CEO) joined #jordan-is-busted",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "hi everyone. jordan, care to explain?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm sorry linda. it won't happen again. i'll be back online in 20",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "don't bother. i need someone who actually wants to work here",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "linda, i've been saying we need more accountability on this team",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "karen, you've taken 14 'wellness days' this quarter alone",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 31
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "what? those were doctor appointments",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i saw your instagram. you were at the same festival last weekend",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that was from last year!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "karen, your story yesterday said 'day 1 of lolla'",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 27
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "jake, you're supposed to be my ally!",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "karen, you're on thin ice. jordan, you're getting a written warning",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, karen was at lolla yesterday? that means she took a wellness day too",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "and she's the one who approved my PTO denial",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that's different! i have seniority",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "seniority doesn't exempt you from honesty. karen, you're demoted",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "you can't do that! i'll go to HR",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "HR is already in this channel. david, please confirm",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "hr",
+      "text": "David (HR) joined #jordan-is-busted",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "karen, your wellness day requests have been flagged for fraud. we'll talk monday",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "⚖️",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is a joke. jordan, you started this!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "me? you're the one who lied about doctor appointments",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "jordan, you're promoted to team lead. karen, clear your desk by 5pm",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 50
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "part 2: karen goes scorched earth and leaks the Q3 launch deck",
+  "app": "workchat",
+  "targetSeconds": 90
+}
