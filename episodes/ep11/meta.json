@@ -3,5 +3,6 @@
   "model": "gemini-3.1-pro-preview",
   "premise": null,
   "attempts": 2,
-  "createdAt": "2026-11-02T16:01:50.038Z"
+  "createdAt": "2026-11-02T16:01:50.038Z",
+  "music": "late-night-synth.mp3"
 }

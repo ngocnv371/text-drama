@@ -3,5 +3,6 @@
   "model": "gemini-3.1-pro-preview",
   "premise": null,
   "attempts": 1,
-  "createdAt": "2026-11-02T13:01:08.236Z"
+  "createdAt": "2026-11-02T13:01:08.236Z",
+  "music": "sneaky-pizzicato.mp3"
 }

@@ -6,6 +6,7 @@
     "fps": 30
   },
   "theme": "dark",
+  "app": "imessage",
   "hook": "why is my old boss texting me?",
   "hookSeconds": 3.2,
   "cliffhanger": "is the AI his manager now? 💀",
@@ -16,10 +17,12 @@
   },
   "cast": [
     {
+      "role": "",
       "id": "me",
       "name": "alex"
     },
     {
+      "role": "",
       "id": "greg",
       "name": "greg"
     }
@@ -28,6 +31,7 @@
   "messages": [
     {
       "i": 0,
+      "type": "message",
       "from": "greg",
       "text": "where are you? standup started at 9",
       "beat": "normal",
@@ -38,10 +42,12 @@
         ]
       ],
       "compose": null,
-      "appear": 1.1747461476638332
+      "appear": 1.1747461476638332,
+      "reactions": []
     },
     {
       "i": 1,
+      "type": "message",
       "from": "greg",
       "text": "this is your 3rd strike for rto",
       "beat": "rapid",
@@ -52,10 +58,12 @@
         ]
       ],
       "compose": null,
-      "appear": 2.6300482136779246
+      "appear": 2.6300482136779246,
+      "reactions": []
     },
     {
       "i": 2,
+      "type": "message",
       "from": "me",
       "text": "greg i don't work there anymore",
       "beat": "pause",
@@ -64,10 +72,12 @@
         4.530713199430486,
         5.291728962956659
       ],
-      "appear": 5.291728962956659
+      "appear": 5.291728962956659,
+      "reactions": []
     },
     {
       "i": 3,
+      "type": "message",
       "from": "greg",
       "text": "very funny.",
       "beat": "fakeout",
@@ -82,10 +92,12 @@
         ]
       ],
       "compose": null,
-      "appear": 8.192086248907806
+      "appear": 8.192086248907806,
+      "reactions": []
     },
     {
       "i": 4,
+      "type": "message",
       "from": "greg",
       "text": "you literally pushed an update last night",
       "beat": "rapid",
@@ -96,10 +108,12 @@
         ]
       ],
       "compose": null,
-      "appear": 9.25001062559296
+      "appear": 9.25001062559296,
+      "reactions": []
     },
     {
       "i": 5,
+      "type": "message",
       "from": "greg",
       "text": "and i approved your pto for friday",
       "beat": "rapid",
@@ -110,10 +124,12 @@
         ]
       ],
       "compose": null,
-      "appear": 10.850018152060796
+      "appear": 10.850018152060796,
+      "reactions": []
     },
     {
       "i": 6,
+      "type": "message",
       "from": "me",
       "text": "greg i quit in february",
       "beat": "normal",
@@ -122,10 +138,12 @@
         12.029655066295128,
         12.650713907793499
       ],
-      "appear": 12.650713907793499
+      "appear": 12.650713907793499,
+      "reactions": []
     },
     {
       "i": 7,
+      "type": "message",
       "from": "greg",
       "text": "hr would have told me",
       "beat": "pause",
@@ -136,10 +154,12 @@
         ]
       ],
       "compose": null,
-      "appear": 15.023733505389892
+      "appear": 15.023733505389892,
+      "reactions": []
     },
     {
       "i": 8,
+      "type": "message",
       "from": "greg",
       "text": "if this is a tiktok prank i'm firing you",
       "beat": "rapid",
@@ -150,10 +170,12 @@
         ]
       ],
       "compose": null,
-      "appear": 16.273348880638125
+      "appear": 16.273348880638125,
+      "reactions": []
     },
     {
       "i": 9,
+      "type": "message",
       "from": "me",
       "text": "i sent you my resignation on feb 14",
       "beat": "fakeout",
@@ -162,10 +184,12 @@
         17.54170848651508,
         18.372702711055155
       ],
-      "appear": 18.372702711055155
+      "appear": 18.372702711055155,
+      "reactions": []
     },
     {
       "i": 10,
+      "type": "message",
       "from": "greg",
       "text": "you sent an e-card that said 'it's not me it's u'",
       "beat": "normal",
@@ -176,10 +200,12 @@
         ]
       ],
       "compose": null,
-      "appear": 20.58952038674552
+      "appear": 20.58952038674552,
+      "reactions": []
     },
     {
       "i": 11,
+      "type": "message",
       "from": "me",
       "text": "yeah that was my two weeks notice",
       "beat": "rapid",
@@ -188,10 +214,12 @@
         21.862878454123468,
         22.420081949946656
       ],
-      "appear": 22.420081949946656
+      "appear": 22.420081949946656,
+      "reactions": []
     },
     {
       "i": 12,
+      "type": "message",
       "from": "greg",
       "text": "are you serious.",
       "beat": "pause",
@@ -202,10 +230,12 @@
         ]
       ],
       "compose": null,
-      "appear": 24.924311161944118
+      "appear": 24.924311161944118,
+      "reactions": []
     },
     {
       "i": 13,
+      "type": "message",
       "from": "greg",
       "text": "because you are still on payroll",
       "beat": "rapid",
@@ -216,10 +246,12 @@
         ]
       ],
       "compose": null,
-      "appear": 26.007977615359383
+      "appear": 26.007977615359383,
+      "reactions": []
     },
     {
       "i": 14,
+      "type": "message",
       "from": "greg",
       "text": "and you closed 42 tickets this month",
       "beat": "rapid",
@@ -230,10 +262,12 @@
         ]
       ],
       "compose": null,
-      "appear": 27.44453545074475
+      "appear": 27.44453545074475,
+      "reactions": []
     },
     {
       "i": 15,
+      "type": "message",
       "from": "me",
       "text": "oh wait",
       "beat": "fakeout",
@@ -242,10 +276,12 @@
         28.63291967260582,
         29.00780428518029
       ],
-      "appear": 29.00780428518029
+      "appear": 29.00780428518029,
+      "reactions": []
     },
     {
       "i": 16,
+      "type": "message",
       "from": "me",
       "text": "i forgot to turn off my python script",
       "beat": "rapid",
@@ -254,10 +290,12 @@
         29.441420820391425,
         30.04760923892434
       ],
-      "appear": 30.04760923892434
+      "appear": 30.04760923892434,
+      "reactions": []
     },
     {
       "i": 17,
+      "type": "message",
       "from": "greg",
       "text": "your what.",
       "beat": "bombshell",
@@ -268,10 +306,12 @@
         ]
       ],
       "compose": null,
-      "appear": 32.42437768264648
+      "appear": 32.42437768264648,
+      "reactions": []
     },
     {
       "i": 18,
+      "type": "message",
       "from": "me",
       "text": "i automated my job last november",
       "beat": "normal",
@@ -280,10 +320,12 @@
         33.99889305545925,
         34.7774034342389
       ],
-      "appear": 34.7774034342389
+      "appear": 34.7774034342389,
+      "reactions": []
     },
     {
       "i": 19,
+      "type": "message",
       "from": "me",
       "text": "it's literally just chatgpt and a cron job",
       "beat": "rapid",
@@ -292,10 +334,12 @@
         35.71086611954933,
         36.37828569146941
       ],
-      "appear": 36.37828569146941
+      "appear": 36.37828569146941,
+      "reactions": []
     },
     {
       "i": 20,
+      "type": "message",
       "from": "greg",
       "text": "wait.",
       "beat": "pause",
@@ -306,10 +350,12 @@
         ]
       ],
       "compose": null,
-      "appear": 38.936248364602534
+      "appear": 38.936248364602534,
+      "reactions": []
     },
     {
       "i": 21,
+      "type": "message",
       "from": "greg",
       "text": "if a script is doing your job...",
       "beat": "fakeout",
@@ -324,10 +370,12 @@
         ]
       ],
       "compose": null,
-      "appear": 41.316765654450414
+      "appear": 41.316765654450414,
+      "reactions": []
     },
     {
       "i": 22,
+      "type": "message",
       "from": "greg",
       "text": "who did i just promote to senior dev?",
       "beat": "bombshell",
@@ -338,10 +386,12 @@
         ]
       ],
       "compose": null,
-      "appear": 43.96470063460142
+      "appear": 43.96470063460142,
+      "reactions": []
     },
     {
       "i": 23,
+      "type": "message",
       "from": "me",
       "text": "LMFAOOOO",
       "beat": "unsend",
@@ -351,10 +401,12 @@
         46.36021330895228
       ],
       "appear": 46.36021330895228,
+      "reactions": [],
       "unsendAt": 47.36365445527661
     },
     {
       "i": 24,
+      "type": "message",
       "from": "me",
       "text": "you promoted my script???",
       "beat": "rapid",
@@ -363,10 +415,12 @@
         47.751035221603566,
         48.21026887200729
       ],
-      "appear": 48.21026887200729
+      "appear": 48.21026887200729,
+      "reactions": []
     },
     {
       "i": 25,
+      "type": "message",
       "from": "greg",
       "text": "it had perfect attendance.",
       "beat": "normal",
@@ -377,10 +431,12 @@
         ]
       ],
       "compose": null,
-      "appear": 49.91099539772013
+      "appear": 49.91099539772013,
+      "reactions": []
     },
     {
       "i": 26,
+      "type": "message",
       "from": "me",
       "text": "wait do i get its bonus",
       "beat": "rapid",
@@ -389,10 +445,12 @@
         50.72449500700672,
         51.15923619605558
       ],
-      "appear": 51.15923619605558
+      "appear": 51.15923619605558,
+      "reactions": []
     },
     {
       "i": 27,
+      "type": "message",
       "from": "greg",
       "text": "no.",
       "beat": "pause",
@@ -403,10 +461,12 @@
         ]
       ],
       "compose": null,
-      "appear": 53.33731579511325
+      "appear": 53.33731579511325,
+      "reactions": []
     },
     {
       "i": 28,
+      "type": "message",
       "from": "greg",
       "text": "it just put me on a pip.",
       "beat": "bombshell",
@@ -417,7 +477,8 @@
         ]
       ],
       "compose": null,
-      "appear": 55.226734242488575
+      "appear": 55.226734242488575,
+      "reactions": []
     }
   ],
   "fx": [

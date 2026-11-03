@@ -1,0 +1,930 @@
+{
+  "id": "ep12",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "HR asked about my Slack name. I panicked.",
+  "hookSeconds": 3.2,
+  "cliffhanger": "part 2: karen calls a lawyer… who is also chad's dog",
+  "startClock": "10:23 AM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "all-company · 247 members"
+  },
+  "cast": [
+    {
+      "role": "Associate",
+      "id": "me",
+      "name": "Jordan"
+    },
+    {
+      "role": "HR Director",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "CEO",
+      "id": "chad",
+      "name": "Chad"
+    },
+    {
+      "role": "Team Lead",
+      "id": "tyler",
+      "name": "Tyler"
+    },
+    {
+      "role": "Marketing Manager",
+      "id": "maya",
+      "name": "Maya"
+    },
+    {
+      "role": "Coordinator",
+      "id": "sam",
+      "name": "Sam"
+    }
+  ],
+  "pace": 0.6391630623631044,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "karen",
+      "text": "jordan, can you explain your display name?",
+      "beat": "normal",
+      "typing": [
+        [
+          0.35,
+          1.2921263539232157
+        ]
+      ],
+      "compose": null,
+      "appear": 1.2921263539232157,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12,
+          "at": 1.6436660382229231,
+          "ramp": 0.5736544396319545
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "me",
+      "text": "which one? 👀",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        2.451568149049887,
+        2.75849425159665
+      ],
+      "appear": 2.75849425159665,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "karen",
+      "text": "it says 'daddy's little tax write-off'",
+      "beat": "pause",
+      "typing": [
+        [
+          4.3142171453884455,
+          5.2000971498237085
+        ]
+      ],
+      "compose": null,
+      "appear": 5.2000971498237085,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 5,
+          "at": 5.551636834123416,
+          "ramp": 0.4278442506735934
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "me",
+      "text": "oh that's just my authentic self",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        6.277726072967902,
+        6.835204095961002
+      ],
+      "appear": 6.835204095961002,
+      "reactions": [
+        {
+          "emoji": "✨",
+          "count": 3,
+          "at": 7.186743780260709,
+          "ramp": 0.3427657349618638
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "tyler",
+      "text": "@karen pretty sure that's not in the handbook",
+      "beat": "normal",
+      "typing": [
+        [
+          8.001037521711304,
+          8.985348637750484
+        ]
+      ],
+      "compose": null,
+      "appear": 8.985348637750484,
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 14,
+          "at": 9.336888322050191,
+          "ramp": 0.5993283886773633
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "me",
+      "text": "the handbook says be authentic. per my last email",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        10.206150086864014,
+        10.922012716710691
+      ],
+      "appear": 10.922012716710691,
+      "reactions": []
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "karen",
+      "text": "this is inappropriate. change it immediately",
+      "beat": "normal",
+      "typing": [
+        [
+          12.435550848386523,
+          13.405800377053716
+        ]
+      ],
+      "compose": null,
+      "appear": 13.405800377053716,
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 2,
+          "at": 13.757340061353423,
+          "ramp": 0.27523511792582145
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "maya",
+      "text": "honestly it's giving main character",
+      "beat": "normal",
+      "typing": [
+        [
+          14.81707241875145,
+          15.660767661070748
+        ]
+      ],
+      "compose": null,
+      "appear": 15.660767661070748,
+      "reactions": [
+        {
+          "emoji": "✨",
+          "count": 9,
+          "at": 16.012307345370456,
+          "ramp": 0.5257407043329515
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "me",
+      "text": "karen, is this because your name is literally karen?",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        17.68691456876179,
+        18.709575468542756
+      ],
+      "appear": 18.709575468542756,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23,
+          "at": 19.061115152842465,
+          "ramp": 0.6820104458552289
+        },
+        {
+          "emoji": "👀",
+          "count": 9,
+          "at": 19.303997116540444,
+          "ramp": 0.5257407043329515
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "karen",
+      "text": "my name is not up for discussion",
+      "beat": "normal",
+      "typing": [
+        [
+          20.284473254205444,
+          21.085983734408778
+        ]
+      ],
+      "compose": null,
+      "appear": 21.085983734408778,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "system",
+      "from": "chad",
+      "text": "Chad (CEO) joined #general",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 22.25181716015908,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "chad",
+      "text": "what's going on in here",
+      "beat": "normal",
+      "typing": [
+        [
+          23.294931277935667,
+          23.969887471791104
+        ]
+      ],
+      "compose": null,
+      "appear": 23.969887471791104,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "tyler",
+      "text": "@chad jordan changed their name to daddy's little tax write-off",
+      "beat": "rapid",
+      "typing": [
+        [
+          24.740718125001006,
+          25.48316993824199
+        ]
+      ],
+      "compose": null,
+      "appear": 25.48316993824199,
+      "reactions": []
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "chad",
+      "text": "lol that's kind of iconic",
+      "beat": "normal",
+      "typing": [
+        [
+          27.28305312185649,
+          27.986132490455905
+        ]
+      ],
+      "compose": null,
+      "appear": 27.986132490455905,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4,
+          "at": 28.337672174755614,
+          "ramp": 0.39067947026086675
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "karen",
+      "text": "Chad, this is a professional environment",
+      "beat": "pause",
+      "typing": [
+        [
+          29.80774721819075,
+          30.72175039736999
+        ]
+      ],
+      "compose": null,
+      "appear": 30.72175039736999,
+      "reactions": []
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "chad",
+      "text": "karen, relax. i literally named the company after my dog",
+      "beat": "bombshell",
+      "typing": [
+        [
+          32.338832945148646,
+          33.86131935969756
+        ]
+      ],
+      "compose": null,
+      "appear": 33.86131935969756,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 18,
+          "at": 34.21285904399727,
+          "ramp": 0.6411850566679967
+        }
+      ]
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        36.201934494071246,
+        36.47127780855106
+      ],
+      "appear": 36.47127780855106,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "maya",
+      "text": "the plot thickens",
+      "beat": "normal",
+      "typing": [
+        [
+          37.16668722040211,
+          37.757273890025616
+        ]
+      ],
+      "compose": null,
+      "appear": 37.757273890025616,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 15,
+          "at": 38.108813574325325,
+          "ramp": 0.6108192200446811
+        }
+      ]
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "sam",
+      "text": "so is the dog the ceo or...",
+      "beat": "normal",
+      "typing": [
+        [
+          38.639318916086694,
+          39.37052145943009
+        ]
+      ],
+      "compose": null,
+      "appear": 39.37052145943009,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "system",
+      "from": "chad",
+      "text": "Chad (CEO) changed their display name to 'Daddy's Big Tax Write-Off'",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 40.43408879520229,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "chad",
+      "text": "now we match",
+      "beat": "rapid",
+      "typing": [
+        [
+          42.12531425821507,
+          42.43748149787321
+        ]
+      ],
+      "compose": null,
+      "appear": 42.43748149787321,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 30,
+          "at": 42.78902118217292,
+          "ramp": 0.7262635723797264
+        }
+      ]
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "karen",
+      "text": "this is not okay. i'm reporting this to the board.",
+      "beat": "pause",
+      "typing": [
+        [
+          44.11848035188817,
+          45.17309940478729
+        ]
+      ],
+      "compose": null,
+      "appear": 45.17309940478729,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "karen",
+      "text": "you're all insufferable",
+      "beat": "unsend",
+      "typing": [
+        [
+          46.61121629510427,
+          47.28617248895971
+        ]
+      ],
+      "compose": null,
+      "appear": 47.28617248895971,
+      "reactions": [],
+      "unsendAt": 48.61946663704914
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "tyler",
+      "text": "karen you know we saw that",
+      "beat": "rapid",
+      "typing": [
+        [
+          49.01574773571427,
+          49.44603230929711
+        ]
+      ],
+      "compose": null,
+      "appear": 49.44603230929711,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 7,
+          "at": 49.79757199359682,
+          "ramp": 0.4838840363423179
+        }
+      ]
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "maya",
+      "text": "the board is just chad's mom",
+      "beat": "normal",
+      "typing": [
+        [
+          50.48914642707369,
+          51.23441055778907
+        ]
+      ],
+      "compose": null,
+      "appear": 51.23441055778907,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 18,
+          "at": 51.58595024208878,
+          "ramp": 0.6411850566679967
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "me",
+      "text": "karen, what exactly is the policy on display names?",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        52.31843111155689,
+        53.34109201133786
+      ],
+      "appear": 53.34109201133786,
+      "reactions": []
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "karen",
+      "text": "handbook page 12: 'professional and appropriate'",
+      "beat": "normal",
+      "typing": [
+        [
+          54.895536579004926,
+          55.92203245716007
+        ]
+      ],
+      "compose": null,
+      "appear": 55.92203245716007,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "me",
+      "text": "but page 13 says 'display names should reflect your authentic self'",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        57.383159217722124,
+        58.40582011750309
+      ],
+      "appear": 58.40582011750309,
+      "reactions": [
+        {
+          "emoji": "📸",
+          "count": 6,
+          "at": 58.7573598018028,
+          "ramp": 0.4582100872969092
+        }
+      ]
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "karen",
+      "text": "that was added for the rebrand, not for this",
+      "beat": "normal",
+      "typing": [
+        [
+          60.287516173100066,
+          61.257765701767255
+        ]
+      ],
+      "compose": null,
+      "appear": 61.257765701767255,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "chad",
+      "text": "karen, you wrote that handbook. you told us to be authentic",
+      "beat": "pause",
+      "typing": [
+        [
+          63.467991571418864,
+          64.64916491066587
+        ]
+      ],
+      "compose": null,
+      "appear": 64.64916491066587,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "karen",
+      "text": "i did not write it, the consultant did",
+      "beat": "normal",
+      "typing": [
+        [
+          66.36723522229791,
+          67.25311522673317
+        ]
+      ],
+      "compose": null,
+      "appear": 67.25311522673317,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "chad",
+      "text": "the consultant was my dog",
+      "beat": "bombshell",
+      "typing": [
+        [
+          68.82929133852058,
+          69.91586854453786
+        ]
+      ],
+      "compose": null,
+      "appear": 69.91586854453786,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 42,
+          "at": 70.26740822883757,
+          "ramp": 0.782303358048451
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "type": "system",
+      "from": "karen",
+      "text": "Karen (HR Director) renamed the channel to #professionalism",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 71.83335773162717,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "system",
+      "from": "chad",
+      "text": "Chad (CEO) renamed the channel to #daddys-little-tax-haven",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 73.55142804325921,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "tyler",
+      "text": "this is the best day of my life",
+      "beat": "normal",
+      "typing": [
+        [
+          75.24904513689562,
+          76.03649402972697
+        ]
+      ],
+      "compose": null,
+      "appear": 76.03649402972697,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 25,
+          "at": 76.38803371402668,
+          "ramp": 0.6958977357564107
+        }
+      ]
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "maya",
+      "text": "@karen you might want to update your linkedin",
+      "beat": "normal",
+      "typing": [
+        [
+          77.18187423748165,
+          78.16618535352083
+        ]
+      ],
+      "compose": null,
+      "appear": 78.16618535352083,
+      "reactions": [
+        {
+          "emoji": "📉",
+          "count": 11,
+          "at": 78.51772503782054,
+          "ramp": 0.5591626082517364
+        }
+      ]
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "karen",
+      "text": "i'm calling legal",
+      "beat": "normal",
+      "typing": [
+        [
+          79.59791061321418,
+          80.18849728283769
+        ]
+      ],
+      "compose": null,
+      "appear": 80.18849728283769,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "chad",
+      "text": "legal is also my dog",
+      "beat": "rapid",
+      "typing": [
+        [
+          80.83660862807388,
+          81.21627148711757
+        ]
+      ],
+      "compose": null,
+      "appear": 81.21627148711757,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 57,
+          "at": 81.56781117141728,
+          "ramp": 0.8331649755175782
+        }
+      ]
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "chad",
+      "text": "jordan, you're promoted to chief authenticity officer. karen, you're on a pip.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          82.42428967498383,
+          84.0861136371279
+        ]
+      ],
+      "compose": null,
+      "appear": 84.0861136371279,
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 77,
+          "at": 84.4376533214276,
+          "ramp": 0.8832558790032782
+        },
+        {
+          "emoji": "🫡",
+          "count": 8,
+          "at": 84.68053528512559,
+          "ramp": 0.506123822595912
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 1.6436660382229231,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 5.551636834123416,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 7.186743780260709,
+      "count": 3
+    },
+    {
+      "type": "reaction",
+      "t": 9.336888322050191,
+      "count": 14
+    },
+    {
+      "type": "reaction",
+      "t": 13.757340061353423,
+      "count": 2
+    },
+    {
+      "type": "reaction",
+      "t": 16.012307345370456,
+      "count": 9
+    },
+    {
+      "type": "reaction",
+      "t": 19.061115152842465,
+      "count": 23
+    },
+    {
+      "type": "reaction",
+      "t": 19.303997116540444,
+      "count": 9
+    },
+    {
+      "type": "system",
+      "t": 22.25181716015908
+    },
+    {
+      "type": "reaction",
+      "t": 28.337672174755614,
+      "count": 4
+    },
+    {
+      "type": "reaction",
+      "t": 34.21285904399727,
+      "count": 18
+    },
+    {
+      "type": "bombshell",
+      "t": 33.86131935969756
+    },
+    {
+      "type": "reaction",
+      "t": 38.108813574325325,
+      "count": 15
+    },
+    {
+      "type": "system",
+      "t": 40.43408879520229
+    },
+    {
+      "type": "reaction",
+      "t": 42.78902118217292,
+      "count": 30
+    },
+    {
+      "type": "unsend",
+      "t": 48.61946663704914
+    },
+    {
+      "type": "reaction",
+      "t": 49.79757199359682,
+      "count": 7
+    },
+    {
+      "type": "reaction",
+      "t": 51.58595024208878,
+      "count": 18
+    },
+    {
+      "type": "reaction",
+      "t": 58.7573598018028,
+      "count": 6
+    },
+    {
+      "type": "reaction",
+      "t": 70.26740822883757,
+      "count": 42
+    },
+    {
+      "type": "bombshell",
+      "t": 69.91586854453786
+    },
+    {
+      "type": "system",
+      "t": 71.83335773162717
+    },
+    {
+      "type": "system",
+      "t": 73.55142804325921
+    },
+    {
+      "type": "reaction",
+      "t": 76.38803371402668,
+      "count": 25
+    },
+    {
+      "type": "reaction",
+      "t": 78.51772503782054,
+      "count": 11
+    },
+    {
+      "type": "reaction",
+      "t": 81.56781117141728,
+      "count": 57
+    },
+    {
+      "type": "reaction",
+      "t": 84.4376533214276,
+      "count": 77
+    },
+    {
+      "type": "reaction",
+      "t": 84.68053528512559,
+      "count": 8
+    },
+    {
+      "type": "bombshell",
+      "t": 84.0861136371279
+    }
+  ],
+  "outroAt": 86.79999999992164,
+  "duration": 89.99999999992164
+}

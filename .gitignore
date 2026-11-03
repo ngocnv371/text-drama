@@ -2,3 +2,6 @@ node_modules/
 out/
 episodes/*/audio.wav
 .env
+episodes/*/script.rejected.json
+out/*.partial.mp4
+out/*.new.mp4

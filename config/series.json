@@ -16,5 +16,13 @@
     "claude": "claude-opus-5-5",
     "gemini": "gemini-3.1-pro-preview",
     "deepseek": "deepseek-v4-pro"
+  },
+  "music": {
+    "volumeDb": -30
+  },
+  "render": {
+    "browsers": 6,
+    "tabsPerBrowser": 2,
+    "encoder": "auto"
   }
 }

@@ -3,5 +3,6 @@
   "model": "deepseek-v4-pro",
   "premise": null,
   "attempts": 2,
-  "createdAt": "2026-11-02T00:00:00.000Z"
+  "createdAt": "2026-11-02T00:00:00.000Z",
+  "music": "lofi-office.mp3"
 }

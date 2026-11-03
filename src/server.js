@@ -4,6 +4,7 @@ import http from "node:http";
 import fs from "node:fs";
 import path from "node:path";
 import { spawn } from "node:child_process";
+import { pipeline } from "node:stream";
 import { ROOT, loadConfig, loadEnv } from "./util.js";
 
 const PORT = +(process.env.PORT || 5180);
@@ -117,24 +118,31 @@ function readBody(req) {
   });
 }
 
+// pipeline() closes the file when the browser stops reading (a <video> preview usually reads a
+// few kB and hangs up). With .pipe() the handle stayed open, and Windows then refused to let
+// the renderer replace that video.
+function send(stream, res) {
+  pipeline(stream, res, () => {});
+}
+
 // <video> needs Range support to seek.
 function sendVideo(req, res, file) {
   const size = fs.statSync(file).size;
   const range = /bytes=(\d*)-(\d*)/.exec(req.headers.range || "");
   if (!range) {
     res.writeHead(200, { "content-type": "video/mp4", "content-length": size, "accept-ranges": "bytes" });
-    return fs.createReadStream(file).pipe(res);
+    return send(fs.createReadStream(file), res);
   }
   const start = range[1] ? +range[1] : 0;
   const end = range[2] ? Math.min(+range[2], size - 1) : size - 1;
   res.writeHead(206, { "content-type": "video/mp4", "content-length": end - start + 1, "content-range": `bytes ${start}-${end}/${size}`, "accept-ranges": "bytes" });
-  fs.createReadStream(file, { start, end }).pipe(res);
+  send(fs.createReadStream(file, { start, end }), res);
 }
 
 function sendStatic(res, file) {
   if (!fs.existsSync(file) || !fs.statSync(file).isFile()) { res.writeHead(404); return res.end("not found"); }
   res.writeHead(200, { "content-type": TYPES[path.extname(file)] || "application/octet-stream", "cache-control": "no-store" });
-  fs.createReadStream(file).pipe(res);
+  send(fs.createReadStream(file), res);
 }
 
 // Resolve a URL path under a root folder, refusing anything that escapes it.

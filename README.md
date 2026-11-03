@@ -79,6 +79,10 @@ Each message has a beat that the director stages:
 | `leftOnRead` | (`me` only, imessage only) a "Read" receipt, then dead air |
 
 ## Notes
-- Rendering uses headless Edge (falling back to Chrome), so no window opens. A 60s video takes about 1.5 minutes.
-- All audio is synthesised in `src/audio.js`, so there are no files to license.
+- **Rendering** uses headless Edge (falling back to Chrome), so no window opens. Several browsers capture frames in parallel and the video is encoded on the GPU when one is available (AMD AMF, then NVIDIA NVENC, then Intel Quick Sync, otherwise the CPU). A 90s episode takes about 30 seconds. Tune it under `render` in `config/series.json`: `browsers`, `tabsPerBrowser`, and `encoder` (`auto`, `h264_amf`, `h264_nvenc`, `h264_qsv` or `libx264`). One browser tops out around 60 frames per second however many tabs it has, so more browsers is what scales.
+- **Sound:** message sounds, keyboard clicks, reaction pops and bass hits are synthesised in `src/audio.js`. Under them runs a quiet ambience track from `assets/music/`, picked at random for each episode, never the same as the previous episode's, and kept for re-renders (it's saved in the episode's `meta.json`). Every track is brought to the same level (`music.volumeDb` in `config/series.json`, default -30, so lower is quieter). It drops almost to silence right before each bombshell, loops with a crossfade if the video runs longer than the track, and fades out at the end. Everything below 80 Hz is filtered out of the music, because sustained sub-bass reads as a hum on phone speakers.
+- **More music:** the tracks were made locally with comfy-helper (ACE-Step). Add any mp3, flac, opus or wav to `assets/music/` and it joins the rotation. For example:
+  ```bash
+  node ../comfy-helper/comfy-music.mjs --prompt "quiet lofi office background, no vocals, instrumental" --duration 150 --out assets/music/my-track.mp3
+  ```
 - In imessage group chats (more than two cast members), sender names appear above the bubbles.

@@ -6,6 +6,7 @@
     "fps": 30
   },
   "theme": "dark",
+  "app": "imessage",
   "hook": "I faked covid to skip the office",
   "hookSeconds": 3.2,
   "cliffhanger": "part 2: can we both fake covid at the same coffee shop?",
@@ -16,14 +17,17 @@
   },
   "cast": [
     {
+      "role": "",
       "id": "me",
       "name": "Ava"
     },
     {
+      "role": "",
       "id": "boss",
       "name": "Derek (boss)"
     },
     {
+      "role": "",
       "id": "coworker",
       "name": "Jules"
     }
@@ -32,6 +36,7 @@
   "messages": [
     {
       "i": 0,
+      "type": "message",
       "from": "boss",
       "text": "where are you? standup in 5",
       "beat": "normal",
@@ -42,10 +47,12 @@
         ]
       ],
       "compose": null,
-      "appear": 1.1596132388891367
+      "appear": 1.1596132388891367,
+      "reactions": []
     },
     {
       "i": 1,
+      "type": "message",
       "from": "me",
       "text": "i have covid",
       "beat": "pause",
@@ -54,10 +61,12 @@
         3.2218623456399618,
         3.7073472074213845
       ],
-      "appear": 3.7073472074213845
+      "appear": 3.7073472074213845,
+      "reactions": []
     },
     {
       "i": 2,
+      "type": "message",
       "from": "boss",
       "text": "what? you seemed fine yesterday",
       "beat": "rapid",
@@ -68,10 +77,12 @@
         ]
       ],
       "compose": null,
-      "appear": 4.8348610292729335
+      "appear": 4.8348610292729335,
+      "reactions": []
     },
     {
       "i": 3,
+      "type": "message",
       "from": "me",
       "text": "test just came back positive",
       "beat": "normal",
@@ -80,10 +91,12 @@
         6.103066382497874,
         6.905602582585532
       ],
-      "appear": 6.905602582585532
+      "appear": 6.905602582585532,
+      "reactions": []
     },
     {
       "i": 4,
+      "type": "message",
       "from": "boss",
       "text": "send a pic of the test",
       "beat": "normal",
@@ -94,10 +107,12 @@
         ]
       ],
       "compose": null,
-      "appear": 8.837634175389153
+      "appear": 8.837634175389153,
+      "reactions": []
     },
     {
       "i": 5,
+      "type": "message",
       "from": "me",
       "text": "🖼️ positive test",
       "beat": "pause",
@@ -106,10 +121,12 @@
         10.786650661316322,
         11.351398357674304
       ],
-      "appear": 11.351398357674304
+      "appear": 11.351398357674304,
+      "reactions": []
     },
     {
       "i": 6,
+      "type": "message",
       "from": "boss",
       "text": "ok... rest up. we’ll manage",
       "beat": "pause",
@@ -120,10 +137,12 @@
         ]
       ],
       "compose": null,
-      "appear": 13.974148937502223
+      "appear": 13.974148937502223,
+      "reactions": []
     },
     {
       "i": 7,
+      "type": "message",
       "from": "coworker",
       "text": "wait aren’t you at blue bottle rn?",
       "beat": "unsend",
@@ -135,10 +154,12 @@
       ],
       "compose": null,
       "appear": 15.964212248477969,
+      "reactions": [],
       "unsendAt": 17.68959430827842
     },
     {
       "i": 8,
+      "type": "message",
       "from": "boss",
       "text": "??",
       "beat": "rapid",
@@ -149,10 +170,12 @@
         ]
       ],
       "compose": null,
-      "appear": 18.425606343632182
+      "appear": 18.425606343632182,
+      "reactions": []
     },
     {
       "i": 9,
+      "type": "message",
       "from": "me",
       "text": "what? no i’m home",
       "beat": "rapid",
@@ -161,10 +184,12 @@
         18.803520215631135,
         19.21271459913262
       ],
-      "appear": 19.21271459913262
+      "appear": 19.21271459913262,
+      "reactions": []
     },
     {
       "i": 10,
+      "type": "message",
       "from": "coworker",
       "text": "oh sorry wrong chat",
       "beat": "normal",
@@ -175,10 +200,12 @@
         ]
       ],
       "compose": null,
-      "appear": 20.84892597003444
+      "appear": 20.84892597003444,
+      "reactions": []
     },
     {
       "i": 11,
+      "type": "message",
       "from": "boss",
       "text": "you just posted a story from there",
       "beat": "pause",
@@ -189,10 +216,12 @@
         ]
       ],
       "compose": null,
-      "appear": 23.64860251989932
+      "appear": 23.64860251989932,
+      "reactions": []
     },
     {
       "i": 12,
+      "type": "message",
       "from": "me",
       "text": "that was from yesterday lol",
       "beat": "rapid",
@@ -201,10 +230,12 @@
         24.751205165169665,
         25.299109509180127
       ],
-      "appear": 25.299109509180127
+      "appear": 25.299109509180127,
+      "reactions": []
     },
     {
       "i": 13,
+      "type": "message",
       "from": "boss",
       "text": "the timestamp says 14m ago",
       "beat": "bombshell",
@@ -215,10 +246,12 @@
         ]
       ],
       "compose": null,
-      "appear": 28.013861593427265
+      "appear": 28.013861593427265,
+      "reactions": []
     },
     {
       "i": 14,
+      "type": "message",
       "from": "me",
       "text": "ok fine i’m at a coffee shop but i’m working remotely",
       "beat": "pause",
@@ -227,10 +260,12 @@
         31.044249608220344,
         32.1765758164569
       ],
-      "appear": 32.1765758164569
+      "appear": 32.1765758164569,
+      "reactions": []
     },
     {
       "i": 15,
+      "type": "message",
       "from": "boss",
       "text": "you lied about covid to skip the office",
       "beat": "normal",
@@ -241,10 +276,12 @@
         ]
       ],
       "compose": null,
-      "appear": 34.93945176455409
+      "appear": 34.93945176455409,
+      "reactions": []
     },
     {
       "i": 16,
+      "type": "message",
       "from": "me",
       "text": "i just needed a mental health day",
       "beat": "fakeout",
@@ -253,10 +290,12 @@
         36.35344411708949,
         37.255058860397845
       ],
-      "appear": 37.255058860397845
+      "appear": 37.255058860397845,
+      "reactions": []
     },
     {
       "i": 17,
+      "type": "message",
       "from": "boss",
       "text": "you know i can see you right now",
       "beat": "pause",
@@ -267,10 +306,12 @@
         ]
       ],
       "compose": null,
-      "appear": 40.340647777842456
+      "appear": 40.340647777842456,
+      "reactions": []
     },
     {
       "i": 18,
+      "type": "message",
       "from": "me",
       "text": "what?",
       "beat": "rapid",
@@ -279,10 +320,12 @@
         41.39795737478334,
         41.695193004445436
       ],
-      "appear": 41.695193004445436
+      "appear": 41.695193004445436,
+      "reactions": []
     },
     {
       "i": 19,
+      "type": "message",
       "from": "boss",
       "text": "turn around",
       "beat": "normal",
@@ -293,10 +336,12 @@
         ]
       ],
       "compose": null,
-      "appear": 42.935090202464465
+      "appear": 42.935090202464465,
+      "reactions": []
     },
     {
       "i": 20,
+      "type": "message",
       "from": "me",
       "text": "omg",
       "beat": "pause",
@@ -305,10 +350,12 @@
         44.634994922579594,
         45.0596172506683
       ],
-      "appear": 45.0596172506683
+      "appear": 45.0596172506683,
+      "reactions": []
     },
     {
       "i": 21,
+      "type": "message",
       "from": "boss",
       "text": "i’m also 'sick' today",
       "beat": "bombshell",
@@ -319,10 +366,12 @@
         ]
       ],
       "compose": null,
-      "appear": 47.15300532814563
+      "appear": 47.15300532814563,
+      "reactions": []
     },
     {
       "i": 22,
+      "type": "message",
       "from": "me",
       "text": "wait what",
       "beat": "rapid",
@@ -331,10 +380,12 @@
         48.95198859148145,
         49.25021500657576
       ],
-      "appear": 49.25021500657576
+      "appear": 49.25021500657576,
+      "reactions": []
     },
     {
       "i": 23,
+      "type": "message",
       "from": "boss",
       "text": "i’ve been working from here all week",
       "beat": "normal",
@@ -345,10 +396,12 @@
         ]
       ],
       "compose": null,
-      "appear": 50.969935435335024
+      "appear": 50.969935435335024,
+      "reactions": []
     },
     {
       "i": 24,
+      "type": "message",
       "from": "boss",
       "text": "?",
       "beat": "normal",
@@ -359,10 +412,12 @@
         ]
       ],
       "compose": null,
-      "appear": 52.84676612548712
+      "appear": 52.84676612548712,
+      "reactions": []
     },
     {
       "i": 25,
+      "type": "message",
       "from": "boss",
       "text": "oh shit ceo just walked in",
       "beat": "bombshell",
@@ -373,7 +428,8 @@
         ]
       ],
       "compose": null,
-      "appear": 54.97270858145125
+      "appear": 54.97270858145125,
+      "reactions": []
     }
   ],
   "fx": [

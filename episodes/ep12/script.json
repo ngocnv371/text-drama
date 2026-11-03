@@ -1,0 +1,423 @@
+{
+  "title": "Daddy's Little Tax Write-Off",
+  "logline": "A Gen Z worker's inappropriate Slack display name sparks a company-wide standoff with HR, until the CEO reveals the company's ridiculous authenticity policy and promotes them.",
+  "hook": "HR asked about my Slack name. I panicked.",
+  "startClock": "10:23 AM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "all-company · 247 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Jordan",
+      "role": "Associate"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "chad",
+      "name": "Chad",
+      "role": "CEO"
+    },
+    {
+      "id": "tyler",
+      "name": "Tyler",
+      "role": "Team Lead"
+    },
+    {
+      "id": "maya",
+      "name": "Maya",
+      "role": "Marketing Manager"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "role": "Coordinator"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "jordan, can you explain your display name?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "which one? 👀",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "it says 'daddy's little tax write-off'",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oh that's just my authentic self",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "✨",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "@karen pretty sure that's not in the handbook",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the handbook says be authentic. per my last email",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is inappropriate. change it immediately",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "honestly it's giving main character",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "✨",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "karen, is this because your name is literally karen?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        },
+        {
+          "emoji": "👀",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "my name is not up for discussion",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "chad",
+      "text": "Chad (CEO) joined #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "what's going on in here",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "@chad jordan changed their name to daddy's little tax write-off",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "lol that's kind of iconic",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Chad, this is a professional environment",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "karen, relax. i literally named the company after my dog",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "the plot thickens",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "so is the dog the ceo or...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "chad",
+      "text": "Chad (CEO) changed their display name to 'Daddy's Big Tax Write-Off'",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "now we match",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "this is not okay. i'm reporting this to the board.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "you're all insufferable",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "karen you know we saw that",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "the board is just chad's mom",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "karen, what exactly is the policy on display names?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "handbook page 12: 'professional and appropriate'",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "but page 13 says 'display names should reflect your authentic self'",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "📸",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "that was added for the rebrand, not for this",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "karen, you wrote that handbook. you told us to be authentic",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "i did not write it, the consultant did",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "the consultant was my dog",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 42
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen (HR Director) renamed the channel to #professionalism",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "chad",
+      "text": "Chad (CEO) renamed the channel to #daddys-little-tax-haven",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "this is the best day of my life",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "maya",
+      "text": "@karen you might want to update your linkedin",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "📉",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "i'm calling legal",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "legal is also my dog",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 57
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "jordan, you're promoted to chief authenticity officer. karen, you're on a pip.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎉",
+          "count": 77
+        },
+        {
+          "emoji": "🫡",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "part 2: karen calls a lawyer… who is also chad's dog",
+  "app": "workchat",
+  "targetSeconds": 90
+}

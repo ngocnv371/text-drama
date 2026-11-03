@@ -3,5 +3,6 @@
   "model": "gemini-3.1-pro-preview",
   "premise": null,
   "attempts": 1,
-  "createdAt": "2026-11-02T15:13:02.101Z"
+  "createdAt": "2026-11-02T15:13:02.101Z",
+  "music": "tension-pad.mp3"
 }

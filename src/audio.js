@@ -1,15 +1,17 @@
-// Synthesised soundtrack: message pops, keyboard clicks, bass hits on bombshells and a
-// tension drone that cuts to silence right before each reveal. No audio assets needed.
+// Soundtrack: synthesised message pops, keyboard clicks and bass hits on bombshells, over a
+// quiet ambience track (src/music.js) that drops away right before each reveal.
 import fs from "node:fs";
 
-const RATE = 44100;
+export const RATE = 44100;
+const LOOP_FADE = 3;   // seconds of crossfade when a track is shorter than the video
 
 function rng(seed) {
   let s = seed >>> 0;
   return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296);
 }
 
-export function synthesize(tl) {
+// music: { L, R } float samples or null; volumeDb: the music's average level (RMS, dBFS).
+export function synthesize(tl, music = null, volumeDb = -30) {
   const n = Math.ceil(tl.duration * RATE) + RATE;
   const out = new Float32Array(n);
   const rand = rng(7);
@@ -72,37 +74,61 @@ export function synthesize(tl) {
   }
   add(tl.outroAt, 2.5, sting);
 
-  // Tension drone: swells over the episode, ducks to silence ~0.6s before each bombshell.
-  const bombs = tl.fx.filter((f) => f.type === "bombshell").map((f) => f.t);
-  let phase1 = 0, phase2 = 0, lp = 0;
-  for (let i = 0; i < n; i++) {
-    const t = i / RATE;
-    if (t > tl.outroAt) break;
-    let duck = 1;
-    for (const b of bombs) {
-      if (t > b - 0.6 && t < b) duck = Math.min(duck, (b - t) / 0.6) ** 2;
-      if (t >= b && t < b + 1.5) duck = Math.min(duck, (t - b) / 1.5);
-    }
-    const swell = 0.05 + 0.08 * (t / tl.outroAt);
-    const fade = Math.min(1, t / 1.5, (tl.outroAt - t) / 0.3);
-    phase1 += (2 * Math.PI * 55) / RATE;
-    phase2 += (2 * Math.PI * 82.4 * (1 + 0.003 * Math.sin(t * 0.7))) / RATE;
-    lp += 0.02 * ((rand() * 2 - 1) - lp); // filtered noise for air
-    const pulse = 0.7 + 0.3 * Math.sin(2 * Math.PI * 1.6 * t); // heartbeat-ish tremolo
-    out[i] += (Math.sin(phase1) * 0.6 + Math.sin(phase2) * 0.4 + lp * 0.8) * swell * pulse * duck * fade;
-  }
+  // Effects are mono, centred; the music keeps its stereo.
+  const L = Float32Array.from(out), R = Float32Array.from(out);
+  if (music) mixMusic(L, R, music, tl, volumeDb);
 
   // soft clip
-  for (let i = 0; i < n; i++) out[i] = Math.tanh(out[i] * 1.1) * 0.9;
-  return out;
+  for (let i = 0; i < n; i++) { L[i] = Math.tanh(L[i] * 1.1) * 0.9; R[i] = Math.tanh(R[i] * 1.1) * 0.9; }
+  return { L, R };
 }
 
-export function writeWav(file, samples) {
-  const buf = Buffer.alloc(44 + samples.length * 2);
-  buf.write("RIFF", 0); buf.writeUInt32LE(36 + samples.length * 2, 4); buf.write("WAVE", 8);
-  buf.write("fmt ", 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(1, 22);
-  buf.writeUInt32LE(RATE, 24); buf.writeUInt32LE(RATE * 2, 28); buf.writeUInt16LE(2, 32); buf.writeUInt16LE(16, 34);
-  buf.write("data", 36); buf.writeUInt32LE(samples.length * 2, 40);
-  for (let i = 0; i < samples.length; i++) buf.writeInt16LE(Math.round(Math.max(-1, Math.min(1, samples[i])) * 32767), 44 + i * 2);
+function mixMusic(L, R, music, tl, volumeDb) {
+  const len = music.L.length;
+  if (!len) return;
+  // Same loudness for every track, whatever level it was made at.
+  let sum = 0;
+  for (let i = 0; i < len; i++) sum += music.L[i] * music.L[i] + music.R[i] * music.R[i];
+  const rms = Math.sqrt(sum / (2 * len)) || 1;
+  const gain = 10 ** (volumeDb / 20) / rms;
+
+  // Loop with a crossfade if the video outlasts the track.
+  const xf = Math.min(Math.floor(LOOP_FADE * RATE), Math.floor(len / 4));
+  const period = len - xf;
+  const at = (ch, i) => {
+    if (i < len) return ch[i];
+    const local = i % period;
+    if (local >= xf) return ch[local];
+    const w = local / xf;
+    return ch[local] * w + ch[local + period] * (1 - w);
+  };
+
+  const bombs = tl.fx.filter((f) => f.type === "bombshell").map((f) => f.t);
+  const end = tl.duration;
+  for (let i = 0; i < L.length; i++) {
+    const t = i / RATE;
+    if (t >= end) break;
+    // Drop almost to silence just before a reveal, then swell back.
+    let duck = 1;
+    for (const b of bombs) {
+      if (t > b - 0.6 && t < b) duck = Math.min(duck, 0.08 + 0.92 * ((b - t) / 0.6) ** 2);
+      if (t >= b && t < b + 1.5) duck = Math.min(duck, 0.08 + 0.92 * ((t - b) / 1.5));
+    }
+    const fade = Math.min(1, t / 0.8, (end - t) / 2.5);
+    const g = gain * duck * Math.max(0, fade);
+    L[i] += at(music.L, i) * g;
+    R[i] += at(music.R, i) * g;
+  }
+}
+// 16-bit stereo WAV.
+export function writeWav(file, { L, R }) {
+  const n = L.length, bytes = n * 4;
+  const buf = Buffer.alloc(44 + bytes);
+  buf.write("RIFF", 0); buf.writeUInt32LE(36 + bytes, 4); buf.write("WAVE", 8);
+  buf.write("fmt ", 12); buf.writeUInt32LE(16, 16); buf.writeUInt16LE(1, 20); buf.writeUInt16LE(2, 22);
+  buf.writeUInt32LE(RATE, 24); buf.writeUInt32LE(RATE * 4, 28); buf.writeUInt16LE(4, 32); buf.writeUInt16LE(16, 34);
+  buf.write("data", 36); buf.writeUInt32LE(bytes, 40);
+  const q = (v) => Math.round(Math.max(-1, Math.min(1, v)) * 32767);
+  for (let i = 0; i < n; i++) { buf.writeInt16LE(q(L[i]), 44 + i * 4); buf.writeInt16LE(q(R[i]), 46 + i * 4); }
   fs.writeFileSync(file, buf);
 }
