@@ -1,0 +1,567 @@
+{
+  "title": "The Intern Slush Fund",
+  "logline": "When a Gen Z worker discovers unpaid interns, she sparks a rebellion that exposes the HR director's embezzlement—only to learn the CEO set her up to blow the whistle.",
+  "hook": "i just found out our interns are being paid in exposure",
+  "startClock": "10:15 AM",
+  "chat": {
+    "name": "#all-hands",
+    "subtitle": "1,240 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Marketing Associate"
+    },
+    {
+      "id": "liam",
+      "name": "Liam",
+      "role": "Intern"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "dave",
+      "name": "Dave",
+      "role": "Team Lead"
+    },
+    {
+      "id": "linda",
+      "name": "Linda",
+      "role": "CEO"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "role": "Finance Manager"
+    },
+    {
+      "id": "priya",
+      "name": "Priya",
+      "role": "Engineer"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, do our interns actually get paid? liam says he's been here 3 months for 'experience'",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12
+        },
+        {
+          "emoji": "💀",
+          "count": 5
+        },
+        {
+          "emoji": "🤔",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "i'm literally surviving on instant noodles",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😭",
+          "count": 20
+        },
+        {
+          "emoji": "🙏",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Liam is in a learning program, it's not a paid position.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🚩",
+          "count": 15
+        },
+        {
+          "emoji": "🤯",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "explain the 60-hour weeks then",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 30
+        },
+        {
+          "emoji": "👀",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "Maya, this isn't the place.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤐",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "All interns sign an agreement. They get mentorship and references.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🧢",
+          "count": 12
+        },
+        {
+          "emoji": "😤",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "i didn't want to say anything but...",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "say it liam",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "we also don't get meal breaks. i worked 12 hours yesterday",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😡",
+          "count": 40
+        },
+        {
+          "emoji": "💔",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "That's an exaggeration.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "i've seen it. he was here at 8am and left at 10pm",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤝",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "Karen, maybe we should take this offline.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "No, we handle it here. Liam, if you're unhappy, this might not be the place for you.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🚩",
+          "count": 60
+        },
+        {
+          "emoji": "😬",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so you're threatening him for speaking up? wild.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 80
+        },
+        {
+          "emoji": "👏",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "liam",
+      "text": "Liam was removed from #all-hands by Karen",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "karen removed him from the channel???",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "that's actually insane",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "Karen, this is not a good look.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "He violated the code of conduct by making false claims.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "false claims? we have screenshots of his timesheet",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Timesheets are privileged information.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oh really? because i have something to show everyone",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "maya, what are you doing?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "posting a link to the intern handbook. section 4.2 says interns must be paid minimum wage.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 70
+        },
+        {
+          "emoji": "🧾",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "That handbook was updated last year. Interns are exempt.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 30
+        },
+        {
+          "emoji": "🧢",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "exempt from what? being human?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dave",
+      "text": "Maya, enough.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "no, let her cook",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the department of labor would love this",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Are you threatening the company?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm just asking questions",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "linda",
+      "text": "Linda (CEO) joined #all-hands",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "What's going on here?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Maya is inciting a rebellion over a non-issue.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "non-issue? liam just got removed for telling the truth",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Karen, why was Liam removed?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "He... he was being disruptive.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "I've been reading the thread. Liam, are you there? Please rejoin.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "liam",
+      "text": "Liam was added to #all-hands by Linda",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "i'm here. sorry for the trouble",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "No need to apologize. Karen, I'm going to ask you to step back.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "You can't do this. I've been here 15 years!",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 25
+        },
+        {
+          "emoji": "🍿",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Sam, please share the intern compensation report.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "Actually, there is a fund for intern stipends. It's been active since 2022.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "That was for the old program, it's discontinued.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "No, it's still on the books. Last quarter, $15,000 was allocated.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Karen, where did that money go?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "I... I don't know.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you don't know? you're the one who signs off on it",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 100
+        },
+        {
+          "emoji": "🚨",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Enough. Karen, you're suspended pending an audit.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "You'll regret this.",
+      "beat": "unsend",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "linda",
+      "text": "Maya, thank you. I was waiting for someone to blow the whistle. Saved us from a lawsuit.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 60
+        },
+        {
+          "emoji": "👏",
+          "count": 40
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "Part 2: the audit reveals more than just missing money.",
+  "app": "workchat",
+  "targetSeconds": 120
+}

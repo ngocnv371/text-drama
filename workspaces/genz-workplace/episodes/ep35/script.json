@@ -1,0 +1,570 @@
+{
+  "title": "The Badge Swipe",
+  "logline": "When a Gen Z employee is accused of faking her office attendance, she hacks the badge system to prove she's there, but the final reveal shows she's been covering for the CEO's secret remote work.",
+  "hook": "They say I'm not in the office. I've been here.",
+  "startClock": "2:14 PM",
+  "chat": {
+    "name": "#attendance",
+    "subtitle": "342 members · office policy"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Data Analyst"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Manager"
+    },
+    {
+      "id": "tom",
+      "name": "Tom",
+      "role": "CEO"
+    },
+    {
+      "id": "jake",
+      "name": "Jake",
+      "role": "Security Officer"
+    },
+    {
+      "id": "emma",
+      "name": "Emma",
+      "role": "Designer"
+    },
+    {
+      "id": "liam",
+      "name": "Liam",
+      "role": "Engineer"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, badge swipes show no office entry for last 2 weeks. Explanation?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what? i've been here every day. system must be glitching",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Glitches don't erase badge swipes. You need to come see me.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i literally have photos from my desk every day. i'm not lying",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Photos can be faked. Badge swipes can't. This is a serious violation of our RTO policy.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "emma",
+      "text": "karen maybe the system is actually broken? happened to me last month",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "@emma this isn't about you. @maya i need you in my office now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "fine. but i'm pulling the access logs myself. they'll show i'm telling the truth",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "You don't have access to security logs. Only security does.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "watch me",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "jake",
+      "text": "Jake (Security Officer) joined #attendance",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "I ran the logs. Badge used daily at 8:47 AM for 2 weeks, incl weekends. No camera.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Weekends? We don't work weekends. Something's off.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i've been coming in early to catch up. and i did last saturday for a project",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "There's no project assigned to you. I'm escalating this to the CEO.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "What's going on here? Karen, why are you publicly calling out an employee?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, she's faking attendance. Badge swipes, no camera. Remote fraud.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i am not falsifying! the cameras are probably down. ask jake",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "Cameras operational, but off that week for maintenance. No footage.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Convenient. Tom, I recommend we suspend her access and investigate.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "Let's not be hasty. Maya has been a top performer. I trust her. Let's drop this.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 10
+        },
+        {
+          "emoji": "🤨",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, this sets a bad precedent. Employees will think they can just fake attendance.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "karen, chill. maybe the system really did glitch. has happened before",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Liam, not now. Tom, I need you to take this seriously.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "I'm taking it seriously. Stand down. We'll handle privately.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Fine. But I want a full audit of the badge system. Including yours, Tom.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "Excuse me? My badge swipes are none of your concern.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Auditing everyone, including you. Let's see CEO's last 2 weeks.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "Actually, Tom's badge hasn't been used in the office for... let me check... 18 days.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 50
+        },
+        {
+          "emoji": "🫢",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "I've been traveling for business. You know that.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Traveling? Calendar shows WFH daily. Location: beach in Mexico.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🏖️",
+          "count": 35
+        },
+        {
+          "emoji": "🤥",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "That's... that's a glitch too. Karen, you're out of line.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "he's not lying. i've been covering for him",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "What? What are you saying?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "tom had me fake his swipes too. he's on his yacht. i scripted both.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 60
+        },
+        {
+          "emoji": "🍿",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "Maya, what are you doing?! I never—",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you did. i have the dm. you promised raise+promo for silence.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "📸",
+          "count": 25
+        },
+        {
+          "emoji": "💀",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, if what you're saying is true, you might be in trouble too for falsifying records.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😡",
+          "count": 40
+        },
+        {
+          "emoji": "🔥",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "Misunderstanding. I was going to tell. Medical need for warm climate.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "liam",
+      "text": "medical condition? dude, you posted a video of you jet skiing yesterday",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🎿",
+          "count": 35
+        },
+        {
+          "emoji": "😂",
+          "count": 60
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, I think we need to involve the board. This is a serious breach of trust.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "Wait, let's not be hasty. Maya, I'll give you anything. Tell them it was a joke.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "not a joke. you made me lie. karen almost fired me. i'm done.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "✊",
+          "count": 45
+        },
+        {
+          "emoji": "💪",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, if what you're saying is true, you might be in trouble too for falsifying records.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i was coerced. and i have the messages. tom, you're going down",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 50
+        },
+        {
+          "emoji": "👏",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "tom",
+      "text": "You can't prove any of this. I'll deny everything.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have time stamps, screenshots, and even a voice note. want me to play it here?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🎙️",
+          "count": 20
+        },
+        {
+          "emoji": "💀",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen removed Tom from #attendance",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👋",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, we need to talk. You may have saved us. But do it right.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'll cooperate. want protection and the raise tom promised, in writing.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "We'll see. For now, don't say anything else in this channel. Meeting in 10.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🕵️",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "one more: tom wasn't alone. check other execs' swipes. pattern.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 70
+        },
+        {
+          "emoji": "🤯",
+          "count": 50
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "The execs were all faking attendance. Part 2: the audit exposes everyone.",
+  "app": "workchat",
+  "targetSeconds": 120
+}

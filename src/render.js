@@ -7,7 +7,7 @@ import path from "node:path";
 import { spawn, spawnSync } from "node:child_process";
 import { pathToFileURL } from "node:url";
 import { chromium } from "playwright-core";
-import { ROOT, episodeDir, parseArgs, loadConfig } from "./util.js";
+import { ROOT, episodeDir, parseArgs, loadConfig, outDir as workspaceOutDir } from "./util.js";
 import { writeTimeline } from "./direct.js";
 import { synthesize, writeWav, RATE } from "./audio.js";
 import { trackFor, decodeTrack } from "./music.js";
@@ -92,7 +92,7 @@ function checkVideo(mp4, timeline, duration) {
 export async function render(id, { seconds, frames } = {}) {
   const timeline = writeTimeline(id);
   const dir = episodeDir(id);
-  const outDir = path.join(ROOT, "out");
+  const outDir = workspaceOutDir();
   fs.mkdirSync(outDir, { recursive: true });
   const settings = { ...DEFAULT_WORKERS, ...loadConfig().render };
   // Stills need one tab; a video gets the whole pool.

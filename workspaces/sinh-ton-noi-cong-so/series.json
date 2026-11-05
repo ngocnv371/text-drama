@@ -1,0 +1,45 @@
+{
+  "name": "Sinh Tồn Nơi Công Sở",
+  "topic": "Sinh Tồn Nơi Công Sở: surviving office life in Vietnam",
+  "tone": "Funny, relatable, a little savage. Vietnamese office life as everyone knows it: the boss who messages 'em ơi' at 10pm, unpaid OT, KPIs that move every week, salary that arrives late, teambuilding nobody wants, the accountant who knows everyone's secrets, the colleague who takes credit, Monday meetings that could have been a message, the office gossip group, the 'thử việc' newbie, and HR announcements nobody reads.",
+  "audience": "Vietnamese TikTok, Facebook Reels and YouTube Shorts viewers, mostly office workers aged 20-35, scrolling fast. Hook in the first 2 seconds, a twist near the end, a cliffhanger for part 2.",
+  "language": "Vietnamese (tiếng Việt) with correct diacritics. Natural office chat style: casual between colleagues, polite forms (anh/chị/em, ạ, dạ) toward bosses; some Gen Z slang where it fits (ủa, xỉu, khum, j z, căng), never forced.",
+  "targetSeconds": 120,
+  "clock": "24h",
+  "app": "workchat",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "llm": {
+    "provider": "auto",
+    "claude": "claude-opus-5-5",
+    "gemini": "gemini-3.1-pro-preview",
+    "deepseek": "deepseek-v4-pro",
+    "deepseekEffort": "low"
+  },
+  "limits": {
+    "hookWords": 14,
+    "messageChars": 100
+  },
+  "systemNoticeExamples": [
+    "Tuấn Anh (CEO) đã tham gia #general",
+    "Phúc đã bị Tuấn Anh xóa khỏi #general",
+    "Hoa đã rời khỏi #general",
+    "Long đã đổi tên kênh thành #khung-hoang",
+    "Mai đã thêm Hùng vào #general"
+  ],
+  "ui": {
+    "textPlaceholder": "Tin nhắn",
+    "messagePlaceholder": "Nhắn tin tới {channel}",
+    "delivered": "Đã gửi",
+    "read": "Đã xem",
+    "you": "Bạn",
+    "unsent": "{name} đã thu hồi một tin nhắn",
+    "deleted": "Tin nhắn đã được thu hồi.",
+    "typing": "{name} đang soạn tin",
+    "followCta": "theo dõi để xem phần 2"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.1-pro-preview",
+  "effort": null,
+  "premise": null,
+  "attempts": 2,
+  "createdAt": "2026-11-03T12:46:52.909Z",
+  "music": "lofi-office.mp3"
+}

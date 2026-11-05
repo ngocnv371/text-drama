@@ -1,0 +1,1288 @@
+{
+  "id": "ep35",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "They say I'm not in the office. I've been here.",
+  "hookSeconds": 3.2,
+  "cliffhanger": "The execs were all faking attendance. Part 2: the audit exposes everyone.",
+  "startClock": "2:14 PM",
+  "chat": {
+    "name": "#attendance",
+    "subtitle": "342 members · office policy"
+  },
+  "cast": [
+    {
+      "role": "Data Analyst",
+      "id": "me",
+      "name": "Maya"
+    },
+    {
+      "role": "HR Manager",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "CEO",
+      "id": "tom",
+      "name": "Tom"
+    },
+    {
+      "role": "Security Officer",
+      "id": "jake",
+      "name": "Jake"
+    },
+    {
+      "role": "Designer",
+      "id": "emma",
+      "name": "Emma"
+    },
+    {
+      "role": "Engineer",
+      "id": "liam",
+      "name": "Liam"
+    }
+  ],
+  "pace": 0.6,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, badge swipes show no office entry for last 2 weeks. Explanation?",
+      "beat": "pause",
+      "typing": [
+        [
+          0.35,
+          1.5499999999999998
+        ]
+      ],
+      "compose": null,
+      "appear": 1.5499999999999998,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "me",
+      "text": "wait what? i've been here every day. system must be glitching",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        3.176,
+        3.848
+      ],
+      "appear": 3.848,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "karen",
+      "text": "Glitches don't erase badge swipes. You need to come see me.",
+      "beat": "normal",
+      "typing": [
+        [
+          5.4992,
+          6.608
+        ]
+      ],
+      "compose": null,
+      "appear": 6.608,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5,
+          "at": 6.938,
+          "ramp": 0.40162920156096676
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "me",
+      "text": "i literally have photos from my desk every day. i'm not lying",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        8.1908,
+        9.1508
+      ],
+      "appear": 9.1508,
+      "reactions": []
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "karen",
+      "text": "Photos can be faked. Badge swipes can't. This is a serious violation of our RTO policy.",
+      "beat": "normal",
+      "typing": [
+        [
+          10.802,
+          12.001999999999999
+        ]
+      ],
+      "compose": null,
+      "appear": 12.001999999999999,
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 8,
+          "at": 12.331999999999999,
+          "ramp": 0.4751123953170996
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "emma",
+      "text": "karen maybe the system is actually broken? happened to me last month",
+      "beat": "normal",
+      "typing": [
+        [
+          14.152399999999998,
+          15.352399999999998
+        ]
+      ],
+      "compose": null,
+      "appear": 15.352399999999998,
+      "reactions": []
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "karen",
+      "text": "@emma this isn't about you. @maya i need you in my office now.",
+      "beat": "rapid",
+      "typing": [
+        [
+          16.939999999999998,
+          17.629039999999996
+        ]
+      ],
+      "compose": null,
+      "appear": 17.629039999999996,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "me",
+      "text": "fine. but i'm pulling the access logs myself. they'll show i'm telling the truth",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        19.299439999999997,
+        20.259439999999998
+      ],
+      "appear": 20.259439999999998,
+      "reactions": []
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "karen",
+      "text": "You don't have access to security logs. Only security does.",
+      "beat": "normal",
+      "typing": [
+        [
+          22.275439999999996,
+          23.384239999999995
+        ]
+      ],
+      "compose": null,
+      "appear": 23.384239999999995,
+      "reactions": []
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "me",
+      "text": "watch me",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        25.267039999999994,
+        25.627039999999994
+      ],
+      "appear": 25.627039999999994,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 12,
+          "at": 25.957039999999992,
+          "ramp": 0.5385052485771449
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "type": "system",
+      "from": "jake",
+      "text": "Jake (Security Officer) joined #attendance",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 27.295039999999993,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "jake",
+      "text": "I ran the logs. Badge used daily at 8:47 AM for 2 weeks, incl weekends. No camera.",
+      "beat": "pause",
+      "typing": [
+        [
+          29.331439999999994,
+          30.531439999999993
+        ]
+      ],
+      "compose": null,
+      "appear": 30.531439999999993,
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 15,
+          "at": 30.86143999999999,
+          "ramp": 0.5733928532600453
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "karen",
+      "text": "Weekends? We don't work weekends. Something's off.",
+      "beat": "rapid",
+      "typing": [
+        [
+          32.38784,
+          32.98184
+        ]
+      ],
+      "compose": null,
+      "appear": 32.98184,
+      "reactions": []
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "me",
+      "text": "i've been coming in early to catch up. and i did last saturday for a project",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        34.22384,
+        34.89584
+      ],
+      "appear": 34.89584,
+      "reactions": []
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "karen",
+      "text": "There's no project assigned to you. I'm escalating this to the CEO.",
+      "beat": "normal",
+      "typing": [
+        [
+          36.83504,
+          38.03504
+        ]
+      ],
+      "compose": null,
+      "appear": 38.03504,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 20,
+          "at": 38.36504,
+          "ramp": 0.6183707984390332
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "tom",
+      "text": "What's going on here? Karen, why are you publicly calling out an employee?",
+      "beat": "pause",
+      "typing": [
+        [
+          40.55144000000001,
+          41.75144000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 41.75144000000001,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, she's faking attendance. Badge swipes, no camera. Remote fraud.",
+      "beat": "normal",
+      "typing": [
+        [
+          43.65224000000001,
+          44.852240000000016
+        ]
+      ],
+      "compose": null,
+      "appear": 44.852240000000016,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "me",
+      "text": "i am not falsifying! the cameras are probably down. ask jake",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        46.43984000000002,
+        47.111840000000015
+      ],
+      "appear": 47.111840000000015,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "jake",
+      "text": "Cameras operational, but off that week for maintenance. No footage.",
+      "beat": "normal",
+      "typing": [
+        [
+          48.74384000000002,
+          49.94384000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 49.94384000000002,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25,
+          "at": 50.27384000000002,
+          "ramp": 0.6532584031219335
+        }
+      ]
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "karen",
+      "text": "Convenient. Tom, I recommend we suspend her access and investigate.",
+      "beat": "rapid",
+      "typing": [
+        [
+          51.51224000000003,
+          52.232240000000026
+        ]
+      ],
+      "compose": null,
+      "appear": 52.232240000000026,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "tom",
+      "text": "Let's not be hasty. Maya has been a top performer. I trust her. Let's drop this.",
+      "beat": "pause",
+      "typing": [
+        [
+          54.74864000000003,
+          55.94864000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 55.94864000000003,
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 10,
+          "at": 56.27864000000003,
+          "ramp": 0.51
+        },
+        {
+          "emoji": "🤨",
+          "count": 7,
+          "at": 56.50664000000003,
+          "ramp": 0.45423529440513244
+        }
+      ]
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, this sets a bad precedent. Employees will think they can just fake attendance.",
+      "beat": "normal",
+      "typing": [
+        [
+          57.96464000000004,
+          59.16464000000004
+        ]
+      ],
+      "compose": null,
+      "appear": 59.16464000000004,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "liam",
+      "text": "karen, chill. maybe the system really did glitch. has happened before",
+      "beat": "normal",
+      "typing": [
+        [
+          61.23824000000005,
+          62.43824000000005
+        ]
+      ],
+      "compose": null,
+      "appear": 62.43824000000005,
+      "reactions": []
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "karen",
+      "text": "Liam, not now. Tom, I need you to take this seriously.",
+      "beat": "rapid",
+      "typing": [
+        [
+          64.04504000000004,
+          64.67072000000005
+        ]
+      ],
+      "compose": null,
+      "appear": 64.67072000000005,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "tom",
+      "text": "I'm taking it seriously. Stand down. We'll handle privately.",
+      "beat": "normal",
+      "typing": [
+        [
+          66.18752000000003,
+          67.30952000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 67.30952000000003,
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 12,
+          "at": 67.63952000000003,
+          "ramp": 0.5385052485771449
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "karen",
+      "text": "Fine. But I want a full audit of the badge system. Including yours, Tom.",
+      "beat": "pause",
+      "typing": [
+        [
+          69.69152000000003,
+          70.89152000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 70.89152000000003,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 30,
+          "at": 71.22152000000003,
+          "ramp": 0.6817636516990784
+        }
+      ]
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "tom",
+      "text": "Excuse me? My badge swipes are none of your concern.",
+      "beat": "rapid",
+      "typing": [
+        [
+          72.55592000000003,
+          73.16576000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 73.16576000000003,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "karen",
+      "text": "Auditing everyone, including you. Let's see CEO's last 2 weeks.",
+      "beat": "normal",
+      "typing": [
+        [
+          74.64416000000003,
+          75.80576000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 75.80576000000002,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 40,
+          "at": 76.13576000000002,
+          "ramp": 0.7267415968780665
+        }
+      ]
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "jake",
+      "text": "Actually, Tom's badge hasn't been used in the office for... let me check... 18 days.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          77.76536000000003,
+          79.32536000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 79.32536000000003,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 50,
+          "at": 79.65536000000003,
+          "ramp": 0.7616292015609667
+        },
+        {
+          "emoji": "🫢",
+          "count": 30,
+          "at": 79.88336000000004,
+          "ramp": 0.6817636516990784
+        }
+      ]
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "tom",
+      "text": "I've been traveling for business. You know that.",
+      "beat": "rapid",
+      "typing": [
+        [
+          82.06016000000004,
+          82.63832000000004
+        ]
+      ],
+      "compose": null,
+      "appear": 82.63832000000004,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "karen",
+      "text": "Traveling? Calendar shows WFH daily. Location: beach in Mexico.",
+      "beat": "rapid",
+      "typing": [
+        [
+          83.84192000000004,
+          84.53888000000005
+        ]
+      ],
+      "compose": null,
+      "appear": 84.53888000000005,
+      "reactions": [
+        {
+          "emoji": "🏖️",
+          "count": 35,
+          "at": 84.86888000000005,
+          "ramp": 0.7058644959660992
+        },
+        {
+          "emoji": "🤥",
+          "count": 20,
+          "at": 85.09688000000006,
+          "ramp": 0.6183707984390332
+        }
+      ]
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "tom",
+      "text": "That's... that's a glitch too. Karen, you're out of line.",
+      "beat": "fakeout",
+      "typing": [
+        [
+          86.19848000000005,
+          86.85848000000004
+        ],
+        [
+          87.39848000000005,
+          87.93848000000006
+        ]
+      ],
+      "compose": null,
+      "appear": 87.93848000000004,
+      "reactions": []
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "me",
+      "text": "he's not lying. i've been covering for him",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        90.26288000000004,
+        91.17848000000004
+      ],
+      "appear": 91.17848000000004,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "karen",
+      "text": "What? What are you saying?",
+      "beat": "rapid",
+      "typing": [
+        [
+          92.26688000000004,
+          92.67080000000004
+        ]
+      ],
+      "compose": null,
+      "appear": 92.67080000000004,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "me",
+      "text": "tom had me fake his swipes too. he's on his yacht. i scripted both.",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        93.92000000000004,
+        94.88000000000004
+      ],
+      "appear": 94.88000000000004,
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 60,
+          "at": 95.21000000000004,
+          "ramp": 0.7901344501381117
+        },
+        {
+          "emoji": "🍿",
+          "count": 45,
+          "at": 95.43800000000005,
+          "ramp": 0.7451565049591237
+        }
+      ]
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "tom",
+      "text": "Maya, what are you doing?! I never—",
+      "beat": "rapid",
+      "typing": [
+        [
+          97.28840000000004,
+          97.76360000000004
+        ]
+      ],
+      "compose": null,
+      "appear": 97.76360000000004,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "me",
+      "text": "you did. i have the dm. you promised raise+promo for silence.",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        99.18560000000005,
+        100.14560000000004
+      ],
+      "appear": 100.14560000000004,
+      "reactions": [
+        {
+          "emoji": "📸",
+          "count": 25,
+          "at": 100.47560000000004,
+          "ramp": 0.6532584031219335
+        },
+        {
+          "emoji": "💀",
+          "count": 50,
+          "at": 100.70360000000005,
+          "ramp": 0.7616292015609667
+        }
+      ]
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, if what you're saying is true, you might be in trouble too for falsifying records.",
+      "beat": "pause",
+      "typing": [
+        [
+          103.38680000000004,
+          104.58680000000004
+        ]
+      ],
+      "compose": null,
+      "appear": 104.58680000000004,
+      "reactions": [
+        {
+          "emoji": "😡",
+          "count": 40,
+          "at": 104.91680000000004,
+          "ramp": 0.7267415968780665
+        },
+        {
+          "emoji": "🔥",
+          "count": 30,
+          "at": 105.14480000000005,
+          "ramp": 0.6817636516990784
+        }
+      ]
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "tom",
+      "text": "Misunderstanding. I was going to tell. Medical need for warm climate.",
+      "beat": "fakeout",
+      "typing": [
+        [
+          106.70720000000003,
+          107.36720000000003
+        ],
+        [
+          107.90720000000003,
+          108.44720000000004
+        ]
+      ],
+      "compose": null,
+      "appear": 108.44720000000002,
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 55,
+          "at": 108.77720000000002,
+          "ramp": 0.7765305682179277
+        }
+      ]
+    },
+    {
+      "i": 39,
+      "type": "message",
+      "from": "liam",
+      "text": "medical condition? dude, you posted a video of you jet skiing yesterday",
+      "beat": "rapid",
+      "typing": [
+        [
+          110.05400000000003,
+          110.77400000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 110.77400000000003,
+      "reactions": [
+        {
+          "emoji": "🎿",
+          "count": 35,
+          "at": 111.10400000000003,
+          "ramp": 0.7058644959660992
+        },
+        {
+          "emoji": "😂",
+          "count": 60,
+          "at": 111.33200000000004,
+          "ramp": 0.7901344501381117
+        }
+      ]
+    },
+    {
+      "i": 40,
+      "type": "message",
+      "from": "karen",
+      "text": "Tom, I think we need to involve the board. This is a serious breach of trust.",
+      "beat": "normal",
+      "typing": [
+        [
+          112.61720000000003,
+          113.81720000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 113.81720000000003,
+      "reactions": []
+    },
+    {
+      "i": 41,
+      "type": "message",
+      "from": "tom",
+      "text": "Wait, let's not be hasty. Maya, I'll give you anything. Tell them it was a joke.",
+      "beat": "rapid",
+      "typing": [
+        [
+          115.57760000000003,
+          116.29760000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 116.29760000000003,
+      "reactions": []
+    },
+    {
+      "i": 42,
+      "type": "message",
+      "from": "me",
+      "text": "not a joke. you made me lie. karen almost fired me. i'm done.",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        119.06360000000002,
+        120.02360000000002
+      ],
+      "appear": 120.02360000000002,
+      "reactions": [
+        {
+          "emoji": "✊",
+          "count": 45,
+          "at": 120.35360000000001,
+          "ramp": 0.7451565049591237
+        },
+        {
+          "emoji": "💪",
+          "count": 30,
+          "at": 120.58160000000002,
+          "ramp": 0.6817636516990784
+        }
+      ]
+    },
+    {
+      "i": 43,
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, if what you're saying is true, you might be in trouble too for falsifying records.",
+      "beat": "normal",
+      "typing": [
+        [
+          121.67480000000002,
+          122.87480000000002
+        ]
+      ],
+      "compose": null,
+      "appear": 122.87480000000002,
+      "reactions": []
+    },
+    {
+      "i": 44,
+      "type": "message",
+      "from": "me",
+      "text": "i was coerced. and i have the messages. tom, you're going down",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        125.31440000000003,
+        126.27440000000003
+      ],
+      "appear": 126.27440000000003,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 50,
+          "at": 126.60440000000003,
+          "ramp": 0.7616292015609667
+        },
+        {
+          "emoji": "👏",
+          "count": 40,
+          "at": 126.83240000000004,
+          "ramp": 0.7267415968780665
+        }
+      ]
+    },
+    {
+      "i": 45,
+      "type": "message",
+      "from": "tom",
+      "text": "You can't prove any of this. I'll deny everything.",
+      "beat": "rapid",
+      "typing": [
+        [
+          128.58680000000004,
+          129.18080000000003
+        ]
+      ],
+      "compose": null,
+      "appear": 129.18080000000003,
+      "reactions": []
+    },
+    {
+      "i": 46,
+      "type": "message",
+      "from": "me",
+      "text": "i have time stamps, screenshots, and even a voice note. want me to play it here?",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        130.62080000000003,
+        131.58080000000004
+      ],
+      "appear": 131.58080000000004,
+      "reactions": [
+        {
+          "emoji": "🎙️",
+          "count": 20,
+          "at": 131.91080000000005,
+          "ramp": 0.6183707984390332
+        },
+        {
+          "emoji": "💀",
+          "count": 55,
+          "at": 132.13880000000003,
+          "ramp": 0.7765305682179277
+        }
+      ]
+    },
+    {
+      "i": 47,
+      "type": "system",
+      "from": "karen",
+      "text": "Karen removed Tom from #attendance",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 133.59680000000006,
+      "reactions": [
+        {
+          "emoji": "👋",
+          "count": 30,
+          "at": 133.92680000000007,
+          "ramp": 0.6817636516990784
+        }
+      ]
+    },
+    {
+      "i": 48,
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, we need to talk. You may have saved us. But do it right.",
+      "beat": "pause",
+      "typing": [
+        [
+          135.47960000000006,
+          136.62800000000007
+        ]
+      ],
+      "compose": null,
+      "appear": 136.62800000000007,
+      "reactions": []
+    },
+    {
+      "i": 49,
+      "type": "message",
+      "from": "me",
+      "text": "i'll cooperate. want protection and the raise tom promised, in writing.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        138.29840000000007,
+        139.25840000000008
+      ],
+      "appear": 139.25840000000008,
+      "reactions": []
+    },
+    {
+      "i": 50,
+      "type": "message",
+      "from": "karen",
+      "text": "We'll see. For now, don't say anything else in this channel. Meeting in 10.",
+      "beat": "normal",
+      "typing": [
+        [
+          141.1016000000001,
+          142.3016000000001
+        ]
+      ],
+      "compose": null,
+      "appear": 142.3016000000001,
+      "reactions": [
+        {
+          "emoji": "🕵️",
+          "count": 15,
+          "at": 142.6316000000001,
+          "ramp": 0.5733928532600453
+        }
+      ]
+    },
+    {
+      "i": 51,
+      "type": "message",
+      "from": "me",
+      "text": "one more: tom wasn't alone. check other execs' swipes. pattern.",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        144.4916000000001,
+        145.4516000000001
+      ],
+      "appear": 145.4516000000001,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 70,
+          "at": 145.7816000000001,
+          "ramp": 0.8142352944051324
+        },
+        {
+          "emoji": "🤯",
+          "count": 50,
+          "at": 146.0096000000001,
+          "ramp": 0.7616292015609667
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 6.938,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 12.331999999999999,
+      "count": 8
+    },
+    {
+      "type": "reaction",
+      "t": 25.957039999999992,
+      "count": 12
+    },
+    {
+      "type": "bombshell",
+      "t": 25.627039999999994
+    },
+    {
+      "type": "system",
+      "t": 27.295039999999993
+    },
+    {
+      "type": "reaction",
+      "t": 30.86143999999999,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 38.36504,
+      "count": 20
+    },
+    {
+      "type": "reaction",
+      "t": 50.27384000000002,
+      "count": 25
+    },
+    {
+      "type": "reaction",
+      "t": 56.27864000000003,
+      "count": 10
+    },
+    {
+      "type": "reaction",
+      "t": 56.50664000000003,
+      "count": 7
+    },
+    {
+      "type": "reaction",
+      "t": 67.63952000000003,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 71.22152000000003,
+      "count": 30
+    },
+    {
+      "type": "reaction",
+      "t": 76.13576000000002,
+      "count": 40
+    },
+    {
+      "type": "reaction",
+      "t": 79.65536000000003,
+      "count": 50
+    },
+    {
+      "type": "reaction",
+      "t": 79.88336000000004,
+      "count": 30
+    },
+    {
+      "type": "bombshell",
+      "t": 79.32536000000003
+    },
+    {
+      "type": "reaction",
+      "t": 84.86888000000005,
+      "count": 35
+    },
+    {
+      "type": "reaction",
+      "t": 85.09688000000006,
+      "count": 20
+    },
+    {
+      "type": "reaction",
+      "t": 95.21000000000004,
+      "count": 60
+    },
+    {
+      "type": "reaction",
+      "t": 95.43800000000005,
+      "count": 45
+    },
+    {
+      "type": "bombshell",
+      "t": 94.88000000000004
+    },
+    {
+      "type": "reaction",
+      "t": 100.47560000000004,
+      "count": 25
+    },
+    {
+      "type": "reaction",
+      "t": 100.70360000000005,
+      "count": 50
+    },
+    {
+      "type": "bombshell",
+      "t": 100.14560000000004
+    },
+    {
+      "type": "reaction",
+      "t": 104.91680000000004,
+      "count": 40
+    },
+    {
+      "type": "reaction",
+      "t": 105.14480000000005,
+      "count": 30
+    },
+    {
+      "type": "reaction",
+      "t": 108.77720000000002,
+      "count": 55
+    },
+    {
+      "type": "reaction",
+      "t": 111.10400000000003,
+      "count": 35
+    },
+    {
+      "type": "reaction",
+      "t": 111.33200000000004,
+      "count": 60
+    },
+    {
+      "type": "reaction",
+      "t": 120.35360000000001,
+      "count": 45
+    },
+    {
+      "type": "reaction",
+      "t": 120.58160000000002,
+      "count": 30
+    },
+    {
+      "type": "reaction",
+      "t": 126.60440000000003,
+      "count": 50
+    },
+    {
+      "type": "reaction",
+      "t": 126.83240000000004,
+      "count": 40
+    },
+    {
+      "type": "bombshell",
+      "t": 126.27440000000003
+    },
+    {
+      "type": "reaction",
+      "t": 131.91080000000005,
+      "count": 20
+    },
+    {
+      "type": "reaction",
+      "t": 132.13880000000003,
+      "count": 55
+    },
+    {
+      "type": "system",
+      "t": 133.59680000000006
+    },
+    {
+      "type": "reaction",
+      "t": 133.92680000000007,
+      "count": 30
+    },
+    {
+      "type": "reaction",
+      "t": 142.6316000000001,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 145.7816000000001,
+      "count": 70
+    },
+    {
+      "type": "reaction",
+      "t": 146.0096000000001,
+      "count": 50
+    },
+    {
+      "type": "bombshell",
+      "t": 145.4516000000001
+    }
+  ],
+  "outroAt": 147.7112000000001,
+  "duration": 150.9112000000001
+}

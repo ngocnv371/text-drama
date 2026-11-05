@@ -135,3 +135,13 @@ button.small { padding: 4px 10px; font-size: 12px; border-radius: 8px; }
 .queue li.failed .st { color: var(--danger); }
 .queue li.skipped { opacity: .5; }
 .queue li.done { cursor: pointer; }
+
+/* workspaces */
+.ws-select { width: auto; max-width: 280px; padding: 6px 10px; font-weight: 600; border-radius: 99px; }
+.small-dialog { width: min(440px, 92vw); }
+.new-ws { padding: 20px 22px; }
+.new-ws h3 { margin-bottom: 6px; }
+.new-ws .hint { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+.new-ws-error { color: var(--danger); font-size: 13px; min-height: 1em; margin-bottom: 8px; }
+.dialog-actions { display: flex; justify-content: flex-end; gap: 8px; }
+button.primary-inline { background: var(--accent); border-color: var(--accent); }

@@ -1,0 +1,371 @@
+{
+  "title": "The Corporate TikTok",
+  "logline": "When a Gen Z social media manager posts a video of her VP sleeping, he demands she be fired—until the CEO sees the sales numbers.",
+  "hook": "posting my boss sleeping on company tiktok",
+  "startClock": "02:14 PM",
+  "chat": {
+    "name": "#brand-social",
+    "subtitle": "82 members · marketing team"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Social Media Mgr"
+    },
+    {
+      "id": "greg",
+      "name": "Greg",
+      "role": "VP Marketing"
+    },
+    {
+      "id": "chloe",
+      "name": "Chloe",
+      "role": "Intern"
+    },
+    {
+      "id": "sarah",
+      "name": "Sarah",
+      "role": "HR Director"
+    },
+    {
+      "id": "david",
+      "name": "David",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "who has the login to our official tiktok.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "answer me right now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i do. why?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "delete the newest video immediately.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the 'day in the life' one? it has 4m views",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "my wife saw the drool and is laughing at me",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "it is highly unprofessional and a fireable offense.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chloe",
+      "text": "wait i thought it was a masterpiece",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "you are an intern chloe. stay out of this.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "chloe",
+      "text": "Chloe was removed from #brand-social by Greg",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "chloe",
+      "text": "Chloe was added to #brand-social by Maya",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chloe",
+      "text": "anyways like i was saying 🤐",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 52
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "@me delete it before i involve hr.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "greg it's literally our best performing content ever",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the comments are begging for a part 2",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 22
+        },
+        {
+          "emoji": "👀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "that's it.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "sarah",
+      "text": "Greg added Sarah (HR Director) to #brand-social",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "hi team. what seems to be the issue?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "@me is posting defamatory content and refusing to delete.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "@me is this true?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no i just used a trending audio",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "you posted a video of me sleeping at my desk!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "with a clown filter on my face!!",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 61
+        },
+        {
+          "emoji": "😭",
+          "count": 24
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "technically you were snoring too",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chloe",
+      "text": "the drool was a paid actor tbh",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "you are both fired. pack your desks.",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "you're on thin ice chloe.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sarah",
+      "text": "@me this is a serious policy violation. take it down.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i can't.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "what do you mean you can't?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i changed the password and locked the account.",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "you are so fired.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "david",
+      "text": "Greg added David (CEO) to #brand-social",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "why is my phone blowing up.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "david, @me has gone rogue on the corporate page.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "she filmed me sleeping and is holding the account hostage.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "i want her terminated effective immediately.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "david, check the shopify dashboard.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "checking.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "...sales are up 400% today?",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "yeah. the clown filter really resonated with gen z.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "greg",
+      "text": "david, tell her to delete it right now!!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "david",
+      "text": "greg, put the clown nose back on. we're filming part 2.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "Will Greg star in Part 2?",
+  "app": "workchat",
+  "targetSeconds": 90
+}

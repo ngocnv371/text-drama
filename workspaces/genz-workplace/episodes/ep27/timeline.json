@@ -1,0 +1,808 @@
+{
+  "id": "ep27",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "posting my boss sleeping on company tiktok",
+  "hookSeconds": 3.2,
+  "cliffhanger": "Will Greg star in Part 2?",
+  "startClock": "02:14 PM",
+  "chat": {
+    "name": "#brand-social",
+    "subtitle": "82 members · marketing team"
+  },
+  "cast": [
+    {
+      "role": "Social Media Mgr",
+      "id": "me",
+      "name": "Maya"
+    },
+    {
+      "role": "VP Marketing",
+      "id": "greg",
+      "name": "Greg"
+    },
+    {
+      "role": "Intern",
+      "id": "chloe",
+      "name": "Chloe"
+    },
+    {
+      "role": "HR Director",
+      "id": "sarah",
+      "name": "Sarah"
+    },
+    {
+      "role": "CEO",
+      "id": "david",
+      "name": "David"
+    }
+  ],
+  "pace": 0.6488924917624446,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "greg",
+      "text": "who has the login to our official tiktok.",
+      "beat": "normal",
+      "typing": [
+        [
+          0.35,
+          1.2921918980390694
+        ]
+      ],
+      "compose": null,
+      "appear": 1.2921918980390694,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "greg",
+      "text": "answer me right now.",
+      "beat": "rapid",
+      "typing": [
+        [
+          2.448518318359745,
+          2.8339604584666374
+        ]
+      ],
+      "compose": null,
+      "appear": 2.8339604584666374,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "me",
+      "text": "i do. why?",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        3.7683656466045576,
+        4.177167916414898
+      ],
+      "appear": 4.177167916414898,
+      "reactions": []
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "greg",
+      "text": "delete the newest video immediately.",
+      "beat": "rapid",
+      "typing": [
+        [
+          4.689792984907229,
+          5.21228121927435
+        ]
+      ],
+      "compose": null,
+      "appear": 5.21228121927435,
+      "reactions": []
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "me",
+      "text": "the 'day in the life' one? it has 4m views",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        6.446474738606519,
+        7.436684681036009
+      ],
+      "appear": 7.436684681036009,
+      "reactions": []
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "greg",
+      "text": "my wife saw the drool and is laughing at me",
+      "beat": "unsend",
+      "typing": [
+        [
+          8.730576309610324,
+          9.70131947728694
+        ]
+      ],
+      "compose": null,
+      "appear": 9.70131947728694,
+      "reactions": [],
+      "unsendAt": 11.470200409831364
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "greg",
+      "text": "it is highly unprofessional and a fireable offense.",
+      "beat": "rapid",
+      "typing": [
+        [
+          11.87251375472408,
+          12.523482702460164
+        ]
+      ],
+      "compose": null,
+      "appear": 12.523482702460164,
+      "reactions": []
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "chloe",
+      "text": "wait i thought it was a masterpiece",
+      "beat": "normal",
+      "typing": [
+        [
+          14.10158924242643,
+          14.958127331552856
+        ]
+      ],
+      "compose": null,
+      "appear": 14.958127331552856,
+      "reactions": []
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "greg",
+      "text": "you are an intern chloe. stay out of this.",
+      "beat": "rapid",
+      "typing": [
+        [
+          15.989866393455143,
+          16.56374691316985
+        ]
+      ],
+      "compose": null,
+      "appear": 16.56374691316985,
+      "reactions": []
+    },
+    {
+      "i": 9,
+      "type": "system",
+      "from": "chloe",
+      "text": "Chloe was removed from #brand-social by Greg",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 17.954972415508532,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "system",
+      "from": "chloe",
+      "text": "Chloe was added to #brand-social by Maya",
+      "beat": "rapid",
+      "typing": [],
+      "compose": null,
+      "appear": 19.1735925150384,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "chloe",
+      "text": "anyways like i was saying 🤐",
+      "beat": "rapid",
+      "typing": [
+        [
+          20.309154375622676,
+          20.754554181968416
+        ]
+      ],
+      "compose": null,
+      "appear": 20.754554181968416,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 52,
+          "at": 21.11144505243776,
+          "ramp": 0.8303241342549338
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "greg",
+      "text": "@me delete it before i involve hr.",
+      "beat": "normal",
+      "typing": [
+        [
+          21.834311288261123,
+          22.676573742568777
+        ]
+      ],
+      "compose": null,
+      "appear": 22.676573742568777,
+      "reactions": []
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "me",
+      "text": "greg it's literally our best performing content ever",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        23.901682767016272,
+        24.939910753836184
+      ],
+      "appear": 24.939910753836184,
+      "reactions": []
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "me",
+      "text": "the comments are begging for a part 2",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        26.32464733125724,
+        26.95420282676516
+      ],
+      "appear": 26.95420282676516,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 22,
+          "at": 27.311093697234504,
+          "ramp": 0.6848759219548964
+        },
+        {
+          "emoji": "👀",
+          "count": 18,
+          "at": 27.557672844104236,
+          "ramp": 0.6509452651470331
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "greg",
+      "text": "that's it.",
+      "beat": "rapid",
+      "typing": [
+        [
+          28.027471008140243,
+          28.327259339334493
+        ]
+      ],
+      "compose": null,
+      "appear": 28.327259339334493,
+      "reactions": []
+    },
+    {
+      "i": 16,
+      "type": "system",
+      "from": "sarah",
+      "text": "Greg added Sarah (HR Director) to #brand-social",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 29.05401893010843,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "sarah",
+      "text": "hi team. what seems to be the issue?",
+      "beat": "pause",
+      "typing": [
+        [
+          31.360182845832156,
+          32.23099656977735
+        ]
+      ],
+      "compose": null,
+      "appear": 32.23099656977735,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "greg",
+      "text": "@me is posting defamatory content and refusing to delete.",
+      "beat": "rapid",
+      "typing": [
+        [
+          33.28350019141604,
+          33.98586142449971
+        ]
+      ],
+      "compose": null,
+      "appear": 33.98586142449971,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "sarah",
+      "text": "@me is this true?",
+      "beat": "pause",
+      "typing": [
+        [
+          36.499670937587425,
+          37.099247599975925
+        ]
+      ],
+      "compose": null,
+      "appear": 37.099247599975925,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "me",
+      "text": "no i just used a trending audio",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        37.97135910890465,
+        38.76171016387131
+      ],
+      "appear": 38.76171016387131,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "greg",
+      "text": "you posted a video of me sleeping at my desk!",
+      "beat": "rapid",
+      "typing": [
+        [
+          39.710390986827996,
+          40.309967649216496
+        ]
+      ],
+      "compose": null,
+      "appear": 40.309967649216496,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "greg",
+      "text": "with a clown filter on my face!!",
+      "beat": "rapid",
+      "typing": [
+        [
+          41.54935230848276,
+          42.03757901928482
+        ]
+      ],
+      "compose": null,
+      "appear": 42.03757901928482,
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 61,
+          "at": 42.39446988975416,
+          "ramp": 0.8573153980953936
+        },
+        {
+          "emoji": "😭",
+          "count": 24,
+          "at": 42.64104903662389,
+          "ramp": 0.6995883500162801
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "me",
+      "text": "technically you were snoring too",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        43.188714299671396,
+        43.9972343444074
+      ],
+      "appear": 43.9972343444074,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "chloe",
+      "text": "the drool was a paid actor tbh",
+      "beat": "rapid",
+      "typing": [
+        [
+          44.96667972710049,
+          45.437775676120026
+        ]
+      ],
+      "compose": null,
+      "appear": 45.437775676120026,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 45,
+          "at": 45.79466654658937,
+          "ramp": 0.8058774354265336
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "greg",
+      "text": "you are both fired. pack your desks.",
+      "beat": "unsend",
+      "typing": [
+        [
+          46.482492587857564,
+          47.35330631180276
+        ]
+      ],
+      "compose": null,
+      "appear": 47.35330631180276,
+      "reactions": [],
+      "unsendAt": 48.9768353261924
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "greg",
+      "text": "you're on thin ice chloe.",
+      "beat": "rapid",
+      "typing": [
+        [
+          49.37914867108511,
+          49.80741771564833
+        ]
+      ],
+      "compose": null,
+      "appear": 49.80741771564833,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "sarah",
+      "text": "@me this is a serious policy violation. take it down.",
+      "beat": "pause",
+      "typing": [
+        [
+          51.656761317171295,
+          52.77026083303565
+        ]
+      ],
+      "compose": null,
+      "appear": 52.77026083303565,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "me",
+      "text": "i can't.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        54.38989649247471,
+        54.77923198753218
+      ],
+      "appear": 54.77923198753218,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "greg",
+      "text": "what do you mean you can't?",
+      "beat": "rapid",
+      "typing": [
+        [
+          55.25032793655171,
+          55.69572774289745
+        ]
+      ],
+      "compose": null,
+      "appear": 55.69572774289745,
+      "reactions": []
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "me",
+      "text": "i changed the password and locked the account.",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        57.06748647048326,
+        58.10571445730317
+      ],
+      "appear": 58.10571445730317,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "greg",
+      "text": "you are so fired.",
+      "beat": "rapid",
+      "typing": [
+        [
+          60.27431316477326,
+          60.63405916220636
+        ]
+      ],
+      "compose": null,
+      "appear": 60.63405916220636,
+      "reactions": []
+    },
+    {
+      "i": 32,
+      "type": "system",
+      "from": "david",
+      "text": "Greg added David (CEO) to #brand-social",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 61.50617067113509,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "david",
+      "text": "why is my phone blowing up.",
+      "beat": "pause",
+      "typing": [
+        [
+          63.64621810896763,
+          64.38855111954386
+        ]
+      ],
+      "compose": null,
+      "appear": 64.38855111954386,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "greg",
+      "text": "david, @me has gone rogue on the corporate page.",
+      "beat": "rapid",
+      "typing": [
+        [
+          65.25417370355497,
+          65.87944650861726
+        ]
+      ],
+      "compose": null,
+      "appear": 65.87944650861726,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "greg",
+      "text": "she filmed me sleeping and is holding the account hostage.",
+      "beat": "rapid",
+      "typing": [
+        [
+          67.18112484709273,
+          67.89205146106767
+        ]
+      ],
+      "compose": null,
+      "appear": 67.89205146106767,
+      "reactions": []
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "greg",
+      "text": "i want her terminated effective immediately.",
+      "beat": "rapid",
+      "typing": [
+        [
+          69.40137539690711,
+          69.99238667840434
+        ]
+      ],
+      "compose": null,
+      "appear": 69.99238667840434,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "me",
+      "text": "david, check the shopify dashboard.",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        71.39269667562769,
+        72.25572368967174
+      ],
+      "appear": 72.25572368967174,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "david",
+      "text": "checking.",
+      "beat": "pause",
+      "typing": [
+        [
+          74.31271288855868,
+          74.798084472397
+        ]
+      ],
+      "compose": null,
+      "appear": 74.798084472397,
+      "reactions": []
+    },
+    {
+      "i": 39,
+      "type": "message",
+      "from": "david",
+      "text": "...sales are up 400% today?",
+      "beat": "bombshell",
+      "typing": [
+        [
+          75.79608112472764,
+          76.92774963036133
+        ]
+      ],
+      "compose": null,
+      "appear": 76.92774963036133,
+      "reactions": []
+    },
+    {
+      "i": 40,
+      "type": "message",
+      "from": "me",
+      "text": "yeah. the clown filter really resonated with gen z.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        78.70182170283987,
+        79.4285812936138
+      ],
+      "appear": 79.4285812936138,
+      "reactions": []
+    },
+    {
+      "i": 41,
+      "type": "message",
+      "from": "greg",
+      "text": "david, tell her to delete it right now!!",
+      "beat": "rapid",
+      "typing": [
+        [
+          80.79255331129846,
+          81.34930306923064
+        ]
+      ],
+      "compose": null,
+      "appear": 81.34930306923064,
+      "reactions": []
+    },
+    {
+      "i": 42,
+      "type": "message",
+      "from": "david",
+      "text": "greg, put the clown nose back on. we're filming part 2.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          82.99100107338964,
+          84.52238735394901
+        ]
+      ],
+      "compose": null,
+      "appear": 84.52238735394901,
+      "reactions": []
+    }
+  ],
+  "fx": [
+    {
+      "type": "unsend",
+      "t": 11.470200409831364
+    },
+    {
+      "type": "system",
+      "t": 17.954972415508532
+    },
+    {
+      "type": "system",
+      "t": 19.1735925150384
+    },
+    {
+      "type": "reaction",
+      "t": 21.11144505243776,
+      "count": 52
+    },
+    {
+      "type": "reaction",
+      "t": 27.311093697234504,
+      "count": 22
+    },
+    {
+      "type": "reaction",
+      "t": 27.557672844104236,
+      "count": 18
+    },
+    {
+      "type": "system",
+      "t": 29.05401893010843
+    },
+    {
+      "type": "reaction",
+      "t": 42.39446988975416,
+      "count": 61
+    },
+    {
+      "type": "reaction",
+      "t": 42.64104903662389,
+      "count": 24
+    },
+    {
+      "type": "reaction",
+      "t": 45.79466654658937,
+      "count": 45
+    },
+    {
+      "type": "unsend",
+      "t": 48.9768353261924
+    },
+    {
+      "type": "bombshell",
+      "t": 58.10571445730317
+    },
+    {
+      "type": "system",
+      "t": 61.50617067113509
+    },
+    {
+      "type": "bombshell",
+      "t": 76.92774963036133
+    },
+    {
+      "type": "bombshell",
+      "t": 84.52238735394901
+    }
+  ],
+  "outroAt": 86.8000000000352,
+  "duration": 90.0000000000352
+}

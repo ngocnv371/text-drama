@@ -1,0 +1,475 @@
+{
+  "title": "The Tweet Heist",
+  "logline": "A Gen Z employee accidentally leaks her boss's offensive tweet, but when the CEO claims it was a drill, she exposes the cover-up and brings down both of them.",
+  "hook": "I just leaked my boss's deleted tweet",
+  "startClock": "3:12 PM",
+  "chat": {
+    "name": "#general",
+    "subtitle": "all employees"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Marketing Coordinator"
+    },
+    {
+      "id": "boss",
+      "name": "Karen",
+      "role": "VP of Marketing"
+    },
+    {
+      "id": "coworker1",
+      "name": "Jake",
+      "role": "Sales Rep"
+    },
+    {
+      "id": "coworker2",
+      "name": "Priya",
+      "role": "Engineer"
+    },
+    {
+      "id": "ceo",
+      "name": "David",
+      "role": "CEO"
+    },
+    {
+      "id": "hr",
+      "name": "Linda",
+      "role": "HR Director"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "guys look what i found",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "'gen z are so entitled. they want everything handed to them' - karen, 2014",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait wrong chat",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "me",
+      "text": "Maya (Marketing Coordinator) deleted a message",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "maya what is this",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "that's not me",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "coworker1",
+      "text": "lmaooo",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "coworker1",
+      "text": "karen said that??",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "my account was hacked",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "coworker2",
+      "text": "sure jan",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sorry karen it was an accident",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "this is unacceptable. hr will deal with this",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "hr",
+      "text": "Linda (HR Director) joined #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "maya, please send me the screenshot",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's already deleted",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "we can retrieve it",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "David (CEO) joined #general",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "everyone calm down",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i can explain",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "this was a test",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "we simulated a pr crisis to see how the team responds",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "karen volunteered her account",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "exactly. it was all planned",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "coworker1",
+      "text": "so it's fake?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "yes. good job maya for finding it",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        },
+        {
+          "emoji": "👀",
+          "count": 8
+        },
+        {
+          "emoji": "🤔",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the tweet has a timestamp and location",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it was posted from her home ip",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i checked the metadata",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "that's impossible",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sorry david, but it's real",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        },
+        {
+          "emoji": "👀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "i can explain",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "i was young and stupid",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "this is a serious issue",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "karen, please step down",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "also, david knew",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "what are you talking about",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "he dm'd me after i posted",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "he asked me to delete it and offered me a bonus",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "that's a lie",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have screenshots",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "here",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "dm from david: 'delete it and i'll give you 5k'",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "david, is this true?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i was trying to protect the company",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😡",
+          "count": 18
+        },
+        {
+          "emoji": "🤬",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker1",
+      "text": "wow",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "coworker2",
+      "text": "so both of them are trash",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm not done",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "karen's tweet is real, but david's offer is also illegal",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm forwarding everything to the board",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 20
+        },
+        {
+          "emoji": "🫡",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "you'll regret this",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "see you at the hearing",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💅",
+          "count": 30
+        },
+        {
+          "emoji": "☕️",
+          "count": 15
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "The board wants a meeting. But Maya has one more secret.",
+  "app": "workchat",
+  "targetSeconds": 120
+}

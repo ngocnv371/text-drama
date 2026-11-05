@@ -1,0 +1,9 @@
+{
+  "provider": "gemini",
+  "model": "gemini-3.1-pro-preview",
+  "effort": null,
+  "premise": null,
+  "attempts": 1,
+  "createdAt": "2026-11-03T12:47:54.884Z",
+  "music": "tension-pad.mp3"
+}

@@ -1,0 +1,636 @@
+{
+  "title": "The Overtime Standoff",
+  "logline": "When a Gen Z worker refuses unpaid overtime, she posts a recording that exposes a company-wide wage theft scandal, but the final reveal implicates the CEO himself.",
+  "hook": "boss wanted free overtime, so i posted the voice note",
+  "startClock": "4:52 PM",
+  "chat": {
+    "name": "#data-team",
+    "subtitle": "5 members"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Jordan",
+      "role": "Data Analyst"
+    },
+    {
+      "id": "boss",
+      "name": "Karen",
+      "role": "Team Lead"
+    },
+    {
+      "id": "hr",
+      "name": "Pat",
+      "role": "HR Director"
+    },
+    {
+      "id": "ceo",
+      "name": "Alex",
+      "role": "CEO"
+    },
+    {
+      "id": "coworker",
+      "name": "Sam",
+      "role": "Coworker"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "hey jordan can you stay late tonight? need the q3 report done by 9am",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sure, what's the overtime rate?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "overtime? we don't pay overtime, you're salaried",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "salaried non-exempt, actually. i'm eligible for overtime.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💅",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "look, just be a team player. i need this done.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "if there's no overtime pay, i'm gonna have to pass. it's 4:52, my shift ends at 5.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "are you serious? this is important. everyone else is staying.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "wait, we're staying? i didn't agree to that",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤨",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "yes, all-hands on deck. no exceptions.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😠",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "that's not how it works. i'm not working for free.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "✊",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "fine, if you don't stay, consider this a performance issue.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🚩",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have a voice note from our 1:1 where you said 'no overtime pay, just do it'",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "what? you recorded me?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "yep. should i post it here?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "this is outrageous! that's confidential.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤡",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "hr",
+      "text": "Pat (HR Director) joined #data-team",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "what's going on here? karen, jordan, my office now.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm not going anywhere until we clarify overtime policy. posting the voice note.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "[voice note: 0:34] 'if you stay late, there's no extra pay. just get it done.'",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 23
+        },
+        {
+          "emoji": "📢",
+          "count": 11
+        },
+        {
+          "emoji": "🫠",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "karen, is that you?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "that's taken out of context!",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🧢",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the context is clear. we've been doing unpaid overtime for months.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "📌",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "wait, i've been staying late too. i thought it was comp time?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😨",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "there is no comp time! you're all just expected to work hard.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤬",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "karen, that's not our policy. we need to discuss this immediately.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🚨",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "karen, stop posting. we'll handle this offline.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "lol she got told off",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "this is wild. i feel so used.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😞",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "jordan, can you send me the full recording? i need to investigate.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sure, but i'm not the only one. sam has stories too.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👂",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "yeah, she made me work weekends without pay last month.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "📉",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "this is serious. i'm escalating to the CEO.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "📈",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "Alex (CEO) joined #data-team",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "what did i just walk into?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wage theft. your team lead has been exploiting us.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔨",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "karen? i thought she was our best manager.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "we have receipts.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🧾",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "i'm pulling the time logs now. this might be bigger than we thought.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔍",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "check her direct reports. she's been doing this for years.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "⏳",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "if this is true, she's gone. and you all get back pay.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🙏",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "wait, i can explain! it was just a mistake!",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤥",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "mistake? you told them 'no overtime pay' on a recording.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🎯",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "you promised me a bonus if i cut costs",
+      "beat": "unsend",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "but you said we needed to cut costs! you told me to stop paying overtime!",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💣",
+          "count": 12
+        },
+        {
+          "emoji": "😱",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what? ceo knew?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "karen, don't drag me into this. i never said to break the law.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🤨",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have emails. ceo, you're in them.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "📧",
+          "count": 10
+        },
+        {
+          "emoji": "🔥",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "what emails?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😰",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "when you told karen 'whatever it takes to hit the numbers'? i have that screenshot.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🕵️",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "this is a disaster. i'm involving legal.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "⚖️",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "okay, jordan, let's not be hasty. we can work something out.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤝",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "too late. i've already sent everything to the board. they just voted to remove you as ceo.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👋",
+          "count": 20
+        },
+        {
+          "emoji": "🏆",
+          "count": 12
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "jordan is now the most powerful person in the company... and she's not done. part 2?",
+  "app": "workchat",
+  "targetSeconds": 120
+}

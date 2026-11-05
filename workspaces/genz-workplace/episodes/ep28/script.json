@@ -1,0 +1,330 @@
+{
+  "title": "The Peerspace Pivot",
+  "logline": "When a VP catches a yoga class in the boardroom, a Gen Z worker's secret office-rental side hustle is exposed—until the CEO realizes it's their only profitable venture.",
+  "hook": "who rented the boardroom??",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "#hq-ops",
+    "subtitle": "4 members · Facilities"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Zoe",
+      "role": "Workplace Coord"
+    },
+    {
+      "id": "chad",
+      "name": "Chad",
+      "role": "VP of Sales"
+    },
+    {
+      "id": "helen",
+      "name": "Helen",
+      "role": "HR"
+    },
+    {
+      "id": "marcus",
+      "name": "Marcus",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "@zoe why are there 15 barefoot people in the boardroom.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "there is a man with a gong.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oh! that’s just the new wellness vendor trial.",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "on a friday? literally no one is here.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "exactly, minimal disruption 😊",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "they are burning sage. the smoke alarm is blinking.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the smoke clears negative energy chad",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "helen",
+      "text": "Helen (HR) joined #hq-ops",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "helen",
+      "text": "@zoe I did not approve any wellness vendor.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "helen",
+      "text": "We don't have budget for a sound bath.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it’s cost neutral i swear",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "I just asked the gong guy who he works for.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "he said he rented this room on Peerspace??",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "helen",
+      "text": "You put our corporate HQ on a rental app?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "everyone works from home on fridays...",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the real estate was sitting unoptimized.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "UNOPTIMIZED? THIS IS MY FLOOR.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "helen",
+      "text": "@zoe this is a massive liability.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "I'm looking at the listing right now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "\"Boutique glass cube with startup vibes\" ???",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it has 4.9 stars.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "people love the free lacroix.",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "helen",
+      "text": "I am screenshotting all of this for legal.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "you are so fired.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "marcus",
+      "text": "Marcus (CEO) joined #hq-ops",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "what is going on here.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "helen",
+      "text": "@marcus Zoe has been secretly renting out the office.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "to yoga cults.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "Zoe. Is this true?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i was just practicing entrepreneurial thinking...",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "how much are you charging per hour?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "$250. plus a $50 cleaning fee.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "and how much did you make this month?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "...about $14,000",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "📈",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "wait.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "you generated $14k of pure profit?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "chad",
+      "text": "Marcus do not encourage her!!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "@chad that is triple your sales team's pipeline this week.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "Zoe, clean out Chad's office. It's a podcast studio now.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 35
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "will chad survive the podcast studio?",
+  "app": "workchat",
+  "targetSeconds": 90
+}

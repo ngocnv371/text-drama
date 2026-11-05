@@ -1,0 +1,334 @@
+{
+  "title": "The Ghost Employee",
+  "logline": "When HR accuses a Gen Z manager of inventing a fake employee to steal a second salary, she reveals she created him to absorb pointless meetings—until the CEO promotes the fake employee.",
+  "hook": "embezzlement or genius productivity?",
+  "startClock": "10:14 AM",
+  "chat": {
+    "name": "#hr-investigations",
+    "subtitle": "4 members · confidential"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Chloe",
+      "role": "Project Manager"
+    },
+    {
+      "id": "kevin",
+      "name": "Kevin",
+      "role": "HR"
+    },
+    {
+      "id": "diane",
+      "name": "Diane",
+      "role": "VP Ops"
+    },
+    {
+      "id": "marcus",
+      "name": "Marcus",
+      "role": "CEO"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "@chloe we need to talk about your new hire.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "who exactly is \"Chad Business\"?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "he's my new associate",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "he has no profile picture.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "and his direct deposit goes to your venmo.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i can explain",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "You invented a fake employee to steal a salary?",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it’s not for the money!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i made him to take my meetings",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "well i pay myself his salary too",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i forward him all the 'optional' calendar invites",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🧠",
+          "count": 18
+        },
+        {
+          "emoji": "😭",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "You made up a human to avoid meetings?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "yeah so my schedule looks clear for deep work",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "This is literally corporate fraud.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "diane",
+      "text": "Diane (VP Ops) was added to #hr-investigations by Kevin",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "What is this about Chad?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "Chloe made him up. He doesn't exist.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "What do you mean he doesn't exist?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "He approved my Q3 vendor budget yesterday.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oh right about that",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i set up an automation for his email",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it just replies \"looks great, approved\" to everything",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "HE APPROVED A $200K VENDOR CONTRACT?!",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 22
+        },
+        {
+          "emoji": "📉",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "you guys complain when approvals take too long",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "I am terminating you right now.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "I'm revoking your access.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "marcus",
+      "text": "Marcus (CEO) joined #hr-investigations",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "team, why is chad's manager being investigated?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "Marcus, Chad is a fake person Chloe invented.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "kevin",
+      "text": "She is redirecting his pay to her personal account.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "wait, chad isn't real?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "Exactly. We are firing her.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "but chad is our top performer this quarter.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "exactly thank you marcus",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💅",
+          "count": 17
+        },
+        {
+          "emoji": "👑",
+          "count": 14
+        },
+        {
+          "emoji": "🔥",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "diane",
+      "text": "He literally is an email script!",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "he responds to emails in 4 seconds flat.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "diane, you could learn a lot from chad.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "marcus",
+      "text": "i just gave him your promotion.",
+      "beat": "bombshell",
+      "reactions": []
+    }
+  ],
+  "cliffhanger": "Promoted over an email script 😭 Part 2?",
+  "app": "workchat",
+  "targetSeconds": 90
+}

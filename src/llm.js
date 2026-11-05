@@ -1,5 +1,5 @@
 // The script writer behind one interface: draftEpisode() returns { draft, problems }.
-// Which provider runs is set by llm.provider in config/series.json, or --provider on the command line.
+// Which provider runs is set by llm.provider in the workspace's series.json, or --provider on the command line.
 import Anthropic from "@anthropic-ai/sdk";
 import { zodOutputFormat } from "@anthropic-ai/sdk/helpers/zod";
 import { GoogleGenAI, ApiError as GeminiApiError } from "@google/genai";

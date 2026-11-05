@@ -1,0 +1,519 @@
+{
+  "title": "Đánh giá hiệu suất: Ai là người thắng?",
+  "logline": "Trong mùa đánh giá hiệu suất, nhân viên tranh giành thưởng, nhưng một tin nhắn bị xóa tiết lộ bảng xếp hạng bị gian lận, và thực tập sinh ngây thơ hóa ra là con gái giám đốc đang giám sát tất cả.",
+  "hook": "Tôi vừa phát hiện bí mật động trời trong công ty",
+  "startClock": "9:47 AM",
+  "chat": {
+    "name": "#danh-gia-hieu-suat",
+    "subtitle": "12 thành viên · Đánh giá Q4"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Trang",
+      "role": "Nhân viên"
+    },
+    {
+      "id": "an",
+      "name": "An",
+      "role": "Trưởng phòng"
+    },
+    {
+      "id": "bich",
+      "name": "Bích",
+      "role": "HR"
+    },
+    {
+      "id": "cuong",
+      "name": "Cường",
+      "role": "CEO"
+    },
+    {
+      "id": "dung",
+      "name": "Dũng",
+      "role": "Nhân viên"
+    },
+    {
+      "id": "hoa",
+      "name": "Hoa",
+      "role": "Thực tập"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Có ai biết tiêu chí đánh giá hiệu suất năm nay là gì không ạ?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Anh cũng đang chờ HR công bố, nhưng nghe nói dựa trên KPI.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bich",
+      "text": "Chào mọi người, mình sẽ gửi form tự đánh giá vào cuối tuần. Tiêu chí dựa trên KPI và đóng góp dự án.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Năm nay KPI tăng 30% so với quý trước, mọi người cố gắng nhé. Ai đạt trên 120% sẽ có thưởng nóng.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🥴",
+          "count": 6
+        },
+        {
+          "emoji": "😱",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dung",
+      "text": "30%? Quý trước em đã thấy khó rồi, giờ tăng thêm thì chắc nghỉ sớm.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Em mới vào, KPI của intern có khác không ạ?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Hoa yên tâm, intern không bị áp KPI cao, chỉ cần hoàn thành task được giao.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "bich",
+      "text": "Đúng vậy, nhưng mọi người lưu ý form tự đánh giá cần nộp trước thứ 6.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dung",
+      "text": "Ê mọi người, em vừa thấy một file lạ trên drive, tên là 'danh-sach-thuong-final.xlsx'.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "File gì vậy Dũng? Cho xin link với.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dung",
+      "text": "Em đang mở, nhưng nó yêu cầu quyền truy cập. Chắc là của HR.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "bich",
+      "text": "Dũng đã bị Bích xóa khỏi #danh-gia-hieu-suat",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😲",
+          "count": 7
+        },
+        {
+          "emoji": "👀",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Ủa sao lại xóa Dũng? Có gì mờ ám à?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Mọi người bình tĩnh, chắc Bích nhầm thôi. Dũng làm gì sai đâu.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Em sợ quá, không biết có bị đuổi không? 🥺",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Đừng lan truyền tin đồn, Dũng chỉ bị hạn chế quyền truy cập vì vi phạm bảo mật.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🤐",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Nhưng file đó là gì mà nghiêm trọng vậy? Em tưởng chỉ là danh sách thưởng?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "bich",
+      "text": "Đó là thông tin mật, không được phép chia sẻ. Mọi người đừng hỏi thêm.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 7
+        },
+        {
+          "emoji": "🤨",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Em xin lỗi, em không cố ý. Em chỉ tò mò thôi.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Hoa không sao đâu, em không liên quan. Nhưng mọi người nên cẩn thận.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Tôi đã khóa file đó, không ai truy cập được nữa. Tập trung làm việc đi, đừng buôn chuyện.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Dạ vâng, nhưng em thấy KPI tăng 30% mà chưa rõ cách tính, sợ không đạt được.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Anh cũng lo, nhưng cứ cố gắng hết sức. Bonus là phụ, giữ việc là chính.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "bich",
+      "text": "Em gửi bảng xếp hạng sơ bộ rồi. Hoa đứng đầu vì là cháu giám đốc. Dũng bị đuổi vì đòi quyền lợi.",
+      "beat": "unsend",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Ủa Bích vừa nhắn gì vậy? Em đọc được thoáng qua.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Anh cũng thấy. Hóa ra là vậy.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 12
+        },
+        {
+          "emoji": "😡",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Em không phải cháu giám đốc, em chỉ là thực tập bình thường thôi. Bích nhầm rồi.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Bích, em đang nói gì vậy? Giải thích ngay.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "bich",
+      "text": "Em xin lỗi, em nhắn nhầm. Đó là dự thảo cũ, không phải sự thật.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Nếu đây là sự thật, thì công bằng ở đâu? Dũng đã làm việc chăm chỉ, còn Hoa thì...",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Mọi người bình tĩnh, chưa có bằng chứng. Bích nói là nhầm rồi.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Tôi sẽ điều tra việc này. Nhưng trước mắt, ai tiết lộ thông tin ra ngoài sẽ bị kỷ luật.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Em thề em không liên quan gì đến giám đốc. Em chỉ là thực tập. Mọi người nghĩ vậy thì em nghỉ.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Hoa đừng vội, chúng ta cần làm rõ. Dũng bị xóa khỏi kênh nhưng anh ấy có thể liên hệ qua cách khác.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "dung",
+      "text": "Dũng đã tham gia #danh-gia-hieu-suat",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dung",
+      "text": "Tôi quay lại rồi. Tôi có bằng chứng Bích và Cường gian lận. Gửi ngay cho mọi người.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 15
+        },
+        {
+          "emoji": "🍿",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Dũng, ai cho phép em vào lại? Bảo mật công ty đâu?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dung",
+      "text": "Chính anh thêm tôi vào, nhưng thật ra anh muốn tôi làm bia đỡ đạn. Tôi sẽ công bố tất cả.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Gì vậy? Cường thêm Dũng vào? Rốt cuộc ai đứng sau?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Tôi không hiểu gì nữa. Cường, anh giải thích đi.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Được, tôi nói. Tôi thêm Dũng để test lòng trung thành. Ai phản ứng mạnh sẽ bị loại khỏi thưởng.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bich",
+      "text": "Vậy tôi bị lợi dụng? Anh Cường bảo tôi làm vậy để bắt Dũng phạm lỗi, giờ đổ hết cho tôi?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Em không liên quan, nhưng em thấy mọi người đang bị thao túng. Ai cũng có lý do riêng.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dung",
+      "text": "Đừng tin Cường, anh ta muốn loại bỏ ai đòi công bằng. Bích là đồng phạm nhưng cũng là nạn nhân.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Tôi đã ghi âm toàn bộ cuộc trò chuyện này. Tôi sẽ gửi cho công đoàn và báo chí.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "cuong",
+      "text": "Mày dám? Tao sẽ đuổi việc mày ngay lập tức.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "cuong",
+      "text": "Bích đã bị Cường xóa khỏi #danh-gia-hieu-suat",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "an",
+      "text": "Cường, anh đang đi quá xa. Chúng tôi sẽ không im lặng.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dung",
+      "text": "Tôi vừa nhận tin từ Bích trước khi bị xóa: Cường đã hủy toàn bộ dữ liệu đánh giá.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Vậy là không còn bằng chứng? Nhưng tôi đã sao lưu mọi thứ.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Hoa, em đã làm gì? Em không phải là thực tập bình thường đúng không?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hoa",
+      "text": "Đúng, em là con gái giám đốc. Em có bằng chứng đầy đủ. Im lặng, chấp nhận rating, hoặc ra tòa.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 30
+        },
+        {
+          "emoji": "😱",
+          "count": 20
+        },
+        {
+          "emoji": "😈",
+          "count": 10
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "Liệu mọi người có chấp nhận làm nô lệ cho Hoa? Phần 2 sẽ rõ.",
+  "app": "workchat",
+  "targetSeconds": 120
+}

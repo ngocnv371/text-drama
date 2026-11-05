@@ -3,15 +3,16 @@
 // Usage: node src/generate.js <episode-id> [--premise "..."] [--provider claude|gemini|deepseek]
 import fs from "node:fs";
 import path from "node:path";
-import { BEATS, APPS, bombshellRange } from "./schema.js";
+import { BEATS, APPS, bombshellRange, limitsFor } from "./schema.js";
 import { validateEpisode } from "./validate.js";
 import { pickProvider, draftEpisode } from "./llm.js";
-import { loadConfig, loadEnv, episodeDir, parseArgs, ROOT } from "./util.js";
+import { loadConfig, loadEnv, episodeDir, episodesDir, parseArgs } from "./util.js";
 
 const MAX_ATTEMPTS = 3;
 
 function previousEpisodes(id) {
-  const root = path.join(ROOT, "episodes");
+  const root = episodesDir();
+  if (!fs.existsSync(root)) return [];
   return fs.readdirSync(root, { withFileTypes: true })
     .filter((d) => d.isDirectory() && d.name !== id)
     .map((d) => path.join(root, d.name, "script.json"))
@@ -20,17 +21,22 @@ function previousEpisodes(id) {
     .map((s) => s.logline ? `${s.title}: ${s.logline}` : s.title);
 }
 
+// Example system notices. Writers copy the examples' language, so a non-English workspace gives
+// its own under "systemNoticeExamples" in series.json.
+const ENGLISH_NOTICES = ["Linda (CEO) joined #marketing", "Jack was removed from #marketing by Karen", "Karen renamed the channel to #layoffs"];
+const noticeExamples = (config) => (config.systemNoticeExamples?.length ? config.systemNoticeExamples : ENGLISH_NOTICES).map((n) => `"${n}"`).join(", ");
+
 // What the writer needs to know about each chat app's format.
 const APP_RULES = {
-  imessage: `Format: a phone text conversation, 1:1 or a small group chat.
+  imessage: () => `Format: a phone text conversation, 1:1 or a small group chat.
 - chat.name is the contact or group name; chat.subtitle is a short descriptor.
 - Every message has type "message" and an empty reactions list. Avoid system notices.`,
-  workchat: `Format: a company chat channel (think Slack), seen on the phone owner's screen.
+  workchat: (config) => `Format: a company chat channel (think Slack), seen on the phone owner's screen.
 - chat.name is a channel like "#marketing" or "#all-hands"; chat.subtitle is like "7 members · Q3 launch".
 - 3-6 coworkers in the cast, each with a job title in "role" (CEO, HR, Intern, Team Lead...). Several people post and butt heads; side comments and pile-ons are welcome.
 - Use @mentions (e.g. "@maya") to call people out.
 - Emoji reactions are part of the story: give at least 3 messages reactions that pile up (e.g. 💀 x 23, 👀 x 9, 🫡 x 4). The count says how the room feels. Use real emoji characters, not names.
-- Use system notices (type "system", text written out in full) for the big beats: "Linda (CEO) joined #marketing", "Jack was removed from #marketing by Karen", "Karen renamed the channel to #layoffs". The person it is about goes in "from". At least one notice.
+- Use system notices (type "system", text written out in full) for the big beats, written like these examples and in the series language: ${noticeExamples(config)}. The person it is about goes in "from". At least one notice.
 - Never use the leftOnRead beat (there are no read receipts).
 - Never name a real chat app or company (no "Slack", "Teams"); say "here", "this channel", "the chat".`,
 };
@@ -47,21 +53,24 @@ Structure for a ${seconds}s video (viewers decide every ~15 seconds whether to k
 }
 
 function systemPrompt(config) {
+  const { hookWords, messageChars } = limitsFor(config);
   return `You write viral short-form "text message story" videos. The viewer watches a phone screen as a chat unfolds.
 
-${APP_RULES[config.app]}
+${APP_RULES[config.app](config)}
 
 Series topic: ${config.topic}
 Tone: ${config.tone}
 Audience: ${config.audience}
 Language: ${config.language}
+Write everything the viewer reads in that language: messages, system notices, the chat name and its subtitle, job titles, the hook and the cliffhanger. Only JSON field names, cast ids and beat names stay in English.
 
 Craft rules:
-- The hook caption (10 words or fewer) and the first two messages must create a question the viewer needs answered.
-- Escalate every few messages. Messages are short: most under 60 characters, none over 90. A phone screen is small.
+- The hook caption (${hookWords} words or fewer) and the first two messages must create a question the viewer needs answered.
+- Escalate every few messages. Messages are short: most under ${Math.round(messageChars * 2 / 3)} characters, none over ${messageChars}. A phone screen is small.
 - One clear twist near the end. The LAST message in the list must have beat "bombshell": it is the final reveal that recontextualises everything (the cliffhanger card comes after it).
 - Characters text like real people: lowercase, emoji sparingly in the text itself.
-- The phone owner's cast id is "me". Every message's "from" is a cast id.
+- The phone owner's cast id is "me", and they get a real first name like everyone else (never "me", "You" or a pronoun). Every message's "from" is a cast id.
+- startClock is the phone clock when the chat starts: "11:47 PM", or 24-hour like "23:47" where that is the local norm.
 - Tag each message with a beat for the director:
 ${Object.entries(BEATS).map(([k, v]) => `  - ${k}: ${v}`).join("\n")}
 - Use bombshell ${bombshellRange(config.targetSeconds).join("-")} times, never twice in a row. Most messages are normal or rapid.

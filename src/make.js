@@ -1,17 +1,19 @@
 // One command, finished episodes: write the script -> check it -> direct -> render -> check the video.
-// Usage: node src/make.js [episode-id] [--premise "..."] [--provider claude|gemini|deepseek]
+// Usage: node src/make.js [episode-id] [--premise "..."] [--provider deepseek|gemini|claude] [--workspace <name>]
 //        node src/make.js --count 5 [--premises premises.txt]   (a batch, one episode at a time)
 // Without an id it picks the next free epNN. In a batch, a failed episode is reported and
 // the batch moves on; each new episode sees the earlier ones, so premises don't repeat.
 import fs from "node:fs";
 import path from "node:path";
-import { ROOT, parseArgs } from "./util.js";
+import { ROOT, parseArgs, episodesDir, currentWorkspace } from "./util.js";
 import { writeEpisode } from "./generate.js";
 import { render } from "./render.js";
 
 function nextEpisodeId() {
-  const taken = fs.readdirSync(path.join(ROOT, "episodes"))
-    .filter((name) => fs.existsSync(path.join(ROOT, "episodes", name, "script.json")))
+  const dir = episodesDir();
+  if (!fs.existsSync(dir)) return "ep01";
+  const taken = fs.readdirSync(dir)
+    .filter((name) => fs.existsSync(path.join(dir, name, "script.json")))
     .map((name) => /^ep(\d+)$/.exec(name))
     .filter(Boolean)
     .map((m) => +m[1]);
@@ -26,6 +28,7 @@ async function makeOne(id, premise, provider) {
 }
 
 const { positional, flags } = parseArgs(process.argv.slice(2));
+console.log(`workspace: ${currentWorkspace()}`);
 
 // The batch: premises from a file (one per line) and/or --count; missing premises are left to the writer.
 const premises = flags.premises

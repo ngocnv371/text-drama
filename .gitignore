@@ -1,7 +1,5 @@
 node_modules/
 out/
-episodes/*/audio.wav
 .env
-episodes/*/script.rejected.json
-out/*.partial.mp4
-out/*.new.mp4
+workspaces/*/episodes/*/audio.wav
+workspaces/*/episodes/*/script.rejected.json

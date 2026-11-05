@@ -9,8 +9,24 @@
 <body>
 <header class="topbar">
   <div class="brand"><span class="logo">💬</span> text-drama</div>
+  <select class="ws-select" id="workspace" title="Workspace: a separate series with its own topic, settings and episodes"></select>
   <div class="topic" id="topicChip"></div>
 </header>
+
+<dialog id="newWsDialog" class="small-dialog">
+  <form method="dialog" class="new-ws">
+    <h3>New workspace</h3>
+    <p class="hint">A separate series with its own topic, settings and episodes. It starts with a copy of the current workspace's settings, which you can change afterwards.</p>
+    <label class="field"><span>Name</span><input id="newWsName" placeholder="e.g. Sinh Tồn Nơi Công Sở" required></label>
+    <label class="field"><span>Folder id <em>(lowercase, digits, dashes)</em></span><input id="newWsId" placeholder="e.g. sinh-ton-noi-cong-so" pattern="[a-z0-9][a-z0-9-]*" required></label>
+    <label class="field"><span>Topic</span><input id="newWsTopic" placeholder="what the stories are about"></label>
+    <div class="new-ws-error" id="newWsError"></div>
+    <div class="dialog-actions">
+      <button value="cancel" formnovalidate>Cancel</button>
+      <button class="primary-inline" id="newWsCreate" value="create">Create</button>
+    </div>
+  </form>
+</dialog>
 
 <main class="layout">
   <aside class="side">
@@ -54,7 +70,9 @@
 
     <section class="card">
       <h2>Series</h2>
+      <label class="field"><span>Name</span><input id="seriesName"></label>
       <label class="field"><span>Topic</span><input id="topic"></label>
+      <label class="field"><span>Language</span><textarea id="language" rows="2"></textarea></label>
       <label class="field">
         <span>Chat app</span>
         <select id="app">

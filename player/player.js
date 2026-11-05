@@ -13,22 +13,42 @@
   const GAP_SAME = 10;      // px between consecutive messages from the same sender
   const GAP_SWITCH = 30;    // px when the sender changes
   const UNSEND_ANIM = 0.4;
+  // On-screen labels. A workspace overrides them with "ui" in its series.json (e.g. Vietnamese).
+  const DEFAULT_UI = {
+    textPlaceholder: "iMessage",
+    messagePlaceholder: "Message {channel}",
+    delivered: "Delivered",
+    read: "Read",
+    you: "You",
+    unsent: "{name} unsent a message",
+    deleted: "This message was deleted.",
+    typing: "{name} is typing",
+    followCta: "follow for part 2",
+  };
+  // Letters in any script, so names like "Đức" or "Hà" match as whole words.
+  const NOT_LETTER_BEFORE = "(?<![\\p{L}\\p{N}_])", NOT_LETTER_AFTER = "(?![\\p{L}\\p{N}_])";
+  const reEscape = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   const AVATAR_COLORS = ["#e8912d", "#2bac76", "#1d9bd1", "#e01e5a", "#9b59b6", "#c9a227", "#4a7fd6", "#d35400"];
 
   let T, work, items = [], typingEl, typingH, receiptEl, receiptH, threadH;
 
-  function addMinutes(clock, minutes) {
+  // mode: "24h" or "12h" forces a format (a workspace's "clock" setting); otherwise the
+  // episode's startClock decides ("11:47 PM" stays 12-hour, "23:47" stays 24-hour).
+  function addMinutes(clock, minutes, mode) {
     const m = /(\d+):(\d+)\s*(AM|PM)?/i.exec(clock);
     if (!m) return clock;
-    let h = +m[1] % 12 + (m[3] && m[3].toUpperCase() === "PM" ? 12 : 0);
+    let h = m[3] ? +m[1] % 12 + (m[3].toUpperCase() === "PM" ? 12 : 0) : +m[1];
     let total = h * 60 + +m[2] + minutes;
     total = ((total % 1440) + 1440) % 1440;
     h = Math.floor(total / 60);
     const mm = String(total % 60).padStart(2, "0");
-    if (!m[3]) return `${h}:${mm}`;
+    const twelve = mode ? mode === "12h" : !!m[3];
+    if (!twelve) return `${String(h).padStart(2, "0")}:${mm}`;
     return `${h % 12 || 12}:${mm} ${h >= 12 ? "PM" : "AM"}`;
   }
-  const clockAt = (t) => addMinutes(T.startClock, Math.floor(t / 15));
+  const clockAt = (t) => addMinutes(T.startClock, Math.floor(t / 15), T.clock);
+  // label("typing", { name: "Derek" }) -> "Derek is typing"
+  const label = (key, vars = {}) => (T.ui?.[key] ?? DEFAULT_UI[key]).replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? "");
 
   function el(cls, html) {
     const d = document.createElement("div");
@@ -50,16 +70,16 @@
       // Bold the people named in the notice.
       let text = esc(m.text);
       for (const c of T.cast) {
-        const name = esc(c.name).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-        text = text.replace(new RegExp(`(?<!\\w)${name}(?!\\w)`, "gi"), (s) => `<b>${s}</b>`);
+        text = text.replace(new RegExp(NOT_LETTER_BEFORE + reEscape(esc(c.name)) + NOT_LETTER_AFTER, "giu"), (s) => `<b>${s}</b>`);
       }
-      const removed = /removed|kicked|deactivated|left/i.test(m.text);
+      // Removals and departures show in red (English and Vietnamese wording).
+      const removed = /removed|kicked|deactivated|\bleft\b|xóa|rời|mời .* ra khỏi|kick/iu.test(m.text);
       return el(`item wc-system${removed ? " removed" : ""}`, `${avatar(m.from)}<span class="sys-text bubble">${text}</span>`);
     }
     const me = person("me");
-    const mentionsMe = m.from !== "me" && new RegExp(`@(${me.name.split(" ")[0]}|here|channel|everyone)\\b`, "i").test(m.text);
+    const mentionsMe = m.from !== "me" && new RegExp(`@(${reEscape(me.name.split(" ")[0])}|here|channel|everyone|all|mọi người)` + NOT_LETTER_AFTER, "iu").test(m.text);
     const cont = prev && prev.type !== "system" && prev.from === m.from;
-    const body = esc(m.text).replace(/@[\w.\-]+/g, (s) => `<span class="wc-mention">${s}</span>`);
+    const body = esc(m.text).replace(/@[\p{L}\p{N}_.\-]+/gu, (s) => `<span class="wc-mention">${s}</span>`);
     const role = who.role ? `<span class="wc-role">${esc(who.role)}</span>` : "";
     const reactions = m.reactions.length
       ? `<div class="wc-reactions">${m.reactions.map((r) => `<span class="rx"><em>${esc(r.emoji)}</em><b>${r.count}</b></span>`).join("")}</div>`
@@ -82,7 +102,8 @@
     $("wcChannel").textContent = T.chat.name;
     $("wcSub").textContent = T.chat.subtitle || "";
     $("wcMembers").innerHTML = T.cast.slice(0, 4).map((c) => avatar(c.id)).join("") + (T.cast.length > 4 ? `<span class="more">+${T.cast.length - 4}</span>` : "");
-    $("placeholder").textContent = work ? `Message ${T.chat.name}` : "iMessage";
+    $("placeholder").textContent = work ? label("messagePlaceholder", { channel: T.chat.name }) : label("textPlaceholder");
+    $("outroCta").textContent = label("followCta");
     const showNames = T.cast.length > 2;
 
     const scroller = $("scroller");
@@ -100,7 +121,7 @@
       }
       scroller.appendChild(node);
       const who = person(m.from);
-      const noticeText = work ? "This message was deleted." : `${esc(m.from === "me" ? "You" : who.name)} unsent a message`;
+      const noticeText = esc(work ? label("deleted") : label("unsent", { name: m.from === "me" ? label("you") : who.name }));
       const notice = m.unsendAt != null ? el("item notice", noticeText) : null;
       if (notice) scroller.appendChild(notice);
       items.push({
@@ -113,7 +134,7 @@
       });
     });
     typingEl = el("item from-them typing", `<div class="bubble"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>`);
-    receiptEl = el("item receipt", "Delivered");
+    receiptEl = el("item receipt", esc(label("delivered")));
     scroller.appendChild(typingEl);
     scroller.appendChild(receiptEl);
 
@@ -220,7 +241,10 @@
     if (work) {
       const wt = $("wcTyping");
       wt.style.opacity = typingG;
-      if (activeTyping) wt.innerHTML = `<b>${esc(person(activeTyping.from).name)}</b> is typing${".".repeat(1 + (Math.floor(t * 3) % 3))}`;
+      if (activeTyping) {
+        const name = person(activeTyping.from).name;
+        wt.innerHTML = esc(label("typing", { name: "\u0000" })).replace("\u0000", `<b>${esc(name)}</b>`) + ".".repeat(1 + (Math.floor(t * 3) % 3));
+      }
     }
 
     // ---- layout: stack from the top, scroll so the newest row sits above the compose bar
@@ -251,7 +275,7 @@
         r.it.bubble.style.boxShadow = "none";
         place(r.it.notice, r.y + (r.h - r.it.nh) / 2, { opacity: r.k });
       } else if (r.kind === "receipt") {
-        receiptEl.innerHTML = receipt.read ? `<b>Read</b> ${clockAt(receipt.at)}` : "Delivered";
+        receiptEl.innerHTML = receipt.read ? `<b>${esc(label("read"))}</b> ${clockAt(receipt.at)}` : esc(label("delivered"));
         place(receiptEl, r.y, { opacity: clamp01(r.h / receiptH) });
         receiptPlaced = true;
       } else if (r.kind === "typing") {
@@ -345,9 +369,11 @@
 
   if (window.TIMELINE) init();
   else {
-    const ep = new URLSearchParams(location.search).get("ep") || "pilot";
+    const params = new URLSearchParams(location.search);
+    const ws = params.get("ws") || "genz-workplace";
+    const ep = params.get("ep") || "pilot";
     const s = document.createElement("script");
-    s.src = `../episodes/${ep}/timeline.js`;
+    s.src = `../workspaces/${ws}/episodes/${ep}/timeline.js`;
     s.onload = init;
     document.head.appendChild(s);
   }

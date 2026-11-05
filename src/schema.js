@@ -1,6 +1,6 @@
 import { z } from "zod";
 
-// Chat apps the player can draw. The series picks one (config/series.json "app");
+// Chat apps the player can draw. The series picks one ("app" in the workspace's series.json);
 // each episode records the app it was written for.
 export const APPS = {
   imessage: "a phone text conversation (1:1 or a small group chat)",
@@ -44,6 +44,12 @@ export const EpisodeSchema = z.object({
   })),
   cliffhanger: z.string().describe("End card text teasing part 2"),
 });
+
+// Text limits. Some languages need more room for the same line (Vietnamese runs longer than
+// English), so a workspace can raise them under "limits" in its series.json.
+export function limitsFor(config) {
+  return { hookWords: config.limits?.hookWords ?? 10, messageChars: config.limits?.messageChars ?? 90 };
+}
 
 // Longer videos need more big moments: 2-4 for a minute, about one per 20s beyond that.
 export function bombshellRange(seconds) {

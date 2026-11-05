@@ -110,6 +110,8 @@ export function buildTimeline(id) {
     video: config.video,
     theme: config.theme,
     app: script.app,
+    ui: config.ui ?? {},
+    clock: config.clock ?? null,
     hook: script.hook,
     hookSeconds: HOOK_SECONDS,
     cliffhanger: script.cliffhanger,

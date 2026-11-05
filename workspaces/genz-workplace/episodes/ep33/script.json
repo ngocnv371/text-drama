@@ -1,0 +1,705 @@
+{
+  "title": "Mute Button Meltdown",
+  "logline": "A Gen Z designer accidentally sends a brutal roast of her CEO to the whole company channel, sparking a power struggle—until she exposes the CEO's secret surveillance scheme and uncovers a conspiracy to frame her.",
+  "hook": "I roasted the CEO in #all-hands. Now everyone's watching.",
+  "startClock": "10:07 AM",
+  "chat": {
+    "name": "#all-hands",
+    "subtitle": "247 members · Q3 All-Hands"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Designer"
+    },
+    {
+      "id": "jake",
+      "name": "Jake",
+      "role": "Developer"
+    },
+    {
+      "id": "karen",
+      "name": "Karen",
+      "role": "HR Director"
+    },
+    {
+      "id": "bob",
+      "name": "Bob",
+      "role": "CEO"
+    },
+    {
+      "id": "lisa",
+      "name": "Lisa",
+      "role": "Marketing Manager"
+    },
+    {
+      "id": "legal",
+      "name": "Legal Counsel",
+      "role": "Legal Team"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "did anyone else get the 10am calendar invite for 'sync or sink'",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😅",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "i thought we were all muted on this call",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "bob is a boomer with a crypto addiction and he probably wears crocs",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 45
+        },
+        {
+          "emoji": "👀",
+          "count": 32
+        },
+        {
+          "emoji": "😂",
+          "count": 21
+        },
+        {
+          "emoji": "🍿",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, this is the #all-hands channel. You're not in a DM with Jake.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "omg",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait wrong chat",
+      "beat": "unsend",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, please stay after the call. We need to talk.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "lisa",
+      "text": "she's done for",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it was a joke!! we were doing a bit",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "i don't know this woman",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "Let's continue the agenda. We'll discuss Maya's career after.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, I expect you in my office at 11.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i was hacked",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 33
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "classic defense",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 11
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "lisa",
+      "text": "bob are you actually into crypto?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "That's irrelevant. Focus on the Q3 numbers.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok but what if i told you i know who's been leaking to the board?",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 42
+        },
+        {
+          "emoji": "👀",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "What?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "Explain.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm not saying anything until i have a lawyer",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "plot twist",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "let's do it right here in front of everyone",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "Fine. What do you think you know?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i know you've been recording every video call without consent",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 55
+        },
+        {
+          "emoji": "🤯",
+          "count": 34
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "That's illegal!",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😡",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "I have a legal right to monitor company communications.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🤨",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sure, but not for personal vendettas. like catching the board leak.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "lisa",
+      "text": "wait, someone's leaking to the board?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "this meeting just got interesting",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "yeah, and bob thinks it's me. that's why he's so mad.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, you're digging your own grave.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i have proof it's not me. i have the real leaker's name.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Spill it.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "not yet. first, bob, admit you're a crypto bro and used company funds for doge.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 60
+        },
+        {
+          "emoji": "🤯",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "That's absurd.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "check the company credit card statements. i have them right here.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 32
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "lisa",
+      "text": "oh my god",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "bob's about to cry",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, this is highly unprofessional.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "and recording employees without consent isn't?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💯",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "I think we need to involve legal.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🧑‍⚖️",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "No legal. This is a misunderstanding.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🤥",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's not a misunderstanding. you've been spying to find a scapegoat.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 28
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "karen",
+      "text": "Karen (HR) added Legal Counsel to #all-hands",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "legal",
+      "text": "We'll need to review all recordings. Bob, please preserve all data.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "⚖️",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, I'll promote you to Chief Transparency Officer. Full access to everything.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 50
+        },
+        {
+          "emoji": "🤯",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "what's the catch?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "bob",
+      "text": "No catch. You've exposed a culture of fear. You're exactly what we need.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "This is highly irregular.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😒",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "actually, i know the real leaker. it's karen. she sent board minutes to her brother.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 75
+        },
+        {
+          "emoji": "🤯",
+          "count": 60
+        },
+        {
+          "emoji": "👀",
+          "count": 45
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Wait, what?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 90
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "karen",
+      "text": "Bob made me do it! He told me to leak info so he could blame Maya and get rid of her.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 120
+        },
+        {
+          "emoji": "🤯",
+          "count": 100
+        },
+        {
+          "emoji": "🔥",
+          "count": 80
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "Karen just flipped. What else is Bob hiding? Part 2 tomorrow.",
+  "app": "workchat",
+  "targetSeconds": 120
+}

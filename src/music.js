@@ -1,16 +1,24 @@
-// Background music: ambience tracks in assets/music, one picked at random per episode.
+// Background music: ambience tracks (assets/music, or the workspace's own music/ folder), one
+// picked at random per episode.
 // The pick is saved in the episode's meta.json, so re-rendering keeps the same track.
 import fs from "node:fs";
 import path from "node:path";
 import { spawnSync } from "node:child_process";
-import { ROOT, episodeDir } from "./util.js";
+import { ROOT, episodeDir, episodesDir, workspaceDir } from "./util.js";
 
-export const MUSIC_DIR = path.join(ROOT, "assets", "music");
+const SHARED_MUSIC = path.join(ROOT, "assets", "music");
 const AUDIO = /\.(mp3|flac|opus|ogg|wav|m4a)$/i;
 
+// A workspace can have its own music/ folder; otherwise it uses the shared assets/music.
+export function musicDir() {
+  const own = path.join(workspaceDir(), "music");
+  return fs.existsSync(own) && fs.readdirSync(own).some((f) => AUDIO.test(f)) ? own : SHARED_MUSIC;
+}
+
 export function listTracks() {
-  if (!fs.existsSync(MUSIC_DIR)) return [];
-  return fs.readdirSync(MUSIC_DIR).filter((f) => AUDIO.test(f)).sort();
+  const dir = musicDir();
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter((f) => AUDIO.test(f)).sort();
 }
 
 function readMeta(id) {
@@ -24,16 +32,16 @@ export function trackFor(id) {
   const tracks = listTracks();
   if (!tracks.length) return null;
   const meta = readMeta(id);
-  if (meta.music && tracks.includes(meta.music)) return path.join(MUSIC_DIR, meta.music);
+  if (meta.music && tracks.includes(meta.music)) return path.join(musicDir(), meta.music);
 
-  const others = fs.readdirSync(path.join(ROOT, "episodes"))
+  const others = fs.readdirSync(episodesDir())
     .filter((name) => name !== id && /^ep\d+$/.test(name) && name < id)
     .sort();
   const previous = others.length ? readMeta(others.at(-1)).music : null;
   const pool = tracks.length > 1 ? tracks.filter((t) => t !== previous) : tracks;
   meta.music = pool[Math.floor(Math.random() * pool.length)];
   fs.writeFileSync(path.join(episodeDir(id), "meta.json"), JSON.stringify(meta, null, 2));
-  return path.join(MUSIC_DIR, meta.music);
+  return path.join(musicDir(), meta.music);
 }
 
 // Decode to 44.1 kHz stereo floats.

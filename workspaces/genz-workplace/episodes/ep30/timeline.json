@@ -1,0 +1,1079 @@
+{
+  "id": "ep30",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "We bet on who gets fired. It backfired.",
+  "hookSeconds": 3.2,
+  "cliffhanger": "Who's the board spy?",
+  "startClock": "4:12 PM",
+  "chat": {
+    "name": "#odds-and-ends",
+    "subtitle": "6 members · private"
+  },
+  "cast": [
+    {
+      "role": "Marketing Associate",
+      "id": "me",
+      "name": "Maya"
+    },
+    {
+      "role": "Engineer",
+      "id": "jake",
+      "name": "Jake"
+    },
+    {
+      "role": "HR Manager",
+      "id": "priya",
+      "name": "Priya"
+    },
+    {
+      "role": "Sales Lead",
+      "id": "dan",
+      "name": "Dan"
+    },
+    {
+      "role": "CEO",
+      "id": "tyler",
+      "name": "Tyler"
+    },
+    {
+      "role": "Designer",
+      "id": "sam",
+      "name": "Sam"
+    }
+  ],
+  "pace": 0.6427884599468141,
+  "messages": [
+    {
+      "i": 0,
+      "type": "system",
+      "from": "priya",
+      "text": "Priya (HR) joined #odds-and-ends",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 0.35,
+      "reactions": []
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "jake",
+      "text": "um",
+      "beat": "rapid",
+      "typing": [
+        [
+          1.3103259591605403,
+          1.5802971123382021
+        ]
+      ],
+      "compose": null,
+      "appear": 1.5802971123382021,
+      "reactions": []
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "jake",
+      "text": "guys priya just joined",
+      "beat": "rapid",
+      "typing": [
+        [
+          1.9235461499498008,
+          2.3223321105008043
+        ]
+      ],
+      "compose": null,
+      "appear": 2.3223321105008043,
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 5,
+          "at": 2.675865763471552,
+          "ramp": 0.43027102656840405
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        3.289085954260813,
+        3.6760446071487953
+      ],
+      "appear": 3.6760446071487953,
+      "reactions": []
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "priya",
+      "text": "may i ask what this channel is for?",
+      "beat": "pause",
+      "typing": [
+        [
+          5.178884026504447,
+          6.027364793634241
+        ]
+      ],
+      "compose": null,
+      "appear": 6.027364793634241,
+      "reactions": []
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "sam",
+      "text": "it's for uh fantasy football?",
+      "beat": "fakeout",
+      "typing": [
+        [
+          7.229379213734784,
+          7.93644651967628
+        ],
+        [
+          8.514956133628413,
+          9.093465747580545
+        ]
+      ],
+      "compose": null,
+      "appear": 9.093465747580545,
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 3,
+          "at": 9.446999400551293,
+          "ramp": 0.34470993690418955
+        }
+      ]
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "priya",
+      "text": "the spreadsheet named 'layoff-pool-v2_final' begs to differ",
+      "beat": "bombshell",
+      "typing": [
+        [
+          10.493459013344706,
+          12.067005163294507
+        ]
+      ],
+      "compose": null,
+      "appear": 12.067005163294507,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12,
+          "at": 12.420538816265255,
+          "ramp": 0.5769082656769655
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "me",
+      "text": "okay fine it's just a joke",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        14.694724387557082,
+        15.387650347379747
+      ],
+      "appear": 15.387650347379747,
+      "reactions": []
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "dan",
+      "text": "a joke? i have $200 on you getting fired",
+      "beat": "rapid",
+      "typing": [
+        [
+          16.2245609222305,
+          16.776073420864865
+        ]
+      ],
+      "compose": null,
+      "appear": 16.776073420864865,
+      "reactions": []
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "me",
+      "text": "dan wtf",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        17.90095322577179,
+        18.17092437894945
+      ],
+      "appear": 18.17092437894945,
+      "reactions": []
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "priya",
+      "text": "this is a serious violation of company policy",
+      "beat": "pause",
+      "typing": [
+        [
+          19.632625336868507,
+          20.6225195651866
+        ]
+      ],
+      "compose": null,
+      "appear": 20.6225195651866,
+      "reactions": []
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "jake",
+      "text": "can we just delete it",
+      "beat": "normal",
+      "typing": [
+        [
+          22.062365715467465,
+          22.71286763693364
+        ]
+      ],
+      "compose": null,
+      "appear": 22.71286763693364,
+      "reactions": []
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "priya",
+      "text": "i need to know who started this",
+      "beat": "normal",
+      "typing": [
+        [
+          23.659052249975353,
+          24.45096763262983
+        ]
+      ],
+      "compose": null,
+      "appear": 24.45096763262983,
+      "reactions": []
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "sam",
+      "text": "it was @maya",
+      "beat": "rapid",
+      "typing": [
+        [
+          25.39072436107207,
+          25.704662244910093
+        ]
+      ],
+      "compose": null,
+      "appear": 25.704662244910093,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 7,
+          "at": 26.05819589788084,
+          "ramp": 0.4866286755736046
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "me",
+      "text": "sam you placed the first bet",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        26.379590127854247,
+        26.889835607360027
+      ],
+      "appear": 26.889835607360027,
+      "reactions": []
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "priya",
+      "text": "maya, my office. now.",
+      "beat": "normal",
+      "typing": [
+        [
+          27.980004835429824,
+          28.630506756896
+        ]
+      ],
+      "compose": null,
+      "appear": 28.630506756896,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 15,
+          "at": 28.984040409866747,
+          "ramp": 0.6142838484858901
+        },
+        {
+          "emoji": "😬",
+          "count": 8,
+          "at": 29.228300024646536,
+          "ramp": 0.5089946081458674
+        }
+      ]
+    },
+    {
+      "i": 16,
+      "type": "system",
+      "from": "tyler",
+      "text": "Tyler (CEO) joined #odds-and-ends",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": null,
+      "appear": 30.436742329346547,
+      "reactions": []
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "tyler",
+      "text": "sorry to interrupt but i saw the spreadsheet",
+      "beat": "normal",
+      "typing": [
+        [
+          32.52966155493338,
+          33.50541443713264
+        ]
+      ],
+      "compose": null,
+      "appear": 33.50541443713264,
+      "reactions": []
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "tyler",
+      "text": "who's leading?",
+      "beat": "rapid",
+      "typing": [
+        [
+          34.71257116491276,
+          35.04347866409338
+        ]
+      ],
+      "compose": null,
+      "appear": 35.04347866409338,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "jake",
+      "text": "excuse me?",
+      "beat": "normal",
+      "typing": [
+        [
+          35.845678662107005,
+          36.34062577626605
+        ]
+      ],
+      "compose": null,
+      "appear": 36.34062577626605,
+      "reactions": []
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "tyler",
+      "text": "the odds. who has the best odds of being fired?",
+      "beat": "normal",
+      "typing": [
+        [
+          37.06054885140649,
+          38.07872577196224
+        ]
+      ],
+      "compose": null,
+      "appear": 38.07872577196224,
+      "reactions": []
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "me",
+      "text": "uh dan has the highest odds, 3:1",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        40.36319595861322,
+        41.16411037970695
+      ],
+      "appear": 41.16411037970695,
+      "reactions": []
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "tyler",
+      "text": "interesting",
+      "beat": "normal",
+      "typing": [
+        [
+          42.336556530649936,
+          42.845644990927816
+        ]
+      ],
+      "compose": null,
+      "appear": 42.845644990927816,
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 18,
+          "at": 43.19917864389856,
+          "ramp": 0.6448219232080634
+        },
+        {
+          "emoji": "👀",
+          "count": 22,
+          "at": 43.443438258678356,
+          "ramp": 0.6784333995487312
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "priya",
+      "text": "tyler, this is serious. we need to discipline maya",
+      "beat": "rapid",
+      "typing": [
+        [
+          43.764832488651756,
+          44.4011930639991
+        ]
+      ],
+      "compose": null,
+      "appear": 44.4011930639991,
+      "reactions": []
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "tyler",
+      "text": "priya, relax. this is actually genius",
+      "beat": "normal",
+      "typing": [
+        [
+          45.94388536787146,
+          46.82064882723891
+        ]
+      ],
+      "compose": null,
+      "appear": 46.82064882723891,
+      "reactions": []
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "priya",
+      "text": "genius?",
+      "beat": "pause",
+      "typing": [
+        [
+          48.89942670670691,
+          49.35194978250947
+        ]
+      ],
+      "compose": null,
+      "appear": 49.35194978250947,
+      "reactions": []
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "tyler",
+      "text": "we've been trying to figure out who to lay off for months. this pool is market research",
+      "beat": "rapid",
+      "typing": [
+        [
+          49.79804497371256,
+          50.569391125648735
+        ]
+      ],
+      "compose": null,
+      "appear": 50.569391125648735,
+      "reactions": []
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "dan",
+      "text": "wait what",
+      "beat": "normal",
+      "typing": [
+        [
+          52.87314496609812,
+          53.35395073413834
+        ]
+      ],
+      "compose": null,
+      "appear": 53.35395073413834,
+      "reactions": []
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "tyler",
+      "text": "dan, don't worry. you're not getting fired",
+      "beat": "normal",
+      "typing": [
+        [
+          54.05330457856047,
+          55.00077476852208
+        ]
+      ],
+      "compose": null,
+      "appear": 55.00077476852208,
+      "reactions": []
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "tyler",
+      "text": "in fact, you're coming with me",
+      "beat": "bombshell",
+      "typing": [
+        [
+          56.66816803362412,
+          57.83161514612785
+        ]
+      ],
+      "compose": null,
+      "appear": 57.83161514612785,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 20,
+          "at": 58.1851487990986,
+          "ramp": 0.6624693553411799
+        }
+      ]
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "dan",
+      "text": "what do you mean",
+      "beat": "normal",
+      "typing": [
+        [
+          59.86282667955979,
+          60.442621870431815
+        ]
+      ],
+      "compose": null,
+      "appear": 60.442621870431815,
+      "reactions": []
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "tyler",
+      "text": "i'm leaving. starting a new company. and i need the best.",
+      "beat": "rapid",
+      "typing": [
+        [
+          61.073840138099584,
+          61.76959436714601
+        ]
+      ],
+      "compose": null,
+      "appear": 61.76959436714601,
+      "reactions": []
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "me",
+      "text": "wait, you're leaving?",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        63.45627128604645,
+        64.05920686147657
+      ],
+      "appear": 64.05920686147657,
+      "reactions": []
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "tyler",
+      "text": "the board doesn't know. this pool is my cover to find the best.",
+      "beat": "normal",
+      "typing": [
+        [
+          65.00539147451828,
+          66.2498299329753
+        ]
+      ],
+      "compose": null,
+      "appear": 66.2498299329753,
+      "reactions": []
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "priya",
+      "text": "tyler, you can't just poach employees",
+      "beat": "rapid",
+      "typing": [
+        [
+          67.84780204440308,
+          68.37386012002355
+        ]
+      ],
+      "compose": null,
+      "appear": 68.37386012002355,
+      "reactions": []
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "tyler",
+      "text": "watch me",
+      "beat": "normal",
+      "typing": [
+        [
+          69.64915242455803,
+          70.11581684647942
+        ]
+      ],
+      "compose": null,
+      "appear": 70.11581684647942,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 30,
+          "at": 70.46935049945017,
+          "ramp": 0.7303830128722779
+        },
+        {
+          "emoji": "💀",
+          "count": 25,
+          "at": 70.71361011422995,
+          "ramp": 0.6998449381501045
+        }
+      ]
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "sam",
+      "text": "so the layoffs are real?",
+      "beat": "pause",
+      "typing": [
+        [
+          72.05061011091932,
+          72.74353607074198
+        ]
+      ],
+      "compose": null,
+      "appear": 72.74353607074198,
+      "reactions": []
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "tyler",
+      "text": "oh, the layoffs are very real. but not who you think",
+      "beat": "normal",
+      "typing": [
+        [
+          73.75142837593859,
+          74.84031202708849
+        ]
+      ],
+      "compose": null,
+      "appear": 74.84031202708849,
+      "reactions": []
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "tyler",
+      "text": "the board wanted 20% cuts. i'm fighting. this pool shows dead weight.",
+      "beat": "rapid",
+      "typing": [
+        [
+          76.21202260061499,
+          76.98336875255116
+        ]
+      ],
+      "compose": null,
+      "appear": 76.98336875255116,
+      "reactions": []
+    },
+    {
+      "i": 39,
+      "type": "message",
+      "from": "dan",
+      "text": "so i'm not dead weight?",
+      "beat": "normal",
+      "typing": [
+        [
+          78.91687644007116,
+          79.595661053775
+        ]
+      ],
+      "compose": null,
+      "appear": 79.595661053775,
+      "reactions": []
+    },
+    {
+      "i": 40,
+      "type": "message",
+      "from": "tyler",
+      "text": "dan, you've been secretly building the next big thing. i know because i've been watching.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          80.87223893522938,
+          82.54348893109109
+        ]
+      ],
+      "compose": null,
+      "appear": 82.54348893109109,
+      "reactions": [
+        {
+          "emoji": "🕵️",
+          "count": 10,
+          "at": 82.89702258406184,
+          "ramp": 0.546370190954792
+        }
+      ]
+    },
+    {
+      "i": 41,
+      "type": "message",
+      "from": "dan",
+      "text": "how did you",
+      "beat": "pause",
+      "typing": [
+        [
+          86.59177065183611,
+          87.100859112114
+        ]
+      ],
+      "compose": null,
+      "appear": 87.100859112114,
+      "reactions": []
+    },
+    {
+      "i": 42,
+      "type": "message",
+      "from": "tyler",
+      "text": "i have my ways. but that's not the point. the point is, i'm taking you and @maya with me.",
+      "beat": "rapid",
+      "typing": [
+        [
+          87.62923122619027,
+          88.40057737812644
+        ]
+      ],
+      "compose": null,
+      "appear": 88.40057737812644,
+      "reactions": []
+    },
+    {
+      "i": 43,
+      "type": "message",
+      "from": "me",
+      "text": "me? why?",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        90.74546968001242,
+        91.1311427559805
+      ],
+      "appear": 91.1311427559805,
+      "reactions": []
+    },
+    {
+      "i": 44,
+      "type": "message",
+      "from": "tyler",
+      "text": "because you created this pool. you understand people. that's more valuable than any mba.",
+      "beat": "normal",
+      "typing": [
+        [
+          91.80992736968433,
+          93.09550428957796
+        ]
+      ],
+      "compose": null,
+      "appear": 93.09550428957796,
+      "reactions": []
+    },
+    {
+      "i": 45,
+      "type": "message",
+      "from": "tyler",
+      "text": "so, maya, what do you say? join me as chief culture officer of my new company?",
+      "beat": "bombshell",
+      "typing": [
+        [
+          95.7090821677217,
+          97.38033216358342
+        ]
+      ],
+      "compose": null,
+      "appear": 97.38033216358342,
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 35,
+          "at": 97.73386581655417,
+          "ramp": 0.7562025871553052
+        }
+      ]
+    },
+    {
+      "i": 46,
+      "type": "message",
+      "from": "me",
+      "text": "i... i need a minute",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        100.36672734849633,
+        100.95166484704792
+      ],
+      "appear": 100.95166484704792,
+      "reactions": []
+    },
+    {
+      "i": 47,
+      "type": "message",
+      "from": "priya",
+      "text": "this is insane. i'm calling the board.",
+      "beat": "rapid",
+      "typing": [
+        [
+          101.66516003758888,
+          102.19970292088065
+        ]
+      ],
+      "compose": null,
+      "appear": 102.19970292088065,
+      "reactions": []
+    },
+    {
+      "i": 48,
+      "type": "system",
+      "from": "priya",
+      "text": "Priya (HR) left #odds-and-ends",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 103.49556445613342,
+      "reactions": []
+    },
+    {
+      "i": 49,
+      "type": "message",
+      "from": "tyler",
+      "text": "she'll be fine. she'll get a severance package.",
+      "beat": "normal",
+      "typing": [
+        [
+          104.62687214563981,
+          105.64504906619557
+        ]
+      ],
+      "compose": null,
+      "appear": 105.64504906619557,
+      "reactions": []
+    },
+    {
+      "i": 50,
+      "type": "message",
+      "from": "jake",
+      "text": "so wait, are we all fired?",
+      "beat": "pause",
+      "typing": [
+        [
+          107.92951925284655,
+          108.65072790490687
+        ]
+      ],
+      "compose": null,
+      "appear": 108.65072790490687,
+      "reactions": []
+    },
+    {
+      "i": 51,
+      "type": "message",
+      "from": "tyler",
+      "text": "not if you join me. but first, let's talk about this pool's accuracy",
+      "beat": "rapid",
+      "typing": [
+        [
+          109.48763847975762,
+          110.25898463169379
+        ]
+      ],
+      "compose": null,
+      "appear": 110.25898463169379,
+      "reactions": []
+    },
+    {
+      "i": 52,
+      "type": "message",
+      "from": "tyler",
+      "text": "the person with 2nd highest odds is the board's spy. they're listening now.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          112.46117789547158,
+          114.1324278913333
+        ]
+      ],
+      "compose": null,
+      "appear": 114.1324278913333,
+      "reactions": [
+        {
+          "emoji": "🫣",
+          "count": 28,
+          "at": 114.48596154430405,
+          "ramp": 0.7188270043463807
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "system",
+      "t": 0.35
+    },
+    {
+      "type": "reaction",
+      "t": 2.675865763471552,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 9.446999400551293,
+      "count": 3
+    },
+    {
+      "type": "reaction",
+      "t": 12.420538816265255,
+      "count": 12
+    },
+    {
+      "type": "bombshell",
+      "t": 12.067005163294507
+    },
+    {
+      "type": "reaction",
+      "t": 26.05819589788084,
+      "count": 7
+    },
+    {
+      "type": "reaction",
+      "t": 28.984040409866747,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 29.228300024646536,
+      "count": 8
+    },
+    {
+      "type": "system",
+      "t": 30.436742329346547
+    },
+    {
+      "type": "bombshell",
+      "t": 30.436742329346547
+    },
+    {
+      "type": "reaction",
+      "t": 43.19917864389856,
+      "count": 18
+    },
+    {
+      "type": "reaction",
+      "t": 43.443438258678356,
+      "count": 22
+    },
+    {
+      "type": "reaction",
+      "t": 58.1851487990986,
+      "count": 20
+    },
+    {
+      "type": "bombshell",
+      "t": 57.83161514612785
+    },
+    {
+      "type": "reaction",
+      "t": 70.46935049945017,
+      "count": 30
+    },
+    {
+      "type": "reaction",
+      "t": 70.71361011422995,
+      "count": 25
+    },
+    {
+      "type": "reaction",
+      "t": 82.89702258406184,
+      "count": 10
+    },
+    {
+      "type": "bombshell",
+      "t": 82.54348893109109
+    },
+    {
+      "type": "reaction",
+      "t": 97.73386581655417,
+      "count": 35
+    },
+    {
+      "type": "bombshell",
+      "t": 97.38033216358342
+    },
+    {
+      "type": "system",
+      "t": 103.49556445613342
+    },
+    {
+      "type": "reaction",
+      "t": 114.48596154430405,
+      "count": 28
+    },
+    {
+      "type": "bombshell",
+      "t": 114.1324278913333
+    }
+  ],
+  "outroAt": 116.80000000011258,
+  "duration": 120.00000000011258
+}

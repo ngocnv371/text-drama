@@ -1,10 +1,10 @@
 // Automatic checks that stand in for a human read-through. Each problem is phrased as an
 // instruction the writer can act on, because failed scripts go straight back to the LLM.
-import { BEATS, APPS, normalizeEpisode, bombshellRange } from "./schema.js";
+import { BEATS, APPS, normalizeEpisode, bombshellRange, limitsFor } from "./schema.js";
 import { directToLength, HOOK_SECONDS } from "./direct.js";
 
-const MAX_CHARS = 90;          // longer than this and a bubble eats the screen
 const SYSTEM_BEATS = ["normal", "rapid", "pause", "bombshell"];
+const ENGLISH_NOTICE = /\b(joined|left|removed|renamed|was added|added to|was kicked)\b/i;
 
 export function validateEpisode(raw, config) {
   const problems = [];
@@ -13,26 +13,30 @@ export function validateEpisode(raw, config) {
   const ids = new Set(script.cast.map((c) => c.id));
   const msgs = script.messages;
   const posts = msgs.filter((m) => m.type === "message");
+  const { hookWords, messageChars } = limitsFor(config);
 
   if (!(app in APPS)) problems.push(`Unknown app "${app}".`);
   if (!ids.has("me")) problems.push(`The cast must include the phone owner with id "me".`);
   if (ids.size < 2) problems.push("The cast needs at least two people.");
   if (app === "workchat" && ids.size < 3) problems.push("A workchat channel needs at least 3 people in the cast; more voices means more conflict.");
   if (!script.hook?.trim()) problems.push("The hook caption is empty.");
-  else if (script.hook.split(/\s+/).length > 12) problems.push(`The hook is ${script.hook.split(/\s+/).length} words; keep it to 10 or fewer.`);
+  else if (script.hook.split(/\s+/).length > hookWords + 2) problems.push(`The hook is ${script.hook.split(/\s+/).length} words; keep it to ${hookWords} or fewer.`);
   if (!script.cliffhanger?.trim()) problems.push("The cliffhanger is empty.");
-  if (!/^\d{1,2}:\d{2}(\s?(AM|PM))?$/i.test(script.startClock ?? "")) problems.push(`startClock "${script.startClock}" must look like "11:47 PM".`);
+  if (!/^\d{1,2}:\d{2}(\s?(AM|PM))?$/i.test(script.startClock ?? "")) problems.push(`startClock "${script.startClock}" must look like "11:47 PM" or "23:47".`);
 
   msgs.forEach((m, i) => {
     const n = i + 1;
     if (!ids.has(m.from)) problems.push(`Message ${n} is from "${m.from}", which is not a cast id.`);
     if (!(m.beat in BEATS)) problems.push(`Message ${n} has unknown beat "${m.beat}".`);
     if (!m.text?.trim()) problems.push(`Message ${n} is empty.`);
-    else if ([...m.text].length > MAX_CHARS) problems.push(`Message ${n} is ${[...m.text].length} characters; split or trim it to ${MAX_CHARS} or fewer.`);
+    else if ([...m.text].length > messageChars) problems.push(`Message ${n} is ${[...m.text].length} characters; split or trim it to ${messageChars} or fewer.`);
     if (m.beat === "leftOnRead" && (m.from !== "me" || app !== "imessage")) problems.push(`Message ${n} uses leftOnRead, which only works on "me" messages in imessage.`);
     if (m.beat === "bombshell" && msgs[i - 1]?.beat === "bombshell") problems.push(`Messages ${n - 1} and ${n} are both bombshells; separate them.`);
     // The workchat skin is unbranded, so its dialogue mustn't name the app it imitates.
-    if (app === "workchat" && /\b(slack|microsoft teams|discord|whatsapp|imessage)\b/i.test(m.text ?? "")) problems.push(`Message ${n} names a real app; say "here" or "this channel" instead.`);
+    if (app === "workchat" && /\b(slack|microsoft teams|discord|whatsapp|imessage|zalo|messenger)\b/i.test(m.text ?? "")) problems.push(`Message ${n} names a real app; say "here" or "this channel" instead.`);
+    if (m.type === "system" && !/^english/i.test(config.language ?? "English") && ENGLISH_NOTICE.test(m.text ?? "")) {
+      problems.push(`System notice ${n} ("${m.text}") is in English; write it in the series language${config.systemNoticeExamples?.[0] ? `, like "${config.systemNoticeExamples[0]}"` : ""}.`);
+    }
     if (m.type === "system" && !SYSTEM_BEATS.includes(m.beat)) problems.push(`Message ${n} is a system notice; give it one of these beats: ${SYSTEM_BEATS.join(", ")}.`);
     if (m.reactions.length && app !== "workchat") problems.push(`Message ${n} has reactions, but reactions only exist in workchat. Leave them empty.`);
     if (m.reactions.length > 4) problems.push(`Message ${n} has ${m.reactions.length} reactions; use at most 4.`);

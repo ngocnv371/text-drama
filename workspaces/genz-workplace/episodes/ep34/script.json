@@ -1,0 +1,648 @@
+{
+  "title": "The Empty Office",
+  "logline": "A Gen Z worker gets caught working from a beach during a mandatory office week, but when they expose the hypocrisy, they discover the entire company is secretly remote—including the CEO on a yacht—and the office was sublet months ago, with the final reveal that their paychecks are bouncing.",
+  "hook": "my boss caught me working from a beach",
+  "startClock": "11:47 AM",
+  "chat": {
+    "name": "#all-hands",
+    "subtitle": "127 members · no office??"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Alex",
+      "role": "Content Lead"
+    },
+    {
+      "id": "boss",
+      "name": "Karen",
+      "role": "VP of People"
+    },
+    {
+      "id": "coworker",
+      "name": "Sam",
+      "role": "Designer"
+    },
+    {
+      "id": "hr",
+      "name": "Linda",
+      "role": "HR Director"
+    },
+    {
+      "id": "ceo",
+      "name": "Dave",
+      "role": "CEO"
+    },
+    {
+      "id": "ops",
+      "name": "Priya",
+      "role": "Operations Lead"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "@alex why is your zoom background a beach??",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "it's a new virtual background, karen. very realistic right?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "i can see a seagull flying behind you. and the waves are moving.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "ok fine, i'm at a co-working space with a view",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤥",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "your ip says bali, indonesia. we have a mandatory office week.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🚨",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i'm testing the company's 'work from anywhere' policy",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "karen, i'm also not in the office. i'm in mexico city rn",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "this is unacceptable. both of you in the office by monday or consequences.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "boss",
+      "text": "Karen (VP of People) enabled location sharing for all employees in #all-hands",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, you can do that? is that legal?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😮",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "@alex @sam please keep this conversation professional. karen is enforcing company policy.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "lol the office is dead. i went in last week and there was literally no one there.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "that's not true, the office is at full capacity.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🧢",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ops",
+      "text": "karen, i was in the office yesterday. it's a ghost town. only the cleaning crew.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👻",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "priya, you're supposed to be on pto this week.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😅",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ops",
+      "text": "i came in to pick up my monitor. but seriously, where is everyone?",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "this is temporary. hybrid policy, but this week is mandatory for the new quarter.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the office is listed on peerspace for events",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "Dave (CEO) joined #all-hands",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "oh great, the ceo is here",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "dave, quick question: where are you right now?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "i'm in the office, sam. why do you ask?",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🧐",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ops",
+      "text": "i was just there, i didn't see you. which floor?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 19
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "maybe you missed me. i was in the executive suite.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🤨",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "ceo",
+      "text": "Dave's location: 38.7223° N, 9.1393° W (Atlantic Ocean)",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 50
+        },
+        {
+          "emoji": "🛥️",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "dave, what??",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "ok you got me. i'm on my yacht. but i'm still working.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫠",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so mandatory office week only applies to non-ceo's? typical",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💯",
+          "count": 55
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "this is a violation of company policy. we will address this in a private meeting.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "linda, where are you? i'm seeing a ski resort in your bg from last week's all-hands",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "⛷️",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "that was a team-building retreat approved by management.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🧊",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ops",
+      "text": "i saw you on the chairlift during work hours.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🎿",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "i was multitasking.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "fine, we all work remotely sometimes. but the office is still open for those who need it.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "the office has been sublet to a yoga studio. i saw the signage change.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🧘",
+          "count": 40
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "that's ridiculous. the office is at 123 main street.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ops",
+      "text": "no, the office moved to 456 oak avenue last month. didn't you get the memo?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🚚",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "wait, what? we moved?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💥",
+          "count": 60
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "so nobody knows where the office is? this is peak corporate",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "this is a disaster. let me sort this out.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "boss",
+      "text": "Karen (VP of People) left #all-hands",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🏃♀️",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "karen, you can't just leave. we need to discuss this.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "boss",
+      "text": "Karen (VP of People) rejoined #all-hands",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😅",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "ok i'm back. i've discovered something.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 80
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "office sold to real estate firm last quarter. lease terminated.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 70
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ceo",
+      "text": "who approved that?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🧐",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "maybe check with the cfo? or maybe we don't have one anymore",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 50
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "i'm looking at the org chart, and the cfo position is vacant. has been for months.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🗃️",
+          "count": 30
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "coworker",
+      "text": "i noticed the hr system was down for a while, maybe that's why",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤷♂️",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ops",
+      "text": "i got an email from the bank saying the company account was closed.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 60
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "boss",
+      "text": "what are you talking about? the company is fine.",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "🧐",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "no it's not. my paycheck bounced. i'm logging off to find a new job.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 120
+        },
+        {
+          "emoji": "🚪",
+          "count": 80
+        },
+        {
+          "emoji": "💸",
+          "count": 50
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "the company was already dead. part 2: the ceo's secret plan",
+  "app": "workchat",
+  "targetSeconds": 120
+}

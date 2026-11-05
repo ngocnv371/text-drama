@@ -1,0 +1,485 @@
+{
+  "title": "The Layoff Pool",
+  "logline": "A Gen Z employee's office betting pool on layoffs gets discovered, but the CEO reveals he's been using it to recruit for his new startup—and exposes a board spy.",
+  "hook": "We bet on who gets fired. It backfired.",
+  "startClock": "4:12 PM",
+  "chat": {
+    "name": "#odds-and-ends",
+    "subtitle": "6 members · private"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Maya",
+      "role": "Marketing Associate"
+    },
+    {
+      "id": "jake",
+      "name": "Jake",
+      "role": "Engineer"
+    },
+    {
+      "id": "priya",
+      "name": "Priya",
+      "role": "HR Manager"
+    },
+    {
+      "id": "dan",
+      "name": "Dan",
+      "role": "Sales Lead"
+    },
+    {
+      "id": "tyler",
+      "name": "Tyler",
+      "role": "CEO"
+    },
+    {
+      "id": "sam",
+      "name": "Sam",
+      "role": "Designer"
+    }
+  ],
+  "messages": [
+    {
+      "type": "system",
+      "from": "priya",
+      "text": "Priya (HR) joined #odds-and-ends",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "um",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "guys priya just joined",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait what",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "may i ask what this channel is for?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "it's for uh fantasy football?",
+      "beat": "fakeout",
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "the spreadsheet named 'layoff-pool-v2_final' begs to differ",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "okay fine it's just a joke",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "a joke? i have $200 on you getting fired",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "dan wtf",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "this is a serious violation of company policy",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "can we just delete it",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "i need to know who started this",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "it was @maya",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "sam you placed the first bet",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "maya, my office. now.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 15
+        },
+        {
+          "emoji": "😬",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "tyler",
+      "text": "Tyler (CEO) joined #odds-and-ends",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "sorry to interrupt but i saw the spreadsheet",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "who's leading?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "excuse me?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "the odds. who has the best odds of being fired?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "uh dan has the highest odds, 3:1",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "interesting",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 18
+        },
+        {
+          "emoji": "👀",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "tyler, this is serious. we need to discipline maya",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "priya, relax. this is actually genius",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "genius?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "we've been trying to figure out who to lay off for months. this pool is market research",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "wait what",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "dan, don't worry. you're not getting fired",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "in fact, you're coming with me",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "what do you mean",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "i'm leaving. starting a new company. and i need the best.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "wait, you're leaving?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "the board doesn't know. this pool is my cover to find the best.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "tyler, you can't just poach employees",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "watch me",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 30
+        },
+        {
+          "emoji": "💀",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sam",
+      "text": "so the layoffs are real?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "oh, the layoffs are very real. but not who you think",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "the board wanted 20% cuts. i'm fighting. this pool shows dead weight.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "so i'm not dead weight?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "dan, you've been secretly building the next big thing. i know because i've been watching.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🕵️",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "dan",
+      "text": "how did you",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "i have my ways. but that's not the point. the point is, i'm taking you and @maya with me.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "me? why?",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "because you created this pool. you understand people. that's more valuable than any mba.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "so, maya, what do you say? join me as chief culture officer of my new company?",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤯",
+          "count": 35
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "i... i need a minute",
+      "beat": "fakeout",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "priya",
+      "text": "this is insane. i'm calling the board.",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "system",
+      "from": "priya",
+      "text": "Priya (HR) left #odds-and-ends",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "she'll be fine. she'll get a severance package.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "jake",
+      "text": "so wait, are we all fired?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "not if you join me. but first, let's talk about this pool's accuracy",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "tyler",
+      "text": "the person with 2nd highest odds is the board's spy. they're listening now.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🫣",
+          "count": 28
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "Who's the board spy?",
+  "app": "workchat",
+  "targetSeconds": 120
+}

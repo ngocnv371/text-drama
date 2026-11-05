@@ -8,9 +8,13 @@ let providers = {};
 let config = null;
 let open = null;      // episode shown in the viewer
 let polling = null;
+let workspaces = [];
+let ws = null;        // current workspace id
 
+// Every request names the workspace it's about.
 async function api(path, options = {}) {
-  const res = await fetch(path, { headers: { "content-type": "application/json" }, ...options });
+  const url = ws ? `${path}${path.includes("?") ? "&" : "?"}ws=${encodeURIComponent(ws)}` : path;
+  const res = await fetch(url, { headers: { "content-type": "application/json" }, ...options });
   const data = await res.json().catch(() => null);
   if (!res.ok) throw new Error(data?.error || `HTTP ${res.status}`);
   return data;
@@ -28,9 +32,67 @@ function providerOptions(select, { includeConfig }) {
   select.innerHTML = opts.map(([v, l, off]) => `<option value="${v}"${off ? " disabled" : ""}>${esc(l)}</option>`).join("");
 }
 
+// ---- workspaces
+
+const savedWorkspace = () => { try { return localStorage.getItem("workspace"); } catch { return null; } };
+
+async function loadWorkspaces() {
+  workspaces = await api("/api/workspaces");
+  const wanted = decodeURIComponent(location.hash.slice(1)) || savedWorkspace();
+  if (!ws) ws = workspaces.some((w) => w.id === wanted) ? wanted : (workspaces.find((w) => w.isDefault) ?? workspaces[0])?.id;
+  $("workspace").innerHTML = workspaces.map((w) => `<option value="${esc(w.id)}">${esc(w.name)} (${w.episodes})</option>`).join("") +
+    `<option value="__new">+ New workspace…</option>`;
+  $("workspace").value = ws;
+}
+
+async function switchWorkspace(id) {
+  ws = id;
+  try { localStorage.setItem("workspace", id); } catch { /* private window */ }
+  history.replaceState(null, "", `#${encodeURIComponent(id)}`);
+  if ($("viewer").open) $("viewer").close();
+  await loadConfig();
+  await loadEpisodes();
+}
+
+$("workspace").addEventListener("change", async () => {
+  if ($("workspace").value === "__new") {
+    $("workspace").value = ws;
+    $("newWsError").textContent = "";
+    $("newWsDialog").showModal();
+    return;
+  }
+  await switchWorkspace($("workspace").value);
+});
+
+// Suggest a folder id from the name: "Sinh Tồn Nơi Công Sở" -> "sinh-ton-noi-cong-so".
+$("newWsName").addEventListener("input", () => {
+  $("newWsId").value = $("newWsName").value.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/gi, "d")
+    .toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 40);
+});
+
+$("newWsCreate").addEventListener("click", async (e) => {
+  e.preventDefault();
+  try {
+    const { id } = await api("/api/workspaces", {
+      method: "POST",
+      body: JSON.stringify({ id: $("newWsId").value.trim(), name: $("newWsName").value, topic: $("newWsTopic").value, from: ws }),
+    });
+    $("newWsDialog").close();
+    ws = id;
+    await loadWorkspaces();
+    await switchWorkspace(id);
+  } catch (err) {
+    $("newWsError").textContent = err.message;
+  }
+});
+
+// ---- settings form
+
 async function loadConfig() {
   ({ config, providers } = await api("/api/config"));
   $("topicChip").textContent = config.topic;
+  $("seriesName").value = config.name ?? "";
+  $("language").value = config.language ?? "";
   $("topic").value = config.topic;
   $("app").value = config.app ?? "imessage";
   $("tone").value = config.tone;
@@ -47,9 +109,10 @@ $("saveBtn").addEventListener("click", async () => {
   try {
     await api("/api/config", {
       method: "PUT",
-      body: JSON.stringify({ topic: $("topic").value, app: $("app").value, tone: $("tone").value, targetSeconds: +$("seconds").value, provider: $("defaultProvider").value }),
+      body: JSON.stringify({ name: $("seriesName").value, topic: $("topic").value, language: $("language").value, app: $("app").value, tone: $("tone").value, targetSeconds: +$("seconds").value, provider: $("defaultProvider").value }),
     });
     await loadConfig();
+    await loadWorkspaces();
     $("saved").textContent = "Saved. New episodes will use these settings.";
     setTimeout(() => ($("saved").textContent = ""), 3000);
   } catch (err) {
@@ -197,10 +260,12 @@ function renderJob(job) {
   const finished = items.filter((it) => it.state === "done").length;
   const failed = items.filter((it) => it.state === "failed").length;
   const batch = items.length > 1;
+  // A job keeps running when you switch workspace; say where it is.
+  const where = job.ws !== ws ? ` (in ${workspaces.find((w) => w.id === job.ws)?.name ?? job.ws})` : "";
 
   // header + queue
-  if (job.running) $("jobTitle").textContent = batch ? `Episode ${job.index + 1} of ${items.length}` : job.kind === "render" ? `Re-rendering ${current?.id ?? ""}` : "New episode";
-  else $("jobTitle").textContent = batch ? `Batch finished: ${finished} of ${items.length} made` : "";
+  if (job.running) $("jobTitle").textContent = (batch ? `Episode ${job.index + 1} of ${items.length}` : job.kind === "render" ? `Re-rendering ${current?.id ?? ""}` : "New episode") + where;
+  else $("jobTitle").textContent = batch ? `Batch finished: ${finished} of ${items.length} made${where}` : where.trim();
   $("stopBtn").hidden = !(job.running && batch && !job.stopRequested && items.some((it) => it.state === "queued"));
   $("queue").hidden = !batch;
   $("queue").innerHTML = items.map((it) => {
@@ -259,7 +324,7 @@ async function watchJob() {
     renderJob(job);
     // show each episode in the grid as soon as it is ready, not only at the end of a batch
     const done = job ? job.items.filter((it) => it.state === "done").length : 0;
-    if (done !== doneSeen) { doneSeen = done; await loadEpisodes(); }
+    if (done !== doneSeen) { doneSeen = done; await loadEpisodes(); await loadWorkspaces(); }
     if (!job?.running) {
       clearInterval(polling);
       polling = null;
@@ -273,6 +338,8 @@ async function watchJob() {
 }
 
 (async function init() {
+  await loadWorkspaces();
+  history.replaceState(null, "", `#${encodeURIComponent(ws)}`);
   await loadConfig();
   await loadEpisodes();
   const job = await api("/api/job");

@@ -1,0 +1,602 @@
+{
+  "title": "Sếp mua xe, lương chậm",
+  "logline": "Employee congratulates CEO on new car, then CEO announces salary delay; employees uncover embezzlement and HR secretly records evidence, exposing the plot.",
+  "hook": "Tôi khen xe mới của sếp, lương bị hoãn ngay.",
+  "startClock": "09:12",
+  "chat": {
+    "name": "#general",
+    "subtitle": "Toàn công ty · 56 thành viên"
+  },
+  "cast": [
+    {
+      "id": "me",
+      "name": "Linh",
+      "role": "Nhân viên Marketing"
+    },
+    {
+      "id": "sếp",
+      "name": "Tuấn Anh",
+      "role": "CEO"
+    },
+    {
+      "id": "hr",
+      "name": "Hoa",
+      "role": "HR Manager"
+    },
+    {
+      "id": "ketoan",
+      "name": "Long",
+      "role": "Kế toán trưởng"
+    },
+    {
+      "id": "truongphong",
+      "name": "Mai",
+      "role": "Trưởng phòng Marketing"
+    },
+    {
+      "id": "intern",
+      "name": "Phúc",
+      "role": "Thực tập sinh"
+    }
+  ],
+  "messages": [
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Sếp ơi xe mới đẹp quá! Chúc mừng sếp 🎉",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "👍",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Cảm ơn em. Tiện đây anh thông báo: do khó khăn tài chính, lương tháng này sẽ chậm 2 tuần.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 15
+        },
+        {
+          "emoji": "💀",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Cả nhà ơi, công ty đang gặp khó khăn tạm thời, mong mọi người thông cảm ạ.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "truongphong",
+      "text": "Sếp ơi, vậy còn tiền thưởng cuối quý thì sao ạ?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Mình sẽ cố gắng giải quyết, tạm thời hoãn.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "intern",
+      "text": "Ủa sếp mới mua xe mà lại hết tiền trả lương là sao ta? 🤔",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 12
+        },
+        {
+          "emoji": "👀",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Xe đó là xe công ty cũ, anh đi mượn.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Sếp ơi em thấy sếp check in showroom VinFast hôm qua trên Facebook.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🔍",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Em nhầm người rồi, đó là anh họ.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Mọi người ơi, đừng lan truyền thông tin chưa kiểm chứng ạ.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Em có ảnh nè, mọi người xem: sếp lái xe mới biển số 51H-12345 sáng nay.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "📸",
+          "count": 15
+        },
+        {
+          "emoji": "😳",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Đó là xe mượn của đối tác, anh đang thương thảo hợp đồng.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Thôi mọi người tập trung làm việc đi ạ, sếp đã nói là khó khăn.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "truongphong",
+      "text": "Em thấy hợp đồng đó quan trọng quá nhỉ, nên quỹ lương bị hoãn để mua xe?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😏",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Ai nói vậy? Tôi không trả lời những câu hỏi vô căn cứ.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "intern",
+      "text": "Sếp ơi, em vừa thấy hoá đơn đặt cọc xe từ email công ty bị leak ra ngoài.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 20
+        },
+        {
+          "emoji": "🔥",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Chuyện này tôi sẽ cho điều tra rõ. Ai leak thì sẽ bị kỷ luật.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Em đề nghị mọi người không chia sẻ thông tin nội bộ ra ngoài ạ.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "truongphong",
+      "text": "Chị Hoa ơi, giờ vấn đề là lương của tụi em, không phải thông tin.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Tôi hiểu mọi người lo lắng, nhưng hãy tin tưởng ban lãnh đạo.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Tin kiểu gì khi sếp im lặng về cái xe?",
+      "beat": "rapid",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Em @Linh, em nên giữ thái độ tôn trọng với sếp.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Em tôn trọng sự thật ạ.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "✊",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "intern",
+      "text": "Mọi người ơi, em tìm thấy bài đăng của sếp trên group kín: 'vừa tậu em nó về dinh'.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🤬",
+          "count": 25
+        },
+        {
+          "emoji": "📸",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Tôi bị hack tài khoản. Đừng tin.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🧢",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ketoan",
+      "text": "Tôi vừa kiểm tra tài khoản công ty: chuyển 2 tỷ đồng vào tài khoản cá nhân anh Tuấn.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "💥",
+          "count": 30
+        },
+        {
+          "emoji": "😳",
+          "count": 18
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Đó là tiền tôi ứng trước cho công ty, sẽ hoàn lại.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Ứng trước mà lấy từ quỹ lương thì là rút ruột công ty chứ sếp.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🎯",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Mọi người bình tĩnh, chúng ta cần để ban lãnh đạo giải thích.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🤐",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "truongphong",
+      "text": "Chị Hoa, chị cứ bênh sếp vậy? Chị cũng nhận tiền à?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Tôi không nhận gì hết, tôi chỉ làm đúng trách nhiệm.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "intern",
+      "text": "Em thấy chị Hoa hôm qua đăng story đi lễ chùa cầu bình an, chắc cầu cho công ty khỏi phá sản.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Em Phúc, đừng có nói bậy.",
+      "beat": "normal",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Đủ rồi, tôi sẽ gọi họp khẩn. Nhưng trước hết, ai đã leak thông tin tôi sẽ đuổi việc.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Sếp cứ đuổi hết đi, rồi ai làm việc? Em thấy công ty không có tiền trả lương thì cũng chả cần người.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 22
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "sếp",
+      "text": "Phúc (Thực tập sinh) đã bị Tuấn Anh (CEO) xóa khỏi #general",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "truongphong",
+      "text": "Sếp đuổi người vì nói sự thật? Hay vì sợ lộ chuyện?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🚩",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Phúc bị nhắc nhở nhiều lần rồi, việc này không liên quan.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🙃",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Chị Hoa ơi, chị biết rõ chuyện quỹ lương bị rút mà vẫn im, chị là đồng phạm đấy.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "💯",
+          "count": 9
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Tôi sẽ báo cáo sự việc này lên pháp luật nếu mọi người tiếp tục xúc phạm.",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "ketoan",
+      "text": "Tôi đã nộp đơn tố cáo lên thanh tra lao động và công an kinh tế.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "⚖️",
+          "count": 18
+        },
+        {
+          "emoji": "🚨",
+          "count": 14
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Anh Long, anh điên rồi! Chuyện nội bộ mà mang ra ngoài?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😡",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "ketoan",
+      "text": "Tôi chỉ làm đúng pháp luật. Anh đã vi phạm nghiêm trọng.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🫡",
+          "count": 16
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Anh Long, anh có biết làm vậy sẽ ảnh hưởng đến cả công ty không?",
+      "beat": "pause",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "truongphong",
+      "text": "Chị Hoa, giờ chị vẫn lo cho công ty hơn là đồng nghiệp à? Lương bị cướp mà chị bênh sếp?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "😠",
+          "count": 20
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Tôi không bênh ai, tôi chỉ muốn mọi chuyện êm xuôi.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "🧐",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "me",
+      "text": "Êm xuôi kiểu gì khi sếp mua xe mới bằng tiền lương của chúng ta?",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🙃",
+          "count": 13
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "sếp",
+      "text": "Tôi sẽ gọi luật sư. Các người sẽ phải trả giá.",
+      "beat": "pause",
+      "reactions": [
+        {
+          "emoji": "🗣️",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "type": "system",
+      "from": "sếp",
+      "text": "Tuấn Anh (CEO) đã rời khỏi #general",
+      "beat": "bombshell",
+      "reactions": []
+    },
+    {
+      "type": "message",
+      "from": "truongphong",
+      "text": "Ủa sếp chạy luôn? Đừng nói là bỏ trốn nha.",
+      "beat": "rapid",
+      "reactions": [
+        {
+          "emoji": "🏃",
+          "count": 25
+        },
+        {
+          "emoji": "😅",
+          "count": 10
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Mọi người ơi, chuyện này vượt quá phạm vi của tôi. Tôi xin phép rời nhóm.",
+      "beat": "normal",
+      "reactions": [
+        {
+          "emoji": "✌️",
+          "count": 12
+        }
+      ]
+    },
+    {
+      "type": "message",
+      "from": "hr",
+      "text": "Tôi xin lỗi mọi người. Tôi đã ghi âm cuộc nói chuyện với sếp về rút quỹ lương. Đây là file ghi âm.",
+      "beat": "bombshell",
+      "reactions": [
+        {
+          "emoji": "🎙️",
+          "count": 20
+        },
+        {
+          "emoji": "🤯",
+          "count": 15
+        }
+      ]
+    }
+  ],
+  "cliffhanger": "Phần 2: Bằng chứng được công bố, sếp bị bắt?",
+  "app": "workchat",
+  "targetSeconds": 120
+}

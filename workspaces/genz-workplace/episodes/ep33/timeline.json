@@ -1,0 +1,1588 @@
+{
+  "id": "ep33",
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30
+  },
+  "theme": "dark",
+  "app": "workchat",
+  "hook": "I roasted the CEO in #all-hands. Now everyone's watching.",
+  "hookSeconds": 3.2,
+  "cliffhanger": "Karen just flipped. What else is Bob hiding? Part 2 tomorrow.",
+  "startClock": "10:07 AM",
+  "chat": {
+    "name": "#all-hands",
+    "subtitle": "247 members · Q3 All-Hands"
+  },
+  "cast": [
+    {
+      "role": "Designer",
+      "id": "me",
+      "name": "Maya"
+    },
+    {
+      "role": "Developer",
+      "id": "jake",
+      "name": "Jake"
+    },
+    {
+      "role": "HR Director",
+      "id": "karen",
+      "name": "Karen"
+    },
+    {
+      "role": "CEO",
+      "id": "bob",
+      "name": "Bob"
+    },
+    {
+      "role": "Marketing Manager",
+      "id": "lisa",
+      "name": "Lisa"
+    },
+    {
+      "role": "Legal Team",
+      "id": "legal",
+      "name": "Legal Counsel"
+    }
+  ],
+  "pace": 0.6279496648061924,
+  "messages": [
+    {
+      "i": 0,
+      "type": "message",
+      "from": "me",
+      "text": "did anyone else get the 10am calendar invite for 'sync or sink'",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        0.35,
+        1.354719463689908
+      ],
+      "appear": 1.354719463689908,
+      "reactions": [
+        {
+          "emoji": "😅",
+          "count": 3,
+          "at": 1.700091779333314,
+          "ramp": 0.3367522953854213
+        }
+      ]
+    },
+    {
+      "i": 1,
+      "type": "message",
+      "from": "jake",
+      "text": "i thought we were all muted on this call",
+      "beat": "rapid",
+      "typing": [
+        [
+          2.9158023303981024,
+          3.454583142801815
+        ]
+      ],
+      "compose": null,
+      "appear": 3.454583142801815,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 5,
+          "at": 3.799955458445221,
+          "ramp": 0.4203382041609796
+        }
+      ]
+    },
+    {
+      "i": 2,
+      "type": "message",
+      "from": "me",
+      "text": "bob is a boomer with a crypto addiction and he probably wears crocs",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        5.043295794761482,
+        6.0480152584513895
+      ],
+      "appear": 6.0480152584513895,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 45,
+          "at": 6.393387574094795,
+          "ramp": 0.7798679625287259
+        },
+        {
+          "emoji": "👀",
+          "count": 32,
+          "at": 6.632008446721149,
+          "ramp": 0.7240824708229677
+        },
+        {
+          "emoji": "😂",
+          "count": 21,
+          "at": 6.870629319347501,
+          "ramp": 0.655159713958615
+        },
+        {
+          "emoji": "🍿",
+          "count": 12,
+          "at": 7.109250191973855,
+          "ramp": 0.5635903172339891
+        }
+      ]
+    },
+    {
+      "i": 3,
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, this is the #all-hands channel. You're not in a DM with Jake.",
+      "beat": "pause",
+      "typing": [
+        [
+          9.56076568337723,
+          10.816665012989615
+        ]
+      ],
+      "compose": null,
+      "appear": 10.816665012989615,
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 18,
+          "at": 11.162037328633021,
+          "ramp": 0.6299361854935782
+        }
+      ]
+    },
+    {
+      "i": 4,
+      "type": "message",
+      "from": "me",
+      "text": "omg",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        12.458125436793003,
+        12.721864296011603
+      ],
+      "appear": 12.721864296011603,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 7,
+          "at": 13.067236611655009,
+          "ramp": 0.47539483477474176
+        }
+      ]
+    },
+    {
+      "i": 5,
+      "type": "message",
+      "from": "me",
+      "text": "wait wrong chat",
+      "beat": "unsend",
+      "typing": [],
+      "compose": [
+        13.494242383723218,
+        13.977763625623986
+      ],
+      "appear": 13.977763625623986,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 25,
+          "at": 14.323135941267392,
+          "ramp": 0.6836889921204111
+        }
+      ],
+      "unsendAt": 15.189706478699936
+    },
+    {
+      "i": 6,
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, please stay after the call. We need to talk.",
+      "beat": "pause",
+      "typing": [
+        [
+          16.57119574127356,
+          17.607312688203777
+        ]
+      ],
+      "compose": null,
+      "appear": 17.607312688203777,
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 15,
+          "at": 17.952685003847183,
+          "ramp": 0.6001030833448529
+        }
+      ]
+    },
+    {
+      "i": 7,
+      "type": "message",
+      "from": "lisa",
+      "text": "she's done for",
+      "beat": "normal",
+      "typing": [
+        [
+          19.114391883738637,
+          19.65317269614235
+        ]
+      ],
+      "compose": null,
+      "appear": 19.65317269614235,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 10,
+          "at": 19.998545011785755,
+          "ramp": 0.5337572150852635
+        }
+      ]
+    },
+    {
+      "i": 8,
+      "type": "message",
+      "from": "me",
+      "text": "it was a joke!! we were doing a bit",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        20.31251984418885,
+        20.897140982123414
+      ],
+      "appear": 20.897140982123414,
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 8,
+          "at": 21.24251329776682,
+          "ramp": 0.49724444897439984
+        }
+      ]
+    },
+    {
+      "i": 9,
+      "type": "message",
+      "from": "jake",
+      "text": "i don't know this woman",
+      "beat": "normal",
+      "typing": [
+        [
+          22.1028043385513,
+          22.76591918458664
+        ]
+      ],
+      "compose": null,
+      "appear": 22.76591918458664,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 20,
+          "at": 23.111291500230045,
+          "ramp": 0.6471762260095475
+        }
+      ]
+    },
+    {
+      "i": 10,
+      "type": "message",
+      "from": "bob",
+      "text": "Let's continue the agenda. We'll discuss Maya's career after.",
+      "beat": "normal",
+      "typing": [
+        [
+          23.73044986972895,
+          24.918530635542265
+        ]
+      ],
+      "compose": null,
+      "appear": 24.918530635542265,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 14,
+          "at": 25.26390295118567,
+          "ramp": 0.5888138456990256
+        }
+      ]
+    },
+    {
+      "i": 11,
+      "type": "message",
+      "from": "karen",
+      "text": "Maya, I expect you in my office at 11.",
+      "beat": "normal",
+      "typing": [
+        [
+          26.646648113088904,
+          27.516986348510287
+        ]
+      ],
+      "compose": null,
+      "appear": 27.516986348510287,
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 9,
+          "at": 27.862358664153692,
+          "ramp": 0.5165171745692945
+        }
+      ]
+    },
+    {
+      "i": 12,
+      "type": "message",
+      "from": "me",
+      "text": "i was hacked",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        28.575709483373526,
+        28.87725091241346
+      ],
+      "appear": 28.87725091241346,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 33,
+          "at": 29.222623228056865,
+          "ramp": 0.7291176079314581
+        }
+      ]
+    },
+    {
+      "i": 13,
+      "type": "message",
+      "from": "jake",
+      "text": "classic defense",
+      "beat": "normal",
+      "typing": [
+        [
+          29.743821449846003,
+          30.296417154875453
+        ]
+      ],
+      "compose": null,
+      "appear": 30.296417154875453,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 11,
+          "at": 30.64178947051886,
+          "ramp": 0.5493527287475849
+        }
+      ]
+    },
+    {
+      "i": 14,
+      "type": "message",
+      "from": "lisa",
+      "text": "bob are you actually into crypto?",
+      "beat": "normal",
+      "typing": [
+        [
+          31.162987692307997,
+          31.9642514646007
+        ]
+      ],
+      "compose": null,
+      "appear": 31.9642514646007,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25,
+          "at": 32.30962378024411,
+          "ramp": 0.6836889921204111
+        }
+      ]
+    },
+    {
+      "i": 15,
+      "type": "message",
+      "from": "bob",
+      "text": "That's irrelevant. Focus on the Q3 numbers.",
+      "beat": "rapid",
+      "typing": [
+        [
+          32.922502653094945,
+          33.48615027222498
+        ]
+      ],
+      "compose": null,
+      "appear": 33.48615027222498,
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 8,
+          "at": 33.83152258786839,
+          "ramp": 0.49724444897439984
+        }
+      ]
+    },
+    {
+      "i": 16,
+      "type": "message",
+      "from": "me",
+      "text": "ok but what if i told you i know who's been leaking to the board?",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        34.82117125960294,
+        35.82589072329285
+      ],
+      "appear": 35.82589072329285,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 42,
+          "at": 36.17126303893626,
+          "ramp": 0.7685787248828989
+        },
+        {
+          "emoji": "👀",
+          "count": 30,
+          "at": 36.40988391156261,
+          "ramp": 0.7135220942691366
+        }
+      ]
+    },
+    {
+      "i": 17,
+      "type": "message",
+      "from": "karen",
+      "text": "What?",
+      "beat": "pause",
+      "typing": [
+        [
+          38.41932283894243,
+          38.858887604306766
+        ]
+      ],
+      "compose": null,
+      "appear": 38.858887604306766,
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 5,
+          "at": 39.204259919950175,
+          "ramp": 0.4203382041609796
+        }
+      ]
+    },
+    {
+      "i": 18,
+      "type": "message",
+      "from": "bob",
+      "text": "Explain.",
+      "beat": "rapid",
+      "typing": [
+        [
+          39.518234752353266,
+          39.79176962634284
+        ]
+      ],
+      "compose": null,
+      "appear": 39.79176962634284,
+      "reactions": []
+    },
+    {
+      "i": 19,
+      "type": "message",
+      "from": "me",
+      "text": "i'm not saying anything until i have a lawyer",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        40.45488447237818,
+        41.45960393606809
+      ],
+      "appear": 41.45960393606809,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 18,
+          "at": 41.804976251711494,
+          "ramp": 0.6299361854935782
+        }
+      ]
+    },
+    {
+      "i": 20,
+      "type": "message",
+      "from": "jake",
+      "text": "plot twist",
+      "beat": "normal",
+      "typing": [
+        [
+          42.866211185233965,
+          43.34973242713473
+        ]
+      ],
+      "compose": null,
+      "appear": 43.34973242713473,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 16,
+          "at": 43.69510474277814,
+          "ramp": 0.6106634598986838
+        }
+      ]
+    },
+    {
+      "i": 21,
+      "type": "message",
+      "from": "me",
+      "text": "let's do it right here in front of everyone",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        44.21630296456728,
+        45.1921367436761
+      ],
+      "appear": 45.1921367436761,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 20,
+          "at": 45.537509059319504,
+          "ramp": 0.6471762260095475
+        }
+      ]
+    },
+    {
+      "i": 22,
+      "type": "message",
+      "from": "bob",
+      "text": "Fine. What do you think you know?",
+      "beat": "pause",
+      "typing": [
+        [
+          47.34349229530211,
+          48.14475606759481
+        ]
+      ],
+      "compose": null,
+      "appear": 48.14475606759481,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 28,
+          "at": 48.490128383238215,
+          "ramp": 0.7022328566233097
+        }
+      ]
+    },
+    {
+      "i": 23,
+      "type": "message",
+      "from": "me",
+      "text": "i know you've been recording every video call without consent",
+      "beat": "bombshell",
+      "typing": [],
+      "compose": [
+        49.59280799463789,
+        50.5975274583278
+      ],
+      "appear": 50.5975274583278,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 55,
+          "at": 50.942899773971206,
+          "ramp": 0.8127035167070163
+        },
+        {
+          "emoji": "🤯",
+          "count": 34,
+          "at": 51.181520646597555,
+          "ramp": 0.7340024197702089
+        }
+      ]
+    },
+    {
+      "i": 24,
+      "type": "message",
+      "from": "karen",
+      "text": "That's illegal!",
+      "beat": "rapid",
+      "typing": [
+        [
+          52.99755107721706,
+          53.32910850023473
+        ]
+      ],
+      "compose": null,
+      "appear": 53.32910850023473,
+      "reactions": [
+        {
+          "emoji": "😡",
+          "count": 12,
+          "at": 53.67448081587814,
+          "ramp": 0.5635903172339891
+        }
+      ]
+    },
+    {
+      "i": 25,
+      "type": "message",
+      "from": "bob",
+      "text": "I have a legal right to monitor company communications.",
+      "beat": "rapid",
+      "typing": [
+        [
+          53.98845564828123,
+          54.65157049431657
+        ]
+      ],
+      "compose": null,
+      "appear": 54.65157049431657,
+      "reactions": [
+        {
+          "emoji": "🤨",
+          "count": 7,
+          "at": 54.996942809959975,
+          "ramp": 0.47539483477474176
+        }
+      ]
+    },
+    {
+      "i": 26,
+      "type": "message",
+      "from": "me",
+      "text": "sure, but not for personal vendettas. like catching the board leak.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        56.25912163622043,
+        57.26384109991034
+      ],
+      "appear": 57.26384109991034,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 22,
+          "at": 57.60921341555374,
+          "ramp": 0.6627717396718689
+        }
+      ]
+    },
+    {
+      "i": 27,
+      "type": "message",
+      "from": "lisa",
+      "text": "wait, someone's leaking to the board?",
+      "beat": "normal",
+      "typing": [
+        [
+          59.11252491309977,
+          59.969048255895416
+        ]
+      ],
+      "compose": null,
+      "appear": 59.969048255895416,
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 15,
+          "at": 60.31442057153882,
+          "ramp": 0.6001030833448529
+        }
+      ]
+    },
+    {
+      "i": 28,
+      "type": "message",
+      "from": "jake",
+      "text": "this meeting just got interesting",
+      "beat": "normal",
+      "typing": [
+        [
+          61.2149003908709,
+          62.0161641631636
+        ]
+      ],
+      "compose": null,
+      "appear": 62.0161641631636,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 9,
+          "at": 62.36153647880701,
+          "ramp": 0.5165171745692945
+        }
+      ]
+    },
+    {
+      "i": 29,
+      "type": "message",
+      "from": "me",
+      "text": "yeah, and bob thinks it's me. that's why he's so mad.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        63.18163874104389,
+        64.18635820473379
+      ],
+      "appear": 64.18635820473379,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 18,
+          "at": 64.5317305203772,
+          "ramp": 0.6299361854935782
+        }
+      ]
+    },
+    {
+      "i": 30,
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, you're digging your own grave.",
+      "beat": "pause",
+      "typing": [
+        [
+          66.5386576490978,
+          67.38136609926771
+        ]
+      ],
+      "compose": null,
+      "appear": 67.38136609926771,
+      "reactions": [
+        {
+          "emoji": "😬",
+          "count": 6,
+          "at": 67.72673841491111,
+          "ramp": 0.45017130630970525
+        }
+      ]
+    },
+    {
+      "i": 31,
+      "type": "message",
+      "from": "me",
+      "text": "i have proof it's not me. i have the real leaker's name.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        68.39990045558336,
+        69.1032040801663
+      ],
+      "appear": 69.1032040801663,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 40,
+          "at": 69.4485763958097,
+          "ramp": 0.7605952369338315
+        }
+      ]
+    },
+    {
+      "i": 32,
+      "type": "message",
+      "from": "karen",
+      "text": "Spill it.",
+      "beat": "rapid",
+      "typing": [
+        [
+          70.52362622195791,
+          70.80545003152294
+        ]
+      ],
+      "compose": null,
+      "appear": 70.80545003152294,
+      "reactions": [
+        {
+          "emoji": "👀",
+          "count": 25,
+          "at": 71.15082234716634,
+          "ramp": 0.6836889921204111
+        }
+      ]
+    },
+    {
+      "i": 33,
+      "type": "message",
+      "from": "me",
+      "text": "not yet. first, bob, admit you're a crypto bro and used company funds for doge.",
+      "beat": "fakeout",
+      "typing": [],
+      "compose": [
+        71.64062308571518,
+        72.64534254940509
+      ],
+      "appear": 72.64534254940509,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 60,
+          "at": 72.99071486504849,
+          "ramp": 0.8269411051934206
+        },
+        {
+          "emoji": "🤯",
+          "count": 45,
+          "at": 73.22933573767484,
+          "ramp": 0.7798679625287259
+        }
+      ]
+    },
+    {
+      "i": 34,
+      "type": "message",
+      "from": "bob",
+      "text": "That's absurd.",
+      "beat": "pause",
+      "typing": [
+        [
+          75.52009611488783,
+          76.05887692729155
+        ]
+      ],
+      "compose": null,
+      "appear": 76.05887692729155,
+      "reactions": [
+        {
+          "emoji": "😤",
+          "count": 4,
+          "at": 76.40424924293495,
+          "ramp": 0.38382543805011593
+        }
+      ]
+    },
+    {
+      "i": 35,
+      "type": "message",
+      "from": "me",
+      "text": "check the company credit card statements. i have them right here.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        76.9254474647241,
+        77.93016692841401
+      ],
+      "appear": 77.93016692841401,
+      "reactions": [
+        {
+          "emoji": "🍿",
+          "count": 32,
+          "at": 78.27553924405741,
+          "ramp": 0.7240824708229677
+        }
+      ]
+    },
+    {
+      "i": 36,
+      "type": "message",
+      "from": "lisa",
+      "text": "oh my god",
+      "beat": "normal",
+      "typing": [
+        [
+          79.73866196305585,
+          80.20836831233088
+        ]
+      ],
+      "compose": null,
+      "appear": 80.20836831233088,
+      "reactions": [
+        {
+          "emoji": "😳",
+          "count": 20,
+          "at": 80.55374062797428,
+          "ramp": 0.6471762260095475
+        }
+      ]
+    },
+    {
+      "i": 37,
+      "type": "message",
+      "from": "jake",
+      "text": "bob's about to cry",
+      "beat": "rapid",
+      "typing": [
+        [
+          80.86771546037738,
+          81.22413969012138
+        ]
+      ],
+      "compose": null,
+      "appear": 81.22413969012138,
+      "reactions": [
+        {
+          "emoji": "😂",
+          "count": 14,
+          "at": 81.56951200576478,
+          "ramp": 0.5888138456990256
+        }
+      ]
+    },
+    {
+      "i": 38,
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, this is highly unprofessional.",
+      "beat": "normal",
+      "typing": [
+        [
+          82.09071022755393,
+          82.93341867772384
+        ]
+      ],
+      "compose": null,
+      "appear": 82.93341867772384,
+      "reactions": [
+        {
+          "emoji": "🙄",
+          "count": 8,
+          "at": 83.27879099336724,
+          "ramp": 0.49724444897439984
+        }
+      ]
+    },
+    {
+      "i": 39,
+      "type": "message",
+      "from": "me",
+      "text": "and recording employees without consent isn't?",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        83.95195303403949,
+        84.65525665862242
+      ],
+      "appear": 84.65525665862242,
+      "reactions": [
+        {
+          "emoji": "💯",
+          "count": 35,
+          "at": 85.00062897426582,
+          "ramp": 0.7387456227341732
+        }
+      ]
+    },
+    {
+      "i": 40,
+      "type": "message",
+      "from": "karen",
+      "text": "I think we need to involve legal.",
+      "beat": "normal",
+      "typing": [
+        [
+          86.0819582970621,
+          86.8832220693548
+        ]
+      ],
+      "compose": null,
+      "appear": 86.8832220693548,
+      "reactions": [
+        {
+          "emoji": "🧑‍⚖️",
+          "count": 5,
+          "at": 87.2285943849982,
+          "ramp": 0.4203382041609796
+        }
+      ]
+    },
+    {
+      "i": 41,
+      "type": "message",
+      "from": "bob",
+      "text": "No legal. This is a misunderstanding.",
+      "beat": "pause",
+      "typing": [
+        [
+          88.83363372824284,
+          89.69015707103848
+        ]
+      ],
+      "compose": null,
+      "appear": 89.69015707103848,
+      "reactions": [
+        {
+          "emoji": "🤥",
+          "count": 10,
+          "at": 90.03552938668189,
+          "ramp": 0.5337572150852635
+        }
+      ]
+    },
+    {
+      "i": 42,
+      "type": "message",
+      "from": "me",
+      "text": "it's not a misunderstanding. you've been spying to find a scapegoat.",
+      "beat": "normal",
+      "typing": [],
+      "compose": [
+        90.93600920601398,
+        91.94072866970389
+      ],
+      "appear": 91.94072866970389,
+      "reactions": [
+        {
+          "emoji": "🔥",
+          "count": 28,
+          "at": 92.28610098534729,
+          "ramp": 0.7022328566233097
+        }
+      ]
+    },
+    {
+      "i": 43,
+      "type": "system",
+      "from": "karen",
+      "text": "Karen (HR) added Legal Counsel to #all-hands",
+      "beat": "normal",
+      "typing": [],
+      "compose": null,
+      "appear": 93.80950687216712,
+      "reactions": []
+    },
+    {
+      "i": 44,
+      "type": "message",
+      "from": "legal",
+      "text": "We'll need to review all recordings. Bob, please preserve all data.",
+      "beat": "normal",
+      "typing": [
+        [
+          95.1960197320592,
+          96.45191906167159
+        ]
+      ],
+      "compose": null,
+      "appear": 96.45191906167159,
+      "reactions": [
+        {
+          "emoji": "⚖️",
+          "count": 3,
+          "at": 96.79729137731499,
+          "ramp": 0.3367522953854213
+        }
+      ]
+    },
+    {
+      "i": 45,
+      "type": "message",
+      "from": "bob",
+      "text": "Maya, I'll promote you to Chief Transparency Officer. Full access to everything.",
+      "beat": "rapid",
+      "typing": [
+        [
+          98.09337948547498,
+          98.84691908324241
+        ]
+      ],
+      "compose": null,
+      "appear": 98.84691908324241,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 50,
+          "at": 99.19229139888581,
+          "ramp": 0.797108003044695
+        },
+        {
+          "emoji": "🤯",
+          "count": 40,
+          "at": 99.43091227151217,
+          "ramp": 0.7605952369338315
+        }
+      ]
+    },
+    {
+      "i": 46,
+      "type": "message",
+      "from": "me",
+      "text": "what's the catch?",
+      "beat": "pause",
+      "typing": [],
+      "compose": [
+        101.74176703799897,
+        102.26045346112889
+      ],
+      "appear": 102.26045346112889,
+      "reactions": [
+        {
+          "emoji": "🤔",
+          "count": 6,
+          "at": 102.60582577677229,
+          "ramp": 0.45017130630970525
+        }
+      ]
+    },
+    {
+      "i": 47,
+      "type": "message",
+      "from": "bob",
+      "text": "No catch. You've exposed a culture of fear. You're exactly what we need.",
+      "beat": "normal",
+      "typing": [
+        [
+          103.12702399856144,
+          104.38292332817383
+        ]
+      ],
+      "compose": null,
+      "appear": 104.38292332817383,
+      "reactions": [
+        {
+          "emoji": "👏",
+          "count": 12,
+          "at": 104.72829564381723,
+          "ramp": 0.5635903172339891
+        }
+      ]
+    },
+    {
+      "i": 48,
+      "type": "message",
+      "from": "karen",
+      "text": "This is highly irregular.",
+      "beat": "normal",
+      "typing": [
+        [
+          106.33207908773225,
+          107.02282371901907
+        ]
+      ],
+      "compose": null,
+      "appear": 107.02282371901907,
+      "reactions": [
+        {
+          "emoji": "😒",
+          "count": 4,
+          "at": 107.36819603466247,
+          "ramp": 0.38382543805011593
+        }
+      ]
+    },
+    {
+      "i": 49,
+      "type": "message",
+      "from": "me",
+      "text": "actually, i know the real leaker. it's karen. she sent board minutes to her brother.",
+      "beat": "rapid",
+      "typing": [],
+      "compose": [
+        107.82031979332294,
+        108.52362341790587
+      ],
+      "appear": 108.52362341790587,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 75,
+          "at": 108.86899573354927,
+          "ramp": 0.8634538713042843
+        },
+        {
+          "emoji": "🤯",
+          "count": 60,
+          "at": 109.10761660617563,
+          "ramp": 0.8269411051934206
+        },
+        {
+          "emoji": "👀",
+          "count": 45,
+          "at": 109.34623747880198,
+          "ramp": 0.7798679625287259
+        }
+      ]
+    },
+    {
+      "i": 50,
+      "type": "message",
+      "from": "karen",
+      "text": "Wait, what?",
+      "beat": "normal",
+      "typing": [
+        [
+          110.71391184874987,
+          111.21124798327638
+        ]
+      ],
+      "compose": null,
+      "appear": 111.21124798327638,
+      "reactions": [
+        {
+          "emoji": "💀",
+          "count": 90,
+          "at": 111.55662029891978,
+          "ramp": 0.8932869734530098
+        }
+      ]
+    },
+    {
+      "i": 51,
+      "type": "message",
+      "from": "karen",
+      "text": "Bob made me do it! He told me to leak info so he could blame Maya and get rid of her.",
+      "beat": "bombshell",
+      "typing": [
+        [
+          112.36039586987171,
+          113.99306499836781
+        ]
+      ],
+      "compose": null,
+      "appear": 113.99306499836781,
+      "reactions": [
+        {
+          "emoji": "😱",
+          "count": 120,
+          "at": 114.33843731401122,
+          "ramp": 0.9403601161177044
+        },
+        {
+          "emoji": "🤯",
+          "count": 100,
+          "at": 114.57705818663757,
+          "ramp": 0.910527013968979
+        },
+        {
+          "emoji": "🔥",
+          "count": 80,
+          "at": 114.81567905926393,
+          "ramp": 0.8740142478581152
+        }
+      ]
+    }
+  ],
+  "fx": [
+    {
+      "type": "reaction",
+      "t": 1.700091779333314,
+      "count": 3
+    },
+    {
+      "type": "reaction",
+      "t": 3.799955458445221,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 6.393387574094795,
+      "count": 45
+    },
+    {
+      "type": "reaction",
+      "t": 6.632008446721149,
+      "count": 32
+    },
+    {
+      "type": "reaction",
+      "t": 6.870629319347501,
+      "count": 21
+    },
+    {
+      "type": "reaction",
+      "t": 7.109250191973855,
+      "count": 12
+    },
+    {
+      "type": "bombshell",
+      "t": 6.0480152584513895
+    },
+    {
+      "type": "reaction",
+      "t": 11.162037328633021,
+      "count": 18
+    },
+    {
+      "type": "reaction",
+      "t": 13.067236611655009,
+      "count": 7
+    },
+    {
+      "type": "reaction",
+      "t": 14.323135941267392,
+      "count": 25
+    },
+    {
+      "type": "unsend",
+      "t": 15.189706478699936
+    },
+    {
+      "type": "reaction",
+      "t": 17.952685003847183,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 19.998545011785755,
+      "count": 10
+    },
+    {
+      "type": "reaction",
+      "t": 21.24251329776682,
+      "count": 8
+    },
+    {
+      "type": "reaction",
+      "t": 23.111291500230045,
+      "count": 20
+    },
+    {
+      "type": "reaction",
+      "t": 25.26390295118567,
+      "count": 14
+    },
+    {
+      "type": "reaction",
+      "t": 27.862358664153692,
+      "count": 9
+    },
+    {
+      "type": "reaction",
+      "t": 29.222623228056865,
+      "count": 33
+    },
+    {
+      "type": "reaction",
+      "t": 30.64178947051886,
+      "count": 11
+    },
+    {
+      "type": "reaction",
+      "t": 32.30962378024411,
+      "count": 25
+    },
+    {
+      "type": "reaction",
+      "t": 33.83152258786839,
+      "count": 8
+    },
+    {
+      "type": "reaction",
+      "t": 36.17126303893626,
+      "count": 42
+    },
+    {
+      "type": "reaction",
+      "t": 36.40988391156261,
+      "count": 30
+    },
+    {
+      "type": "reaction",
+      "t": 39.204259919950175,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 41.804976251711494,
+      "count": 18
+    },
+    {
+      "type": "reaction",
+      "t": 43.69510474277814,
+      "count": 16
+    },
+    {
+      "type": "reaction",
+      "t": 45.537509059319504,
+      "count": 20
+    },
+    {
+      "type": "reaction",
+      "t": 48.490128383238215,
+      "count": 28
+    },
+    {
+      "type": "reaction",
+      "t": 50.942899773971206,
+      "count": 55
+    },
+    {
+      "type": "reaction",
+      "t": 51.181520646597555,
+      "count": 34
+    },
+    {
+      "type": "bombshell",
+      "t": 50.5975274583278
+    },
+    {
+      "type": "reaction",
+      "t": 53.67448081587814,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 54.996942809959975,
+      "count": 7
+    },
+    {
+      "type": "reaction",
+      "t": 57.60921341555374,
+      "count": 22
+    },
+    {
+      "type": "reaction",
+      "t": 60.31442057153882,
+      "count": 15
+    },
+    {
+      "type": "reaction",
+      "t": 62.36153647880701,
+      "count": 9
+    },
+    {
+      "type": "reaction",
+      "t": 64.5317305203772,
+      "count": 18
+    },
+    {
+      "type": "reaction",
+      "t": 67.72673841491111,
+      "count": 6
+    },
+    {
+      "type": "reaction",
+      "t": 69.4485763958097,
+      "count": 40
+    },
+    {
+      "type": "reaction",
+      "t": 71.15082234716634,
+      "count": 25
+    },
+    {
+      "type": "reaction",
+      "t": 72.99071486504849,
+      "count": 60
+    },
+    {
+      "type": "reaction",
+      "t": 73.22933573767484,
+      "count": 45
+    },
+    {
+      "type": "reaction",
+      "t": 76.40424924293495,
+      "count": 4
+    },
+    {
+      "type": "reaction",
+      "t": 78.27553924405741,
+      "count": 32
+    },
+    {
+      "type": "reaction",
+      "t": 80.55374062797428,
+      "count": 20
+    },
+    {
+      "type": "reaction",
+      "t": 81.56951200576478,
+      "count": 14
+    },
+    {
+      "type": "reaction",
+      "t": 83.27879099336724,
+      "count": 8
+    },
+    {
+      "type": "reaction",
+      "t": 85.00062897426582,
+      "count": 35
+    },
+    {
+      "type": "reaction",
+      "t": 87.2285943849982,
+      "count": 5
+    },
+    {
+      "type": "reaction",
+      "t": 90.03552938668189,
+      "count": 10
+    },
+    {
+      "type": "reaction",
+      "t": 92.28610098534729,
+      "count": 28
+    },
+    {
+      "type": "system",
+      "t": 93.80950687216712
+    },
+    {
+      "type": "reaction",
+      "t": 96.79729137731499,
+      "count": 3
+    },
+    {
+      "type": "reaction",
+      "t": 99.19229139888581,
+      "count": 50
+    },
+    {
+      "type": "reaction",
+      "t": 99.43091227151217,
+      "count": 40
+    },
+    {
+      "type": "reaction",
+      "t": 102.60582577677229,
+      "count": 6
+    },
+    {
+      "type": "reaction",
+      "t": 104.72829564381723,
+      "count": 12
+    },
+    {
+      "type": "reaction",
+      "t": 107.36819603466247,
+      "count": 4
+    },
+    {
+      "type": "reaction",
+      "t": 108.86899573354927,
+      "count": 75
+    },
+    {
+      "type": "reaction",
+      "t": 109.10761660617563,
+      "count": 60
+    },
+    {
+      "type": "reaction",
+      "t": 109.34623747880198,
+      "count": 45
+    },
+    {
+      "type": "reaction",
+      "t": 111.55662029891978,
+      "count": 90
+    },
+    {
+      "type": "reaction",
+      "t": 114.33843731401122,
+      "count": 120
+    },
+    {
+      "type": "reaction",
+      "t": 114.57705818663757,
+      "count": 100
+    },
+    {
+      "type": "reaction",
+      "t": 114.81567905926393,
+      "count": 80
+    },
+    {
+      "type": "bombshell",
+      "t": 113.99306499836781
+    }
+  ],
+  "outroAt": 116.8000000000515,
+  "duration": 120.0000000000515
+}
